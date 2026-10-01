@@ -15,8 +15,8 @@
 | Blocks | 12 | 1 or 2 (user picks) |
 | Items per block | 30 | 30 |
 | Time per block | 33:00 | 33:00 |
-| Tutorial (optional, skippable) | 10:00 | skip |
-| Breaks between blocks | Untimed between blocks (break allowance not given in supplied ICVA text) | Optional |
+| Tutorial (optional; per Handbook it starts the exam clock) | 10:00 (not built yet) | skip |
+| Breaks between blocks | 50-min total pool; unused block minutes added; overage taken off the next block (ICVA Candidate Handbook 2026-27) | Same |
 
 
 Behavior that matches the real test:
@@ -25,7 +25,7 @@ Behavior that matches the real test:
 - Inside a block: Prev/Next, a navigator grid, **flag for review**, and an end-of-block review screen listing unanswered and flagged items.
 - **Finished blocks are locked.** You can't go back to them.
 - No feedback during the exam. Answers, the correct option and explanations appear only on the results screen after the last block.
-- Pretest/unscored items: reportedly 60 of 360 are unscored. Here every item is scored by default.
+- Every item is scored. The 2026-27 Candidate Handbook does not mention unscored pretest items, so that earlier claim was dropped.
 
 ## 3. Blueprint
 
@@ -119,7 +119,7 @@ their text; only the category names needed for tagging are used.
 12 blocks × 30 questions, 33 minutes per block, confirmed by the user for the Oct–Nov 2026 format. (The 6 × 60 excerpt was the older format.)
 
 ## 4. Item format
-- Single best answer, 5 options (A–E), clinical vignette stem, optional lab table, and an optional image later.
+- Single best answer. Handbook: "Some responses may be partially correct. Choose the response that is the most accurate." So distractors should be partially correct, not obviously wrong. 5 options (A–E), clinical vignette stem, optional lab table, and an optional image later.
 - No "all of the above" or "none of the above". Options are kept similar in length and are plausible distractors.
 - Explanation covers why the correct answer is right, why each distractor is wrong, a key takeaway, and a reference topic (Merck Vet Manual / standard texts, cited by topic, not copied).
 - **Accuracy policy:** only well-established, textbook-consensus facts. Avoid contested or recently changed guidance. No made-up drug doses: a dose appears only when it's a standard, widely published value. Every item carries a `review_status` (`draft` until it has been reviewed by a veterinarian), and the app shows draft status. AI-written items can contain errors, and students should know that.

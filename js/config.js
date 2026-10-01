@@ -7,6 +7,7 @@ export const EXAM_CONFIG = {
   questionsPerBlock: 30,
   secondsPerBlock: 33 * 60,
   fullExamBlocks: 12,
+  breakBankSeconds: 50 * 60, // ICVA Candidate Handbook 2026-27: 50 minutes total, between blocks only
   practiceBlockOptions: [1, 2],
   optionsPerItem: 5,
 };

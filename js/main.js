@@ -155,6 +155,7 @@ async function startExam(nBlocks) {
     flags: {},
     timer: T.startTimer(EXAM_CONFIG.secondsPerBlock * 1000),
     blockTimeUsedMs: [],
+    breakBankMs: EXAM_CONFIG.breakBankSeconds * 1000,
     betweenBlocks: false,
   };
   await persist();
@@ -350,6 +351,9 @@ async function submitBlock(timedOut) {
   const used = EXAM_CONFIG.secondsPerBlock * 1000 - T.remaining(session.timer);
   session.blockTimeUsedMs[session.currentBlock] = Math.min(used, EXAM_CONFIG.secondsPerBlock * 1000);
   session.reviewingBlock = false;
+  // As on the NAVLE: minutes left unused in a block are added to the break pool.
+  session.breakBankMs = (session.breakBankMs ?? EXAM_CONFIG.breakBankSeconds * 1000) + T.remaining(session.timer);
+  session.breakStartedAt = Date.now();
   if (session.currentBlock === session.blocks.length - 1) return finishExam(timedOut);
   session.betweenBlocks = true;
   session.lastTimedOut = timedOut;
@@ -357,20 +361,40 @@ async function submitBlock(timedOut) {
   renderExam();
 }
 
+function breakLeft() {
+  return session.breakBankMs - (Date.now() - session.breakStartedAt);
+}
+
 function renderBetween() {
   const done = session.currentBlock + 1;
+  const fmtBreak = (ms) => (ms >= 0 ? T.format(ms) : `−${T.format(-ms)} over`);
   app.innerHTML = `<div class="panel">
     <h1>Block ${done} submitted${session.lastTimedOut ? ' (time ran out)' : ''}</h1>
-    <p>${session.blocks.length - done} block(s) left. Take a break if you need one; the next block's ${EXAM_CONFIG.secondsPerBlock / 60}-minute timer starts when you press Start.</p>
+    <p>${session.blocks.length - done} block(s) left.</p>
+    <p>Break time remaining: <span class="timer" id="breakTimer">${fmtBreak(breakLeft())}</span></p>
+    <p class="muted">As on the NAVLE, the break pool is ${EXAM_CONFIG.breakBankSeconds / 60} minutes in total, and minutes you didn't use in a block are added to it.
+    The break clock runs until you start the next block. Going over is taken off the next block's time.</p>
     <button class="primary" id="nextBlock">Start block ${done + 1}</button></div>`;
   app.querySelector('#nextBlock').addEventListener('click', async () => {
+    const left = breakLeft();
+    session.breakBankMs = Math.max(0, left);
+    const blockMs = EXAM_CONFIG.secondsPerBlock * 1000 + Math.min(0, left);
     session.currentBlock += 1;
     session.currentIndex = 0;
     session.betweenBlocks = false;
-    session.timer = T.startTimer(EXAM_CONFIG.secondsPerBlock * 1000);
+    session.breakStartedAt = null;
+    session.timer = T.startTimer(Math.max(0, blockMs));
     await persist();
     renderExam();
   });
+  stopTick();
+  tickHandle = setInterval(() => {
+    const el = document.getElementById('breakTimer');
+    if (!el) return;
+    const ms = breakLeft();
+    el.textContent = fmtBreak(ms);
+    el.classList.toggle('low', ms <= 5 * 60 * 1000);
+  }, 500);
 }
 
 async function finishExam() {
