@@ -1,0 +1,400 @@
+[
+  {
+    "id": "CAN-0001", "version": 1, "review_status": "draft",
+    "species": "canine", "system": "endocrine", "subdomain": "data_gathering",
+    "topics": ["hypoadrenocorticism", "electrolytes"],
+    "stem": "A 4-year-old spayed female Standard Poodle has had intermittent vomiting, diarrhea and lethargy for 3 weeks. The signs improved briefly with fluids and an antiemetic at another clinic, then returned. Today she is weak, 7% dehydrated, and has a heart rate of 64 beats/min. Selected results are shown. Which test is most appropriate to confirm the suspected diagnosis?",
+    "labs": [
+      { "test": "Sodium", "value": "127", "unit": "mmol/L", "ref": "144–160" },
+      { "test": "Potassium", "value": "7.4", "unit": "mmol/L", "ref": "3.5–5.8" },
+      { "test": "BUN", "value": "62", "unit": "mg/dL", "ref": "7–27" },
+      { "test": "Creatinine", "value": "2.4", "unit": "mg/dL", "ref": "0.5–1.8" },
+      { "test": "Urine specific gravity", "value": "1.018", "unit": "", "ref": "" },
+      { "test": "Lymphocytes", "value": "4.1", "unit": "×10³/µL", "ref": "1.0–4.8" }
+    ],
+    "options": [
+      "ACTH stimulation test",
+      "Low-dose dexamethasone suppression test",
+      "Urine cortisol:creatinine ratio",
+      "Serum total T4 concentration",
+      "Abdominal ultrasound to measure adrenal gland size"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Waxing and waning GI signs, relative bradycardia despite dehydration, hyponatremia, hyperkalemia (Na:K ratio about 17), azotemia with poorly concentrated urine, and no stress leukogram in a sick dog all point to primary hypoadrenocorticism. The ACTH stimulation test is the confirmatory test: a post-ACTH cortisol below about 2 µg/dL confirms it.",
+      "options": [
+        "Confirmatory test for hypoadrenocorticism.",
+        "Used to diagnose hyperadrenocorticism, not adrenal insufficiency.",
+        "A screening test for hyperadrenocorticism. It doesn't confirm adrenal insufficiency.",
+        "Not relevant to these electrolyte changes. Low T4 is common in sick dogs (euthyroid sick syndrome) and would mislead.",
+        "Small adrenal glands support the diagnosis but don't confirm it; adrenal size overlaps with normal dogs."
+      ],
+      "takeaway": "A sick dog with a normal or high lymphocyte count (no stress leukogram), hyponatremia and hyperkalemia should have an ACTH stimulation test. A baseline cortisol above 2 µg/dL makes Addison's disease unlikely, but only the ACTH stimulation test confirms it."
+    },
+    "reference": "Merck Veterinary Manual: Hypoadrenocorticism in animals"
+  },
+  {
+    "id": "CAN-0002", "version": 1, "review_status": "draft",
+    "species": "canine", "system": "endocrine", "subdomain": "health_maintenance",
+    "topics": ["diabetic ketoacidosis", "fluid therapy"],
+    "stem": "A 9-year-old neutered male Miniature Schnauzer has had polyuria and polydipsia for a month, and vomiting and anorexia for 2 days. He is 8% dehydrated and depressed. Blood glucose is 512 mg/dL, there are ketones in the urine, venous pH is 7.12, and serum potassium is 3.4 mmol/L (reference 3.5–5.8). Which is the most appropriate initial treatment?",
+    "options": [
+      "IV isotonic crystalloid fluids with potassium supplementation guided by serial electrolyte measurements, before starting insulin",
+      "Insulin glargine SC immediately, then discharge for home monitoring",
+      "IV sodium bicarbonate bolus to correct the acidemia, followed by insulin",
+      "Oral glipizide and a high-fiber diet",
+      "IV 50% dextrose bolus to stop ketone production"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "In diabetic ketoacidosis the first priority is restoring perfusion and correcting dehydration with IV isotonic crystalloids. Insulin pushes potassium (and phosphate) into cells, so potassium must be supplemented and monitored. In a dog that is already hypokalemic, giving insulin first risks life-threatening hypokalemia. Regular insulin (CRI or intermittent IM) is usually started after a few hours of fluid therapy.",
+      "options": [
+        "Fluids and electrolyte correction come first in DKA.",
+        "A sick, ketoacidotic dog needs hospitalization with fluids and short-acting insulin, not long-acting insulin and discharge.",
+        "Bicarbonate is reserved for severe acidemia (often pH below about 7.0–7.1 despite fluids) and can worsen hypokalemia. It isn't routine first-line therapy.",
+        "Oral hypoglycemic drugs are ineffective in dogs, which have insulin-deficient diabetes.",
+        "The dog is already hyperglycemic. Dextrose is added later, once glucose falls while insulin is still needed to clear ketones."
+      ],
+      "takeaway": "DKA order: fluids, then potassium, then insulin. Check and replace potassium (and phosphate) before and during insulin therapy."
+    },
+    "reference": "Merck Veterinary Manual: Diabetes mellitus in dogs and cats (diabetic ketoacidosis)"
+  },
+  {
+    "id": "CAN-0003", "version": 1, "review_status": "draft",
+    "species": "canine", "system": "gastrointestinal", "subdomain": "data_gathering",
+    "topics": ["gastric dilatation-volvulus", "radiography"],
+    "stem": "A 6-year-old male Great Dane is presented 2 hours after his evening meal for unproductive retching, restlessness and a distended, tympanic cranial abdomen. After initial stabilization, a single abdominal radiograph is to be taken to differentiate simple gastric dilatation from gastric dilatation-volvulus. Which view is most useful?",
+    "options": [
+      "Right lateral recumbency",
+      "Left lateral recumbency",
+      "Ventrodorsal",
+      "Dorsoventral",
+      "Standing horizontal-beam lateral"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "With the dog in right lateral recumbency, gas rises into the pylorus. In GDV the pylorus is displaced dorsally and to the left, so it appears as a gas-filled structure dorsal and cranial to the fundus, separated by a soft-tissue band (the compartmentalized 'double bubble' or 'Popeye arm' sign).",
+      "options": [
+        "Best view: gas fills the displaced pylorus.",
+        "In left lateral the pylorus is dependent and fluid-filled, so the displacement can be missed.",
+        "The VD view is less diagnostic and keeping a dog with GDV on its back can worsen cardiovascular compromise.",
+        "The DV view is less sensitive than right lateral for showing pyloric displacement.",
+        "Not a standard view for GDV."
+      ],
+      "takeaway": "GDV is diagnosed on a right lateral radiograph: look for compartmentalization with the gas-filled pylorus displaced dorsally."
+    },
+    "reference": "Merck Veterinary Manual: Gastric dilation and volvulus in small animals"
+  },
+  {
+    "id": "CAN-0004", "version": 1, "review_status": "draft",
+    "species": "canine", "system": "hemic_lymphatic", "subdomain": "data_gathering",
+    "topics": ["immune-mediated hemolytic anemia", "hematology"],
+    "stem": "A 5-year-old spayed female Cocker Spaniel has acute lethargy, pale mucous membranes and icterus. PCV is 14% with marked polychromasia. Blood smear review shows many spherocytes, and the blood appears grainy on the slide. Which additional finding most strongly supports an immune-mediated cause of the hemolysis?",
+    "options": [
+      "Agglutination that persists after the blood is diluted with saline",
+      "Increased numbers of nucleated red blood cells",
+      "Heinz bodies on new methylene blue staining",
+      "Thrombocytosis",
+      "Increased reticulocyte count"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "True autoagglutination (antibody-coated red cells clumping), which persists after saline dilution, distinguishes it from rouleaux, which disperses. Together with marked spherocytosis it is strong evidence of IMHA. A Coombs test is generally unnecessary once saline-agglutination is confirmed.",
+      "options": [
+        "Saline-agglutination test positive: evidence of red cell-bound antibody.",
+        "Nucleated RBCs occur in many regenerative and non-regenerative conditions and aren't specific.",
+        "Heinz bodies indicate oxidative injury (e.g., onion, zinc), a different mechanism of hemolysis.",
+        "Not specific; many dogs with IMHA are actually thrombocytopenic.",
+        "Shows regeneration, not the cause of the anemia."
+      ],
+      "takeaway": "Spherocytes plus saline-persistent agglutination are the strongest routine evidence of IMHA."
+    },
+    "reference": "ACVIM consensus statement on the diagnosis of immune-mediated hemolytic anemia in dogs and cats (2019)"
+  },
+  {
+    "id": "CAN-0005", "version": 1, "review_status": "draft",
+    "species": "canine", "system": "musculoskeletal", "subdomain": "health_maintenance",
+    "topics": ["cranial cruciate ligament rupture", "orthopedic surgery"],
+    "stem": "A 4-year-old, 38-kg neutered male Labrador Retriever has had right pelvic limb lameness for 3 weeks. There is a positive cranial drawer and tibial thrust, medial buttress, and stifle effusion. Radiographs show effusion and mild osteophytes. The owner wants the option most likely to restore long-term limb function. Which treatment is most appropriate?",
+    "options": [
+      "Surgical stabilization such as tibial plateau leveling osteotomy (TPLO)",
+      "Femoral head and neck ostectomy",
+      "Stifle arthrodesis",
+      "Long-term NSAID therapy and exercise restriction as sole management",
+      "Repeated intra-articular corticosteroid injections"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Clinical signs and imaging indicate complete cranial cruciate ligament rupture. In large dogs (generally over about 15 kg), surgical stabilization (TPLO, TTA or lateral suture) gives better function than conservative care. TPLO is widely used for large, active dogs.",
+      "options": [
+        "Surgical stabilization is preferred in large dogs.",
+        "A salvage procedure for hip disease, not stifle instability.",
+        "A salvage procedure that permanently fuses the joint; not appropriate as first-line treatment.",
+        "Conservative management has a poorer outcome in large dogs and allows osteoarthritis to progress.",
+        "Doesn't address instability and may speed cartilage damage."
+      ],
+      "takeaway": "Cranial drawer or tibial thrust means CCL rupture. In large dogs, recommend surgical stabilization."
+    },
+    "reference": "Merck Veterinary Manual: Cranial cruciate ligament disease in dogs"
+  },
+  {
+    "id": "CAN-0006", "version": 1, "review_status": "draft",
+    "species": "canine", "system": "multisystemic", "subdomain": "health_maintenance",
+    "topics": ["xylitol toxicosis", "toxicology"],
+    "stem": "An owner calls because her 12-kg dog ate most of a pack of sugar-free gum containing xylitol about 30 minutes ago. On arrival the dog is bright and alert, and blood glucose is 98 mg/dL. Which plan is most appropriate?",
+    "options": [
+      "Induce emesis, then monitor blood glucose serially (giving dextrose if hypoglycemia develops) and recheck liver values over the next 24–72 hours",
+      "Give activated charcoal alone and send the dog home",
+      "Give regular insulin IV to prevent hyperglycemia",
+      "Give N-acetylcysteine alone and send the dog home without glucose monitoring",
+      "No treatment is needed because xylitol is non-toxic to dogs"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "In dogs, xylitol causes a strong insulin release, which can lead to hypoglycemia within 30–60 minutes. Larger doses can cause acute hepatic necrosis. An asymptomatic, normoglycemic dog seen soon after ingestion should have emesis induced, followed by serial glucose monitoring with dextrose supplementation as needed and monitoring of liver enzymes. Hepatoprotectants may be added.",
+      "options": [
+        "Decontaminate, then monitor glucose and liver values.",
+        "Activated charcoal doesn't bind xylitol well, and sending the dog home without monitoring risks missing hypoglycemia.",
+        "Insulin would make the expected hypoglycemia worse.",
+        "Hepatoprotectants may be used as supportive care, but glucose must still be monitored.",
+        "Xylitol is toxic to dogs."
+      ],
+      "takeaway": "Xylitol in dogs causes hypoglycemia (early) and possible liver failure (later), so monitor glucose and liver enzymes."
+    },
+    "reference": "Merck Veterinary Manual: Xylitol toxicosis in dogs"
+  },
+  {
+    "id": "CAN-0007", "version": 1, "review_status": "draft",
+    "species": "canine", "system": "cardiovascular", "subdomain": "health_maintenance",
+    "topics": ["myxomatous mitral valve disease", "ACVIM staging"],
+    "stem": "An 8-year-old Cavalier King Charles Spaniel has a grade 4/6 left apical systolic murmur. The dog has no cough, exercise intolerance or tachypnea. Echocardiography shows a left atrium-to-aorta ratio of 1.9 and a normalized left ventricular end-diastolic diameter of 1.9. Thoracic radiographs show cardiomegaly (VHS 11.8) with no pulmonary edema. Which treatment is most appropriate?",
+    "options": [
+      "Pimobendan",
+      "Furosemide",
+      "No treatment; recheck in 12 months",
+      "Digoxin",
+      "Atenolol"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "This dog has myxomatous mitral valve disease with cardiomegaly but no signs of heart failure (ACVIM stage B2). Pimobendan is recommended at this stage because it significantly delays the onset of congestive heart failure (EPIC trial).",
+      "options": [
+        "Recommended for stage B2 MMVD.",
+        "Diuretics are for congestive heart failure (stage C). This dog has no edema.",
+        "Monitoring alone suits stage B1 (no cardiomegaly), not B2.",
+        "Not indicated without heart failure or supraventricular tachyarrhythmia.",
+        "Beta-blockers aren't indicated for MMVD and may be harmful."
+      ],
+      "takeaway": "MMVD with cardiomegaly but no heart failure is stage B2: start pimobendan."
+    },
+    "reference": "ACVIM consensus guidelines for the diagnosis and treatment of myxomatous mitral valve disease in dogs (2019)"
+  },
+  {
+    "id": "CAN-0008", "version": 1, "review_status": "draft",
+    "species": "canine", "system": "endocrine", "subdomain": "data_gathering",
+    "topics": ["hypothyroidism", "thyroid testing"],
+    "stem": "A 7-year-old spayed female Golden Retriever has gained weight, is lethargic, and has bilaterally symmetric truncal alopecia. Serum total T4 is below the reference interval. She has no other illness and is receiving no medication. Which result best confirms hypothyroidism?",
+    "options": [
+      "Low free T4 measured by equilibrium dialysis with an increased endogenous canine TSH concentration",
+      "A second low total T4 measured 2 weeks later",
+      "Hypercholesterolemia on a serum biochemistry panel",
+      "A low serum total T3 concentration",
+      "Mild normocytic, normochromic, non-regenerative anemia"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Total T4 is sensitive but not specific, because illness and drugs can lower it. A low free T4 by equilibrium dialysis together with a high TSH is the most specific routine combination for confirming primary hypothyroidism.",
+      "options": [
+        "Most specific routine confirmation.",
+        "Repeating a non-specific test doesn't improve specificity.",
+        "Supports the diagnosis but has many other causes.",
+        "Total T3 is a poor indicator of thyroid function in dogs.",
+        "Common in hypothyroidism but non-specific."
+      ],
+      "takeaway": "Low total T4 is only a screening result. Confirm hypothyroidism with free T4 by equilibrium dialysis plus TSH."
+    },
+    "reference": "Merck Veterinary Manual: Hypothyroidism in animals"
+  },
+  {
+    "id": "CAN-0009", "version": 1, "review_status": "draft",
+    "species": "canine", "system": "nervous", "subdomain": "health_maintenance",
+    "topics": ["status epilepticus", "anticonvulsants"],
+    "stem": "A 3-year-old Border Collie with a history of idiopathic epilepsy arrives in a generalized tonic-clonic seizure that has lasted more than 5 minutes. An IV catheter is in place. Which drug should be given first?",
+    "options": [
+      "Diazepam IV",
+      "Phenobarbital orally",
+      "Potassium bromide orally",
+      "Acepromazine IV",
+      "Levetiracetam orally"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Benzodiazepines are first-line treatment for status epilepticus because of their rapid onset. Diazepam IV, or midazolam IV, IM or intranasal, should be given immediately.",
+      "options": [
+        "Fast-acting first-line drug for status epilepticus.",
+        "Oral drugs can't be given safely to a dog that is seizing and act too slowly. Phenobarbital may be given IV as a second-line drug.",
+        "Oral, slow to reach effective concentration; used for maintenance therapy.",
+        "Not an anticonvulsant and not appropriate for stopping a seizure.",
+        "IV levetiracetam can be an add-on treatment, but the oral route is inappropriate during a seizure."
+      ],
+      "takeaway": "Status epilepticus: give a benzodiazepine first (diazepam or midazolam)."
+    },
+    "reference": "ACVIM consensus statement on seizure management in dogs (2015); Merck Veterinary Manual: Seizure disorders"
+  },
+  {
+    "id": "CAN-0010", "version": 1, "review_status": "draft",
+    "species": "canine", "system": "non_clinical", "subdomain": "animal_welfare",
+    "topics": ["suspected animal abuse", "reporting"],
+    "stem": "A 1-year-old dog is presented for lameness. Radiographs show fractures of three ribs and the left ulna, all at different stages of healing. The owner says the dog 'fell off the couch' last night. Which action is most appropriate?",
+    "options": [
+      "Treat the dog, document all findings thoroughly (including radiographs and photographs), and report suspected abuse to the appropriate authorities as required or permitted by local law",
+      "Treat the dog and say nothing, because client confidentiality prohibits any disclosure",
+      "Refuse to treat the dog until the owner admits to abuse",
+      "Euthanize the dog without the owner's consent to prevent further suffering",
+      "Post the case on social media to warn the community"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Multiple fractures at different stages of healing with a history that doesn't fit are a hallmark of non-accidental injury. The veterinarian should provide care, keep careful records, and report the suspected cruelty to the proper authority. Many jurisdictions require or protect good-faith reporting by veterinarians, so know your local law.",
+      "options": [
+        "Provide care, document, and report per local law.",
+        "Many jurisdictions require or protect reporting of suspected cruelty. Confidentiality doesn't prevent reporting.",
+        "Withholding care harms the animal.",
+        "Euthanasia without consent isn't appropriate here.",
+        "A breach of confidentiality, and it doesn't protect the animal."
+      ],
+      "takeaway": "Injuries of different ages plus a history that doesn't fit: treat, document, and report as required by law."
+    },
+    "reference": "AVMA policy: Animal abuse and animal neglect"
+  },
+  {
+    "id": "CAN-0011", "version": 1, "review_status": "draft",
+    "species": "canine", "system": "non_clinical", "subdomain": "comm_clients",
+    "topics": ["euthanasia discussion", "communication skills"],
+    "stem": "A 14-year-old dog has advanced osteosarcoma with uncontrolled pain despite multimodal analgesia. The owner says, 'I just don't know what to do anymore.' Which response best reflects recommended communication technique when beginning a discussion about euthanasia?",
+    "options": [
+      "\"It sounds like this has been really hard. What are your biggest worries when you think about how Max is doing right now?\"",
+      "\"You need to euthanize him today.\"",
+      "\"Do you want to euthanize him, yes or no?\"",
+      "\"There's nothing else we can do, so there isn't much to talk about.\"",
+      "\"Let's increase his medication and see how he does over the next few months.\""
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "An empathic statement followed by an open-ended question invites the owner to share their concerns and values, so the decision is shared and informed. This is the recommended approach for delivering bad news and discussing end-of-life care.",
+      "options": [
+        "Empathy plus an open-ended question.",
+        "Directive and dismissive of the owner's role in the decision.",
+        "A closed yes/no question that shuts down discussion.",
+        "Dismissive, and it ignores the owner's concerns.",
+        "Ignores uncontrolled pain and the poor prognosis, so it doesn't serve the animal's welfare."
+      ],
+      "takeaway": "Start with empathy and an open-ended question, then share information and the recommendation."
+    },
+    "reference": "Shaw JR et al. Communication skills education in veterinary medicine; AVMA end-of-life resources"
+  },
+  {
+    "id": "CAN-0012", "version": 1, "review_status": "draft",
+    "species": "canine", "system": "non_clinical", "subdomain": "comm_professionals",
+    "topics": ["referral", "case summary"],
+    "stem": "You are referring a 9-year-old Rottweiler with a lytic lesion in the distal radius to a veterinary oncologist. Which action best supports continuity of care?",
+    "options": [
+      "Before the appointment, send a written case summary with history, physical findings, diagnostic images and results, and all treatments given (drugs, doses and response)",
+      "Ask the owner to explain the history to the specialist from memory",
+      "Send only the invoice so the specialist can see which services were performed",
+      "Send records only if the specialist's office requests them after the visit",
+      "Withhold your findings so the specialist forms an unbiased opinion"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "A complete referral letter or case summary sent ahead of time avoids repeat testing, prevents drug interactions or overdoses (for example, NSAIDs already given), and speeds diagnosis and treatment.",
+      "options": [
+        "A complete written summary sent ahead.",
+        "Owners can't reliably convey medical detail.",
+        "An invoice lacks findings, results and doses.",
+        "Delays care and risks duplicate testing.",
+        "Withholding information harms the patient and wastes the client's money."
+      ],
+      "takeaway": "When referring, send a complete written case summary in advance."
+    },
+    "reference": "AAHA referral and consultation guidelines"
+  },
+  {
+    "id": "CAN-0013", "version": 1, "review_status": "draft",
+    "species": "canine", "system": "non_clinical", "subdomain": "comm_professionals",
+    "topics": ["delegation", "practice act"],
+    "stem": "You are organizing the workload in a busy small animal practice. Which task must be performed by the veterinarian and may not be delegated to a credentialed veterinary technician?",
+    "options": [
+      "Making a diagnosis and giving the client a prognosis",
+      "Placing an IV catheter",
+      "Monitoring anesthesia under veterinary supervision",
+      "Collecting blood samples by venipuncture",
+      "Performing dental scaling and polishing"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Veterinary practice acts across North America reserve diagnosis, prognosis, prescribing and surgery for licensed veterinarians. The other tasks are commonly delegated to credentialed technicians under the appropriate level of supervision defined by local law.",
+      "options": [
+        "Diagnosis and prognosis are reserved for the veterinarian.",
+        "Routinely delegated.",
+        "Routinely delegated under supervision.",
+        "Routinely delegated.",
+        "Routinely delegated; extractions and oral surgery are not."
+      ],
+      "takeaway": "Diagnosis, prognosis, prescribing and surgery are the veterinarian's responsibility. Delegate other tasks within the local practice act."
+    },
+    "reference": "AVMA Model Veterinary Practice Act"
+  },
+  {
+    "id": "CAN-0014", "version": 1, "review_status": "draft",
+    "species": "canine", "system": "non_clinical", "subdomain": "practice_management",
+    "topics": ["controlled substances", "record keeping"],
+    "stem": "You are writing the standard operating procedure for controlled drugs (e.g., hydromorphone, ketamine) in a small animal practice. Which requirement is most essential?",
+    "options": [
+      "Store controlled drugs in a securely locked location and keep accurate, up-to-date records of receipt, administration, dispensing and disposal",
+      "Keep controlled drugs in an unlocked drawer in the treatment area so they can be reached quickly",
+      "Record only estimated monthly totals instead of individual entries",
+      "Let trusted staff take controlled drugs home for after-hours house calls without records",
+      "Dispose of expired controlled drugs in the regular trash"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "In both the U.S. (DEA) and Canada (Health Canada), controlled drugs must be kept secure, and every receipt, use, dispensing and disposal must be accurately documented. Expired stock must go through approved disposal channels.",
+      "options": [
+        "Secure storage and complete logs.",
+        "Unsecured storage invites diversion and violates regulations.",
+        "Each transaction must be recorded.",
+        "Undocumented removal is diversion.",
+        "Controlled drugs require approved disposal methods."
+      ],
+      "takeaway": "Controlled drugs: locked storage, a record for every transaction, and approved disposal."
+    },
+    "reference": "U.S. DEA Practitioner's Manual; Health Canada Controlled Drugs and Substances Act guidance"
+  },
+  {
+    "id": "CAN-0015", "version": 1, "review_status": "draft",
+    "species": "canine", "system": "non_clinical", "subdomain": "professional_development",
+    "topics": ["VCPR", "prescribing", "ethics"],
+    "stem": "A client phones and asks you to prescribe an antibiotic for her dog's 'ear infection.' The dog has not been examined by you, or by any veterinarian, in over 2 years. Which response is most appropriate?",
+    "options": [
+      "Explain that the dog needs to be examined to establish a valid veterinarian-client-patient relationship (VCPR) before a prescription can be issued",
+      "Prescribe the antibiotic over the phone because the client knows her dog well",
+      "Give her leftover antibiotics prescribed for another patient",
+      "Recommend that she buy an antibiotic online without a prescription",
+      "Tell her the clinic will no longer see her dog"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Prescribing requires a valid VCPR, which includes a sufficiently recent examination so the veterinarian has knowledge of the patient. Prescribing without examining the dog is unprofessional and illegal in most jurisdictions, and it risks wrong treatment (ear disease may involve yeast, a foreign body or a ruptured tympanum) and antimicrobial resistance.",
+      "options": [
+        "A VCPR and an examination are required.",
+        "There is no current VCPR, so prescribing would breach professional and legal standards.",
+        "Illegal, and unsafe for the patient.",
+        "Encourages unregulated and possibly illegal use.",
+        "Unnecessary; offering an appointment is the right response."
+      ],
+      "takeaway": "No current VCPR means no prescription. Examine the patient first."
+    },
+    "reference": "AVMA Principles of Veterinary Medical Ethics; AVMA Model Veterinary Practice Act (VCPR)"
+  }
+]

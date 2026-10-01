@@ -175,7 +175,7 @@ Points that matter for converting to a web app later:
 - Optional setting: exclude `needs_revision` items from student forms.
 
 ## 7. Phases
-1. **Phase 1, practice MVP (built first, for you to test):** the full engine (timer, block flow, flag/review, locking, results, breakdowns, persistence, resume) plus **60 original items** (2 blocks) matching the 60-item columns in 3a/3b. Practice mode with 1 or 2 blocks.
+1. ✅ **Phase 1 (done), practice MVP (built first, for you to test):** the full engine (timer, block flow, flag/review, locking, results, breakdowns, persistence, resume) plus **60 original items** (2 blocks) matching the 60-item columns in 3a/3b. Practice mode with 1 or 2 blocks.
 2. **Phase 2, your feedback:** fix UX issues and adjust item style and difficulty based on how Phase 1 feels.
 3. **Phase 3, full bank:** write the rest of the bank in species batches until there are at least 360 items (target 400+ so forms can vary), each batch checked against the 360-item quotas in 3a/3b (bank target: at least 1.2× each quota).
 4. **Phase 4, full exam mode:** 12 blocks, breaks, tutorial, history trends. Optional: a GitHub Pages deploy.

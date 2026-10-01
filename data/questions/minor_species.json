@@ -1,0 +1,262 @@
+[
+  {
+    "id": "OSM-0001", "version": 1, "review_status": "draft",
+    "species": "other_small_mammal", "system": "musculoskeletal", "subdomain": "data_gathering",
+    "topics": ["guinea pig", "hypovitaminosis C", "scurvy"],
+    "stem": "A 1-year-old guinea pig fed a diet of rabbit pellets and iceberg lettuce is reluctant to move and vocalizes when handled. It has swollen stifles and costochondral junctions, gingival bleeding, and a rough hair coat. Which nutritional deficiency is most likely?",
+    "options": [
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin E",
+      "Vitamin A",
+      "Thiamine"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Guinea pigs lack L-gulonolactone oxidase and can't make vitamin C. Diets without enough vitamin C (rabbit pellets aren't fortified for guinea pigs) cause scurvy: defective collagen leads to joint swelling and pain, hemorrhage (gingiva, joints) and poor coat. Treat with vitamin C supplementation and a fortified guinea pig diet.",
+      "options": [
+        "Scurvy.",
+        "Vitamin D deficiency causes rickets and metabolic bone disease, not bleeding.",
+        "Vitamin E deficiency causes muscular dystrophy.",
+        "Vitamin A deficiency causes epithelial and eye changes.",
+        "Thiamine deficiency causes neurologic signs."
+      ],
+      "takeaway": "Guinea pigs need dietary vitamin C."
+    },
+    "reference": "Merck Veterinary Manual: Guinea pigs (nutritional diseases)"
+  },
+  {
+    "id": "OSM-0002", "version": 1, "review_status": "draft",
+    "species": "other_small_mammal", "system": "gastrointestinal", "subdomain": "health_maintenance",
+    "topics": ["rabbit", "antibiotic-associated enterotoxemia"],
+    "stem": "A 3-year-old rabbit needs an oral antimicrobial after surgical debridement of a jaw abscess. Which oral antimicrobial should be avoided because of the risk of fatal enterotoxemia?",
+    "options": [
+      "Amoxicillin-clavulanate",
+      "Enrofloxacin",
+      "Trimethoprim-sulfamethoxazole",
+      "Marbofloxacin",
+      "Doxycycline"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Oral beta-lactams (penicillins, amoxicillin, cephalosporins), lincosamides (clindamycin, lincomycin) and oral macrolides such as erythromycin disrupt the cecal flora of rabbits. This allows overgrowth of Clostridium spiroforme and a frequently fatal enterotoxemia. Fluoroquinolones, TMS and doxycycline are generally considered safe orally.",
+      "options": [
+        "Avoid; causes enterotoxemia.",
+        "Generally safe orally.",
+        "Generally safe orally.",
+        "Generally safe orally.",
+        "Generally safe orally."
+      ],
+      "takeaway": "Rabbits: avoid oral penicillins, cephalosporins, lincosamides and erythromycin."
+    },
+    "reference": "Merck Veterinary Manual: Rabbits (antibiotic-associated enterotoxemia)"
+  },
+  {
+    "id": "OVC-0001", "version": 1, "review_status": "draft",
+    "species": "ovine_caprine", "system": "urinary", "subdomain": "data_gathering",
+    "topics": ["obstructive urolithiasis", "small ruminant anatomy"],
+    "stem": "A 1-year-old Boer wether fed a high-grain diet has been straining to urinate and dribbling urine for 12 hours, with crystals on the preputial hairs. When examining the penis for the site of obstruction, where are uroliths most commonly lodged in small ruminant males?",
+    "options": [
+      "Urethral process (vermiform appendage)",
+      "Renal pelvis",
+      "Ureter",
+      "Bladder neck",
+      "Prostatic urethra"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "In male goats and sheep, the narrow urethral process is the most common site of obstruction, followed by the distal sigmoid flexure. Amputating the urethral process may restore flow, but obstruction often recurs higher up. High-grain, high-phosphorus diets predispose to struvite and calcium phosphate calculi.",
+      "options": [
+        "Most common site.",
+        "Wouldn't cause urethral obstruction.",
+        "Not the usual site.",
+        "Not the usual site.",
+        "Not the usual site."
+      ],
+      "takeaway": "Obstructed small ruminant male: check the urethral process first, then the sigmoid flexure."
+    },
+    "reference": "Merck Veterinary Manual: Urolithiasis in ruminants"
+  },
+  {
+    "id": "OVC-0002", "version": 1, "review_status": "draft",
+    "species": "ovine_caprine", "system": "multisystemic", "subdomain": "health_maintenance",
+    "topics": ["Haemonchus contortus", "anthelmintic resistance", "FAMACHA"],
+    "stem": "A meat-goat producer in the southeastern U.S. reports anemic, weak goats with submandibular edema during the summer. Fecal egg counts confirm Haemonchus contortus, and resistance to several anthelmintic classes is suspected. Which deworming strategy is most appropriate?",
+    "options": [
+      "Targeted selective treatment of animals identified as anemic using FAMACHA scoring, with a fecal egg count reduction test to check which drugs still work",
+      "Deworm every goat in the herd every 4 weeks with the same drug",
+      "Rotate drug classes every month and treat all animals",
+      "Underdose to reduce the cost of treatment",
+      "Stop all deworming"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Treating only animals that need it, identified by FAMACHA eyelid color scoring, keeps parasites in refugia (not exposed to the drug) and slows resistance. A fecal egg count reduction test shows which drugs remain effective. Correct dosing by weight (goats often need higher doses than sheep) and pasture management are also important.",
+      "options": [
+        "Preserves refugia and drug efficacy.",
+        "Speeds up resistance.",
+        "Frequent whole-herd treatment speeds up resistance.",
+        "Underdosing selects for resistance.",
+        "Deaths from haemonchosis would occur."
+      ],
+      "takeaway": "Haemonchus: FAMACHA-guided selective deworming plus a fecal egg count reduction test."
+    },
+    "reference": "Merck Veterinary Manual: Gastrointestinal parasites of sheep and goats; American Consortium for Small Ruminant Parasite Control"
+  },
+  {
+    "id": "BIR-0001", "version": 1, "review_status": "draft",
+    "species": "pet_bird", "system": "infectious", "subdomain": "health_maintenance",
+    "topics": ["psittacosis", "Chlamydia psittaci", "zoonosis"],
+    "stem": "A recently purchased cockatiel has lime-green urates, nasal discharge and lethargy. PCR confirms Chlamydia psittaci. Which treatment is most appropriate?",
+    "options": [
+      "Doxycycline for 45 days, with advice to the owner about the zoonotic risk",
+      "Amoxicillin for 7 days",
+      "Fluconazole for 30 days",
+      "Ivermectin as a single dose",
+      "No treatment, because the infection is self-limiting"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Avian chlamydiosis is treated with doxycycline for 45 days (current guidance from the National Association of State Public Health Veterinarians), which covers the organism's developmental cycle. Psittacosis is zoonotic and reportable in many jurisdictions. Owners should be told about respiratory illness risk and hygiene, and should see a physician if they become ill.",
+      "options": [
+        "Treatment of choice, plus education about the zoonotic risk.",
+        "Not effective, and too short.",
+        "Antifungal; not effective against Chlamydia.",
+        "Antiparasitic; not effective against Chlamydia.",
+        "Untreated birds can die and continue shedding."
+      ],
+      "takeaway": "Psittacosis: doxycycline for 45 days, and talk to the owner about the zoonotic risk."
+    },
+    "reference": "NASPHV Compendium of Measures to Control Chlamydia psittaci Infection Among Humans and Pet Birds"
+  },
+  {
+    "id": "PLT-0001", "version": 1, "review_status": "draft",
+    "species": "poultry", "system": "non_clinical", "subdomain": "animal_welfare",
+    "topics": ["euthanasia", "backyard poultry"],
+    "stem": "A backyard flock owner asks you to euthanize a hen with an untreatable reproductive tract tumor. According to AVMA euthanasia guidelines, which method is acceptable?",
+    "options": [
+      "IV injection of a barbiturate euthanasia solution, ideally after sedation",
+      "Drowning",
+      "Placing the bird in a freezer",
+      "Suffocation in a sealed plastic bag",
+      "Thoracic compression"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Injectable barbiturates are acceptable for euthanasia of birds. Pre-euthanasia sedation or anesthesia reduces distress and helps with IV access. Drowning, freezing, suffocation and thoracic compression are unacceptable for conscious birds.",
+      "options": [
+        "Acceptable method.",
+        "Unacceptable.",
+        "Unacceptable in a conscious bird.",
+        "Unacceptable.",
+        "Unacceptable for conscious birds."
+      ],
+      "takeaway": "Bird euthanasia: injectable barbiturate (after sedation) is acceptable."
+    },
+    "reference": "AVMA Guidelines for the Euthanasia of Animals (2020): Poultry"
+  },
+  {
+    "id": "NSS-0001", "version": 1, "review_status": "draft",
+    "species": "non_species", "system": "non_clinical", "subdomain": "epidemiology",
+    "topics": ["positive predictive value", "biostatistics"],
+    "stem": "A screening test has a sensitivity of 90% and a specificity of 95%. It is used in a population of 1,000 animals in which the disease prevalence is 10%. What is the positive predictive value of the test in this population?",
+    "options": [
+      "About 67%",
+      "90%",
+      "95%",
+      "About 99%",
+      "About 18%"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "There are 100 diseased animals, so true positives = 90 (90% sensitivity). There are 900 non-diseased animals, so false positives = 45 (5% of 900). PPV = true positives / all positives = 90 / (90 + 45) = 90/135, which is about 67%.",
+      "options": [
+        "Correct: 90/135.",
+        "This is the sensitivity.",
+        "This is the specificity.",
+        "This is approximately the negative predictive value (855/865, about 98.8%).",
+        "Incorrect calculation."
+      ],
+      "takeaway": "PPV depends on prevalence: build a 2×2 table and calculate TP / (TP + FP)."
+    },
+    "reference": "Standard veterinary epidemiology texts: diagnostic test evaluation"
+  },
+  {
+    "id": "CAM-0001", "version": 1, "review_status": "draft",
+    "species": "camelid_cervid", "system": "nervous", "subdomain": "data_gathering",
+    "topics": ["meningeal worm", "Parelaphostrongylus tenuis", "CSF analysis"],
+    "stem": "A 3-year-old alpaca in the northeastern U.S. grazes a pasture next to woodland where white-tailed deer are often seen. It has had progressive asymmetric pelvic limb ataxia and weakness for 2 weeks but remains bright and afebrile. Which CSF finding most supports the suspected diagnosis?",
+    "options": [
+      "Eosinophilic pleocytosis",
+      "Neutrophilic pleocytosis with intracellular bacteria",
+      "Normal cell count with markedly increased glucose",
+      "Albuminocytologic dissociation without pleocytosis",
+      "Large numbers of neoplastic lymphocytes"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Parelaphostrongylus tenuis normally lives in white-tailed deer (gastropods are intermediate hosts). In camelids it migrates aberrantly through the CNS, causing asymmetric neurologic deficits. CSF eosinophilia strongly supports the diagnosis, which is usually presumptive because the parasite can't be detected in feces of aberrant hosts.",
+      "options": [
+        "Typical finding.",
+        "Bacterial meningitis.",
+        "Not typical.",
+        "Seen in some compressive or degenerative conditions, not migrating parasites.",
+        "Lymphoma."
+      ],
+      "takeaway": "Camelid near white-tailed deer with asymmetric ataxia and CSF eosinophilia: meningeal worm."
+    },
+    "reference": "Merck Veterinary Manual: Parelaphostrongylus tenuis (meningeal worm) in camelids"
+  },
+  {
+    "id": "REP-0001", "version": 1, "review_status": "draft",
+    "species": "reptile", "system": "musculoskeletal", "subdomain": "health_maintenance",
+    "topics": ["nutritional secondary hyperparathyroidism", "bearded dragon", "husbandry"],
+    "stem": "A 10-month-old bearded dragon kept indoors under a basking heat lamp has a soft, pliable mandible ('rubber jaw'), swollen limbs, and muscle tremors. It is fed crickets only, without supplements. Radiographs show reduced bone density. Besides correcting calcium deficiency, which husbandry change is most important?",
+    "options": [
+      "Provide appropriate UVB lighting (replaced as recommended) and dust insects with calcium",
+      "Increase the enclosure humidity to 90%",
+      "Switch the diet to raw ground beef",
+      "Lower the basking temperature to room temperature",
+      "Remove all lighting so the lizard can rest"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Nutritional secondary hyperparathyroidism (metabolic bone disease) in diurnal lizards comes from low dietary calcium, a poor calcium:phosphorus ratio (crickets are high in phosphorus) and lack of UVB, which is needed to synthesize vitamin D3 in the skin. Treatment includes calcium supplementation, proper UVB lighting, an appropriate basking temperature, and gut-loading and dusting of insects.",
+      "options": [
+        "Corrects the underlying husbandry causes.",
+        "Bearded dragons need an arid environment.",
+        "An inappropriate, unbalanced diet.",
+        "An appropriate temperature gradient is needed for digestion and metabolism.",
+        "Removing light worsens vitamin D3 deficiency."
+      ],
+      "takeaway": "Metabolic bone disease in lizards: give calcium and provide UVB lighting."
+    },
+    "reference": "Merck Veterinary Manual: Metabolic bone disease in reptiles"
+  },
+  {
+    "id": "AQU-0001", "version": 1, "review_status": "draft",
+    "species": "aquatics", "system": "multisystemic", "subdomain": "data_gathering",
+    "topics": ["new tank syndrome", "nitrite toxicity", "water quality"],
+    "stem": "Three weeks after setting up a new freshwater aquarium, an owner reports that several goldfish are gasping at the surface and dying. Necropsy shows tan-brown gills, and the blood is chocolate-brown. Which water-quality problem is most likely?",
+    "options": [
+      "Nitrite toxicity",
+      "Nitrate toxicity",
+      "Low pH alone",
+      "Gas supersaturation",
+      "Hypersalinity"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "In a new tank, the nitrifying biofilter hasn't yet established. Ammonia rises first, then nitrite. Nitrite enters through the gills and oxidizes hemoglobin to methemoglobin, giving brown blood and gills ('brown blood disease'). Treatment includes partial water changes, adding chloride (salt) to reduce nitrite uptake, reducing feeding, and allowing the biofilter to mature.",
+      "options": [
+        "Brown blood: methemoglobinemia.",
+        "Much less toxic; causes chronic problems, not brown blood.",
+        "Doesn't cause methemoglobinemia.",
+        "Causes gas bubble disease (emboli).",
+        "Not consistent with these findings."
+      ],
+      "takeaway": "New tank with brown blood and gills: nitrite toxicity. Water changes, salt, and patience while the biofilter matures."
+    },
+    "reference": "Merck Veterinary Manual: Water quality in aquarium fish"
+  }
+]

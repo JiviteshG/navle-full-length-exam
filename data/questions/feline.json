@@ -1,0 +1,398 @@
+[
+  {
+    "id": "FEL-0001", "version": 1, "review_status": "draft",
+    "species": "feline", "system": "endocrine", "subdomain": "data_gathering",
+    "topics": ["hyperthyroidism", "thyroid testing"],
+    "stem": "A 13-year-old neutered male domestic shorthair cat has lost weight despite a good appetite. He has a heart rate of 240 beats/min and a palpable nodule in the left cervical region. He also has mild chronic kidney disease. Serum total T4 is 3.6 µg/dL (reference 0.8–4.0). Which test is most appropriate next to evaluate for hyperthyroidism?",
+    "options": [
+      "Free T4 by equilibrium dialysis",
+      "ACTH stimulation test",
+      "Serum fructosamine",
+      "Serum cobalamin",
+      "Low-dose dexamethasone suppression test"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Concurrent non-thyroidal illness can suppress total T4 into the upper half of the reference interval in hyperthyroid cats. When clinical suspicion is high and total T4 is high-normal, free T4 by equilibrium dialysis (interpreted together with total T4) or repeating total T4 in a few weeks helps confirm the diagnosis. Thyroid scintigraphy is another option.",
+      "options": [
+        "Best next test for suspected 'occult' hyperthyroidism.",
+        "Tests for adrenal disease, not thyroid.",
+        "Tests for persistent hyperglycemia.",
+        "Assesses GI absorption; not diagnostic for hyperthyroidism.",
+        "Tests for hyperadrenocorticism."
+      ],
+      "takeaway": "High-normal total T4 in a cat with signs of hyperthyroidism and concurrent illness: check free T4 by equilibrium dialysis or repeat total T4."
+    },
+    "reference": "AAFP guidelines for the management of feline hyperthyroidism (2016)"
+  },
+  {
+    "id": "FEL-0002", "version": 1, "review_status": "draft",
+    "species": "feline", "system": "urinary", "subdomain": "data_gathering",
+    "topics": ["urethral obstruction", "hyperkalemia", "ECG"],
+    "stem": "A 4-year-old neutered male cat has strained to urinate for 36 hours. He is now laterally recumbent with a large, firm, painful bladder. Serum potassium is 8.9 mmol/L. Which ECG finding is most consistent with this cat's electrolyte abnormality?",
+    "options": [
+      "Bradycardia with tall, peaked T waves and small or absent P waves",
+      "Sinus tachycardia with prominent U waves",
+      "Atrial fibrillation with a rapid ventricular rate",
+      "Prolonged QT interval with flattened T waves",
+      "Ventricular premature complexes with a normal underlying rate and ST depression"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Hyperkalemia from urethral obstruction causes progressive ECG changes: peaked T waves, flattened or absent P waves (atrial standstill), a prolonged PR interval, widened QRS complexes, and bradycardia. Without treatment it progresses to a sine-wave pattern and cardiac arrest.",
+      "options": [
+        "Classic changes of hyperkalemia.",
+        "U waves and tachycardia are associated with hypokalemia.",
+        "Not typical of hyperkalemia; atrial activity is lost instead.",
+        "Flattened T waves and QT changes fit hypokalemia or hypocalcemia, not hyperkalemia.",
+        "Not the typical pattern of hyperkalemia."
+      ],
+      "takeaway": "Obstructed male cat with bradycardia: suspect hyperkalemia (peaked T waves, absent P waves)."
+    },
+    "reference": "Merck Veterinary Manual: Feline lower urinary tract disease; electrolyte disorders"
+  },
+  {
+    "id": "FEL-0003", "version": 1, "review_status": "draft",
+    "species": "feline", "system": "cardiovascular", "subdomain": "data_gathering",
+    "topics": ["arterial thromboembolism", "cardiomyopathy"],
+    "stem": "A 7-year-old neutered male Maine Coon has suddenly lost use of both pelvic limbs and is vocalizing in pain. The pelvic limb paw pads are pale and cool, femoral pulses can't be palpated, and the gastrocnemius muscles are firm. A gallop rhythm is heard. What is the most likely diagnosis?",
+    "options": [
+      "Aortic thromboembolism secondary to cardiomyopathy",
+      "Intervertebral disc herniation",
+      "Fibrocartilaginous embolism",
+      "Spinal lymphoma",
+      "Tick paralysis"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Pain, paralysis, pallor, pulselessness and cold (poikilothermic) limbs with firm muscles are the classic signs of aortic thromboembolism. Most affected cats have underlying cardiomyopathy, often hypertrophic. A gallop rhythm supports heart disease.",
+      "options": [
+        "The classic signs.",
+        "Femoral pulses and limb temperature are preserved in disc disease.",
+        "Usually non-painful after onset, with normal pulses.",
+        "Usually progressive, with normal pulses.",
+        "Non-painful paralysis with normal perfusion."
+      ],
+      "takeaway": "Cat with acute paraparesis and missing femoral pulses: think aortic thromboembolism and look for heart disease."
+    },
+    "reference": "Merck Veterinary Manual: Thromboembolic disease in cats; ACVIM consensus on feline cardiomyopathies (2020)"
+  },
+  {
+    "id": "FEL-0004", "version": 1, "review_status": "draft",
+    "species": "feline", "system": "multisystemic", "subdomain": "data_gathering",
+    "topics": ["feline infectious peritonitis", "effusion analysis"],
+    "stem": "A 10-month-old intact male Bengal from a multi-cat household has a fluctuating fever unresponsive to antibiotics, weight loss, and abdominal distension. Abdominocentesis yields a viscous, straw-colored fluid. Which combination of effusion findings most supports the suspected diagnosis?",
+    "options": [
+      "Total protein greater than 3.5 g/dL, low nucleated cell count with non-degenerate neutrophils and macrophages, and albumin:globulin ratio below 0.4",
+      "Total protein less than 2.5 g/dL with a very low cell count (pure transudate)",
+      "Milky fluid with a triglyceride concentration higher than serum",
+      "Marked numbers of degenerate neutrophils with intracellular bacteria",
+      "Large numbers of atypical lymphoblasts"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "A young cat from a multi-cat environment with antibiotic-unresponsive fever and effusion is typical of effusive FIP. The fluid is usually high in protein (often over 3.5 g/dL) but low in cells (mainly non-degenerate neutrophils and macrophages), with a low A:G ratio. Detecting feline coronavirus antigen or RNA in effusion macrophages supports the diagnosis.",
+      "options": [
+        "Typical of effusive FIP.",
+        "Points to hypoalbuminemia or some heart and liver conditions, not FIP.",
+        "Chylous effusion.",
+        "Septic effusion (e.g., septic peritonitis or pyothorax).",
+        "Suggests lymphoma."
+      ],
+      "takeaway": "High-protein, low-cellularity effusion with A:G below 0.4 in a young cat: suspect FIP."
+    },
+    "reference": "EveryCat Health Foundation / ABCD guidelines on feline infectious peritonitis diagnosis"
+  },
+  {
+    "id": "FEL-0005", "version": 1, "review_status": "draft",
+    "species": "feline", "system": "hemic_lymphatic", "subdomain": "data_gathering",
+    "topics": ["hemotropic mycoplasmosis", "anemia"],
+    "stem": "A 3-year-old outdoor male cat with recent cat-fight abscesses has a PCV of 15% with marked polychromasia. Small structures are occasionally seen on the surface of red cells on a blood smear, but the smear review is inconclusive. Which test is best to confirm the suspected infectious cause?",
+    "options": [
+      "PCR for hemotropic Mycoplasma species",
+      "Direct antiglobulin (Coombs) test",
+      "Aerobic blood culture",
+      "Bone marrow aspirate",
+      "Serum iron and total iron-binding capacity"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Mycoplasma haemofelis causes a regenerative hemolytic anemia in cats. Organisms appear on smears only intermittently and can be confused with stain precipitate or Howell-Jolly bodies, so PCR is the most sensitive and specific test.",
+      "options": [
+        "Sensitive and specific for hemoplasmas.",
+        "Can be positive in hemoplasmosis, but it doesn't identify the organism.",
+        "Hemoplasmas can't be cultured in vitro.",
+        "The anemia is regenerative; bone marrow evaluation isn't needed to diagnose hemoplasmosis.",
+        "Assesses iron deficiency, not hemoplasma infection."
+      ],
+      "takeaway": "Feline hemoplasmas: smears are unreliable; confirm with PCR. Treat with doxycycline."
+    },
+    "reference": "Merck Veterinary Manual: Hemotropic mycoplasmas"
+  },
+  {
+    "id": "FEL-0006", "version": 1, "review_status": "draft",
+    "species": "feline", "system": "gastrointestinal", "subdomain": "data_gathering",
+    "topics": ["hepatic lipidosis", "liver enzymes"],
+    "stem": "An obese 8-year-old spayed female cat stopped eating 2 weeks ago when a new dog joined the household. She has lost 20% of her body weight and is icteric. Liver enzyme results are shown. Abdominal ultrasound shows a diffusely enlarged, hyperechoic liver. What is the most likely diagnosis?",
+    "labs": [
+      { "test": "ALT", "value": "310", "unit": "U/L", "ref": "10–100" },
+      { "test": "ALP", "value": "640", "unit": "U/L", "ref": "6–102" },
+      { "test": "GGT", "value": "4", "unit": "U/L", "ref": "0–4" },
+      { "test": "Total bilirubin", "value": "6.2", "unit": "mg/dL", "ref": "0.0–0.4" }
+    ],
+    "options": [
+      "Hepatic lipidosis",
+      "Neutrophilic cholangitis",
+      "Extrahepatic biliary obstruction",
+      "Feline infectious peritonitis",
+      "Hepatic lymphoma"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "An obese cat with prolonged anorexia after a stressful event, rapid weight loss, icterus, a hyperechoic enlarged liver, and a markedly increased ALP with a normal or only mildly increased GGT is typical of hepatic lipidosis. Fine-needle aspirate cytology shows vacuolated hepatocytes. Treatment is aggressive nutritional support via feeding tube.",
+      "options": [
+        "Typical presentation and enzyme pattern.",
+        "Cholangitis usually increases GGT along with ALP.",
+        "Obstruction typically increases GGT markedly and shows dilated bile ducts on ultrasound.",
+        "Possible, but the enzyme pattern and history fit lipidosis better.",
+        "Possible, but less likely given the history; cytology would help distinguish it."
+      ],
+      "takeaway": "Obese, anorexic cat with high ALP and normal GGT: suspect hepatic lipidosis. Start feeding through a tube."
+    },
+    "reference": "Merck Veterinary Manual: Hepatic lipidosis in cats"
+  },
+  {
+    "id": "FEL-0007", "version": 1, "review_status": "draft",
+    "species": "feline", "system": "urinary", "subdomain": "health_maintenance",
+    "topics": ["urethral obstruction", "hyperkalemia treatment"],
+    "stem": "A 5-year-old neutered male cat with urethral obstruction has a serum potassium of 8.6 mmol/L. His heart rate is 110 beats/min and the ECG shows no P waves and widened QRS complexes. An IV catheter has been placed. Which treatment gives the most rapid protection of the myocardium?",
+    "options": [
+      "10% calcium gluconate IV given slowly with ECG monitoring",
+      "Furosemide IV",
+      "Spironolactone orally",
+      "Potassium chloride added to the IV fluids",
+      "Atenolol orally"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Calcium gluconate doesn't lower serum potassium. It restores the difference between resting and threshold membrane potential within minutes, protecting the heart while other treatments work. Those include fluids, dextrose with or without insulin, sodium bicarbonate in some cases, and, most importantly, relieving the obstruction.",
+      "options": [
+        "Immediate cardioprotection.",
+        "Little effect when the patient can't urinate; doesn't protect the heart quickly.",
+        "Potassium-sparing, so it would worsen hyperkalemia.",
+        "Contraindicated in hyperkalemia.",
+        "Beta-blockade would worsen bradycardia and doesn't treat hyperkalemia."
+      ],
+      "takeaway": "Hyperkalemia with ECG changes: give calcium gluconate first for cardioprotection, then lower potassium and relieve the obstruction."
+    },
+    "reference": "Merck Veterinary Manual: Feline lower urinary tract disease (urethral obstruction)"
+  },
+  {
+    "id": "FEL-0008", "version": 1, "review_status": "draft",
+    "species": "feline", "system": "endocrine", "subdomain": "health_maintenance",
+    "topics": ["diabetes mellitus", "diabetic remission", "nutrition"],
+    "stem": "A 10-year-old overweight neutered male cat has newly diagnosed diabetes mellitus and is starting insulin. Which diet is most likely to improve glycemic control and the chance of diabetic remission?",
+    "options": [
+      "A high-protein, low-carbohydrate diet",
+      "A high-fiber, high-carbohydrate diet",
+      "A protein-restricted renal diet",
+      "Free-choice dry food with a high carbohydrate content",
+      "A vegetarian diet"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Cats are obligate carnivores. A high-protein, low-carbohydrate diet (often canned) reduces post-meal hyperglycemia and supports weight loss. Combined with early, effective insulin therapy, it increases the likelihood of diabetic remission.",
+      "options": [
+        "Recommended for diabetic cats.",
+        "High carbohydrate content worsens glycemic control in cats.",
+        "Not indicated unless there is concurrent kidney disease needing it.",
+        "Promotes obesity and hyperglycemia.",
+        "Inappropriate for obligate carnivores."
+      ],
+      "takeaway": "Diabetic cats: high-protein, low-carbohydrate diet plus early insulin to give the best chance of remission."
+    },
+    "reference": "AAHA diabetes management guidelines for dogs and cats (2018); ISFM consensus on feline diabetes (2015)"
+  },
+  {
+    "id": "FEL-0009", "version": 1, "review_status": "draft",
+    "species": "feline", "system": "multisystemic", "subdomain": "health_maintenance",
+    "topics": ["acetaminophen toxicosis", "methemoglobinemia"],
+    "stem": "A 2-year-old cat was given an acetaminophen tablet by its owner 6 hours ago. The cat is now tachypneic with chocolate-brown mucous membranes and facial and paw edema. Which antidote is most appropriate?",
+    "options": [
+      "N-acetylcysteine",
+      "Fomepizole",
+      "Vitamin K1",
+      "Atropine",
+      "Pralidoxime"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Cats are deficient in glucuronidation, so acetaminophen is metabolized to toxic metabolites that cause methemoglobinemia, Heinz-body hemolysis and facial edema. N-acetylcysteine replenishes glutathione and is the antidote. Supportive care includes oxygen, and some protocols add ascorbic acid or methylene blue.",
+      "options": [
+        "Antidote for acetaminophen toxicity.",
+        "Antidote for ethylene glycol.",
+        "Treats anticoagulant rodenticide toxicity.",
+        "Treats organophosphate and carbamate muscarinic signs.",
+        "Treats organophosphate toxicity."
+      ],
+      "takeaway": "Cat with brown mucous membranes and facial edema: suspect acetaminophen and give N-acetylcysteine."
+    },
+    "reference": "Merck Veterinary Manual: Acetaminophen toxicosis"
+  },
+  {
+    "id": "FEL-0010", "version": 1, "review_status": "draft",
+    "species": "feline", "system": "respiratory", "subdomain": "health_maintenance",
+    "topics": ["feline asthma", "bronchodilators"],
+    "stem": "A 4-year-old cat with a history of intermittent coughing is presented with acute open-mouth breathing, expiratory effort and an abdominal push. Expiratory wheezes are heard on auscultation, and there is no murmur or gallop. Which initial treatment is most appropriate?",
+    "options": [
+      "Oxygen supplementation and a bronchodilator such as terbutaline, with a rapid-acting corticosteroid",
+      "Furosemide IV as the sole treatment",
+      "Propranolol IV",
+      "Thoracocentesis of both hemithoraces",
+      "Morphine IV"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Expiratory distress with wheezes and no cardiac findings in a cat with a history of coughing points to an asthma crisis (lower airway disease). Treat with oxygen and minimal handling, a bronchodilator (terbutaline SC/IM or inhaled albuterol) and a rapid-acting corticosteroid (e.g., dexamethasone).",
+      "options": [
+        "Treats bronchoconstriction and airway inflammation.",
+        "For cardiogenic pulmonary edema; no cardiac findings here.",
+        "Non-selective beta-blockade can cause bronchoconstriction, so it's contraindicated.",
+        "For pleural effusion or pneumothorax, which cause a restrictive, short and shallow breathing pattern rather than expiratory wheezes.",
+        "Opioids can depress breathing and don't treat bronchoconstriction."
+      ],
+      "takeaway": "Cat with expiratory distress and wheezes: oxygen, terbutaline and a corticosteroid."
+    },
+    "reference": "Merck Veterinary Manual: Feline asthma"
+  },
+  {
+    "id": "FEL-0011", "version": 1, "review_status": "draft",
+    "species": "feline", "system": "integumentary", "subdomain": "health_maintenance",
+    "topics": ["feline injection-site sarcoma", "surgical oncology"],
+    "stem": "A 9-year-old cat has a firm, 2.5-cm subcutaneous mass in the interscapular region that has grown for 3 months, following a vaccination there. Fine-needle aspiration suggests a sarcoma. Thoracic radiographs are normal. Which plan is most appropriate?",
+    "options": [
+      "Advanced imaging (CT) to plan wide en bloc surgical excision with about 5-cm lateral margins and two fascial planes deep",
+      "Marginal excision ('shell-out') of the mass",
+      "Monitor the mass and remeasure in 6 months",
+      "Oral corticosteroids to shrink the mass",
+      "Injection of an antibiotic into the mass"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Feline injection-site sarcomas are locally invasive with finger-like projections. The first surgery offers the best chance of control, so it should be planned with CT and performed as wide excision (commonly 5-cm lateral margins and two fascial planes deep), often with adjunctive radiation.",
+      "options": [
+        "Wide, well-planned first excision.",
+        "Marginal excision leaves tumor behind and leads to early recurrence.",
+        "Delay allows the tumor to invade further.",
+        "Not an effective treatment for sarcoma.",
+        "This is not an abscess."
+      ],
+      "takeaway": "Injection-site sarcoma: use the 3-2-1 rule to decide on biopsy, image with CT, and make the first excision wide."
+    },
+    "reference": "WSAVA vaccination guidelines; AAFP feline vaccination guidelines (2020) on injection-site sarcoma"
+  },
+  {
+    "id": "FEL-0012", "version": 1, "review_status": "draft",
+    "species": "feline", "system": "cardiovascular", "subdomain": "comm_clients",
+    "topics": ["congestive heart failure", "home monitoring"],
+    "stem": "A cat with hypertrophic cardiomyopathy has been stabilized after an episode of congestive heart failure and is going home on furosemide. Which home-monitoring instruction is most useful to give the owner?",
+    "options": [
+      "Count the sleeping (resting) respiratory rate daily, and call if it is consistently above about 30 breaths per minute",
+      "Weigh the cat once a month",
+      "Take the cat's rectal temperature twice daily",
+      "Check gum color only if the cat stops eating",
+      "Measure water intake only"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Sleeping respiratory rate is a simple, sensitive home indicator of recurring pulmonary edema in cats and dogs with heart failure. A sustained rise (generally over about 30 breaths/min, or a clear increase from the pet's baseline) should prompt a call to the clinic.",
+      "options": [
+        "Simple and sensitive.",
+        "Too infrequent and not specific.",
+        "Stressful and not informative for heart failure.",
+        "A late, insensitive sign.",
+        "Doesn't detect recurrent edema."
+      ],
+      "takeaway": "Teach owners of heart-failure patients to count the sleeping respiratory rate."
+    },
+    "reference": "ACVIM consensus on feline cardiomyopathies (2020)"
+  },
+  {
+    "id": "FEL-0013", "version": 1, "review_status": "draft",
+    "species": "feline", "system": "integumentary", "subdomain": "environmental_health",
+    "topics": ["dermatophytosis", "decontamination", "zoonosis"],
+    "stem": "A household has three cats confirmed to have Microsporum canis dermatophytosis, which are being treated systemically and topically. The owner asks how to clean the home. Which recommendation is most appropriate?",
+    "options": [
+      "Remove hair and debris mechanically (vacuum, wash surfaces with detergent), then apply a disinfectant effective against dermatophyte spores, such as diluted household bleach or accelerated hydrogen peroxide, with the correct contact time",
+      "Disinfect surfaces without cleaning them first",
+      "Spray chlorhexidine on floors weekly as the only measure",
+      "No cleaning is needed because treating the cats is enough",
+      "Throw away all household furniture"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Infective spores in shed hair contaminate the environment and can cause reinfection and human infection (dermatophytosis is zoonotic). Mechanical removal of debris followed by a disinfectant proven effective against spores, used at the correct dilution and contact time, is recommended. Washing laundry also removes spores.",
+      "options": [
+        "Clean mechanically, then disinfect with an effective product.",
+        "Organic matter inactivates disinfectants, so cleaning must come first.",
+        "Chlorhexidine is not reliably effective against spores on surfaces.",
+        "Spores in the environment perpetuate reinfection.",
+        "Unnecessary; most items can be decontaminated."
+      ],
+      "takeaway": "Dermatophyte decontamination: clean first, then use a disinfectant effective against spores. Remember the zoonotic risk."
+    },
+    "reference": "Moriello KA et al. Diagnosis and treatment of dermatophytosis in dogs and cats: WAVD clinical consensus guidelines (2017)"
+  },
+  {
+    "id": "FEL-0014", "version": 1, "review_status": "draft",
+    "species": "feline", "system": "non_clinical", "subdomain": "professional_development",
+    "topics": ["evidence-based medicine", "consulting references"],
+    "stem": "You are treating a cat with a disease you haven't managed since veterinary school, and treatment recommendations have changed in recent years. Which source is most appropriate for current, evidence-based guidance?",
+    "options": [
+      "Recent specialty consensus statements and peer-reviewed literature, plus consultation with a specialist if needed",
+      "A pharmaceutical company's advertising brochure",
+      "An online pet-owner discussion forum",
+      "Your notes from veterinary school, unchanged",
+      "The protocol a colleague remembers using years ago"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Consensus statements (e.g., ACVIM, AAFP, ISFM) and peer-reviewed literature summarize current evidence. Consulting reference materials and specialists is part of professional competence and lifelong learning.",
+      "options": [
+        "Current, peer-reviewed, evidence-based sources.",
+        "Marketing material may be biased.",
+        "Unvetted and unreliable.",
+        "May be outdated.",
+        "Anecdotal and possibly outdated."
+      ],
+      "takeaway": "Use peer-reviewed literature and consensus statements, and ask specialists when needed."
+    },
+    "reference": "ICVA NAVLE competency: consult reference materials to help formulate diagnosis or treatment"
+  },
+  {
+    "id": "FEL-0015", "version": 1, "review_status": "draft",
+    "species": "feline", "system": "non_clinical", "subdomain": "animal_welfare",
+    "topics": ["onychectomy", "declawing", "client education"],
+    "stem": "A new client asks you to declaw her 4-month-old kitten 'so it won't scratch the furniture.' Which response is most appropriate?",
+    "options": [
+      "Explain the welfare concerns with declawing and discuss alternatives such as scratching posts, regular nail trims, nail caps and behavior modification, noting that declawing is restricted or banned in some jurisdictions",
+      "Schedule the surgery without discussion because it is an elective procedure the owner requested",
+      "Recommend tendonectomy as a routine, risk-free alternative",
+      "Advise the owner to rehome the kitten",
+      "Tell the owner that scratching furniture can't be managed in cats"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Scratching is a normal feline behavior. Professional organizations (AVMA, AAFP, CVMA) discourage or oppose elective declawing because of pain and welfare concerns, and several jurisdictions ban or restrict it. The veterinarian should educate the owner about effective alternatives first.",
+      "options": [
+        "Educate and offer alternatives.",
+        "Ignores welfare concerns and professional guidance.",
+        "Tendonectomy has its own complications and needs ongoing nail care.",
+        "Unnecessary; the behavior can be managed.",
+        "Incorrect; scratching can usually be redirected."
+      ],
+      "takeaway": "Declaw requests: educate the owner about welfare and offer alternatives (scratching posts, nail trims, nail caps)."
+    },
+    "reference": "AVMA policy on declawing of domestic cats; AAFP position statement on declawing"
+  }
+]

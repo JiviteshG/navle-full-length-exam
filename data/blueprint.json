@@ -1,0 +1,53 @@
+{
+  "source": "ICVA NAVLE Exam Blueprint (target percentages, ICVA web page as supplied by the user). Category lists: ICVA 'NAVLE Species and Diagnoses' v0.0262 and 'NAVLE Competency Domains' (2026).",
+  "species": [
+    { "key": "canine", "label": "Canine", "pct": 25.6 },
+    { "key": "feline", "label": "Feline", "pct": 24.3 },
+    { "key": "equine", "label": "Equine", "pct": 14.7 },
+    { "key": "bovine", "label": "Bovine", "pct": 13.3 },
+    { "key": "porcine", "label": "Porcine", "pct": 5 },
+    { "key": "other_small_mammal", "label": "Other Small Mammals", "pct": 3.3 },
+    { "key": "ovine_caprine", "label": "Ovine/Caprine", "pct": 3.3 },
+    { "key": "pet_bird", "label": "Pet Bird", "pct": 2.3 },
+    { "key": "poultry", "label": "Poultry", "pct": 2 },
+    { "key": "non_species", "label": "Non-Species Specific", "pct": 2 },
+    { "key": "camelid_cervid", "label": "Camelid/Cervidae", "pct": 1.7 },
+    { "key": "reptile", "label": "Reptiles", "pct": 1.5 },
+    { "key": "aquatics", "label": "Aquatics", "pct": 1 }
+  ],
+  "domains": [
+    { "key": "clinical_practice", "label": "Clinical Practice", "pct": 70 },
+    { "key": "preventive_medicine", "label": "Preventive Medicine and Animal Welfare", "pct": 15 },
+    { "key": "communication", "label": "Communication", "pct": 8 },
+    { "key": "professionalism", "label": "Professionalism, Practice Management and Wellness", "pct": 7 }
+  ],
+  "subdomains": [
+    { "key": "data_gathering", "label": "Data Gathering and Interpretation", "domain": "clinical_practice", "pct": 35 },
+    { "key": "health_maintenance", "label": "Health Maintenance and Problem Management", "note": "ICVA web blueprint label: 'Health Maintenance and Prevention'", "domain": "clinical_practice", "pct": 35 },
+    { "key": "animal_welfare", "label": "Animal Welfare Issues and Concerns", "domain": "preventive_medicine", "pct": 6 },
+    { "key": "environmental_health", "label": "Environmental Health and Safety", "domain": "preventive_medicine", "pct": 5 },
+    { "key": "public_health", "label": "Veterinary Public Health", "domain": "preventive_medicine", "pct": 4 },
+    { "key": "epidemiology", "label": "Veterinary Epidemiology and Biostatistics", "domain": "preventive_medicine", "pct": 0, "quotaGroup": "public_health", "note": "No ICVA weight; counted within Veterinary Public Health's 4% (user decision)." },
+    { "key": "comm_clients", "label": "Communication with Clients", "domain": "communication", "pct": 5 },
+    { "key": "comm_professionals", "label": "Communication with Veterinary and Other Professionals", "domain": "communication", "pct": 3 },
+    { "key": "practice_management", "label": "Veterinary Practice Management", "domain": "professionalism", "pct": 4 },
+    { "key": "professional_development", "label": "Professional Development and Life-Long Learning", "domain": "professionalism", "pct": 3 }
+  ],
+  "systems": [
+    { "key": "cardiovascular", "label": "Cardiovascular" },
+    { "key": "endocrine", "label": "Endocrine" },
+    { "key": "gastrointestinal", "label": "Gastrointestinal and Digestive" },
+    { "key": "hemic_lymphatic", "label": "Hemic and Lymphatic" },
+    { "key": "integumentary", "label": "Integumentary" },
+    { "key": "musculoskeletal", "label": "Musculoskeletal" },
+    { "key": "nervous", "label": "Nervous" },
+    { "key": "reproductive", "label": "Reproductive" },
+    { "key": "respiratory", "label": "Respiratory" },
+    { "key": "special_senses", "label": "Special Senses" },
+    { "key": "urinary", "label": "Urinary" },
+    { "key": "behavior", "label": "Behavior" },
+    { "key": "infectious", "label": "Infectious" },
+    { "key": "multisystemic", "label": "Multisystemic" },
+    { "key": "non_clinical", "label": "Non-clinical (communication, management, welfare, public health)" }
+  ]
+}
