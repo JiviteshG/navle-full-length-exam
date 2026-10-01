@@ -1,16 +1,53 @@
 [
   {
-    "id": "CAN-0001", "version": 1, "review_status": "draft",
-    "species": "canine", "system": "endocrine", "subdomain": "data_gathering",
-    "topics": ["hypoadrenocorticism", "electrolytes"],
+    "id": "CAN-0001",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "endocrine",
+    "subdomain": "data_gathering",
+    "topics": [
+      "hypoadrenocorticism",
+      "electrolytes"
+    ],
     "stem": "A 4-year-old spayed female Standard Poodle has had intermittent vomiting, diarrhea and lethargy for 3 weeks. The signs improved briefly with fluids and an antiemetic at another clinic, then returned. Today she is weak, 7% dehydrated, and has a heart rate of 64 beats/min. Selected results are shown. Which test is most appropriate to confirm the suspected diagnosis?",
     "labs": [
-      { "test": "Sodium", "value": "127", "unit": "mmol/L", "ref": "144–160" },
-      { "test": "Potassium", "value": "7.4", "unit": "mmol/L", "ref": "3.5–5.8" },
-      { "test": "BUN", "value": "62", "unit": "mg/dL", "ref": "7–27" },
-      { "test": "Creatinine", "value": "2.4", "unit": "mg/dL", "ref": "0.5–1.8" },
-      { "test": "Urine specific gravity", "value": "1.018", "unit": "", "ref": "" },
-      { "test": "Lymphocytes", "value": "4.1", "unit": "×10³/µL", "ref": "1.0–4.8" }
+      {
+        "test": "Sodium",
+        "value": "127",
+        "unit": "mmol/L",
+        "ref": "144–160"
+      },
+      {
+        "test": "Potassium",
+        "value": "7.4",
+        "unit": "mmol/L",
+        "ref": "3.5–5.8"
+      },
+      {
+        "test": "BUN",
+        "value": "62",
+        "unit": "mg/dL",
+        "ref": "7–27"
+      },
+      {
+        "test": "Creatinine",
+        "value": "2.4",
+        "unit": "mg/dL",
+        "ref": "0.5–1.8"
+      },
+      {
+        "test": "Urine specific gravity",
+        "value": "1.018",
+        "unit": "",
+        "ref": ""
+      },
+      {
+        "test": "Lymphocytes",
+        "value": "4.1",
+        "unit": "×10³/µL",
+        "ref": "1.0–4.8"
+      }
     ],
     "options": [
       "ACTH stimulation test",
@@ -34,9 +71,16 @@
     "reference": "Merck Veterinary Manual: Hypoadrenocorticism in animals"
   },
   {
-    "id": "CAN-0002", "version": 1, "review_status": "draft",
-    "species": "canine", "system": "endocrine", "subdomain": "health_maintenance",
-    "topics": ["diabetic ketoacidosis", "fluid therapy"],
+    "id": "CAN-0002",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "endocrine",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "diabetic ketoacidosis",
+      "fluid therapy"
+    ],
     "stem": "A 9-year-old neutered male Miniature Schnauzer has had polyuria and polydipsia for a month, and vomiting and anorexia for 2 days. He is 8% dehydrated and depressed. Blood glucose is 512 mg/dL, there are ketones in the urine, venous pH is 7.12, and serum potassium is 3.4 mmol/L (reference 3.5–5.8). Which is the most appropriate initial treatment?",
     "options": [
       "IV isotonic crystalloid fluids with potassium supplementation guided by serial electrolyte measurements, before starting insulin",
@@ -60,61 +104,97 @@
     "reference": "Merck Veterinary Manual: Diabetes mellitus in dogs and cats (diabetic ketoacidosis)"
   },
   {
-    "id": "CAN-0003", "version": 1, "review_status": "draft",
-    "species": "canine", "system": "gastrointestinal", "subdomain": "data_gathering",
-    "topics": ["gastric dilatation-volvulus", "radiography"],
-    "stem": "A 6-year-old male Great Dane is presented 2 hours after his evening meal for unproductive retching, restlessness and a distended, tympanic cranial abdomen. After initial stabilization, a single abdominal radiograph is to be taken to differentiate simple gastric dilatation from gastric dilatation-volvulus. Which view is most useful?",
+    "species": "canine",
+    "system": "gastrointestinal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "gastric dilatation-volvulus",
+      "radiograph interpretation"
+    ],
+    "stem": "A 7-year-old male Great Dane is presented 2 hours after a large meal for repeated unproductive retching, hypersalivation and a distended cranial abdomen. Heart rate is 168 beats/min with weak femoral pulses and pale mucous membranes. After initial stabilization, the right lateral abdominal radiograph shown is taken. What is the most likely diagnosis?",
+    "image": {
+      "src": "data/images/can-gdv-lateral.jpg",
+      "alt": "Right lateral abdominal radiograph of a large-breed dog",
+      "credit": "Cokehabit",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gdv2.jpg"
+    },
     "options": [
-      "Right lateral recumbency",
-      "Left lateral recumbency",
-      "Ventrodorsal",
-      "Dorsoventral",
-      "Standing horizontal-beam lateral"
+      "Gastric dilatation-volvulus",
+      "Simple gastric dilatation (food bloat) without volvulus",
+      "Mesenteric volvulus",
+      "Splenic torsion",
+      "Gastric outflow obstruction by a foreign body"
     ],
     "answer": 0,
     "explanation": {
-      "correct": "With the dog in right lateral recumbency, gas rises into the pylorus. In GDV the pylorus is displaced dorsally and to the left, so it appears as a gas-filled structure dorsal and cranial to the fundus, separated by a soft-tissue band (the compartmentalized 'double bubble' or 'Popeye arm' sign).",
+      "correct": "A large, deep-chested dog with unproductive retching, signs of shock and a severely gas-distended stomach on radiographs most likely has GDV. On the right lateral view, GDV is confirmed when the gas-filled pylorus lies dorsal and cranial to the fundus, separated by a soft-tissue band (compartmentalization). Stabilize with IV fluids and gastric decompression, then perform surgery to derotate the stomach and do a gastropexy.",
       "options": [
-        "Best view: gas fills the displaced pylorus.",
-        "In left lateral the pylorus is dependent and fluid-filled, so the displacement can be missed.",
-        "The VD view is less diagnostic and keeping a dog with GDV on its back can worsen cardiovascular compromise.",
-        "The DV view is less sensitive than right lateral for showing pyloric displacement.",
-        "Not a standard view for GDV."
+        "Best fit for the history, signs of shock and radiograph.",
+        "Partly right: the stomach is dilated. But simple dilatation after a large meal usually shows a normally positioned pylorus, and these dogs are often less shocky. The clinical picture here points to volvulus. Treat as GDV until pylorus position rules it out.",
+        "Causes rapid shock and diffusely gas-distended small intestine, not one massively distended stomach.",
+        "Can happen with or without GDV, but it doesn't explain a hugely gas-distended stomach.",
+        "Causes vomiting, and the stomach may be fluid-filled, but rarely this acute gaseous distension with shock."
       ],
-      "takeaway": "GDV is diagnosed on a right lateral radiograph: look for compartmentalization with the gas-filled pylorus displaced dorsally."
+      "takeaway": "Large deep-chested dog with unproductive retching and a gas-filled stomach: GDV until proven otherwise. Check the pylorus position on the right lateral view."
     },
-    "reference": "Merck Veterinary Manual: Gastric dilation and volvulus in small animals"
+    "reference": "Merck Veterinary Manual: Gastric dilation and volvulus in small animals",
+    "version": 2,
+    "review_status": "draft",
+    "id": "CAN-0003"
   },
   {
-    "id": "CAN-0004", "version": 1, "review_status": "draft",
-    "species": "canine", "system": "hemic_lymphatic", "subdomain": "data_gathering",
-    "topics": ["immune-mediated hemolytic anemia", "hematology"],
-    "stem": "A 5-year-old spayed female Cocker Spaniel has acute lethargy, pale mucous membranes and icterus. PCV is 14% with marked polychromasia. Blood smear review shows many spherocytes, and the blood appears grainy on the slide. Which additional finding most strongly supports an immune-mediated cause of the hemolysis?",
+    "species": "canine",
+    "system": "hemic_lymphatic",
+    "subdomain": "data_gathering",
+    "topics": [
+      "babesiosis",
+      "blood smear",
+      "tick-borne disease"
+    ],
+    "stem": "A 4-year-old dog from a kennel with a heavy tick burden is presented for lethargy, fever (40.3°C / 104.5°F), pale mucous membranes and dark red-brown urine. PCV is 18% with polychromasia and thrombocytopenia. A Wright-Giemsa-stained blood smear is shown (arrows mark representative findings). What is the most likely cause of the anemia?",
+    "image": {
+      "src": "data/images/can-babesia-smear.jpg",
+      "alt": "Stained canine blood smear, high magnification, with arrows marking red cells",
+      "credit": "Wikimedia Commons contributor (author name pending verification; see source page)",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Babesia-canis-dog.jpg"
+    },
     "options": [
-      "Agglutination that persists after the blood is diluted with saline",
-      "Increased numbers of nucleated red blood cells",
-      "Heinz bodies on new methylene blue staining",
-      "Thrombocytosis",
-      "Increased reticulocyte count"
+      "Large Babesia species (e.g., Babesia canis complex)",
+      "Babesia gibsoni (small Babesia)",
+      "Mycoplasma haemocanis",
+      "Hepatozoon americanum",
+      "Immune-mediated hemolytic anemia with no infectious cause"
     ],
     "answer": 0,
     "explanation": {
-      "correct": "True autoagglutination (antibody-coated red cells clumping), which persists after saline dilution, distinguishes it from rouleaux, which disperses. Together with marked spherocytosis it is strong evidence of IMHA. A Coombs test is generally unnecessary once saline-agglutination is confirmed.",
+      "correct": "The smear shows red cells containing large, paired, pear-shaped (piriform) organisms: the typical appearance of a large Babesia (B. canis complex, including B. vogeli in North America). Tick exposure, fever, hemolytic anemia with hemoglobinuria, and thrombocytopenia fit babesiosis. Confirm and speciate by PCR, which guides treatment (e.g., imidocarb for large babesias).",
       "options": [
-        "Saline-agglutination test positive: evidence of red cell-bound antibody.",
-        "Nucleated RBCs occur in many regenerative and non-regenerative conditions and aren't specific.",
-        "Heinz bodies indicate oxidative injury (e.g., onion, zinc), a different mechanism of hemolysis.",
-        "Not specific; many dogs with IMHA are actually thrombocytopenic.",
-        "Shows regeneration, not the cause of the anemia."
+        "Large, paired piriform intraerythrocytic organisms.",
+        "Partly right: also a Babesia, but B. gibsoni is small, single, ring-like or oval. It occurs especially in American Pit Bull Terriers and is spread by bites and fighting. Speciation by PCR matters because treatment differs (atovaquone plus azithromycin).",
+        "Hemoplasmas sit on the red cell surface as small cocci or chains, often crossing the cell, not inside it as large pear-shaped forms.",
+        "Gamonts are found in leukocytes (neutrophils/monocytes), not red cells.",
+        "Secondary immune-mediated destruction may occur, but visible intraerythrocytic organisms point to an infectious cause that must be treated."
       ],
-      "takeaway": "Spherocytes plus saline-persistent agglutination are the strongest routine evidence of IMHA."
+      "takeaway": "Large paired pear-shaped forms inside red cells: large Babesia. Small single forms: B. gibsoni. Confirm species by PCR."
     },
-    "reference": "ACVIM consensus statement on the diagnosis of immune-mediated hemolytic anemia in dogs and cats (2019)"
+    "reference": "Merck Veterinary Manual: Babesiosis in animals",
+    "version": 2,
+    "review_status": "draft",
+    "id": "CAN-0004"
   },
   {
-    "id": "CAN-0005", "version": 1, "review_status": "draft",
-    "species": "canine", "system": "musculoskeletal", "subdomain": "health_maintenance",
-    "topics": ["cranial cruciate ligament rupture", "orthopedic surgery"],
+    "id": "CAN-0005",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "musculoskeletal",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "cranial cruciate ligament rupture",
+      "orthopedic surgery"
+    ],
     "stem": "A 4-year-old, 38-kg neutered male Labrador Retriever has had right pelvic limb lameness for 3 weeks. There is a positive cranial drawer and tibial thrust, medial buttress, and stifle effusion. Radiographs show effusion and mild osteophytes. The owner wants the option most likely to restore long-term limb function. Which treatment is most appropriate?",
     "options": [
       "Surgical stabilization such as tibial plateau leveling osteotomy (TPLO)",
@@ -138,9 +218,16 @@
     "reference": "Merck Veterinary Manual: Cranial cruciate ligament disease in dogs"
   },
   {
-    "id": "CAN-0006", "version": 1, "review_status": "draft",
-    "species": "canine", "system": "multisystemic", "subdomain": "health_maintenance",
-    "topics": ["xylitol toxicosis", "toxicology"],
+    "id": "CAN-0006",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "multisystemic",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "xylitol toxicosis",
+      "toxicology"
+    ],
     "stem": "An owner calls because her 12-kg dog ate most of a pack of sugar-free gum containing xylitol about 30 minutes ago. On arrival the dog is bright and alert, and blood glucose is 98 mg/dL. Which plan is most appropriate?",
     "options": [
       "Induce emesis, then monitor blood glucose serially (giving dextrose if hypoglycemia develops) and recheck liver values over the next 24–72 hours",
@@ -164,9 +251,16 @@
     "reference": "Merck Veterinary Manual: Xylitol toxicosis in dogs"
   },
   {
-    "id": "CAN-0007", "version": 1, "review_status": "draft",
-    "species": "canine", "system": "cardiovascular", "subdomain": "health_maintenance",
-    "topics": ["myxomatous mitral valve disease", "ACVIM staging"],
+    "id": "CAN-0007",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "cardiovascular",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "myxomatous mitral valve disease",
+      "ACVIM staging"
+    ],
     "stem": "An 8-year-old Cavalier King Charles Spaniel has a grade 4/6 left apical systolic murmur. The dog has no cough, exercise intolerance or tachypnea. Echocardiography shows a left atrium-to-aorta ratio of 1.9 and a normalized left ventricular end-diastolic diameter of 1.9. Thoracic radiographs show cardiomegaly (VHS 11.8) with no pulmonary edema. Which treatment is most appropriate?",
     "options": [
       "Pimobendan",
@@ -190,9 +284,16 @@
     "reference": "ACVIM consensus guidelines for the diagnosis and treatment of myxomatous mitral valve disease in dogs (2019)"
   },
   {
-    "id": "CAN-0008", "version": 1, "review_status": "draft",
-    "species": "canine", "system": "endocrine", "subdomain": "data_gathering",
-    "topics": ["hypothyroidism", "thyroid testing"],
+    "id": "CAN-0008",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "endocrine",
+    "subdomain": "data_gathering",
+    "topics": [
+      "hypothyroidism",
+      "thyroid testing"
+    ],
     "stem": "A 7-year-old spayed female Golden Retriever has gained weight, is lethargic, and has bilaterally symmetric truncal alopecia. Serum total T4 is below the reference interval. She has no other illness and is receiving no medication. Which result best confirms hypothyroidism?",
     "options": [
       "Low free T4 measured by equilibrium dialysis with an increased endogenous canine TSH concentration",
@@ -216,9 +317,16 @@
     "reference": "Merck Veterinary Manual: Hypothyroidism in animals"
   },
   {
-    "id": "CAN-0009", "version": 1, "review_status": "draft",
-    "species": "canine", "system": "nervous", "subdomain": "health_maintenance",
-    "topics": ["status epilepticus", "anticonvulsants"],
+    "id": "CAN-0009",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "nervous",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "status epilepticus",
+      "anticonvulsants"
+    ],
     "stem": "A 3-year-old Border Collie with a history of idiopathic epilepsy arrives in a generalized tonic-clonic seizure that has lasted more than 5 minutes. An IV catheter is in place. Which drug should be given first?",
     "options": [
       "Diazepam IV",
@@ -242,9 +350,16 @@
     "reference": "ACVIM consensus statement on seizure management in dogs (2015); Merck Veterinary Manual: Seizure disorders"
   },
   {
-    "id": "CAN-0010", "version": 1, "review_status": "draft",
-    "species": "canine", "system": "non_clinical", "subdomain": "animal_welfare",
-    "topics": ["suspected animal abuse", "reporting"],
+    "id": "CAN-0010",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "non_clinical",
+    "subdomain": "animal_welfare",
+    "topics": [
+      "suspected animal abuse",
+      "reporting"
+    ],
     "stem": "A 1-year-old dog is presented for lameness. Radiographs show fractures of three ribs and the left ulna, all at different stages of healing. The owner says the dog 'fell off the couch' last night. Which action is most appropriate?",
     "options": [
       "Treat the dog, document all findings thoroughly (including radiographs and photographs), and report suspected abuse to the appropriate authorities as required or permitted by local law",
@@ -268,9 +383,16 @@
     "reference": "AVMA policy: Animal abuse and animal neglect"
   },
   {
-    "id": "CAN-0011", "version": 1, "review_status": "draft",
-    "species": "canine", "system": "non_clinical", "subdomain": "comm_clients",
-    "topics": ["euthanasia discussion", "communication skills"],
+    "id": "CAN-0011",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "non_clinical",
+    "subdomain": "comm_clients",
+    "topics": [
+      "euthanasia discussion",
+      "communication skills"
+    ],
     "stem": "A 14-year-old dog has advanced osteosarcoma with uncontrolled pain despite multimodal analgesia. The owner says, 'I just don't know what to do anymore.' Which response best reflects recommended communication technique when beginning a discussion about euthanasia?",
     "options": [
       "\"It sounds like this has been really hard. What are your biggest worries when you think about how Max is doing right now?\"",
@@ -294,9 +416,16 @@
     "reference": "Shaw JR et al. Communication skills education in veterinary medicine; AVMA end-of-life resources"
   },
   {
-    "id": "CAN-0012", "version": 1, "review_status": "draft",
-    "species": "canine", "system": "non_clinical", "subdomain": "comm_professionals",
-    "topics": ["referral", "case summary"],
+    "id": "CAN-0012",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "non_clinical",
+    "subdomain": "comm_professionals",
+    "topics": [
+      "referral",
+      "case summary"
+    ],
     "stem": "You are referring a 9-year-old Rottweiler with a lytic lesion in the distal radius to a veterinary oncologist. Which action best supports continuity of care?",
     "options": [
       "Before the appointment, send a written case summary with history, physical findings, diagnostic images and results, and all treatments given (drugs, doses and response)",
@@ -320,9 +449,16 @@
     "reference": "AAHA referral and consultation guidelines"
   },
   {
-    "id": "CAN-0013", "version": 1, "review_status": "draft",
-    "species": "canine", "system": "non_clinical", "subdomain": "comm_professionals",
-    "topics": ["delegation", "practice act"],
+    "id": "CAN-0013",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "non_clinical",
+    "subdomain": "comm_professionals",
+    "topics": [
+      "delegation",
+      "practice act"
+    ],
     "stem": "You are organizing the workload in a busy small animal practice. Which task must be performed by the veterinarian and may not be delegated to a credentialed veterinary technician?",
     "options": [
       "Making a diagnosis and giving the client a prognosis",
@@ -346,9 +482,16 @@
     "reference": "AVMA Model Veterinary Practice Act"
   },
   {
-    "id": "CAN-0014", "version": 1, "review_status": "draft",
-    "species": "canine", "system": "non_clinical", "subdomain": "practice_management",
-    "topics": ["controlled substances", "record keeping"],
+    "id": "CAN-0014",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "non_clinical",
+    "subdomain": "practice_management",
+    "topics": [
+      "controlled substances",
+      "record keeping"
+    ],
     "stem": "You are writing the standard operating procedure for controlled drugs (e.g., hydromorphone, ketamine) in a small animal practice. Which requirement is most essential?",
     "options": [
       "Store controlled drugs in a securely locked location and keep accurate, up-to-date records of receipt, administration, dispensing and disposal",
@@ -372,9 +515,17 @@
     "reference": "U.S. DEA Practitioner's Manual; Health Canada Controlled Drugs and Substances Act guidance"
   },
   {
-    "id": "CAN-0015", "version": 1, "review_status": "draft",
-    "species": "canine", "system": "non_clinical", "subdomain": "professional_development",
-    "topics": ["VCPR", "prescribing", "ethics"],
+    "id": "CAN-0015",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "non_clinical",
+    "subdomain": "professional_development",
+    "topics": [
+      "VCPR",
+      "prescribing",
+      "ethics"
+    ],
     "stem": "A client phones and asks you to prescribe an antibiotic for her dog's 'ear infection.' The dog has not been examined by you, or by any veterinarian, in over 2 years. Which response is most appropriate?",
     "options": [
       "Explain that the dog needs to be examined to establish a valid veterinarian-client-patient relationship (VCPR) before a prescription can be issued",

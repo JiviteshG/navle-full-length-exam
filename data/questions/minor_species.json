@@ -1,8 +1,16 @@
 [
   {
-    "id": "OSM-0001", "version": 1, "review_status": "draft",
-    "species": "other_small_mammal", "system": "musculoskeletal", "subdomain": "data_gathering",
-    "topics": ["guinea pig", "hypovitaminosis C", "scurvy"],
+    "id": "OSM-0001",
+    "version": 1,
+    "review_status": "draft",
+    "species": "other_small_mammal",
+    "system": "musculoskeletal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "guinea pig",
+      "hypovitaminosis C",
+      "scurvy"
+    ],
     "stem": "A 1-year-old guinea pig fed a diet of rabbit pellets and iceberg lettuce is reluctant to move and vocalizes when handled. It has swollen stifles and costochondral junctions, gingival bleeding, and a rough hair coat. Which nutritional deficiency is most likely?",
     "options": [
       "Vitamin C",
@@ -26,9 +34,16 @@
     "reference": "Merck Veterinary Manual: Guinea pigs (nutritional diseases)"
   },
   {
-    "id": "OSM-0002", "version": 1, "review_status": "draft",
-    "species": "other_small_mammal", "system": "gastrointestinal", "subdomain": "health_maintenance",
-    "topics": ["rabbit", "antibiotic-associated enterotoxemia"],
+    "id": "OSM-0002",
+    "version": 1,
+    "review_status": "draft",
+    "species": "other_small_mammal",
+    "system": "gastrointestinal",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "rabbit",
+      "antibiotic-associated enterotoxemia"
+    ],
     "stem": "A 3-year-old rabbit needs an oral antimicrobial after surgical debridement of a jaw abscess. Which oral antimicrobial should be avoided because of the risk of fatal enterotoxemia?",
     "options": [
       "Amoxicillin-clavulanate",
@@ -52,9 +67,16 @@
     "reference": "Merck Veterinary Manual: Rabbits (antibiotic-associated enterotoxemia)"
   },
   {
-    "id": "OVC-0001", "version": 1, "review_status": "draft",
-    "species": "ovine_caprine", "system": "urinary", "subdomain": "data_gathering",
-    "topics": ["obstructive urolithiasis", "small ruminant anatomy"],
+    "id": "OVC-0001",
+    "version": 1,
+    "review_status": "draft",
+    "species": "ovine_caprine",
+    "system": "urinary",
+    "subdomain": "data_gathering",
+    "topics": [
+      "obstructive urolithiasis",
+      "small ruminant anatomy"
+    ],
     "stem": "A 1-year-old Boer wether fed a high-grain diet has been straining to urinate and dribbling urine for 12 hours, with crystals on the preputial hairs. When examining the penis for the site of obstruction, where are uroliths most commonly lodged in small ruminant males?",
     "options": [
       "Urethral process (vermiform appendage)",
@@ -78,35 +100,58 @@
     "reference": "Merck Veterinary Manual: Urolithiasis in ruminants"
   },
   {
-    "id": "OVC-0002", "version": 1, "review_status": "draft",
-    "species": "ovine_caprine", "system": "multisystemic", "subdomain": "health_maintenance",
-    "topics": ["Haemonchus contortus", "anthelmintic resistance", "FAMACHA"],
-    "stem": "A meat-goat producer in the southeastern U.S. reports anemic, weak goats with submandibular edema during the summer. Fecal egg counts confirm Haemonchus contortus, and resistance to several anthelmintic classes is suspected. Which deworming strategy is most appropriate?",
+    "species": "ovine_caprine",
+    "system": "multisystemic",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "Haemonchus contortus",
+      "FAMACHA",
+      "anthelmintic resistance"
+    ],
+    "stem": "A sheep producer in the southeastern U.S. has had several ewes become weak with submandibular edema and pale mucous membranes during a hot, wet summer. Fecal egg counts confirm Haemonchus contortus, and resistance to several anthelmintic classes is suspected. Farm staff are trained in the procedure shown. Which deworming strategy best uses this procedure?",
+    "image": {
+      "src": "data/images/ovc-famacha.jpg",
+      "alt": "Two people examining the lower eyelid of a sheep in a pen while holding a color card",
+      "credit": "Wikimedia Commons contributor (released to the public domain, CC0; see source page)",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Women_checking_a_sheep%27s_FAMACHA.png"
+    },
     "options": [
-      "Targeted selective treatment of animals identified as anemic using FAMACHA scoring, with a fecal egg count reduction test to check which drugs still work",
-      "Deworm every goat in the herd every 4 weeks with the same drug",
-      "Rotate drug classes every month and treat all animals",
-      "Underdose to reduce the cost of treatment",
-      "Stop all deworming"
+      "Treat only animals whose eyelid color scores indicate anemia (FAMACHA 4–5, or 3 in high-risk animals), and run a fecal egg count reduction test to see which drugs still work",
+      "Deworm the entire flock every 4 weeks with the same drug while scoring eyelids",
+      "Use the eyelid scores to decide when to rotate drug classes, but treat the whole flock each time",
+      "Treat only animals with the palest eyelids using half the label dose to save money",
+      "Use the eyelid scores only to decide which animals to cull, with no deworming"
     ],
     "answer": 0,
     "explanation": {
-      "correct": "Treating only animals that need it, identified by FAMACHA eyelid color scoring, keeps parasites in refugia (not exposed to the drug) and slows resistance. A fecal egg count reduction test shows which drugs remain effective. Correct dosing by weight (goats often need higher doses than sheep) and pasture management are also important.",
+      "correct": "The photo shows FAMACHA scoring: lower-eyelid mucosal color is compared with a calibrated card to estimate anemia from Haemonchus. Treating only the animals that need it keeps parasites in refugia (not exposed to the drug), which slows resistance. A fecal egg count reduction test shows which drugs remain effective. Dose by accurate body weight.",
       "options": [
-        "Preserves refugia and drug efficacy.",
-        "Speeds up resistance.",
-        "Frequent whole-herd treatment speeds up resistance.",
+        "Targeted selective treatment.",
+        "Frequent whole-flock treatment speeds up resistance and wastes the scoring.",
+        "Partly right that drug choice matters, but whole-flock treatment removes refugia. Routine rotation alone doesn't prevent resistance.",
         "Underdosing selects for resistance.",
-        "Deaths from haemonchosis would occur."
+        "Culling persistently anemic animals helps long term, but anemic animals need treatment or they will die."
       ],
-      "takeaway": "Haemonchus: FAMACHA-guided selective deworming plus a fecal egg count reduction test."
+      "takeaway": "FAMACHA: treat only the anemic animals, keep parasites in refugia, and check which drugs still work with a fecal egg count reduction test."
     },
-    "reference": "Merck Veterinary Manual: Gastrointestinal parasites of sheep and goats; American Consortium for Small Ruminant Parasite Control"
+    "reference": "American Consortium for Small Ruminant Parasite Control: FAMACHA and targeted selective treatment",
+    "version": 2,
+    "review_status": "draft",
+    "id": "OVC-0002"
   },
   {
-    "id": "BIR-0001", "version": 1, "review_status": "draft",
-    "species": "pet_bird", "system": "infectious", "subdomain": "health_maintenance",
-    "topics": ["psittacosis", "Chlamydia psittaci", "zoonosis"],
+    "id": "BIR-0001",
+    "version": 1,
+    "review_status": "draft",
+    "species": "pet_bird",
+    "system": "infectious",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "psittacosis",
+      "Chlamydia psittaci",
+      "zoonosis"
+    ],
     "stem": "A recently purchased cockatiel has lime-green urates, nasal discharge and lethargy. PCR confirms Chlamydia psittaci. Which treatment is most appropriate?",
     "options": [
       "Doxycycline for 45 days, with advice to the owner about the zoonotic risk",
@@ -130,9 +175,16 @@
     "reference": "NASPHV Compendium of Measures to Control Chlamydia psittaci Infection Among Humans and Pet Birds"
   },
   {
-    "id": "PLT-0001", "version": 1, "review_status": "draft",
-    "species": "poultry", "system": "non_clinical", "subdomain": "animal_welfare",
-    "topics": ["euthanasia", "backyard poultry"],
+    "id": "PLT-0001",
+    "version": 1,
+    "review_status": "draft",
+    "species": "poultry",
+    "system": "non_clinical",
+    "subdomain": "animal_welfare",
+    "topics": [
+      "euthanasia",
+      "backyard poultry"
+    ],
     "stem": "A backyard flock owner asks you to euthanize a hen with an untreatable reproductive tract tumor. According to AVMA euthanasia guidelines, which method is acceptable?",
     "options": [
       "IV injection of a barbiturate euthanasia solution, ideally after sedation",
@@ -156,9 +208,16 @@
     "reference": "AVMA Guidelines for the Euthanasia of Animals (2020): Poultry"
   },
   {
-    "id": "NSS-0001", "version": 1, "review_status": "draft",
-    "species": "non_species", "system": "non_clinical", "subdomain": "epidemiology",
-    "topics": ["positive predictive value", "biostatistics"],
+    "id": "NSS-0001",
+    "version": 1,
+    "review_status": "draft",
+    "species": "non_species",
+    "system": "non_clinical",
+    "subdomain": "epidemiology",
+    "topics": [
+      "positive predictive value",
+      "biostatistics"
+    ],
     "stem": "A screening test has a sensitivity of 90% and a specificity of 95%. It is used in a population of 1,000 animals in which the disease prevalence is 10%. What is the positive predictive value of the test in this population?",
     "options": [
       "About 67%",
@@ -182,9 +241,17 @@
     "reference": "Standard veterinary epidemiology texts: diagnostic test evaluation"
   },
   {
-    "id": "CAM-0001", "version": 1, "review_status": "draft",
-    "species": "camelid_cervid", "system": "nervous", "subdomain": "data_gathering",
-    "topics": ["meningeal worm", "Parelaphostrongylus tenuis", "CSF analysis"],
+    "id": "CAM-0001",
+    "version": 1,
+    "review_status": "draft",
+    "species": "camelid_cervid",
+    "system": "nervous",
+    "subdomain": "data_gathering",
+    "topics": [
+      "meningeal worm",
+      "Parelaphostrongylus tenuis",
+      "CSF analysis"
+    ],
     "stem": "A 3-year-old alpaca in the northeastern U.S. grazes a pasture next to woodland where white-tailed deer are often seen. It has had progressive asymmetric pelvic limb ataxia and weakness for 2 weeks but remains bright and afebrile. Which CSF finding most supports the suspected diagnosis?",
     "options": [
       "Eosinophilic pleocytosis",
@@ -208,9 +275,17 @@
     "reference": "Merck Veterinary Manual: Parelaphostrongylus tenuis (meningeal worm) in camelids"
   },
   {
-    "id": "REP-0001", "version": 1, "review_status": "draft",
-    "species": "reptile", "system": "musculoskeletal", "subdomain": "health_maintenance",
-    "topics": ["nutritional secondary hyperparathyroidism", "bearded dragon", "husbandry"],
+    "id": "REP-0001",
+    "version": 1,
+    "review_status": "draft",
+    "species": "reptile",
+    "system": "musculoskeletal",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "nutritional secondary hyperparathyroidism",
+      "bearded dragon",
+      "husbandry"
+    ],
     "stem": "A 10-month-old bearded dragon kept indoors under a basking heat lamp has a soft, pliable mandible ('rubber jaw'), swollen limbs, and muscle tremors. It is fed crickets only, without supplements. Radiographs show reduced bone density. Besides correcting calcium deficiency, which husbandry change is most important?",
     "options": [
       "Provide appropriate UVB lighting (replaced as recommended) and dust insects with calcium",
@@ -234,29 +309,44 @@
     "reference": "Merck Veterinary Manual: Metabolic bone disease in reptiles"
   },
   {
-    "id": "AQU-0001", "version": 1, "review_status": "draft",
-    "species": "aquatics", "system": "multisystemic", "subdomain": "data_gathering",
-    "topics": ["new tank syndrome", "nitrite toxicity", "water quality"],
-    "stem": "Three weeks after setting up a new freshwater aquarium, an owner reports that several goldfish are gasping at the surface and dying. Necropsy shows tan-brown gills, and the blood is chocolate-brown. Which water-quality problem is most likely?",
+    "species": "aquatics",
+    "system": "integumentary",
+    "subdomain": "data_gathering",
+    "topics": [
+      "ichthyophthiriasis",
+      "white spot disease",
+      "quarantine"
+    ],
+    "stem": "Ten days after new fish were added without quarantine, several cichlids in a home freshwater aquarium are rubbing ('flashing') against rocks, breathing rapidly and gathering at the surface. One affected fish is shown. Skin scrapings show large, round, ciliated organisms with a horseshoe-shaped nucleus. What is the most likely diagnosis?",
+    "image": {
+      "src": "data/images/aqu-ich-cichlid.jpg",
+      "alt": "Close-up of a freshwater cichlid with many small white spots on the skin and fins",
+      "credit": "Thomas Kaczmarczyk",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ichthyophthiriasis.jpg"
+    },
     "options": [
-      "Nitrite toxicity",
-      "Nitrate toxicity",
-      "Low pH alone",
-      "Gas supersaturation",
-      "Hypersalinity"
+      "Ichthyophthiriasis (Ichthyophthirius multifiliis, 'ich')",
+      "Velvet disease (Piscinoodinium)",
+      "Lymphocystis",
+      "Columnaris (Flavobacterium columnare)",
+      "Gas bubble disease from supersaturation"
     ],
     "answer": 0,
     "explanation": {
-      "correct": "In a new tank, the nitrifying biofilter hasn't yet established. Ammonia rises first, then nitrite. Nitrite enters through the gills and oxidizes hemoglobin to methemoglobin, giving brown blood and gills ('brown blood disease'). Treatment includes partial water changes, adding chloride (salt) to reduce nitrite uptake, reducing feeding, and allowing the biofilter to mature.",
+      "correct": "Many discrete white spots up to about 1 mm on the skin and fins, flashing, and gill involvement after adding unquarantined fish are typical of 'ich'. Large ciliated trophonts with a horseshoe-shaped macronucleus confirm Ichthyophthirius multifiliis. Treatment targets free-swimming stages (e.g., raising temperature where the species tolerates it, salt or formalin as appropriate), because encysted stages under the epidermis are protected. Quarantine new fish.",
       "options": [
-        "Brown blood: methemoglobinemia.",
-        "Much less toxic; causes chronic problems, not brown blood.",
-        "Doesn't cause methemoglobinemia.",
-        "Causes gas bubble disease (emboli).",
-        "Not consistent with these findings."
+        "White spots plus ciliates with a horseshoe-shaped nucleus.",
+        "Partly right: another ectoparasite causing flashing and gill disease, but velvet gives a fine gold-to-rust 'dust' and the organism is a non-ciliated dinoflagellate.",
+        "Viral; causes larger, white-to-pink, cauliflower-like nodules that develop slowly, with few systemic signs.",
+        "Bacterial; causes grey-white saddle-shaped or mouth lesions and gill necrosis, with long thin bacteria on wet mounts, not ciliates.",
+        "Causes gas emboli in fins, eyes and skin, without parasites on scrapings."
       ],
-      "takeaway": "New tank with brown blood and gills: nitrite toxicity. Water changes, salt, and patience while the biofilter matures."
+      "takeaway": "White spots plus ciliates with a horseshoe-shaped nucleus: ich. Treat the free-swimming stages and quarantine new fish."
     },
-    "reference": "Merck Veterinary Manual: Water quality in aquarium fish"
+    "reference": "Merck Veterinary Manual: Parasitic diseases of fish (Ichthyophthirius)",
+    "version": 2,
+    "review_status": "draft",
+    "id": "AQU-0001"
   }
 ]

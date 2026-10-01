@@ -1,9 +1,21 @@
 [
   {
-    "id": "POR-0001", "version": 1, "review_status": "draft",
-    "species": "porcine", "system": "integumentary", "subdomain": "data_gathering",
-    "topics": ["erysipelas", "Erysipelothrix rhusiopathiae", "zoonosis"],
-    "stem": "Several finishing pigs in an unvaccinated herd have a fever of 41.5°C (106.7°F), are reluctant to move, and have raised, red-purple, rhomboid ('diamond-shaped') skin lesions over the back and flanks. One pig died suddenly. Which organism is most likely responsible?",
+    "species": "porcine",
+    "system": "integumentary",
+    "subdomain": "data_gathering",
+    "topics": [
+      "erysipelas",
+      "Erysipelothrix rhusiopathiae",
+      "zoonosis"
+    ],
+    "stem": "Several finishing pigs in an unvaccinated herd have fever of 41.5°C (106.7°F), reduced appetite and reluctance to move, and one pig died suddenly. One of the affected pigs is shown. Which organism is most likely responsible?",
+    "image": {
+      "src": "data/images/por-erysipelas.jpg",
+      "alt": "Finishing pig in a pen showing skin lesions over the back and flank",
+      "credit": "Wikimedia Commons contributor (author name pending verification; see source page)",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rouget_vivant_1.JPG"
+    },
     "options": [
       "Erysipelothrix rhusiopathiae",
       "Actinobacillus pleuropneumoniae",
@@ -13,22 +25,32 @@
     ],
     "answer": 0,
     "explanation": {
-      "correct": "Diamond-shaped skin lesions with fever and sudden death are typical of acute swine erysipelas. Penicillin is the treatment of choice, and vaccination prevents it. Erysipelothrix is zoonotic (erysipeloid in people handling pigs or fish).",
+      "correct": "The pig has raised, red-purple, sharply demarcated rhomboid ('diamond') skin lesions over the back and flanks. With high fever and sudden death in an unvaccinated herd, this is acute swine erysipelas. Penicillin is the treatment of choice, and vaccination prevents it. Erysipelothrix is zoonotic (erysipeloid in people who handle pigs or fish).",
       "options": [
-        "Classic diamond-skin disease.",
-        "Causes hemorrhagic, necrotizing pleuropneumonia.",
-        "Causes meningitis, arthritis and septicemia, mainly in nursery pigs.",
-        "Causes exudative epidermitis ('greasy pig disease') in young pigs.",
-        "Associated with wasting and dermatitis-nephropathy syndrome; the skin lesions are different."
+        "Classic diamond-skin lesions.",
+        "Can also cause fever, sudden death and skin discoloration (cyanosis), but it is a respiratory disease with hemorrhagic, necrotizing pleuropneumonia, not diamond-shaped skin plaques.",
+        "Causes septicemia with meningitis and arthritis, mainly in nursery pigs.",
+        "Causes exudative epidermitis ('greasy pig disease') in young piglets, which is generalized and greasy, not diamond plaques.",
+        "PCV2-associated dermatitis-nephropathy syndrome gives irregular red-purple macules, mainly on the hindquarters, without this rhomboid pattern."
       ],
-      "takeaway": "Diamond skin lesions in pigs: erysipelas. Treat with penicillin, vaccinate, and remember it's zoonotic."
+      "takeaway": "Diamond-shaped skin lesions in pigs: erysipelas. Treat with penicillin, vaccinate, and remember it's zoonotic."
     },
-    "reference": "Merck Veterinary Manual: Erysipelothrix rhusiopathiae infection in pigs"
+    "reference": "Merck Veterinary Manual: Erysipelothrix rhusiopathiae infection in pigs",
+    "version": 2,
+    "review_status": "draft",
+    "id": "POR-0001"
   },
   {
-    "id": "POR-0002", "version": 1, "review_status": "draft",
-    "species": "porcine", "system": "hemic_lymphatic", "subdomain": "health_maintenance",
-    "topics": ["iron deficiency anemia", "piglet management"],
+    "id": "POR-0002",
+    "version": 1,
+    "review_status": "draft",
+    "species": "porcine",
+    "system": "hemic_lymphatic",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "iron deficiency anemia",
+      "piglet management"
+    ],
     "stem": "In a confinement farrowing barn, many 2- to 3-week-old piglets are pale, weak and growing poorly, with some diarrhea and sudden deaths. Piglets don't have access to soil. Which preventive measure is most appropriate?",
     "options": [
       "Inject iron dextran (about 100–200 mg) IM to each piglet within the first 3 days of life",
@@ -52,9 +74,17 @@
     "reference": "Merck Veterinary Manual: Iron deficiency anemia in piglets"
   },
   {
-    "id": "POR-0003", "version": 1, "review_status": "draft",
-    "species": "porcine", "system": "non_clinical", "subdomain": "environmental_health",
-    "topics": ["biosecurity", "quarantine", "replacement gilts"],
+    "id": "POR-0003",
+    "version": 1,
+    "review_status": "draft",
+    "species": "porcine",
+    "system": "non_clinical",
+    "subdomain": "environmental_health",
+    "topics": [
+      "biosecurity",
+      "quarantine",
+      "replacement gilts"
+    ],
     "stem": "A farrow-to-finish operation buys replacement gilts from an outside source every quarter. The owner wants to minimize the risk of bringing in diseases such as PRRS. Which measure is most effective?",
     "options": [
       "House incoming gilts in a separate isolation facility for a defined period (commonly at least 30 days) with clinical observation and diagnostic testing before they join the herd",

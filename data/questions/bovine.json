@@ -1,8 +1,15 @@
 [
   {
-    "id": "BOV-0001", "version": 1, "review_status": "draft",
-    "species": "bovine", "system": "gastrointestinal", "subdomain": "data_gathering",
-    "topics": ["left displaced abomasum", "auscultation-percussion"],
+    "id": "BOV-0001",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "gastrointestinal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "left displaced abomasum",
+      "auscultation-percussion"
+    ],
     "stem": "A 4-year-old Holstein cow calved 10 days ago. She has lower milk production, eats less grain, and has moderate ketonuria. Simultaneous auscultation and percussion produce a high-pitched 'ping' over the left side between the 9th and 13th ribs, in the middle to upper third of the abdomen. What is the most likely diagnosis?",
     "options": [
       "Left displacement of the abomasum",
@@ -26,9 +33,16 @@
     "reference": "Merck Veterinary Manual: Left or right displaced abomasum and abomasal volvulus"
   },
   {
-    "id": "BOV-0002", "version": 1, "review_status": "draft",
-    "species": "bovine", "system": "multisystemic", "subdomain": "data_gathering",
-    "topics": ["periparturient hypocalcemia", "milk fever"],
+    "id": "BOV-0002",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "multisystemic",
+    "subdomain": "data_gathering",
+    "topics": [
+      "periparturient hypocalcemia",
+      "milk fever"
+    ],
     "stem": "A 6-year-old Jersey cow in her fourth lactation calved 18 hours ago. She is in sternal recumbency with her head turned into her flank, cool ears and extremities, dilated pupils, reduced rumen motility, and a rectal temperature of 37.4°C (99.3°F). What is the most likely diagnosis?",
     "options": [
       "Periparturient hypocalcemia (milk fever)",
@@ -52,35 +66,57 @@
     "reference": "Merck Veterinary Manual: Parturient paresis in cows"
   },
   {
-    "id": "BOV-0003", "version": 1, "review_status": "draft",
-    "species": "bovine", "system": "respiratory", "subdomain": "data_gathering",
-    "topics": ["bovine respiratory disease", "necropsy", "Mannheimia haemolytica"],
-    "stem": "A 6-month-old beef steer died 10 days after arriving at a feedlot. Necropsy shows cranioventral consolidation of the lungs with thick fibrin on the pleural surface and marbling of the interlobular septa. Which organism is most likely responsible?",
+    "species": "bovine",
+    "system": "integumentary",
+    "subdomain": "data_gathering",
+    "topics": [
+      "dermatophilosis",
+      "Dermatophilus congolensis",
+      "skin disease"
+    ],
+    "stem": "During a prolonged wet season, several pastured steers with heavy tick infestations develop skin lesions over the back and flanks. The worst-affected steer is shown. Plucked tufts of hair come away with thick crusts, leaving moist, raw skin underneath. Which agent is most likely responsible?",
+    "image": {
+      "src": "data/images/bov-dermatophilosis.jpg",
+      "alt": "Recumbent steer with extensive crusted and ulcerated skin lesions over the flank",
+      "credit": "Wikimedia Commons contributor (author name pending verification; see source page)",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dermatophilosis-steer.jpg"
+    },
     "options": [
-      "Mannheimia haemolytica",
-      "Dictyocaulus viviparus",
-      "Mycobacterium bovis",
-      "Fusobacterium necrophorum",
-      "3-methylindole toxicity (interstitial pneumonia)"
+      "Dermatophilus congolensis",
+      "Trichophyton verrucosum",
+      "Chorioptes bovis",
+      "Bovine papillomavirus",
+      "Hepatogenous photosensitization"
     ],
     "answer": 0,
     "explanation": {
-      "correct": "Cranioventral fibrinous bronchopneumonia with pleuritis and septal 'marbling' in a recently shipped calf (shipping fever) is typical of Mannheimia haemolytica, often after viral or stress-related predisposition.",
+      "correct": "Dermatophilosis ('rain scald', 'lumpy wool') is caused by Dermatophilus congolensis. Prolonged wetting and skin damage, notably from ticks such as Amblyomma, let it invade the epidermis. Thick crusts with hair embedded ('paintbrush' lesions) leave moist, raw or ulcerated skin when removed. Stained crust smears show branching filaments divided into rows of coccoid zoospores ('railroad tracks'). Treat with systemic antimicrobials (e.g., penicillin/streptomycin or oxytetracycline), keep animals dry, and control ticks.",
       "options": [
-        "Classic lesion of shipping fever.",
-        "Lungworm lesions are mainly caudodorsal, with bronchitis and visible worms.",
-        "Causes caseous granulomas, not acute fibrinous pneumonia.",
-        "Causes calf diphtheria (necrotic laryngitis) and liver abscesses.",
-        "Acute interstitial pneumonia affects the caudodorsal lungs and causes emphysema, typically in adult cattle after moving onto lush pasture."
+        "Crusting with paintbrush lesions after prolonged wetting and tick damage.",
+        "Partly right: ringworm also causes crusted, hairless lesions in cattle, but they are typically round, grey-white and dry (especially on the head and neck of calves), not moist, extensive and tick-associated.",
+        "Causes scaling and crusting mainly of the tail head, perineum and legs.",
+        "Causes raised wart-like growths, not exudative crusts.",
+        "Affects mainly white or unpigmented skin exposed to sunlight, with sharp borders at pigmented skin."
       ],
-      "takeaway": "Cranioventral fibrinous bronchopneumonia in a stressed, shipped calf: Mannheimia haemolytica."
+      "takeaway": "Wet weather plus ticks and paintbrush crusts in cattle: Dermatophilus. Look for railroad-track filaments on stained crusts."
     },
-    "reference": "Merck Veterinary Manual: Bovine respiratory disease complex"
+    "reference": "Merck Veterinary Manual: Dermatophilosis in animals",
+    "version": 2,
+    "review_status": "draft",
+    "id": "BOV-0003"
   },
   {
-    "id": "BOV-0004", "version": 1, "review_status": "draft",
-    "species": "bovine", "system": "gastrointestinal", "subdomain": "health_maintenance",
-    "topics": ["traumatic reticuloperitonitis", "hardware disease"],
+    "id": "BOV-0004",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "gastrointestinal",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "traumatic reticuloperitonitis",
+      "hardware disease"
+    ],
     "stem": "A 5-year-old dairy cow has suddenly dropped in milk production and stopped eating. She stands with an arched back, reluctant to move, and grunts when pressure is applied over the xiphoid. Temperature is 39.6°C (103.3°F). Which initial treatment is most appropriate?",
     "options": [
       "Give an oral magnet, start systemic antimicrobials, and restrict movement",
@@ -104,9 +140,16 @@
     "reference": "Merck Veterinary Manual: Traumatic reticuloperitonitis"
   },
   {
-    "id": "BOV-0005", "version": 1, "review_status": "draft",
-    "species": "bovine", "system": "multisystemic", "subdomain": "health_maintenance",
-    "topics": ["ketosis", "treatment"],
+    "id": "BOV-0005",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "multisystemic",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "ketosis",
+      "treatment"
+    ],
     "stem": "A 3-week-postpartum Holstein cow has reduced appetite (especially for concentrates), lower milk yield, and strongly positive ketones in milk and urine. Her blood β-hydroxybutyrate is elevated. Physical exam is otherwise normal. Which treatment is most appropriate?",
     "options": [
       "IV dextrose (e.g., 500 mL of 50%) and oral propylene glycol for several days",
@@ -130,9 +173,16 @@
     "reference": "Merck Veterinary Manual: Ketosis in cattle"
   },
   {
-    "id": "BOV-0006", "version": 1, "review_status": "draft",
-    "species": "bovine", "system": "reproductive", "subdomain": "health_maintenance",
-    "topics": ["uterine prolapse", "obstetrics"],
+    "id": "BOV-0006",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "reproductive",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "uterine prolapse",
+      "obstetrics"
+    ],
     "stem": "A beef cow has a complete uterine prolapse 1 hour after a difficult calving. The uterus is intact and only mildly edematous. Which measure most helps replacement of the uterus?",
     "options": [
       "Caudal epidural anesthesia, with the cow in sternal recumbency and hind limbs extended caudally (the 'frog-leg' position)",
@@ -156,9 +206,17 @@
     "reference": "Merck Veterinary Manual: Uterine prolapse in large animals"
   },
   {
-    "id": "BOV-0007", "version": 1, "review_status": "draft",
-    "species": "bovine", "system": "multisystemic", "subdomain": "environmental_health",
-    "topics": ["anthrax", "carcass disposal", "reportable disease"],
+    "id": "BOV-0007",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "multisystemic",
+    "subdomain": "environmental_health",
+    "topics": [
+      "anthrax",
+      "carcass disposal",
+      "reportable disease"
+    ],
     "stem": "Two adult beef cows are found dead on summer pasture after heavy rain. Dark, unclotted blood is oozing from the nostrils and anus, and the carcasses are bloating rapidly with no rigor mortis. Which action is most appropriate?",
     "options": [
       "Don't open the carcasses. Notify the state or federal (or provincial or federal) veterinary authorities, collect a peripheral blood sample, and dispose of the carcasses as directed (e.g., incineration)",
@@ -182,9 +240,17 @@
     "reference": "Merck Veterinary Manual: Anthrax"
   },
   {
-    "id": "BOV-0008", "version": 1, "review_status": "draft",
-    "species": "bovine", "system": "non_clinical", "subdomain": "public_health",
-    "topics": ["drug residues", "prohibited drugs", "food safety"],
+    "id": "BOV-0008",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "non_clinical",
+    "subdomain": "public_health",
+    "topics": [
+      "drug residues",
+      "prohibited drugs",
+      "food safety"
+    ],
     "stem": "A producer asks about treating a beef calf for pneumonia with a drug left over from a dog's prescription. Which drug is prohibited from use in food-producing animals in both the United States and Canada?",
     "options": [
       "Chloramphenicol",
