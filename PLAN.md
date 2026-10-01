@@ -2,7 +2,7 @@
 
 ## 1. Goals
 - Simulate the **current NAVLE** (Oct 2026 onward): 360 items, 12 blocks × 30 items, 33 min per block.
-- **Original** NAVLE-style clinical vignettes, covering the species, body systems and competencies in the ICVA outlines.
+- **Original** NAVLE-style clinical vignettes, weighted to the ICVA species and competency blueprint.
 - One question at a time, flag/review within a block, explanations **only after the whole exam is submitted**.
 - Score breakdown by **species**, **body system** (discipline), and **competency domain**.
 - Results saved between sessions; resume an in-progress exam.
@@ -29,34 +29,73 @@ Behavior that matches the real test:
 - No feedback during the exam. Answers, the correct option and explanations appear only on the results screen after the last block.
 - Pretest/unscored items: reportedly 60 of 360 are unscored (unverified, same source as above). Here every item is scored by default.
 
-## 3. Blueprint (sourced only from ICVA documents provided)
+## 3. Blueprint
 
-Sources in hand:
-- *NAVLE Species and Diagnoses* (ICVA, version 0.0262, (c) 2026)
-- *NAVLE Competency Domains* (ICVA, (c) 2026)
+Sources:
+- **Weights:** ICVA "Exam Blueprint" text supplied by the user (from the ICVA NAVLE web page).
+- **Category lists:** ICVA PDFs *NAVLE Species and Diagnoses* (v0.0262) and *NAVLE Competency Domains* (c) 2026.
 
-**Neither document gives percentage weights** for species or domains. Item quotas stay **TBD** until an
-ICVA source with weights (e.g., the 2026-27 Candidate Handbook) is provided. No percentages from
-third-party sites will be used.
+Quotas are computed by the app from the percentages (largest-remainder rounding, so totals are exact),
+not hard-coded. All items are scored, so the percentages apply to **all items on a form**.
 
-### 3a. Species (from *Species and Diagnoses*, 12 categories)
-Aquatics; Bovine; Camelidae and Cervidae; Canine; Equine; Feline; Other Small Mammal; Ovine and Caprine;
-Pet Bird; Porcine; Poultry; Reptile. Each is organized by body system (e.g., Cardiovascular, Endocrine,
-Gastrointestinal and Digestive, Hemic and Lymphatic, Integumentary, Musculoskeletal, Nervous,
-Reproductive, Respiratory, Special Senses, Urinary, Behavior, Multisystemic).
-The document states its diagnoses are **examples**; items may cover conditions not listed.
+### 3a. Species weights
+| Species | ICVA target | Full (360) | Practice 2 blocks (60) | Practice 1 block (30) |
+|---|---|---|---|---|
+| Canine | 25.6% | 92 | 15 | 8 |
+| Feline | 24.3% | 88 | 15 | 7 |
+| Equine | 14.7% | 53 | 9 | 4 |
+| Bovine | 13.3% | 48 | 8 | 4 |
+| Porcine | 5% | 18 | 3 | 1 |
+| Other Small Mammals | 3.3% | 12 | 2 | 1 |
+| Ovine/Caprine | 3.3% | 12 | 2 | 1 |
+| Pet Bird | 2.3% | 8 | 1 | 1 |
+| Poultry | 2% | 7 | 1 | 1 |
+| Non-Species Specific | 2% | 7 | 1 | 1 |
+| Camelid/Cervidae | 1.7% | 6 | 1 | 1 |
+| Reptiles | 1.5% | 5 | 1 | 0 |
+| Aquatics | 1% | 4 | 1 | 0 |
+| **Total** | **100%** | **360** | **60** | **30** |
 
-Weights: **TBD (needs ICVA source).**
+Notes:
+- A 30-item form can't represent 13 species; Reptiles and Aquatics round to 0 there. This is arithmetic, not a choice.
+- "Non-Species Specific" is in the ICVA weights but has no section in *Species and Diagnoses*. Items in
+  it will be general topics (e.g., biostatistics, practice management, regulatory) not tied to one species.
+- Diagnoses for each species are drawn from the ICVA *Species and Diagnoses* outline (listed by body system).
+  ICVA states the outline is examples only.
 
-### 3b. Competency domains (from *Competency Domains*)
-- **Clinical Practice**: Data Gathering and Interpretation; Health Maintenance and Problem Management
-- **Communications**: with Veterinary and Other Professionals; with Clients
-- **Professionalism, Practice Management, and Wellness**: Veterinary Practice Management; Professional
-  Development and Lifelong Learning
-- **Preventive Medicine and Animal Welfare**: Animal Welfare Issues and Concerns; Environmental Health and
-  Safety; Veterinary Public Health; Veterinary Epidemiology and Biostatistics
+### 3b. Competency domain weights
+| Domain / subdomain | ICVA target | Full (360) | Practice (60) |
+|---|---|---|---|
+| **Clinical Practice** | **70%** | **252** | **42** |
+| Data Gathering and Interpretation | 35% | 126 | 21 |
+| Health Maintenance and Prevention* | 35% | 126 | 21 |
+| **Preventive Medicine and Animal Welfare** | **15%** | **54** | **9** |
+| Animal Welfare Issues and Concerns | 6% | 22 | 4 |
+| Environmental Health and Safety | 5% | 18 | 3 |
+| Veterinary Public Health | 4% | 14 | 2 |
+| **Communication** | **8%** | **29** | **5** |
+| Communication with Clients | 5% | 18 | 3 |
+| Communication with Veterinary and other Professionals | 3% | 11 | 2 |
+| **Professionalism, Practice Management and Wellness** | **7%** | **25** | **4** |
+| Veterinary Practice Management | 4% | 14 | 2 |
+| Professional Development and Life-Long Learning | 3% | 11 | 2 |
+| **Total** | **100%** | **360** | **60** |
 
-Weights: **TBD (needs ICVA source).**
+Two differences between ICVA's own sources, recorded rather than resolved by guessing:
+1. *The web blueprint says "Health Maintenance and **Prevention**", while the Competency Domains PDF says
+   "Health Maintenance and **Problem Management**" (and lists treatment, surgery, prognosis and similar tasks).
+   Items cover the task list in the PDF. The label shown is the PDF's, with the web name noted.
+2. The PDF lists a fourth Preventive Medicine subdomain, **Veterinary Epidemiology and Biostatistics**,
+   which has **no weight** in the web blueprint (the three listed subdomains already add up to 15%).
+   Epi/biostat items will be tagged with that subdomain but **count toward Veterinary Public Health's quota**.
+   Please confirm, or tell me to leave them out.
+
+### 3c-0. How the two axes are combined
+Every item has one species and one subdomain. The assembler fills the species quotas exactly, then picks
+items within each species to bring the subdomain counts as close to target as the bank allows. Any gap is
+shown on the results page (e.g., "Communication: 4 of 5 target"). Non-clinical domains (communication,
+professionalism, welfare) are written as species-based scenarios where natural (e.g., discussing euthanasia
+with a horse owner), so both axes can be met.
 
 ### 3c. Tagging for score reports
 Each item is tagged with: species (3a), **body system** as named in the ICVA outline (this is the
@@ -109,7 +148,7 @@ js/
   bank.js            # QuestionBank interface → loads JSON now, fetches from API later
   ui/                # home, tutorial, question, block-review, break, results, history screens
 data/
-  blueprint.json     # species/system/domain lists; quotas TBD until ICVA weights provided
+  blueprint.json     # ICVA species + domain percentages; quotas computed from these
   questions/*.json   # one file per species
 tests/               # unit tests for assembler, scoring and timer (node --test)
 ```
@@ -128,15 +167,15 @@ Points that matter for converting to a web app later:
 - Avoid repeats: the assembler prefers items you haven't seen yet (tracked in storage).
 
 ## 7. Phases
-1. **Phase 1, practice MVP (built first, for you to test):** the full engine (timer, block flow, flag/review, locking, results, breakdowns, persistence, resume) plus **60 original items** (2 blocks). Until weights are provided, species mix is an even spread across the 12 ICVA species categories and labeled "not blueprint-weighted". Practice mode with 1 or 2 blocks.
+1. **Phase 1, practice MVP (built first, for you to test):** the full engine (timer, block flow, flag/review, locking, results, breakdowns, persistence, resume) plus **60 original items** (2 blocks) matching the 60-item columns in 3a/3b. Practice mode with 1 or 2 blocks.
 2. **Phase 2, your feedback:** fix UX issues and adjust item style and difficulty based on how Phase 1 feels.
-3. **Phase 3, full bank:** write the rest of the bank in species batches until there are at least 360 items (target 400+ so forms can vary), each batch checked against the quotas.
+3. **Phase 3, full bank:** write the rest of the bank in species batches until there are at least 360 items (target 400+ so forms can vary), each batch checked against the 360-item quotas in 3a/3b (bank target: at least 1.2× each quota).
 4. **Phase 4, full exam mode:** 12 blocks, breaks, tutorial, history trends. Optional: a GitHub Pages deploy.
 
 ## 8. Open questions for you
 1. **Refresh behavior:** should the block timer keep running while the tab is closed (realistic) or pause?
 2. **Timing confirmation:** can you confirm block count, minutes per block, tutorial and break allowance from the Candidate Handbook?
-3. **Blueprint weights:** can you share the ICVA page with species and domain percentages (the Candidate Handbook)? Without it, quotas stay TBD.
+3. **Epi/biostat:** should these items count toward Veterinary Public Health (see 3b note 2)?
 4. **Pretest items:** should every item count (my default), or should 60 be unscored like the real exam?
 5. **Difficulty:** should items be at NAVLE level, or slightly harder?
 6. **Item review:** is there a veterinarian (you or a colleague) who can review items before they are marked `reviewed`? Until then every item ships as `draft`.
