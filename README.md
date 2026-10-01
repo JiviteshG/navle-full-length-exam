@@ -17,7 +17,7 @@ The tests check every question's format, the blueprint math (percentages → que
 ## Status (Phase 1)
 - Practice mode with 1 or 2 blocks. Full 12-block exam unlocks once the bank covers every species quota (360+ questions).
 - 60 original questions, all marked **draft** until a veterinarian reviews them.
-- Block timing (12 × 30 questions, 33 min) still needs confirming against the ICVA Candidate Handbook. To change it, edit `js/config.js`.
+- Timing: 12 blocks × 30 questions, 33 min per block (set in `js/config.js`).
 
 ## Veterinarian review
 1. On the home page, turn on **Reviewer mode** and enter a name.

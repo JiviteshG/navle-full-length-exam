@@ -16,11 +16,8 @@
 | Items per block | 30 | 30 |
 | Time per block | 33:00 | 33:00 |
 | Tutorial (optional, skippable) | 10:00 | skip |
-| Breaks between blocks | **TBD**: break allowance not confirmed from an ICVA document | Optional |
+| Breaks between blocks | Untimed between blocks (break allowance not given in supplied ICVA text) | Optional |
 
-> **Unverified:** the 12 × 30 / 33-minute / 10-minute-tutorial figures come from search-result snippets
-> attributed to the ICVA 2026-27 Candidate Handbook. They are **not** in the two ICVA PDFs provided.
-> They'll be kept in one config file and must be confirmed against the Handbook before release.
 
 Behavior that matches the real test:
 - A block's timer starts when the block starts and keeps running (including across refresh/closed tab) **until the Pause button is pressed**; Resume continues from the remaining time. While paused, questions are hidden. (The real NAVLE has no pause inside a block; this is a deliberate study feature.)
@@ -28,7 +25,7 @@ Behavior that matches the real test:
 - Inside a block: Prev/Next, a navigator grid, **flag for review**, and an end-of-block review screen listing unanswered and flagged items.
 - **Finished blocks are locked.** You can't go back to them.
 - No feedback during the exam. Answers, the correct option and explanations appear only on the results screen after the last block.
-- Pretest/unscored items: reportedly 60 of 360 are unscored (unverified, same source as above). Here every item is scored by default.
+- Pretest/unscored items: reportedly 60 of 360 are unscored. Here every item is scored by default.
 
 ## 3. Blueprint
 
@@ -107,7 +104,7 @@ Both ICVA documents say no portion may be reproduced without permission. The rep
 their text; only the category names needed for tagging are used.
 
 ## 3e. Images (ICVA: about 15–20% of items include a photograph, radiograph or other image)
-- Target: about 15–20% of every form has an image (9–12 of 60; 54–72 of 360).
+- Target (user): 18–20% of items have an image, i.e. 11–12 of 60 and 65–72 of 360. Only those items are redrafted; the rest stay as written.
 - Images must be **real clinical images**, not drawings or generated pictures: radiographs, ECGs, cytology, gross lesions, necropsy.
 - Only images whose license allows reuse (public domain or Creative Commons) are used, from sources such as Wikimedia Commons or open-access journals (PMC). Credit, license and source link are stored with each item and shown after the exam.
 - Every image is checked by eye before use, and the reviewing vet confirms it shows what the question says.
@@ -116,12 +113,10 @@ their text; only the category names needed for tagging are used.
 - Phase-1 questions to redraft around an image, so the image carries the key finding and the stem no longer gives it away:
   CAN-0003 (GDV radiograph), CAN-0004 (blood smear), FEL-0002 (hyperkalemia ECG), FEL-0005 (hemoplasma smear),
   EQU-0002 (navicular radiographs), BOV-0003 (necropsy lung), POR-0001 (erysipelas skin), REP-0001 (lizard radiograph),
-  AQU-0001 (gill lesion), FEL-0003 (feline ATE presentation or echocardiogram), giving 10 of 60.
+  AQU-0001 (gill lesion), FEL-0003 (feline cardiomyopathy/ATE image), CAN-0005 (stifle radiograph), FEL-0006 (hepatic lipidosis ultrasound or cytology), giving 12 of 60 (20%).
 
-## 3f. Exam format conflict (unresolved)
-- The ICVA excerpt supplied by the user says **6 blocks of 60 questions and an optional 15-minute tutorial**.
-- Earlier search results said the format changes to **12 blocks of 30 (33 min each)** from the Oct–Nov 2026 window.
-- The supplied excerpt gives no minutes per block. The app keeps 12 × 30 / 33 min, marked unverified, until the user confirms which document and testing cycle applies. Only `js/config.js` needs changing.
+## 3f. Exam format (resolved)
+12 blocks × 30 questions, 33 minutes per block, confirmed by the user for the Oct–Nov 2026 format. (The 6 × 60 excerpt was the older format.)
 
 ## 4. Item format
 - Single best answer, 5 options (A–E), clinical vignette stem, optional lab table, and an optional image later.
@@ -201,5 +196,5 @@ Points that matter for converting to a web app later:
 - Timer: runs until Pause, continues on Resume. ✅
 - Review: veterinarian rates each question 👍/👎 after taking a block (6b). ✅
 - **TODO (later):** Veterinary Epidemiology and Biostatistics. It has no ICVA weight; no items are written for it yet, and the subdomain is kept in the taxonomy only.
-- **Unverified:** block count, minutes per block, tutorial length and break allowance still need confirming from the Candidate Handbook.
+- Timing: 12 × 30, 33 min per block, confirmed by the user. ✅
 - **Open:** should every item count (current default)? Is NAVLE-level difficulty the target?

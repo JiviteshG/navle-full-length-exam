@@ -1,10 +1,9 @@
 // Exam timing and format.
 //
-// UNVERIFIED: 12 blocks x 30 items and 33 minutes per block come from search-result snippets
-// attributed to the ICVA 2026-27 NAVLE Candidate Handbook. They are not in the ICVA documents
-// supplied so far. Confirm against the Handbook; change them here only.
+// 12 blocks x 30 items, 33 minutes per block: confirmed by the user (ICVA format from the
+// Oct-Nov 2026 testing window).
 export const EXAM_CONFIG = {
-  timingVerified: false,
+  timingVerified: true,
   questionsPerBlock: 30,
   secondsPerBlock: 33 * 60,
   fullExamBlocks: 12,
