@@ -1,8 +1,15 @@
 [
   {
-    "id": "FEL-0001", "version": 1, "review_status": "draft",
-    "species": "feline", "system": "endocrine", "subdomain": "data_gathering",
-    "topics": ["hyperthyroidism", "thyroid testing"],
+    "id": "FEL-0001",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "endocrine",
+    "subdomain": "data_gathering",
+    "topics": [
+      "hyperthyroidism",
+      "thyroid testing"
+    ],
     "stem": "A 13-year-old neutered male domestic shorthair cat has lost weight despite a good appetite. He has a heart rate of 240 beats/min and a palpable nodule in the left cervical region. He also has mild chronic kidney disease. Serum total T4 is 3.6 µg/dL (reference 0.8–4.0). Which test is most appropriate next to evaluate for hyperthyroidism?",
     "options": [
       "Free T4 by equilibrium dialysis",
@@ -26,9 +33,17 @@
     "reference": "AAFP guidelines for the management of feline hyperthyroidism (2016)"
   },
   {
-    "id": "FEL-0002", "version": 1, "review_status": "draft",
-    "species": "feline", "system": "urinary", "subdomain": "data_gathering",
-    "topics": ["urethral obstruction", "hyperkalemia", "ECG"],
+    "id": "FEL-0002",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "urinary",
+    "subdomain": "data_gathering",
+    "topics": [
+      "urethral obstruction",
+      "hyperkalemia",
+      "ECG"
+    ],
     "stem": "A 4-year-old neutered male cat has strained to urinate for 36 hours. He is now laterally recumbent with a large, firm, painful bladder. Serum potassium is 8.9 mmol/L. Which ECG finding is most consistent with this cat's electrolyte abnormality?",
     "options": [
       "Bradycardia with tall, peaked T waves and small or absent P waves",
@@ -52,61 +67,96 @@
     "reference": "Merck Veterinary Manual: Feline lower urinary tract disease; electrolyte disorders"
   },
   {
-    "id": "FEL-0003", "version": 1, "review_status": "draft",
-    "species": "feline", "system": "cardiovascular", "subdomain": "data_gathering",
-    "topics": ["arterial thromboembolism", "cardiomyopathy"],
-    "stem": "A 7-year-old neutered male Maine Coon has suddenly lost use of both pelvic limbs and is vocalizing in pain. The pelvic limb paw pads are pale and cool, femoral pulses can't be palpated, and the gastrocnemius muscles are firm. A gallop rhythm is heard. What is the most likely diagnosis?",
+    "species": "feline",
+    "system": "gastrointestinal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "tooth resorption",
+      "dental radiography"
+    ],
+    "stem": "A 9-year-old cat is anesthetized for a dental cleaning. On oral examination, a pink defect at the gingival margin of the left mandibular third premolar (307) is painful to probe, and the cat 'chatters' its jaw when the area is touched. An intraoral radiograph of the left mandible is shown. What is the most likely diagnosis?",
+    "image": {
+      "src": "data/images/fel-tooth-resorption.jpg",
+      "alt": "Intraoral dental radiograph of the left mandible of a cat",
+      "credit": "Wikimedia Commons contributor (author name pending verification; see source page)",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Feline_tooth_resorption_-_dental_radiograph_of_the_left_mandibular_third_premolar_(307).png"
+    },
     "options": [
-      "Aortic thromboembolism secondary to cardiomyopathy",
-      "Intervertebral disc herniation",
-      "Fibrocartilaginous embolism",
-      "Spinal lymphoma",
-      "Tick paralysis"
+      "Tooth resorption",
+      "Periodontitis with vertical bone loss but intact tooth structure",
+      "Dental caries",
+      "Uncomplicated crown fracture",
+      "Feline chronic gingivostomatitis"
     ],
     "answer": 0,
     "explanation": {
-      "correct": "Pain, paralysis, pallor, pulselessness and cold (poikilothermic) limbs with firm muscles are the classic signs of aortic thromboembolism. Most affected cats have underlying cardiomyopathy, often hypertrophic. A gallop rhythm supports heart disease.",
+      "correct": "Tooth resorption is very common in cats. Odontoclasts destroy tooth structure, often starting near the cementoenamel junction (the painful pink defect seen clinically). On radiographs, the roots lose their normal outline and density, and the periodontal ligament space and root canal may disappear as the roots are replaced by bone. Management depends on radiographic type: extraction for type 1, or crown amputation with intentional root retention for selected type 2 lesions without periodontitis or stomatitis.",
       "options": [
-        "The classic signs.",
-        "Femoral pulses and limb temperature are preserved in disc disease.",
-        "Usually non-painful after onset, with normal pulses.",
-        "Usually progressive, with normal pulses.",
-        "Non-painful paralysis with normal perfusion."
+        "Painful cervical defect plus loss of root structure on radiograph.",
+        "Partly right: periodontitis often coexists and causes bone loss, but it doesn't explain the defect in the tooth itself or the loss of root outline.",
+        "True caries is rare in cats.",
+        "A fracture shows missing crown structure, not a cervical defect with root changes.",
+        "Causes widespread caudal oral inflammation, not a focal defect in one tooth."
       ],
-      "takeaway": "Cat with acute paraparesis and missing femoral pulses: think aortic thromboembolism and look for heart disease."
+      "takeaway": "In cats, painful cervical defects mean tooth resorption. Take dental radiographs to classify the type and choose extraction or crown amputation."
     },
-    "reference": "Merck Veterinary Manual: Thromboembolic disease in cats; ACVIM consensus on feline cardiomyopathies (2020)"
+    "reference": "AVDC nomenclature: tooth resorption; AAHA dental care guidelines for dogs and cats (2019)",
+    "version": 2,
+    "review_status": "draft",
+    "id": "FEL-0003"
   },
   {
-    "id": "FEL-0004", "version": 1, "review_status": "draft",
-    "species": "feline", "system": "multisystemic", "subdomain": "data_gathering",
-    "topics": ["feline infectious peritonitis", "effusion analysis"],
-    "stem": "A 10-month-old intact male Bengal from a multi-cat household has a fluctuating fever unresponsive to antibiotics, weight loss, and abdominal distension. Abdominocentesis yields a viscous, straw-colored fluid. Which combination of effusion findings most supports the suspected diagnosis?",
+    "id": "FEL-0004",
+    "version": 2,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "multisystemic",
+    "subdomain": "data_gathering",
+    "topics": [
+      "feline infectious peritonitis",
+      "effusion cytology"
+    ],
+    "stem": "A 10-month-old intact male Bengal from a multi-cat household has a fluctuating fever unresponsive to antibiotics, weight loss, and abdominal distension. Abdominocentesis yields viscous, straw-colored fluid with a total protein of 5.8 g/dL and a low nucleated cell count. A smear of the fluid is shown. Which additional finding would most strongly support the suspected diagnosis?",
     "options": [
-      "Total protein greater than 3.5 g/dL, low nucleated cell count with non-degenerate neutrophils and macrophages, and albumin:globulin ratio below 0.4",
-      "Total protein less than 2.5 g/dL with a very low cell count (pure transudate)",
-      "Milky fluid with a triglyceride concentration higher than serum",
-      "Marked numbers of degenerate neutrophils with intracellular bacteria",
-      "Large numbers of atypical lymphoblasts"
+      "Feline coronavirus antigen in effusion macrophages (immunocytochemistry) or viral RNA by RT-PCR",
+      "A positive serum feline coronavirus antibody titer",
+      "An effusion albumin:globulin ratio above 0.8",
+      "Intracellular bacteria in degenerate neutrophils",
+      "A positive FeLV antigen test"
     ],
     "answer": 0,
     "explanation": {
-      "correct": "A young cat from a multi-cat environment with antibiotic-unresponsive fever and effusion is typical of effusive FIP. The fluid is usually high in protein (often over 3.5 g/dL) but low in cells (mainly non-degenerate neutrophils and macrophages), with a low A:G ratio. Detecting feline coronavirus antigen or RNA in effusion macrophages supports the diagnosis.",
+      "correct": "The smear shows non-degenerate neutrophils and macrophages on a stippled, protein-rich background. That is typical of effusive FIP: high protein, low cellularity, and usually a low A:G ratio (below 0.4). Finding feline coronavirus antigen in effusion macrophages (immunocytochemistry or immunofluorescence) or viral RNA by RT-PCR in the fluid strongly supports FIP in this setting. FIP is now treatable with antivirals such as GS-441524/remdesivir.",
       "options": [
-        "Typical of effusive FIP.",
-        "Points to hypoalbuminemia or some heart and liver conditions, not FIP.",
-        "Chylous effusion.",
-        "Septic effusion (e.g., septic peritonitis or pyothorax).",
-        "Suggests lymphoma."
+        "Strongest supportive test on effusion.",
+        "Partly right: a high titer adds weight, but many healthy cats in multi-cat homes are seropositive, so serology alone can't confirm FIP.",
+        "A high A:G ratio makes FIP less likely.",
+        "Would indicate septic peritonitis; the smear shows non-degenerate neutrophils.",
+        "FeLV may predispose to disease but doesn't confirm FIP."
       ],
-      "takeaway": "High-protein, low-cellularity effusion with A:G below 0.4 in a young cat: suspect FIP."
+      "takeaway": "FIP effusion: high protein, low cells, low A:G. Confirm with coronavirus antigen in macrophages or RT-PCR on the fluid; serology alone is not enough."
     },
-    "reference": "EveryCat Health Foundation / ABCD guidelines on feline infectious peritonitis diagnosis"
+    "reference": "EveryCat Health Foundation / ABCD guidelines on feline infectious peritonitis diagnosis",
+    "image": {
+      "src": "data/images/fel-fip-cytology.jpg",
+      "alt": "Stained cytology smear of feline abdominal effusion",
+      "credit": "Wikimedia Commons contributor (author name pending verification; see source page)",
+      "license": "Attribution (see source page)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:FIPCytology2.jpg"
+    }
   },
   {
-    "id": "FEL-0005", "version": 1, "review_status": "draft",
-    "species": "feline", "system": "hemic_lymphatic", "subdomain": "data_gathering",
-    "topics": ["hemotropic mycoplasmosis", "anemia"],
+    "id": "FEL-0005",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "hemic_lymphatic",
+    "subdomain": "data_gathering",
+    "topics": [
+      "hemotropic mycoplasmosis",
+      "anemia"
+    ],
     "stem": "A 3-year-old outdoor male cat with recent cat-fight abscesses has a PCV of 15% with marked polychromasia. Small structures are occasionally seen on the surface of red cells on a blood smear, but the smear review is inconclusive. Which test is best to confirm the suspected infectious cause?",
     "options": [
       "PCR for hemotropic Mycoplasma species",
@@ -130,15 +180,42 @@
     "reference": "Merck Veterinary Manual: Hemotropic mycoplasmas"
   },
   {
-    "id": "FEL-0006", "version": 1, "review_status": "draft",
-    "species": "feline", "system": "gastrointestinal", "subdomain": "data_gathering",
-    "topics": ["hepatic lipidosis", "liver enzymes"],
+    "id": "FEL-0006",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "gastrointestinal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "hepatic lipidosis",
+      "liver enzymes"
+    ],
     "stem": "An obese 8-year-old spayed female cat stopped eating 2 weeks ago when a new dog joined the household. She has lost 20% of her body weight and is icteric. Liver enzyme results are shown. Abdominal ultrasound shows a diffusely enlarged, hyperechoic liver. What is the most likely diagnosis?",
     "labs": [
-      { "test": "ALT", "value": "310", "unit": "U/L", "ref": "10–100" },
-      { "test": "ALP", "value": "640", "unit": "U/L", "ref": "6–102" },
-      { "test": "GGT", "value": "4", "unit": "U/L", "ref": "0–4" },
-      { "test": "Total bilirubin", "value": "6.2", "unit": "mg/dL", "ref": "0.0–0.4" }
+      {
+        "test": "ALT",
+        "value": "310",
+        "unit": "U/L",
+        "ref": "10–100"
+      },
+      {
+        "test": "ALP",
+        "value": "640",
+        "unit": "U/L",
+        "ref": "6–102"
+      },
+      {
+        "test": "GGT",
+        "value": "4",
+        "unit": "U/L",
+        "ref": "0–4"
+      },
+      {
+        "test": "Total bilirubin",
+        "value": "6.2",
+        "unit": "mg/dL",
+        "ref": "0.0–0.4"
+      }
     ],
     "options": [
       "Hepatic lipidosis",
@@ -162,9 +239,16 @@
     "reference": "Merck Veterinary Manual: Hepatic lipidosis in cats"
   },
   {
-    "id": "FEL-0007", "version": 1, "review_status": "draft",
-    "species": "feline", "system": "urinary", "subdomain": "health_maintenance",
-    "topics": ["urethral obstruction", "hyperkalemia treatment"],
+    "id": "FEL-0007",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "urinary",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "urethral obstruction",
+      "hyperkalemia treatment"
+    ],
     "stem": "A 5-year-old neutered male cat with urethral obstruction has a serum potassium of 8.6 mmol/L. His heart rate is 110 beats/min and the ECG shows no P waves and widened QRS complexes. An IV catheter has been placed. Which treatment gives the most rapid protection of the myocardium?",
     "options": [
       "10% calcium gluconate IV given slowly with ECG monitoring",
@@ -188,9 +272,17 @@
     "reference": "Merck Veterinary Manual: Feline lower urinary tract disease (urethral obstruction)"
   },
   {
-    "id": "FEL-0008", "version": 1, "review_status": "draft",
-    "species": "feline", "system": "endocrine", "subdomain": "health_maintenance",
-    "topics": ["diabetes mellitus", "diabetic remission", "nutrition"],
+    "id": "FEL-0008",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "endocrine",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "diabetes mellitus",
+      "diabetic remission",
+      "nutrition"
+    ],
     "stem": "A 10-year-old overweight neutered male cat has newly diagnosed diabetes mellitus and is starting insulin. Which diet is most likely to improve glycemic control and the chance of diabetic remission?",
     "options": [
       "A high-protein, low-carbohydrate diet",
@@ -214,9 +306,16 @@
     "reference": "AAHA diabetes management guidelines for dogs and cats (2018); ISFM consensus on feline diabetes (2015)"
   },
   {
-    "id": "FEL-0009", "version": 1, "review_status": "draft",
-    "species": "feline", "system": "multisystemic", "subdomain": "health_maintenance",
-    "topics": ["acetaminophen toxicosis", "methemoglobinemia"],
+    "id": "FEL-0009",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "multisystemic",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "acetaminophen toxicosis",
+      "methemoglobinemia"
+    ],
     "stem": "A 2-year-old cat was given an acetaminophen tablet by its owner 6 hours ago. The cat is now tachypneic with chocolate-brown mucous membranes and facial and paw edema. Which antidote is most appropriate?",
     "options": [
       "N-acetylcysteine",
@@ -240,9 +339,16 @@
     "reference": "Merck Veterinary Manual: Acetaminophen toxicosis"
   },
   {
-    "id": "FEL-0010", "version": 1, "review_status": "draft",
-    "species": "feline", "system": "respiratory", "subdomain": "health_maintenance",
-    "topics": ["feline asthma", "bronchodilators"],
+    "id": "FEL-0010",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "respiratory",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "feline asthma",
+      "bronchodilators"
+    ],
     "stem": "A 4-year-old cat with a history of intermittent coughing is presented with acute open-mouth breathing, expiratory effort and an abdominal push. Expiratory wheezes are heard on auscultation, and there is no murmur or gallop. Which initial treatment is most appropriate?",
     "options": [
       "Oxygen supplementation and a bronchodilator such as terbutaline, with a rapid-acting corticosteroid",
@@ -266,9 +372,16 @@
     "reference": "Merck Veterinary Manual: Feline asthma"
   },
   {
-    "id": "FEL-0011", "version": 1, "review_status": "draft",
-    "species": "feline", "system": "integumentary", "subdomain": "health_maintenance",
-    "topics": ["feline injection-site sarcoma", "surgical oncology"],
+    "id": "FEL-0011",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "integumentary",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "feline injection-site sarcoma",
+      "surgical oncology"
+    ],
     "stem": "A 9-year-old cat has a firm, 2.5-cm subcutaneous mass in the interscapular region that has grown for 3 months, following a vaccination there. Fine-needle aspiration suggests a sarcoma. Thoracic radiographs are normal. Which plan is most appropriate?",
     "options": [
       "Advanced imaging (CT) to plan wide en bloc surgical excision with about 5-cm lateral margins and two fascial planes deep",
@@ -292,9 +405,16 @@
     "reference": "WSAVA vaccination guidelines; AAFP feline vaccination guidelines (2020) on injection-site sarcoma"
   },
   {
-    "id": "FEL-0012", "version": 1, "review_status": "draft",
-    "species": "feline", "system": "cardiovascular", "subdomain": "comm_clients",
-    "topics": ["congestive heart failure", "home monitoring"],
+    "id": "FEL-0012",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "cardiovascular",
+    "subdomain": "comm_clients",
+    "topics": [
+      "congestive heart failure",
+      "home monitoring"
+    ],
     "stem": "A cat with hypertrophic cardiomyopathy has been stabilized after an episode of congestive heart failure and is going home on furosemide. Which home-monitoring instruction is most useful to give the owner?",
     "options": [
       "Count the sleeping (resting) respiratory rate daily, and call if it is consistently above about 30 breaths per minute",
@@ -318,9 +438,17 @@
     "reference": "ACVIM consensus on feline cardiomyopathies (2020)"
   },
   {
-    "id": "FEL-0013", "version": 1, "review_status": "draft",
-    "species": "feline", "system": "integumentary", "subdomain": "environmental_health",
-    "topics": ["dermatophytosis", "decontamination", "zoonosis"],
+    "id": "FEL-0013",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "integumentary",
+    "subdomain": "environmental_health",
+    "topics": [
+      "dermatophytosis",
+      "decontamination",
+      "zoonosis"
+    ],
     "stem": "A household has three cats confirmed to have Microsporum canis dermatophytosis, which are being treated systemically and topically. The owner asks how to clean the home. Which recommendation is most appropriate?",
     "options": [
       "Remove hair and debris mechanically (vacuum, wash surfaces with detergent), then apply a disinfectant effective against dermatophyte spores, such as diluted household bleach or accelerated hydrogen peroxide, with the correct contact time",
@@ -344,9 +472,16 @@
     "reference": "Moriello KA et al. Diagnosis and treatment of dermatophytosis in dogs and cats: WAVD clinical consensus guidelines (2017)"
   },
   {
-    "id": "FEL-0014", "version": 1, "review_status": "draft",
-    "species": "feline", "system": "non_clinical", "subdomain": "professional_development",
-    "topics": ["evidence-based medicine", "consulting references"],
+    "id": "FEL-0014",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "non_clinical",
+    "subdomain": "professional_development",
+    "topics": [
+      "evidence-based medicine",
+      "consulting references"
+    ],
     "stem": "You are treating a cat with a disease you haven't managed since veterinary school, and treatment recommendations have changed in recent years. Which source is most appropriate for current, evidence-based guidance?",
     "options": [
       "Recent specialty consensus statements and peer-reviewed literature, plus consultation with a specialist if needed",
@@ -370,9 +505,17 @@
     "reference": "ICVA NAVLE competency: consult reference materials to help formulate diagnosis or treatment"
   },
   {
-    "id": "FEL-0015", "version": 1, "review_status": "draft",
-    "species": "feline", "system": "non_clinical", "subdomain": "animal_welfare",
-    "topics": ["onychectomy", "declawing", "client education"],
+    "id": "FEL-0015",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "non_clinical",
+    "subdomain": "animal_welfare",
+    "topics": [
+      "onychectomy",
+      "declawing",
+      "client education"
+    ],
     "stem": "A new client asks you to declaw her 4-month-old kitten 'so it won't scratch the furniture.' Which response is most appropriate?",
     "options": [
       "Explain the welfare concerns with declawing and discuss alternatives such as scratching posts, regular nail trims, nail caps and behavior modification, noting that declawing is restricted or banned in some jurisdictions",

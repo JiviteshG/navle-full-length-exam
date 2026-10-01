@@ -185,37 +185,45 @@
     "id": "CAN-0004"
   },
   {
-    "id": "CAN-0005",
-    "version": 1,
-    "review_status": "draft",
     "species": "canine",
     "system": "musculoskeletal",
     "subdomain": "health_maintenance",
     "topics": [
       "cranial cruciate ligament rupture",
-      "orthopedic surgery"
+      "tibial tuberosity advancement",
+      "postoperative radiograph"
     ],
-    "stem": "A 4-year-old, 38-kg neutered male Labrador Retriever has had right pelvic limb lameness for 3 weeks. There is a positive cranial drawer and tibial thrust, medial buttress, and stifle effusion. Radiographs show effusion and mild osteophytes. The owner wants the option most likely to restore long-term limb function. Which treatment is most appropriate?",
+    "stem": "A 5-year-old Labrador Retriever had surgery 1 day ago for complete rupture of the left cranial cruciate ligament. The immediate postoperative mediolateral radiograph of the stifle is shown. Which procedure was performed, and how does it stabilize the stifle?",
+    "image": {
+      "src": "data/images/can-tta-postop.jpg",
+      "alt": "Postoperative mediolateral radiograph of a canine stifle with orthopedic implants",
+      "credit": "Wikimedia Commons contributor (author name pending verification; see source page)",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tibial_tuberosity_advancement_in_a_dog_-_postoperative_mediolateral_radiograph.png"
+    },
     "options": [
-      "Surgical stabilization such as tibial plateau leveling osteotomy (TPLO)",
-      "Femoral head and neck ostectomy",
-      "Stifle arthrodesis",
-      "Long-term NSAID therapy and exercise restriction as sole management",
-      "Repeated intra-articular corticosteroid injections"
+      "Tibial tuberosity advancement: the tuberosity is moved cranially (held by a cage spacer, plate and fork) so the patellar tendon is perpendicular to the tibial plateau, neutralizing cranial tibial thrust",
+      "Tibial plateau leveling osteotomy: a radial osteotomy rotates the tibial plateau to a slope of about 5° and is stabilized with a bone plate",
+      "Lateral fabellotibial suture: a strong extracapsular suture from the lateral fabella to the tibial tuberosity mimics the ligament",
+      "Tibial tuberosity transposition: the tuberosity is moved medially or laterally and pinned to realign the quadriceps mechanism for patellar luxation",
+      "Stifle arthrodesis: the joint is fused with a bone plate across the femur and tibia"
     ],
     "answer": 0,
     "explanation": {
-      "correct": "Clinical signs and imaging indicate complete cranial cruciate ligament rupture. In large dogs (generally over about 15 kg), surgical stabilization (TPLO, TTA or lateral suture) gives better function than conservative care. TPLO is widely used for large, active dogs.",
+      "correct": "The radiograph shows an osteotomy of the tibial tuberosity, which has been advanced cranially. A cage (spacer) holds the gap open in the proximal osteotomy, and a plate with a fork fixes the tuberosity to the tibial shaft. This is TTA. It brings the patellar tendon perpendicular to the tibial plateau, so cranial tibial thrust is neutralized during weight bearing.",
       "options": [
-        "Surgical stabilization is preferred in large dogs.",
-        "A salvage procedure for hip disease, not stifle instability.",
-        "A salvage procedure that permanently fuses the joint; not appropriate as first-line treatment.",
-        "Conservative management has a poorer outcome in large dogs and allows osteoarthritis to progress.",
-        "Doesn't address instability and may speed cartilage damage."
+        "Correct procedure and mechanism.",
+        "Partly right: also an osteotomy-based procedure for cruciate rupture that neutralizes tibial thrust. But TPLO uses a curved osteotomy of the proximal tibia with a plate across it, not a cranially advanced tuberosity with a cage.",
+        "An extracapsular technique with no osteotomy; only the suture anchors (or crimp clamp) would be visible.",
+        "Also moves the tuberosity, but medially or laterally (fixed with pins and often a tension-band wire), not cranially with a cage.",
+        "A salvage procedure that crosses the joint, which is not the case here."
       ],
-      "takeaway": "Cranial drawer or tibial thrust means CCL rupture. In large dogs, recommend surgical stabilization."
+      "takeaway": "TTA advances the tuberosity so the patellar tendon is perpendicular to the plateau. TPLO levels the plateau. Both neutralize cranial tibial thrust."
     },
-    "reference": "Merck Veterinary Manual: Cranial cruciate ligament disease in dogs"
+    "reference": "Merck Veterinary Manual: Cranial cruciate ligament disease in dogs",
+    "version": 2,
+    "review_status": "draft",
+    "id": "CAN-0005"
   },
   {
     "id": "CAN-0006",

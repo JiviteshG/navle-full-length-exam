@@ -1,8 +1,16 @@
 [
   {
-    "id": "EQU-0001", "version": 1, "review_status": "draft",
-    "species": "equine", "system": "gastrointestinal", "subdomain": "data_gathering",
-    "topics": ["colic", "nephrosplenic entrapment", "rectal palpation"],
+    "id": "EQU-0001",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "gastrointestinal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "colic",
+      "nephrosplenic entrapment",
+      "rectal palpation"
+    ],
     "stem": "A 9-year-old Warmblood gelding has had moderate colic for 6 hours. Heart rate is 52 beats/min. On rectal palpation, the taenia of the large colon run from the pelvic inlet dorsally toward the left, ending in the area between the left kidney and the spleen. Transabdominal ultrasound of the left flank can't image the left kidney because of gas shadowing. What is the most likely diagnosis?",
     "options": [
       "Left dorsal displacement of the large colon (nephrosplenic entrapment)",
@@ -26,61 +34,97 @@
     "reference": "Merck Veterinary Manual: Colic in horses (displacement of the large colon)"
   },
   {
-    "id": "EQU-0002", "version": 1, "review_status": "draft",
-    "species": "equine", "system": "musculoskeletal", "subdomain": "data_gathering",
-    "topics": ["palmar foot pain", "navicular syndrome", "diagnostic analgesia"],
-    "stem": "A 12-year-old Quarter Horse gelding has had a shortened, shuffling forelimb gait for several months. The lameness is worse on hard ground and on circles. Hoof testers cause a pain response over the central third of the frog in both front feet. Bilateral palmar digital nerve blocks abolish the lameness, and the horse then shows lameness in the opposite forelimb. What is the most likely diagnosis?",
+    "species": "equine",
+    "system": "musculoskeletal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "laminitis",
+      "distal phalanx rotation",
+      "foot radiography"
+    ],
+    "stem": "A 13-year-old overweight pony mare with a cresty neck has had worsening bilateral forelimb lameness for 5 days after turnout on spring pasture. She stands with her weight shifted onto her heels, has bounding digital pulses, and is sensitive to hoof testers at the toe. A lateromedial radiograph of the left front foot is shown (a radiopaque marker is placed on the dorsal hoof wall and a thumbtack marks the apex of the frog). What is the most likely diagnosis?",
+    "image": {
+      "src": "data/images/equ-laminitis-lateral.jpg",
+      "alt": "Lateromedial radiograph of an equine front foot with a marker on the dorsal hoof wall",
+      "credit": "Wikimedia Commons contributor (public domain; see source page)",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Laminitic.jpg"
+    },
     "options": [
-      "Palmar foot pain (navicular syndrome)",
-      "Chronic laminitis",
-      "Proximal suspensory desmitis",
-      "Carpal osteoarthritis",
-      "Osteochondrosis of the fetlock"
+      "Laminitis with rotation of the distal phalanx",
+      "Navicular syndrome (palmar foot pain)",
+      "Fracture of the distal phalanx",
+      "Keratoma",
+      "Septic pedal osteitis"
     ],
     "answer": 0,
     "explanation": {
-      "correct": "Bilateral forelimb lameness that is worse on hard surfaces and circles, hoof-tester pain over the central frog, and a positive response to palmar digital analgesia (with lameness switching to the other limb) localize the pain to the palmar foot, consistent with navicular syndrome. Radiographs and MRI help characterize the lesions.",
+      "correct": "The dorsal surface of the distal phalanx is no longer parallel to the dorsal hoof wall: it has rotated, with the tip pointing toward the sole and the gap between the wall and bone widened. In an obese pony with signs of insulin dysregulation (endocrinopathic laminitis, often triggered by pasture), this means laminitis with rotation. Measure the degree of rotation, distance from the bone to the dorsal wall, and sole depth to guide prognosis and trimming or shoeing. Investigate equine metabolic syndrome and PPID.",
       "options": [
-        "Fits signalment, signs and nerve-block response.",
-        "Laminitis causes toe-region pain and a heel-first landing; hoof testers produce a response at the toe.",
-        "Proximal suspensory desmitis isn't eliminated by palmar digital nerve blocks.",
-        "Carpal pain isn't eliminated by palmar digital nerve blocks.",
-        "Fetlock pain isn't eliminated by palmar digital nerve blocks."
+        "Rotation of the distal phalanx in the typical clinical setting.",
+        "Partly right: also causes bilateral forelimb lameness, but pain localizes to the heel region, and radiographic changes involve the navicular bone, not the alignment of the distal phalanx.",
+        "A fracture line would be visible.",
+        "A space-occupying lesion in the hoof wall, often causing a focal lucency in the distal phalanx margin.",
+        "Septic pedal osteitis causes lysis of the bone margin, usually after a penetrating injury or abscess, not diffuse rotation."
       ],
-      "takeaway": "Bilateral forelimb lameness abolished by palmar digital nerve blocks: palmar foot pain (navicular region)."
+      "takeaway": "Laminitis on radiographs: the distal phalanx is no longer parallel to the hoof wall. Look for underlying EMS or PPID."
     },
-    "reference": "Merck Veterinary Manual: Navicular disease in horses"
+    "reference": "Merck Veterinary Manual: Laminitis in horses; Equine Endocrinology Group recommendations",
+    "version": 2,
+    "review_status": "draft",
+    "id": "EQU-0002"
   },
   {
-    "id": "EQU-0003", "version": 1, "review_status": "draft",
-    "species": "equine", "system": "nervous", "subdomain": "data_gathering",
-    "topics": ["equine protozoal myeloencephalitis", "Sarcocystis neurona"],
-    "stem": "A 6-year-old Standardbred from Ohio has had progressive, asymmetric pelvic limb ataxia for 3 weeks, with focal atrophy of the right gluteal muscles. He is bright, eating, and afebrile. Cervical radiographs are normal. Which test is most useful to support the leading diagnosis?",
+    "species": "equine",
+    "system": "respiratory",
+    "subdomain": "data_gathering",
+    "topics": [
+      "strangles",
+      "Streptococcus equi subsp. equi"
+    ],
+    "stem": "A 2-year-old Shetland pony at a boarding barn developed a fever of 40.0°C (104°F) a week ago and now has a thick nasal discharge, reduced appetite, and firm, painful swelling between the mandibles. Two other young horses in the barn have similar signs. The pony is shown. Which test is most appropriate to confirm the suspected diagnosis?",
+    "image": {
+      "src": "data/images/equ-strangles-pony.jpg",
+      "alt": "Shetland pony in a stall with bilateral nasal discharge",
+      "credit": "Wikimedia Commons contributor (public domain; see source page)",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Shetland_pony_with_strangles.jpg"
+    },
     "options": [
-      "Serum:CSF antibody titer ratio for Sarcocystis neurona",
-      "Fecal flotation for strongyle eggs",
-      "Serum creatine kinase activity",
-      "PCR of nasal swab for equine herpesvirus-1",
-      "Serum vitamin E concentration"
+      "PCR (with culture) for Streptococcus equi subsp. equi on a nasopharyngeal wash or swab, or on pus aspirated from an abscess",
+      "Serum SeM antibody titer",
+      "PCR for equine herpesvirus-1 on a nasal swab",
+      "Transtracheal wash culture",
+      "Endoscopic biopsy of the guttural pouch lining"
     ],
     "answer": 0,
     "explanation": {
-      "correct": "Asymmetric ataxia with focal muscle atrophy in an alert, afebrile horse from an area with opossums is typical of EPM. Serum antibodies alone show only exposure. The serum:CSF titer ratio, which indicates antibody production within the CNS, best supports the diagnosis.",
+      "correct": "Fever, mucopurulent nasal discharge and painful submandibular lymphadenopathy in young horses at a shared facility suggest strangles, caused by Streptococcus equi subsp. equi. Confirm with PCR and culture of a nasopharyngeal wash or swab, or of abscess material. Isolate affected horses, monitor temperatures in the rest of the herd, and later screen recovered horses for guttural pouch carriers (endoscopy plus lavage PCR).",
       "options": [
-        "Best supports EPM.",
-        "Not related to EPM.",
-        "Non-specific muscle marker.",
-        "EHV-1 myeloencephalopathy is usually acute and symmetric, often with fever and urinary incontinence.",
-        "Vitamin E is relevant to equine degenerative myeloencephalopathy, which is symmetric and occurs in younger horses."
+        "Confirms the diagnosis.",
+        "Partly right: useful for identifying recent exposure and assessing risk of complications such as purpura hemorrhagica or vaccination, but not for confirming acute infection.",
+        "EHV-1/4 causes respiratory disease with fever but not abscessing submandibular lymph nodes.",
+        "Samples the lower airway; strangles is an upper respiratory and lymph node infection.",
+        "Invasive, and not needed for diagnosis. Guttural pouch endoscopy with lavage is used to screen recovered horses for carriers."
       ],
-      "takeaway": "Asymmetric ataxia plus focal muscle atrophy: suspect EPM and use the serum:CSF titer ratio."
+      "takeaway": "Strangles: confirm with PCR and culture of nasopharyngeal or abscess samples, isolate affected horses, and screen guttural pouches for carriers."
     },
-    "reference": "ACVIM consensus statement on equine protozoal myeloencephalitis (2016)"
+    "reference": "ACVIM consensus statement on Streptococcus equi subsp. equi infections in horses (2018)",
+    "version": 2,
+    "review_status": "draft",
+    "id": "EQU-0003"
   },
   {
-    "id": "EQU-0004", "version": 1, "review_status": "draft",
-    "species": "equine", "system": "gastrointestinal", "subdomain": "health_maintenance",
-    "topics": ["esophageal obstruction", "choke"],
+    "id": "EQU-0004",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "gastrointestinal",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "esophageal obstruction",
+      "choke"
+    ],
     "stem": "A 14-year-old pony has had feed material and saliva coming from both nostrils, with repeated attempts to swallow, since eating dry beet pulp 2 hours ago. A firm swelling is palpable on the left side of the neck. Which is the most appropriate initial management?",
     "options": [
       "Sedate the pony (e.g., an alpha-2 agonist) so the head lowers, pass a nasogastric tube, and gently lavage the obstruction with water",
@@ -104,9 +148,17 @@
     "reference": "Merck Veterinary Manual: Esophageal obstruction (choke) in horses"
   },
   {
-    "id": "EQU-0005", "version": 1, "review_status": "draft",
-    "species": "equine", "system": "musculoskeletal", "subdomain": "health_maintenance",
-    "topics": ["laminitis prevention", "digital cryotherapy", "endotoxemia"],
+    "id": "EQU-0005",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "musculoskeletal",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "laminitis prevention",
+      "digital cryotherapy",
+      "endotoxemia"
+    ],
     "stem": "A 7-year-old mare is hospitalized with acute colitis, profuse watery diarrhea, toxic (brick-red) mucous membranes and leukopenia. She isn't lame. Which measure is best supported by evidence to reduce her risk of developing laminitis?",
     "options": [
       "Continuous distal limb cryotherapy (e.g., ice boots kept at low temperature)",
@@ -130,9 +182,16 @@
     "reference": "Merck Veterinary Manual: Laminitis in horses"
   },
   {
-    "id": "EQU-0006", "version": 1, "review_status": "draft",
-    "species": "equine", "system": "reproductive", "subdomain": "health_maintenance",
-    "topics": ["retained fetal membranes", "postpartum mare"],
+    "id": "EQU-0006",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "reproductive",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "retained fetal membranes",
+      "postpartum mare"
+    ],
     "stem": "A 10-year-old Thoroughbred mare foaled normally 4 hours ago but hasn't passed the fetal membranes. She is bright, afebrile, and nursing her foal. Which initial treatment is most appropriate?",
     "options": [
       "Oxytocin IM or IV at low doses, repeated as needed",
@@ -156,9 +215,16 @@
     "reference": "Merck Veterinary Manual: Retained fetal membranes in mares"
   },
   {
-    "id": "EQU-0007", "version": 1, "review_status": "draft",
-    "species": "equine", "system": "non_clinical", "subdomain": "animal_welfare",
-    "topics": ["euthanasia", "AVMA guidelines"],
+    "id": "EQU-0007",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "non_clinical",
+    "subdomain": "animal_welfare",
+    "topics": [
+      "euthanasia",
+      "AVMA guidelines"
+    ],
     "stem": "You are called to a remote trail where a horse has an open, comminuted fracture of the radius and must be euthanized immediately. Barbiturates aren't available. According to AVMA euthanasia guidelines, which method is acceptable with conditions?",
     "options": [
       "A properly placed gunshot or penetrating captive bolt applied by a trained person",
@@ -182,9 +248,17 @@
     "reference": "AVMA Guidelines for the Euthanasia of Animals (2020): Equids"
   },
   {
-    "id": "EQU-0008", "version": 1, "review_status": "draft",
-    "species": "equine", "system": "multisystemic", "subdomain": "comm_clients",
-    "topics": ["vaccination", "core vaccines", "client education"],
+    "id": "EQU-0008",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "multisystemic",
+    "subdomain": "comm_clients",
+    "topics": [
+      "vaccination",
+      "core vaccines",
+      "client education"
+    ],
     "stem": "A new horse owner asks which vaccines every horse in North America should receive, regardless of use or location. Which answer reflects the AAEP core vaccines?",
     "options": [
       "Tetanus, Eastern and Western equine encephalomyelitis, West Nile virus, and rabies",
@@ -208,9 +282,16 @@
     "reference": "AAEP Vaccination Guidelines: core vaccines"
   },
   {
-    "id": "EQU-0009", "version": 1, "review_status": "draft",
-    "species": "equine", "system": "non_clinical", "subdomain": "practice_management",
-    "topics": ["restraint", "personnel safety"],
+    "id": "EQU-0009",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "non_clinical",
+    "subdomain": "practice_management",
+    "topics": [
+      "restraint",
+      "personnel safety"
+    ],
     "stem": "You need to examine the left hind limb of a nervous horse held by a handler. Which positioning is safest for the handler and the examiner?",
     "options": [
       "Handler and examiner stand on the same side of the horse, so the horse's hindquarters swing away from both if it moves",
