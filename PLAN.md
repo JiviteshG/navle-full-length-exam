@@ -23,7 +23,8 @@
 > They'll be kept in one config file and must be confirmed against the Handbook before release.
 
 Behavior that matches the real test:
-- A block's timer starts when the block starts. When time runs out, the block is auto-submitted and unanswered items are marked wrong.
+- A block's timer starts when the block starts and keeps running (including across refresh/closed tab) **until the Pause button is pressed**; Resume continues from the remaining time. While paused, questions are hidden. (The real NAVLE has no pause inside a block; this is a deliberate study feature.)
+- When time runs out, the block is auto-submitted and unanswered items are marked wrong.
 - Inside a block: Prev/Next, a navigator grid, **flag for review**, and an end-of-block review screen listing unanswered and flagged items.
 - **Finished blocks are locked.** You can't go back to them.
 - No feedback during the exam. Answers, the correct option and explanations appear only on the results screen after the last block.
@@ -87,8 +88,7 @@ Two differences between ICVA's own sources, recorded rather than resolved by gue
    Items cover the task list in the PDF. The label shown is the PDF's, with the web name noted.
 2. The PDF lists a fourth Preventive Medicine subdomain, **Veterinary Epidemiology and Biostatistics**,
    which has **no weight** in the web blueprint (the three listed subdomains already add up to 15%).
-   Epi/biostat items will be tagged with that subdomain but **count toward Veterinary Public Health's quota**.
-   Please confirm, or tell me to leave them out.
+   **TODO for later:** no items for this subdomain yet; it is kept in the taxonomy only.
 
 ### 3c-0. How the two axes are combined
 Every item has one species and one subdomain. The assembler fills the species quotas exactly, then picks
@@ -128,7 +128,8 @@ Data schema (`data/questions/*.json`, the same shape a future API would return):
   "answer": 2,
   "explanation": { "correct": "...", "distractors": ["...", "...", "...", "...", "..."], "takeaway": "..." },
   "reference": "Merck Vet Manual: Hypoadrenocorticism",
-  "review_status": "draft"
+  "review_status": "draft",
+  "version": 1
 }
 ```
 
@@ -156,7 +157,7 @@ tests/               # unit tests for assembler, scoring and timer (node --test)
 Points that matter for converting to a web app later:
 - **Storage adapter.** All persistence (in-progress session, history, settings) goes through one interface, so moving to a backend means swapping one file.
 - **Bank adapter.** Questions are loaded through an interface, so they can move behind an API (and the answers can be kept off the client) without touching the UI.
-- **Timer uses deadlines.** It stores `blockDeadline` (epoch ms), not "seconds left". Refreshing or closing the tab doesn't pause the clock, same as the real exam. Should a reload pause instead? That's a setting.
+- **Timer uses deadlines.** While running it stores `blockDeadline` (epoch ms), so refresh/closing doesn't stop the clock. Pause saves `remainingMs`; Resume sets a new deadline.
 - Mobile-friendly layout, keyboard shortcuts (A–E / 1–5 to pick, N/P to move, F to flag), a light/dark theme, and an optional strike-through on options.
 
 ## 6. Results and history
@@ -166,16 +167,22 @@ Points that matter for converting to a web app later:
 - History: every attempt is saved with date, mode, score and breakdown. Trends over time. Export/import as JSON for backup.
 - Avoid repeats: the assembler prefers items you haven't seen yet (tracked in storage).
 
+## 6b. Veterinarian review mode
+- The reviewer takes a block normally (same timer/pause rules). After submitting, the results/review screen shows each question with its explanation plus **👍 / 👎** buttons and an optional comment box (shown on 👎 so she can say what's wrong).
+- Ratings are saved with item id + item `version`, so an edited question needs a fresh rating.
+- Status rules: 👍 → `reviewed`; 👎 → `needs_revision` (fixed, version bumped, back to `draft`). Unrated stays `draft`.
+- Until there's a backend, ratings live in her browser: an **Export review** button downloads a JSON file she sends back; I apply it to the bank and commit the status changes. Later the storage adapter can post ratings to an API instead.
+- Optional setting: exclude `needs_revision` items from student forms.
+
 ## 7. Phases
 1. **Phase 1, practice MVP (built first, for you to test):** the full engine (timer, block flow, flag/review, locking, results, breakdowns, persistence, resume) plus **60 original items** (2 blocks) matching the 60-item columns in 3a/3b. Practice mode with 1 or 2 blocks.
 2. **Phase 2, your feedback:** fix UX issues and adjust item style and difficulty based on how Phase 1 feels.
 3. **Phase 3, full bank:** write the rest of the bank in species batches until there are at least 360 items (target 400+ so forms can vary), each batch checked against the 360-item quotas in 3a/3b (bank target: at least 1.2× each quota).
 4. **Phase 4, full exam mode:** 12 blocks, breaks, tutorial, history trends. Optional: a GitHub Pages deploy.
 
-## 8. Open questions for you
-1. **Refresh behavior:** should the block timer keep running while the tab is closed (realistic) or pause?
-2. **Timing confirmation:** can you confirm block count, minutes per block, tutorial and break allowance from the Candidate Handbook?
-3. **Epi/biostat:** should these items count toward Veterinary Public Health (see 3b note 2)?
-4. **Pretest items:** should every item count (my default), or should 60 be unscored like the real exam?
-5. **Difficulty:** should items be at NAVLE level, or slightly harder?
-6. **Item review:** is there a veterinarian (you or a colleague) who can review items before they are marked `reviewed`? Until then every item ships as `draft`.
+## 8. Decisions and open items
+- Timer: runs until Pause, continues on Resume. ✅
+- Review: veterinarian rates each question 👍/👎 after taking a block (6b). ✅
+- **TODO (later):** Veterinary Epidemiology and Biostatistics. It has no ICVA weight; no items are written for it yet, and the subdomain is kept in the taxonomy only.
+- **Unverified:** block count, minutes per block, tutorial length and break allowance still need confirming from the Candidate Handbook.
+- **Open:** should every item count (current default)? Is NAVLE-level difficulty the target?
