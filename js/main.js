@@ -191,6 +191,7 @@ function renderExam() {
     </div>
     <div class="panel">
       <div class="stem">${esc(q.stem)}</div>
+      ${imageBlock(q)}
       ${labsTable(q)}
       <ul class="options">
         ${it.optionOrder.map((orig, pos) => `<li><button class="opt ${chosen === orig ? 'selected' : ''}" data-orig="${orig}"><span class="letter">${LETTERS[pos]}.</span><span>${esc(q.options[orig])}</span></button></li>`).join('')}
@@ -214,6 +215,53 @@ function renderExam() {
   bindNavGrid();
   startTick();
 }
+
+// Images: a thumbnail in the question; clicking opens a viewer with zoom, contrast and panning,
+// matching what the NAVLE viewer window provides. Credit and license are shown only after the
+// exam so a caption can't give the answer away.
+function imageBlock(q, showCredit = false) {
+  if (!q.image) return '';
+  const im = q.image;
+  return `<figure class="qimg"><button class="imgbtn" data-viewer="${esc(im.src)}" aria-label="Open image viewer">
+    <img src="${esc(im.src)}" alt="${esc(im.alt || 'Question image')}"></button>
+    <figcaption class="muted">Click to open the viewer (zoom, contrast, pan).${showCredit && im.credit ? ` Image: ${esc(im.credit)}, ${esc(im.license)}${im.source_url ? `, <a href="${esc(im.source_url)}" target="_blank" rel="noopener">source</a>` : ''}.` : ''}</figcaption></figure>`;
+}
+
+function openViewer(src) {
+  const st = { zoom: 1, contrast: 100, brightness: 100, x: 0, y: 0 };
+  const ov = document.createElement('div');
+  ov.className = 'viewer';
+  ov.setAttribute('role', 'dialog');
+  ov.innerHTML = `<div class="viewer-bar row">
+      <label>Zoom <input type="range" min="1" max="6" step="0.1" value="1" data-k="zoom"></label>
+      <label>Contrast <input type="range" min="50" max="250" value="100" data-k="contrast"></label>
+      <label>Brightness <input type="range" min="50" max="200" value="100" data-k="brightness"></label>
+      <button data-reset>Reset</button><span class="spacer"></span><button class="primary" data-close>Close</button></div>
+    <div class="viewer-stage"><img src="${esc(src)}" alt="" draggable="false"></div>`;
+  document.body.appendChild(ov);
+  const img = ov.querySelector('img');
+  const stage = ov.querySelector('.viewer-stage');
+  const apply = () => {
+    img.style.transform = `translate(${st.x}px, ${st.y}px) scale(${st.zoom})`;
+    img.style.filter = `contrast(${st.contrast}%) brightness(${st.brightness}%)`;
+    ov.querySelector('[data-k=zoom]').value = st.zoom;
+  };
+  ov.querySelectorAll('input[data-k]').forEach((r) => r.addEventListener('input', () => { st[r.dataset.k] = Number(r.value); apply(); }));
+  ov.querySelector('[data-reset]').addEventListener('click', () => { Object.assign(st, { zoom: 1, contrast: 100, brightness: 100, x: 0, y: 0 }); ov.querySelectorAll('input[data-k]').forEach((r) => (r.value = st[r.dataset.k])); apply(); });
+  const close = () => { ov.remove(); document.removeEventListener('keydown', esc_); };
+  const esc_ = (e) => { if (e.key === 'Escape') close(); };
+  document.addEventListener('keydown', esc_);
+  ov.querySelector('[data-close]').addEventListener('click', close);
+  stage.addEventListener('wheel', (e) => { e.preventDefault(); st.zoom = Math.min(6, Math.max(1, st.zoom * (e.deltaY < 0 ? 1.1 : 0.9))); apply(); }, { passive: false });
+  let drag = null;
+  stage.addEventListener('pointerdown', (e) => { drag = { x: e.clientX - st.x, y: e.clientY - st.y }; stage.setPointerCapture(e.pointerId); });
+  stage.addEventListener('pointermove', (e) => { if (!drag) return; st.x = e.clientX - drag.x; st.y = e.clientY - drag.y; apply(); });
+  stage.addEventListener('pointerup', () => (drag = null));
+}
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('[data-viewer]');
+  if (b) openViewer(b.dataset.viewer);
+});
 
 function labsTable(q) {
   if (!q.labs?.length) return '';
@@ -364,6 +412,7 @@ function stopTick() { if (tickHandle) clearInterval(tickHandle); tickHandle = nu
 
 function onKey(e) {
   if (!session || location.hash !== '#exam' || session.betweenBlocks || session.reviewingBlock || session.timer.status !== 'running') return;
+  if (document.querySelector('.viewer')) return;
   if (e.target.matches('input, textarea, select') || e.metaKey || e.ctrlKey || e.altKey) return;
   const k = e.key.toLowerCase();
   const it = itemFor(blockIds()[session.currentIndex]);
@@ -453,6 +502,7 @@ function reviewCard(r, entry, reviews, reviewer) {
       <span class="badge ${q.review_status === 'reviewed' ? 'reviewed' : 'draft'}">${esc(q.review_status)}</span>
     </div>
     <div class="stem">${esc(q.stem)}</div>
+    ${imageBlock(q, true)}
     ${labsTable(q)}
     <ul class="options">
       ${it.optionOrder.map((orig, pos) => {

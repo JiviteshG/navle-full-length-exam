@@ -70,3 +70,13 @@ input[type=text], select { font: inherit; padding: 6px 8px; border-radius: 6px; 
   main { padding: 12px; }
   .examhead { gap: 8px; }
 }
+
+/* Images and viewer */
+.qimg { margin: 12px 0; }
+.imgbtn { padding: 0; border: 1px solid var(--border); background: #000; display: block; max-width: 100%; }
+.imgbtn img { display: block; max-width: 100%; max-height: 320px; }
+.viewer { position: fixed; inset: 0; z-index: 50; background: rgba(0,0,0,.92); display: flex; flex-direction: column; }
+.viewer-bar { padding: 8px 12px; background: var(--panel); color: var(--text); }
+.viewer-bar input[type=range] { vertical-align: middle; width: 110px; }
+.viewer-stage { flex: 1; overflow: hidden; display: flex; align-items: center; justify-content: center; cursor: grab; touch-action: none; }
+.viewer-stage img { max-width: 95%; max-height: 95%; transform-origin: center; user-select: none; }

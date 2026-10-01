@@ -49,3 +49,12 @@ test('bank covers at least the 2-block practice quotas exactly on both axes', ()
   for (const q of bank) { const g = quotaKey(blueprint, q.subdomain); counts[g] = (counts[g] ?? 0) + 1; }
   for (const [k, n] of Object.entries(sdQ)) assert.ok((counts[k] ?? 0) >= n, `subdomain ${k} needs ${n}, has ${counts[k] ?? 0}`);
 });
+
+test('question images are local files with credit, license and source', async () => {
+  const { existsSync } = await import('node:fs');
+  for (const q of bank.filter((x) => x.image)) {
+    const im = q.image;
+    assert.ok(existsSync(new URL(`../${im.src}`, import.meta.url)), `image file for ${q.id}`);
+    for (const k of ['alt', 'credit', 'license', 'source_url']) assert.ok(im[k], `${k} for ${q.id}`);
+  }
+});

@@ -106,6 +106,23 @@ diagnosis/topic.
 Both ICVA documents say no portion may be reproduced without permission. The repo will **not** contain
 their text; only the category names needed for tagging are used.
 
+## 3e. Images (ICVA: about 15–20% of items include a photograph, radiograph or other image)
+- Target: about 15–20% of every form has an image (9–12 of 60; 54–72 of 360).
+- Images must be **real clinical images**, not drawings or generated pictures: radiographs, ECGs, cytology, gross lesions, necropsy.
+- Only images whose license allows reuse (public domain or Creative Commons) are used, from sources such as Wikimedia Commons or open-access journals (PMC). Credit, license and source link are stored with each item and shown after the exam.
+- Every image is checked by eye before use, and the reviewing vet confirms it shows what the question says.
+- Viewer: zoom, contrast/brightness and panning, as in the NAVLE viewer. ✅ built.
+- **Blocked:** this build environment's network policy denies the image sources (commons.wikimedia.org, upload.wikimedia.org, openi.nlm.nih.gov, ncbi.nlm.nih.gov). Needs those domains allowed.
+- Phase-1 questions to redraft around an image, so the image carries the key finding and the stem no longer gives it away:
+  CAN-0003 (GDV radiograph), CAN-0004 (blood smear), FEL-0002 (hyperkalemia ECG), FEL-0005 (hemoplasma smear),
+  EQU-0002 (navicular radiographs), BOV-0003 (necropsy lung), POR-0001 (erysipelas skin), REP-0001 (lizard radiograph),
+  AQU-0001 (gill lesion), FEL-0003 (feline ATE presentation or echocardiogram), giving 10 of 60.
+
+## 3f. Exam format conflict (unresolved)
+- The ICVA excerpt supplied by the user says **6 blocks of 60 questions and an optional 15-minute tutorial**.
+- Earlier search results said the format changes to **12 blocks of 30 (33 min each)** from the Oct–Nov 2026 window.
+- The supplied excerpt gives no minutes per block. The app keeps 12 × 30 / 33 min, marked unverified, until the user confirms which document and testing cycle applies. Only `js/config.js` needs changing.
+
 ## 4. Item format
 - Single best answer, 5 options (A–E), clinical vignette stem, optional lab table, and an optional image later.
 - No "all of the above" or "none of the above". Options are kept similar in length and are plausible distractors.
