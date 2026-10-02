@@ -610,5 +610,406 @@
       "takeaway": "Ventilate barns and evacuate people and animals before agitating manure pits; never rely on smell."
     },
     "reference": "NIOSH, Preventing deaths of farm workers in manure pits; Merck Veterinary Manual, Toxicities from gases"
+  },
+  {
+    "id": "BOV-0019",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "gastrointestinal",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "abomasal volvulus",
+      "right-sided ping",
+      "surgery"
+    ],
+    "stem": "A 5-year-old Holstein cow 3 weeks after calving suddenly stops eating and producing milk. Heart rate is 110 beats/min, and she is 8% dehydrated. A large ping is heard on the right side, and the right flank is distended. Bloodwork shows hypochloremic metabolic alkalosis. Which treatment is most appropriate?",
+    "options": [
+      "Emergency right-flank surgery with fluids",
+      "Rolling the cow to correct the displacement",
+      "Oral calcium and observation for 24 hours",
+      "Toggle-pin suture through the left flank",
+      "Oral mineral oil and turnout to pasture"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "A tachycardic, dehydrated cow with a large right-sided ping and hypochloremic alkalosis suggests a right displaced abomasum that has twisted (abomasal volvulus). The abomasum loses blood supply, so emergency right-flank surgery with IV fluids is needed. A heart rate above 100 beats/min indicates a worse prognosis.",
+      "options": [
+        "Correct. Abomasal volvulus needs urgent surgery and fluids.",
+        "Rolling is used for left displacement and is contraindicated for right-sided volvulus.",
+        "Observation delays surgery and risks abomasal necrosis.",
+        "Toggle-pin fixation is for left displaced abomasum.",
+        "Medical treatment cannot correct a volvulus."
+      ],
+      "takeaway": "A right-sided ping with tachycardia and dehydration in a fresh cow suggests abomasal volvulus: operate urgently."
+    },
+    "reference": "Constable PD et al., Veterinary Medicine (Radostits), right displacement and volvulus of the abomasum"
+  },
+  {
+    "id": "BOV-0020",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "hemic_lymphatic",
+    "subdomain": "data_gathering",
+    "topics": [
+      "bovine leukemia virus",
+      "lymphosarcoma"
+    ],
+    "stem": "A 6-year-old dairy cow has lost weight and milk production. Examination finds enlarged peripheral lymph nodes, bilateral exophthalmos, and dark tarry feces. Rectal palpation finds firm masses in the pelvic area. Which diagnosis is most likely?",
+    "options": [
+      "Lymphosarcoma linked to bovine leukemia virus",
+      "Johne's disease (paratuberculosis)",
+      "Hardware disease (traumatic reticuloperitonitis)",
+      "Bovine tuberculosis",
+      "Malignant catarrhal fever"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Enzootic bovine lymphosarcoma is caused by bovine leukemia virus in adult cattle. Typical sites include peripheral and internal lymph nodes, the retrobulbar area (exophthalmos), the abomasum (melena), the heart, the uterus and the epidural space (posterior paresis). Biopsy or aspirate of an affected node confirms it.",
+      "options": [
+        "Correct. These sites are typical of BLV-associated lymphosarcoma.",
+        "Johne's causes diarrhea and weight loss without masses or exophthalmos.",
+        "Hardware disease causes cranial abdominal pain, not lymph node masses.",
+        "Tuberculosis can enlarge lymph nodes but rarely causes exophthalmos and melena together.",
+        "MCF causes fever, eye and mouth lesions and is usually fatal within days."
+      ],
+      "takeaway": "Enlarged lymph nodes, exophthalmos and melena in an adult cow suggest BLV-associated lymphosarcoma."
+    },
+    "reference": "Constable PD et al., Veterinary Medicine (Radostits), enzootic bovine leukosis"
+  },
+  {
+    "id": "BOV-0021",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "reproductive",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "dystocia",
+      "hip lock"
+    ],
+    "stem": "A heifer is delivering a calf in normal anterior presentation. The head and thorax have been delivered with traction, but the calf stops at the hips. Which step is most appropriate?",
+    "options": [
+      "Rotate the calf 45–90° and pull downward",
+      "Pull harder straight backward with a calf jack",
+      "Push the calf back into the uterus",
+      "Leave the calf and come back in an hour",
+      "Perform an immediate fetotomy at the neck"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Hip lock happens when the calf's hips catch at the cow's pelvic inlet. Rotating the calf 45–90° so its hips pass through the widest diameter of the pelvis, then pulling down toward the cow's hocks, usually frees it. Hard straight traction can injure the calf and dam.",
+      "options": [
+        "Correct. Rotation and downward traction use the pelvis's widest diameter.",
+        "Excessive straight traction can cause fractures and nerve damage.",
+        "Pushing the calf back is very difficult at this stage and does not solve the problem.",
+        "Waiting puts the calf at risk of death from cord compression.",
+        "Fetotomy is used for dead calves when delivery is impossible."
+      ],
+      "takeaway": "For hip lock, rotate the calf 45–90° and pull down toward the cow's hocks."
+    },
+    "reference": "Noakes DE et al., Veterinary Reproduction and Obstetrics"
+  },
+  {
+    "id": "BOV-0022",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "special_senses",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "infectious bovine keratoconjunctivitis",
+      "Moraxella bovis",
+      "pinkeye"
+    ],
+    "stem": "In summer, several beef calves on pasture have tearing, squinting and a central corneal ulcer with surrounding edema. Face flies are numerous. Which treatment for affected calves is most appropriate?",
+    "options": [
+      "Labeled injectable oxytetracycline",
+      "Topical corticosteroid eye ointment twice daily",
+      "Oral vitamin A supplements as the only treatment",
+      "Topical atropine as the only treatment",
+      "No treatment, since pinkeye always heals"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Infectious bovine keratoconjunctivitis (pinkeye) is caused mainly by Moraxella bovis and spread by face flies, dust and tall grass. Treatment with a labeled antibiotic such as long-acting oxytetracycline or tulathromycin speeds healing. Eye patches and fly control help. Untreated eyes may rupture.",
+      "options": [
+        "Correct. Labeled antibiotics speed healing of pinkeye.",
+        "Topical steroids slow healing of corneal ulcers and worsen infection.",
+        "Vitamin A does not treat the infection.",
+        "Atropine relieves pain but does not treat infection.",
+        "Untreated ulcers can perforate and blind the eye."
+      ],
+      "takeaway": "Treat pinkeye in cattle with a labeled antibiotic, and control face flies to prevent spread."
+    },
+    "reference": "Merck Veterinary Manual, Infectious bovine keratoconjunctivitis"
+  },
+  {
+    "id": "BOV-0023",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "infectious",
+    "subdomain": "data_gathering",
+    "topics": [
+      "blackleg",
+      "Clostridium chauvoei"
+    ],
+    "stem": "Two well-grown 10-month-old beef steers on pasture are found dead. A third is lame and depressed, with a hot, swollen hind leg that crackles under the skin. The calves have not been vaccinated. Which diagnosis is most likely?",
+    "options": [
+      "Blackleg (Clostridium chauvoei)",
+      "Anthrax (Bacillus anthracis)",
+      "Foot rot (Fusobacterium necrophorum)",
+      "Lead poisoning",
+      "Bloat (frothy)"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Sudden death in well-grown cattle aged about 6–24 months with crepitant (gas-filled) swelling of large muscles is typical of blackleg, caused by Clostridium chauvoei. Prevention is clostridial vaccination. Anthrax should be ruled out before opening a carcass if death was sudden and unexplained.",
+      "options": [
+        "Correct. Crepitant muscle swelling in young cattle is typical of blackleg.",
+        "Anthrax causes sudden death and bleeding from body openings, without crepitant muscle swelling.",
+        "Foot rot causes lameness with foot swelling, not sudden death.",
+        "Lead causes neurologic signs and blindness.",
+        "Bloat causes left-sided distension, not muscle swelling."
+      ],
+      "takeaway": "Sudden death and crepitant muscle swelling in well-grown young cattle mean blackleg; vaccinate the herd."
+    },
+    "reference": "Merck Veterinary Manual, Blackleg in animals"
+  },
+  {
+    "id": "BOV-0024",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "multisystemic",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "colostrum management",
+      "failure of passive transfer"
+    ],
+    "stem": "A dairy farm has many calf deaths from diarrhea and pneumonia in the first 3 weeks of life. Serum total protein from 12 calves aged 2–5 days averages 4.6 g/dL. Which change is most likely to reduce losses?",
+    "options": [
+      "About 4 L of clean colostrum within 2 hours",
+      "Give every newborn calf an injectable antibiotic at birth",
+      "Wait until calves are 24 hours old to feed colostrum",
+      "Let calves nurse their dams without any supervision",
+      "Feed milk replacer instead of colostrum from day 1"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Low serum total protein (under about 5.2–5.5 g/dL) in calves 1–7 days old indicates failure of passive transfer. Feeding enough clean, high-quality colostrum (about 10–12% of body weight, around 4 L for a Holstein) soon after birth is the most important step. Absorption falls quickly after birth and stops at about 24 hours.",
+      "options": [
+        "Correct. Early, adequate colostrum is the key prevention.",
+        "Routine antibiotics do not replace antibodies and encourage resistance.",
+        "Absorption is very poor by 24 hours.",
+        "Many calves do not get enough colostrum when nursing unsupervised.",
+        "Milk replacer does not contain colostral antibodies."
+      ],
+      "takeaway": "Prevent failure of passive transfer in dairy calves with about 4 L of clean colostrum within the first hours of life."
+    },
+    "reference": "Godden SM et al., Colostrum management for dairy calves (Vet Clin North Am Food Anim Pract 2019)"
+  },
+  {
+    "id": "BOV-0025",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "non_clinical",
+    "subdomain": "public_health",
+    "topics": [
+      "bovine tuberculosis",
+      "caudal fold test",
+      "regulatory"
+    ],
+    "stem": "An accredited veterinarian is performing caudal fold tuberculin tests on a herd for interstate movement. One cow has a swelling at the injection site. Which action is correct?",
+    "options": [
+      "Report the responder to animal health officials",
+      "Send the cow to slaughter without reporting",
+      "Re-test the cow yourself the next morning",
+      "Treat the cow with oral isoniazid for 6 months",
+      "Ignore it, as swelling is usually from the injection"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "The caudal fold test is read by observation and palpation 72 hours after injection, and only accredited veterinarians may perform official tests. Any responder must be reported to state or federal animal health officials, who arrange further testing such as the comparative cervical test or interferon-gamma test. Bovine TB is zoonotic and reportable.",
+      "options": [
+        "Correct. Responders must be reported for official follow-up testing.",
+        "Moving a responder without reporting breaks regulations.",
+        "Repeat testing must follow official protocols and timing, not be done the next day.",
+        "Treating TB in cattle is not permitted in the US.",
+        "Any response must be reported, whatever its cause."
+      ],
+      "takeaway": "Report any responder to a caudal fold TB test to state or federal officials; further testing follows official rules."
+    },
+    "reference": "USDA APHIS, Bovine Tuberculosis Eradication Uniform Methods and Rules"
+  },
+  {
+    "id": "BOV-0026",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "hemic_lymphatic",
+    "subdomain": "data_gathering",
+    "topics": [
+      "anaplasmosis",
+      "Anaplasma marginale"
+    ],
+    "stem": "In late summer, a 5-year-old beef cow is weak, pale, short of breath and icteric. Urine is normal in color. Calves in the herd are healthy. Which finding on a blood smear is most likely?",
+    "options": [
+      "Small dense bodies at the edge of red blood cells",
+      "Large pear-shaped organisms in pairs within red cells",
+      "Heinz bodies on many red blood cells",
+      "Morulae within neutrophils",
+      "Spirochetes between red blood cells"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Anaplasmosis, caused by Anaplasma marginale, causes anemia and icterus without hemoglobinuria, mainly in adult cattle (calves are relatively resistant). It is spread by ticks, biting flies and contaminated needles. Organisms appear as small dense bodies at the margins of red cells.",
+      "options": [
+        "Correct. Marginal bodies in red cells are typical of A. marginale.",
+        "Pear-shaped paired organisms suggest Babesia, which causes hemoglobinuria.",
+        "Heinz bodies indicate oxidant damage, such as from onion or copper.",
+        "Neutrophil morulae suggest Anaplasma phagocytophilum.",
+        "Spirochetes in blood suggest Borrelia, which is not a cause of this picture in cattle."
+      ],
+      "takeaway": "Anemia and icterus without hemoglobinuria in adult cattle in summer suggest anaplasmosis: look for marginal bodies."
+    },
+    "reference": "Merck Veterinary Manual, Bovine anaplasmosis"
+  },
+  {
+    "id": "BOV-0027",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "musculoskeletal",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "sole ulcer",
+      "claw block"
+    ],
+    "stem": "A 4-year-old Holstein cow is lame on the right hind limb. Hoof trimming finds a sole ulcer at the typical site on the lateral claw, with exposed corium. The medial claw is healthy. Which treatment is most appropriate?",
+    "options": [
+      "Trim the ulcer and block the medial claw",
+      "Amputate the lateral claw at the coronary band",
+      "Apply a bandage only, with no trimming at all",
+      "Give systemic antibiotics as the only treatment",
+      "Inject corticosteroid into the distal interphalangeal joint"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Sole ulcers usually develop on the lateral hind claw at the junction of the sole and heel. Treatment is corrective trimming to remove loose horn and relieve weight on the ulcer, and a block glued to the healthy claw to keep weight off the affected one. An NSAID helps with pain. Amputation is for deep infection.",
+      "options": [
+        "Correct. Trimming and blocking let the ulcer heal.",
+        "Amputation is for deep infection of the coffin joint or bone.",
+        "Bandaging without trimming does not remove pressure.",
+        "Antibiotics are not needed for an uncomplicated sole ulcer.",
+        "Joint steroids are not appropriate."
+      ],
+      "takeaway": "Treat bovine sole ulcers with corrective trimming and a block on the healthy claw."
+    },
+    "reference": "Shearer JK, van Amstel SR, Manual of Foot Care in Cattle"
+  },
+  {
+    "id": "BOV-0028",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "non_clinical",
+    "subdomain": "public_health",
+    "topics": [
+      "Escherichia coli O157:H7",
+      "petting farm",
+      "hand hygiene"
+    ],
+    "stem": "A county fair asks your advice before opening a petting area with calves and goats. Which measure best reduces the risk of E. coli O157:H7 infection in visitors?",
+    "options": [
+      "Handwashing stations at the exit, and no food in animal areas",
+      "Testing all animals and allowing only those negative for E. coli",
+      "Treating all animals with antibiotics before the fair",
+      "Letting children bottle-feed the calves with no handwashing",
+      "Using hand sanitizer only and allowing food in animal areas"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Healthy cattle and other ruminants can shed E. coli O157:H7 without signs, and shedding is intermittent, so testing animals cannot guarantee safety. The CDC's Compendium of measures recommends handwashing stations with running water and soap at exits, keeping food and drink out of animal areas, and supervising young children.",
+      "options": [
+        "Correct. Handwashing and keeping food out of animal areas are the key measures.",
+        "Shedding is intermittent, so negative tests do not make animals safe.",
+        "Antibiotics do not reliably stop shedding and promote resistance.",
+        "Contact without handwashing increases risk.",
+        "Hand sanitizer is less effective than soap and water on dirty hands, and food in animal areas raises risk."
+      ],
+      "takeaway": "At animal exhibits, healthy ruminants can shed E. coli O157: provide handwashing at exits and keep food out of animal areas."
+    },
+    "reference": "NASPHV, Compendium of Measures to Prevent Disease Associated with Animals in Public Settings"
+  },
+  {
+    "id": "BOV-0029",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "non_clinical",
+    "subdomain": "animal_welfare",
+    "topics": [
+      "disbudding",
+      "pain management",
+      "cornual nerve block"
+    ],
+    "stem": "A dairy farmer asks about disbudding 4-week-old calves with a hot iron. Which approach best follows current welfare guidance?",
+    "options": [
+      "Local anesthetic (cornual nerve block) plus an NSAID",
+      "No pain relief, since calves feel little pain at this age",
+      "Sedation alone without local anesthetic",
+      "Wait until the calves are 6 months old",
+      "Apply ice to the horn bud as the only pain control"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Disbudding is painful at any age. AVMA policy recommends doing it as early as possible and using pain control: a local anesthetic (cornual nerve block) for the procedure, and an NSAID such as meloxicam for pain afterward. Sedation can help with handling.",
+      "options": [
+        "Correct. A local block plus an NSAID addresses both procedural and postoperative pain.",
+        "Calves feel pain from disbudding at any age.",
+        "Sedation alone does not block pain.",
+        "Dehorning older animals is more painful and riskier.",
+        "Ice is not adequate pain control."
+      ],
+      "takeaway": "Use a cornual nerve block plus an NSAID when disbudding calves, and do it as early as possible."
+    },
+    "reference": "AVMA, Policy on Castration and Dehorning of Cattle"
+  },
+  {
+    "id": "BOV-0030",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "non_clinical",
+    "subdomain": "practice_management",
+    "topics": [
+      "Veterinary Feed Directive",
+      "antimicrobial stewardship"
+    ],
+    "stem": "A beef producer asks you to approve chlortetracycline in feed to control anaplasmosis in his cattle. Which requirement applies in the United States?",
+    "options": [
+      "A Veterinary Feed Directive issued within a valid VCPR",
+      "An over-the-counter purchase with no veterinary involvement",
+      "A written prescription filled at a human pharmacy",
+      "Extralabel use in feed at any dose the vet chooses",
+      "A verbal approval by phone, with no records kept"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Since 2017, medically important antimicrobials in feed (such as chlortetracycline) can be used only under a Veterinary Feed Directive, issued by a veterinarian within a valid veterinarian-client-patient relationship, for labeled uses. Extralabel use of drugs in feed is prohibited, and records must be kept for 2 years.",
+      "options": [
+        "Correct. Medically important feed antimicrobials require a VFD within a VCPR.",
+        "These drugs are no longer available over the counter for use in feed.",
+        "A prescription is used for water-soluble drugs, not for feed.",
+        "Extralabel use of drugs in feed is not permitted.",
+        "VFDs must be written, and records kept."
+      ],
+      "takeaway": "Medically important antimicrobials in feed need a Veterinary Feed Directive within a VCPR, for labeled uses only."
+    },
+    "reference": "FDA Center for Veterinary Medicine, Veterinary Feed Directive final rule (21 CFR 558.6)"
   }
 ]

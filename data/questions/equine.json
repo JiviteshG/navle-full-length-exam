@@ -744,5 +744,440 @@
       "takeaway": "A confirmed positive Coggins means a lifelong carrier: report it and follow state rules for quarantine or euthanasia."
     },
     "reference": "USDA APHIS, Equine Infectious Anemia program information; AAEP Infectious Disease Guidelines: EIA"
+  },
+  {
+    "id": "EQU-0022",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "respiratory",
+    "subdomain": "data_gathering",
+    "topics": [
+      "Rhodococcus equi",
+      "foal pneumonia",
+      "thoracic ultrasound"
+    ],
+    "stem": "On a large breeding farm, a 2-month-old foal has a fever, a fast breathing rate and a cough. Several foals on the farm had pneumonia last summer. Thoracic ultrasound shows several round, hypoechoic areas in the lung periphery. Which test best confirms the likely cause?",
+    "options": [
+      "Tracheal wash culture and PCR",
+      "Nasal swab PCR for equine influenza",
+      "Fecal egg count for Parascaris",
+      "Coggins test for EIA",
+      "Serum IgG concentration"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Pneumonia with pulmonary abscesses in foals aged about 1–6 months on endemic farms is typical of Rhodococcus equi. Ultrasound shows peripheral abscesses. A tracheal wash with culture and PCR (for the vapA virulence gene) confirms the organism. Serology is not reliable.",
+      "options": [
+        "Correct. Tracheal wash culture or PCR confirms R. equi.",
+        "Influenza causes fever and cough but not lung abscesses.",
+        "Parascaris migration can cause cough, but not abscesses on ultrasound.",
+        "EIA does not cause pneumonia with abscesses.",
+        "IgG shows passive transfer status but does not identify the pathogen."
+      ],
+      "takeaway": "Pulmonary abscesses in a 1–6-month-old foal suggest Rhodococcus equi; confirm by tracheal wash culture or PCR."
+    },
+    "reference": "Giguère S et al., ACVIM consensus on Rhodococcus equi infections in foals (J Vet Intern Med 2011)"
+  },
+  {
+    "id": "EQU-0023",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "respiratory",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "Rhodococcus equi",
+      "macrolide",
+      "screening"
+    ],
+    "stem": "On a farm with endemic Rhodococcus equi, thoracic ultrasound screening finds small peripheral lung abscesses (under 1 cm) in several healthy 6-week-old foals with no fever or cough. Which approach is most appropriate for these foals?",
+    "options": [
+      "Monitor closely and treat only if signs develop",
+      "Give every foal a macrolide plus rifampin starting now",
+      "Vaccinate every foal with a commercial R. equi vaccine",
+      "Euthanize affected foals to protect the rest of the herd",
+      "Isolate the affected foals from the herd for 6 months"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Most foals with small subclinical lesions recover without treatment. Treating all of them with macrolides and rifampin has encouraged resistant R. equi on farms, so ACVIM recommends close monitoring and treating foals that show signs or have large lesions.",
+      "options": [
+        "Correct. Monitoring reduces unnecessary antibiotics and resistance.",
+        "Mass treatment of subclinical foals has led to drug resistance.",
+        "There is no effective commercial vaccine for R. equi.",
+        "Euthanasia is not justified, as most foals recover.",
+        "R. equi lives in the soil; isolation does not help much."
+      ],
+      "takeaway": "Don't treat subclinical R. equi lesions routinely; monitor foals and treat those with clinical signs."
+    },
+    "reference": "Giguère S et al., ACVIM consensus on Rhodococcus equi infections in foals (J Vet Intern Med 2011)"
+  },
+  {
+    "id": "EQU-0024",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "infectious",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "tetanus",
+      "antitoxin",
+      "vaccination"
+    ],
+    "stem": "A 6-year-old horse with no vaccination history has a deep puncture wound on the sole after stepping on a nail. Which tetanus plan is most appropriate?",
+    "options": [
+      "Tetanus antitoxin and toxoid, at separate sites",
+      "Tetanus toxoid only, given today",
+      "Tetanus antitoxin only, then nothing further",
+      "Oral penicillin for 5 days without vaccination",
+      "No action, since sole wounds rarely cause tetanus"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Horses are very sensitive to tetanus, and puncture wounds of the foot are a classic route. An unvaccinated or unknown-status horse should receive tetanus antitoxin for immediate passive protection and toxoid at a separate site to start active immunity, with a toxoid booster 4–6 weeks later.",
+      "options": [
+        "Correct. Antitoxin gives immediate protection; toxoid starts immunity.",
+        "Toxoid alone takes weeks to produce protection.",
+        "Antitoxin alone gives only short protection and does not build immunity.",
+        "Antibiotics alone do not provide reliable protection.",
+        "Foot punctures are a classic source of tetanus."
+      ],
+      "takeaway": "An unvaccinated horse with a wound needs tetanus antitoxin plus toxoid at separate sites, then a booster."
+    },
+    "reference": "AAEP Vaccination Guidelines: Tetanus"
+  },
+  {
+    "id": "EQU-0025",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "musculoskeletal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "hyperkalemic periodic paralysis",
+      "SCN4A",
+      "Quarter Horse"
+    ],
+    "stem": "A 4-year-old Quarter Horse with a pedigree tracing to the stallion Impressive has episodes of muscle fasciculations, weakness and third eyelid prolapse, often after eating alfalfa. Serum potassium was high during one episode. Which test confirms the suspected diagnosis?",
+    "options": [
+      "SCN4A genetic test",
+      "Genetic test for the GYS1 mutation",
+      "Muscle biopsy stained with PAS",
+      "Serum alpha-tocopherol (vitamin E)",
+      "Whole-blood selenium concentration"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Hyperkalemic periodic paralysis is an inherited sodium channel disease (SCN4A mutation) in Quarter Horses and related breeds descended from Impressive. Episodes are triggered by high-potassium feeds such as alfalfa. A DNA test confirms it.",
+      "options": [
+        "Correct. HYPP is confirmed by an SCN4A genetic test.",
+        "GYS1 testing is for PSSM1.",
+        "PAS-stained biopsy diagnoses polysaccharide storage myopathy.",
+        "Vitamin E deficiency causes equine motor neuron disease and other neurologic disease, not episodes linked to potassium.",
+        "Selenium deficiency causes nutritional myopathy, not potassium-linked episodes."
+      ],
+      "takeaway": "Episodic weakness with high potassium in a Quarter Horse descended from Impressive: test for the HYPP (SCN4A) mutation."
+    },
+    "reference": "Valberg SJ, Muscle conditions affecting sport horses (Vet Clin North Am Equine Pract 2018)"
+  },
+  {
+    "id": "EQU-0026",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "gastrointestinal",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "large colon impaction",
+      "enteral fluids"
+    ],
+    "stem": "A 15-year-old horse recently moved to stall rest has mild colic. Rectal palpation finds a firm impaction in the pelvic flexure. Heart rate is 44 beats/min, and the pain is controlled with flunixin. Which treatment is most appropriate?",
+    "options": [
+      "Nasogastric enteral fluids, feed withheld",
+      "Immediate exploratory celiotomy under general anesthesia",
+      "Large volumes of hay to push the impaction through",
+      "Neostigmine to stimulate motility before giving fluids",
+      "Oral mineral oil by stomach tube as the only treatment"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Large colon impaction at the pelvic flexure is common after reduced exercise or changes in diet or water. Most resolve with medical treatment: withholding feed, analgesia, and enteral fluids (often with electrolytes or magnesium sulfate) by nasogastric tube to hydrate the impaction. IV fluids can be added for severe cases.",
+      "options": [
+        "Correct. Enteral fluids hydrate the impaction and are the mainstay of treatment.",
+        "Surgery is needed only if pain becomes uncontrolled or the impaction does not resolve.",
+        "More feed adds to the impaction.",
+        "Neostigmine can increase pain and risk rupture with an impaction.",
+        "Mineral oil coats the mass but does not hydrate it, and it is less effective than fluids."
+      ],
+      "takeaway": "Treat pelvic flexure impactions medically with enteral fluids, analgesia and feed withheld."
+    },
+    "reference": "Orsini JA, Divers TJ, Equine Emergencies; Blikslager AT et al., The Equine Acute Abdomen"
+  },
+  {
+    "id": "EQU-0027",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "special_senses",
+    "subdomain": "data_gathering",
+    "topics": [
+      "equine recurrent uveitis",
+      "Leptospira"
+    ],
+    "stem": "A 9-year-old Appaloosa has had a third episode in a year of a painful, squinting right eye with tearing, a constricted pupil, and cloudiness in the anterior chamber. Each episode improved with anti-inflammatory treatment. Which infectious agent is most strongly linked to this condition?",
+    "options": [
+      "Leptospira interrogans",
+      "Streptococcus equi subsp. equi",
+      "Equine herpesvirus 1",
+      "Rhodococcus equi",
+      "Moraxella bovis"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Repeated episodes of uveitis in an Appaloosa suggest equine recurrent uveitis. Appaloosas have a genetic predisposition, and Leptospira interrogans infection is the infectious agent most strongly linked to the disease. Aqueous humor testing for Leptospira antibodies or PCR can be done.",
+      "options": [
+        "Correct. Leptospira is strongly linked to equine recurrent uveitis.",
+        "S. equi causes strangles, not recurrent uveitis.",
+        "EHV-1 can cause eye lesions, but it is not the main cause of recurrent uveitis.",
+        "R. equi mainly affects foals' lungs.",
+        "Moraxella bovis causes pinkeye in cattle."
+      ],
+      "takeaway": "Recurrent uveitis in horses, especially Appaloosas, is strongly linked to Leptospira."
+    },
+    "reference": "Gilger BC, Equine Ophthalmology, equine recurrent uveitis"
+  },
+  {
+    "id": "EQU-0028",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "special_senses",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "melting corneal ulcer",
+      "autologous serum"
+    ],
+    "stem": "A horse has a corneal ulcer with a soft, gelatinous edge that is getting deeper over 24 hours. Cytology shows rods. Which topical treatment plan is most appropriate?",
+    "options": [
+      "Antibiotic, autologous serum and atropine",
+      "Topical dexamethasone to reduce inflammation",
+      "Topical antibiotic ointment once a day only",
+      "Topical proparacaine every hour for comfort",
+      "Topical antifungal only, without antibiotics"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "A melting ulcer with rods suggests infection with bacteria such as Pseudomonas, which release proteases that dissolve the cornea. Treatment includes frequent topical antibiotics, anti-protease therapy (autologous serum, EDTA), topical atropine for pain from ciliary spasm, and systemic NSAIDs. A subpalpebral lavage system makes frequent treatment easier.",
+      "options": [
+        "Correct. Antibiotics, serum and atropine treat infection, melting and pain.",
+        "Steroids worsen corneal infection and melting.",
+        "Once-daily treatment is too infrequent for a melting ulcer.",
+        "Topical anesthetics delay healing and should not be used for treatment.",
+        "Fungal infection is possible, but rods were seen, and antibiotics are essential."
+      ],
+      "takeaway": "Treat melting corneal ulcers with frequent antibiotics, anti-protease (serum) and atropine; never use steroids."
+    },
+    "reference": "Gilger BC, Equine Ophthalmology, diseases of the cornea"
+  },
+  {
+    "id": "EQU-0029",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "nervous",
+    "subdomain": "data_gathering",
+    "topics": [
+      "West Nile virus",
+      "IgM capture ELISA"
+    ],
+    "stem": "In August, an unvaccinated 8-year-old horse develops muscle fasciculations of the face and neck, hind limb weakness and periods of drowsiness. It has a mild fever. Which test is most useful to confirm the likely diagnosis?",
+    "options": [
+      "IgM capture ELISA for West Nile virus",
+      "Coggins test for equine infectious anemia",
+      "Paired serum and CSF titers for Sarcocystis neurona",
+      "Genetic test for the SCN4A mutation",
+      "Plasma ACTH concentration"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Late-summer fever, muscle fasciculations, weakness and altered mentation in an unvaccinated horse suggest West Nile virus encephalomyelitis, spread by mosquitoes. An IgM capture ELISA on serum detects recent infection and is the preferred test. Vaccination is a core vaccine in horses.",
+      "options": [
+        "Correct. IgM capture ELISA confirms recent WNV infection.",
+        "EIA does not cause these neurologic signs.",
+        "EPM is usually asymmetric and is not linked to late-summer fevers.",
+        "HYPP is genetic and causes episodes, not fever.",
+        "ACTH tests for PPID."
+      ],
+      "takeaway": "Late-summer fever with fasciculations and weakness in an unvaccinated horse: test for West Nile virus with an IgM capture ELISA."
+    },
+    "reference": "AAEP Vaccination Guidelines: West Nile Virus"
+  },
+  {
+    "id": "EQU-0030",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "multisystemic",
+    "subdomain": "data_gathering",
+    "topics": [
+      "cantharidin toxicosis",
+      "blister beetles",
+      "alfalfa hay"
+    ],
+    "stem": "Two horses fed a new batch of alfalfa hay have colic, frequent urination, sweating and synchronous diaphragmatic flutter. Bloodwork shows hypocalcemia and hypomagnesemia, and urine contains blood. Which cause is most likely?",
+    "options": [
+      "Blister beetles in the hay",
+      "Moldy corn in the grain",
+      "Red maple leaves in the pasture",
+      "Yew clippings in the paddock",
+      "Excess salt in a mineral block"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Blister beetles (Epicauta) can be crushed into alfalfa hay during harvest. Their toxin, cantharidin, irritates the gut and urinary tract and causes colic, frequent urination, hematuria, hypocalcemia, hypomagnesemia and synchronous diaphragmatic flutter. Treatment is supportive, with activated charcoal, fluids and calcium.",
+      "options": [
+        "Correct. Cantharidin from blister beetles causes this pattern.",
+        "Moldy corn (fumonisin) causes leukoencephalomalacia with neurologic signs.",
+        "Red maple causes hemolytic anemia and methemoglobinemia.",
+        "Yew causes sudden cardiac death.",
+        "Salt excess is unlikely with water available and does not cause this picture."
+      ],
+      "takeaway": "Colic, hematuria and hypocalcemia in horses fed alfalfa hay suggest blister beetle (cantharidin) toxicosis."
+    },
+    "reference": "Merck Veterinary Manual, Cantharidin poisoning in horses"
+  },
+  {
+    "id": "EQU-0031",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "reproductive",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "twin pregnancy",
+      "manual reduction"
+    ],
+    "stem": "Transrectal ultrasound of a mare at 15 days after ovulation shows two embryonic vesicles in separate uterine horns. Which action is most appropriate?",
+    "options": [
+      "Manually crush one vesicle now",
+      "Wait until day 60 and then decide",
+      "Give prostaglandin and lose both",
+      "Do nothing, as twins usually go to term",
+      "Re-examine at day 120"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Twin pregnancies in mares usually end in abortion or weak foals. Before about day 16, vesicles are still mobile and easy to separate, and manually crushing one by transrectal ultrasound guidance has a high success rate for keeping the other. Reduction becomes harder after the embryos fix in place.",
+      "options": [
+        "Correct. Early manual reduction of one vesicle is the standard approach.",
+        "Waiting makes reduction harder, and endometrial cups form around days 35–40.",
+        "Prostaglandin ends both pregnancies, losing the chance to keep one.",
+        "Twins in mares rarely go to term with healthy foals.",
+        "Waiting until day 120 is too late for simple reduction."
+      ],
+      "takeaway": "Reduce equine twins early, around day 14–16, by manually crushing one vesicle."
+    },
+    "reference": "McKinnon AO et al., Equine Reproduction"
+  },
+  {
+    "id": "EQU-0032",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "non_clinical",
+    "subdomain": "animal_welfare",
+    "topics": [
+      "starvation",
+      "refeeding syndrome"
+    ],
+    "stem": "Animal control seizes a severely emaciated horse (body condition 1/9) that is bright and can stand. Which feeding plan is most appropriate for the first days?",
+    "options": [
+      "Small, frequent meals of quality hay",
+      "Free-choice access to grain and sweet feed",
+      "One large meal of hay and grain each day",
+      "Withhold all food for 48 hours to rest the gut",
+      "Turn out on lush pasture right away"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Starved horses are at risk of refeeding syndrome, with dangerous drops in phosphorus, potassium and magnesium when carbohydrate is reintroduced too quickly. Small, frequent meals of good-quality forage (often alfalfa, which is high in protein and minerals) are increased gradually over about 10 days. High-starch feeds should be avoided.",
+      "options": [
+        "Correct. Small, frequent forage meals reduce refeeding risk.",
+        "High-starch feeds raise the risk of refeeding syndrome and laminitis.",
+        "A large meal can trigger refeeding syndrome.",
+        "Further fasting worsens the horse's condition.",
+        "Lush grass is high in sugar and risky in starved horses."
+      ],
+      "takeaway": "Refeed starved horses with small, frequent meals of good-quality forage, increased gradually."
+    },
+    "reference": "Whiting TL et al., Recognizing and feeding starved horses; Merck Veterinary Manual, Nutrition: horses"
+  },
+  {
+    "id": "EQU-0033",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "non_clinical",
+    "subdomain": "comm_clients",
+    "topics": [
+      "prepurchase examination",
+      "conflict of interest"
+    ],
+    "stem": "A client asks you to perform a prepurchase examination on a horse they want to buy. You are also the regular veterinarian for the seller and know the horse's medical history. Which approach is most appropriate?",
+    "options": [
+      "Disclose the conflict to both parties before going ahead",
+      "Do the exam without mentioning your relationship with the seller",
+      "Share the seller's records with the buyer without asking",
+      "Tell the buyer whether the price is fair",
+      "Decline to examine the horse but say nothing about why"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "In a prepurchase exam the veterinarian works for the buyer. If the veterinarian also works for the seller, this is a conflict of interest that should be disclosed to both parties, who can then decide whether to proceed or find another veterinarian. The seller's records are confidential unless the seller gives consent.",
+      "options": [
+        "Correct. Disclosure lets both parties make an informed decision.",
+        "Hiding the relationship damages trust and may be unethical.",
+        "Sharing records without consent breaks confidentiality.",
+        "Prepurchase vets report medical findings, not whether to buy or what the price should be.",
+        "Declining may be reasonable, but the buyer should understand why."
+      ],
+      "takeaway": "Disclose any relationship with the seller before a prepurchase exam, and keep the seller's records confidential without consent."
+    },
+    "reference": "AAEP, Guidelines for reporting purchase examinations"
+  },
+  {
+    "id": "EQU-0034",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "musculoskeletal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "septic arthritis",
+      "foal",
+      "synoviocentesis"
+    ],
+    "stem": "A 2-week-old foal is suddenly very lame on the right hind limb, with a hot, swollen stifle joint. The foal had diarrhea a week ago. Which test is most useful to confirm the likely diagnosis?",
+    "options": [
+      "Synovial fluid analysis and culture",
+      "Radiographs of both stifles as the only test",
+      "Serum IgG concentration as the only test",
+      "Serum muscle enzymes (CK and AST)",
+      "Diagnostic nerve block of the right hind foot"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Sudden lameness with a hot, swollen joint in a young foal suggests septic arthritis, often from bacteria spread in the blood after illness or failure of passive transfer. Synovial fluid with a high nucleated cell count (mostly neutrophils) and high protein, plus culture, confirms it. Treatment is urgent joint lavage and antibiotics.",
+      "options": [
+        "Correct. Synovial fluid analysis and culture confirm septic arthritis.",
+        "Radiographs may be normal early and do not confirm infection.",
+        "IgG explains a risk factor but does not diagnose joint infection.",
+        "Muscle enzymes assess muscle damage.",
+        "The lameness is clearly in the stifle; a foot block is not needed."
+      ],
+      "takeaway": "Sudden lameness with a hot, swollen joint in a foal is septic arthritis until proven otherwise: tap and culture the joint."
+    },
+    "reference": "Orsini JA, Divers TJ, Equine Emergencies; Knottenbelt DC, Equine Neonatal Medicine"
   }
 ]
