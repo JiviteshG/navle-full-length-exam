@@ -755,5 +755,171 @@
       "takeaway": "Fish deaths in a new tank: test ammonia and nitrite first; new tank syndrome is common."
     },
     "reference": "Roberts HE, Fundamentals of Ornamental Fish Health; Noga EJ, Fish Disease: Diagnosis and Treatment"
+  },
+  {
+    "id": "NSS-0002",
+    "version": 1,
+    "review_status": "draft",
+    "species": "non_species",
+    "system": "non_clinical",
+    "subdomain": "epidemiology",
+    "topics": [
+      "case-control study",
+      "odds ratio"
+    ],
+    "stem": "Researchers compare 100 dogs with osteosarcoma and 200 dogs without it, looking back at whether each dog was neutered before 1 year of age. Which measure of association is most appropriate for this study?",
+    "options": [
+      "Odds ratio",
+      "Relative risk",
+      "Incidence rate",
+      "Prevalence",
+      "Attributable risk"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "This is a case-control study: animals are chosen by outcome and then compared for past exposure. Because the investigator sets the number of cases and controls, true incidence cannot be calculated, so the odds ratio is used. Relative risk needs incidence data from a cohort study.",
+      "options": [
+        "Correct. The odds ratio is the measure for case-control studies.",
+        "Relative risk needs incidence from a cohort design.",
+        "Incidence cannot be measured when the number of cases is chosen by design.",
+        "Prevalence describes the population at one point in time, not exposure-outcome association.",
+        "Attributable risk also needs incidence data."
+      ],
+      "takeaway": "Case-control studies use odds ratios; cohort studies use relative risk."
+    },
+    "reference": "Dohoo I, Martin W, Stryhn H, Veterinary Epidemiologic Research, measures of association"
+  },
+  {
+    "id": "NSS-0003",
+    "version": 1,
+    "review_status": "draft",
+    "species": "non_species",
+    "system": "non_clinical",
+    "subdomain": "epidemiology",
+    "topics": [
+      "outbreak investigation",
+      "case definition"
+    ],
+    "stem": "A county health department contacts you about several people and dogs with gastrointestinal illness after a dog show. You are asked to help with the investigation. Which step should come first?",
+    "options": [
+      "Confirm the diagnosis and set a case definition",
+      "Recommend antibiotics for all dogs that attended",
+      "Publish the findings in a journal right away",
+      "Close all dog parks in the county",
+      "Test the drinking water at random homes"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Outbreak investigations follow standard steps. Early steps include confirming that an outbreak exists, verifying the diagnosis, and setting a case definition (who, where, when, clinical signs) so cases can be counted consistently. Then come finding cases, descriptive epidemiology, hypotheses, testing, control measures and communication.",
+      "options": [
+        "Correct. Verifying the diagnosis and defining a case come first.",
+        "Treating without a diagnosis may be wrong and encourages resistance.",
+        "Publication comes at the end, after the investigation.",
+        "Control measures should follow the evidence.",
+        "Random testing without a hypothesis wastes resources."
+      ],
+      "takeaway": "Start an outbreak investigation by confirming the diagnosis and setting a case definition."
+    },
+    "reference": "CDC, Principles of Epidemiology in Public Health Practice, investigating an outbreak"
+  },
+  {
+    "id": "NSS-0004",
+    "version": 1,
+    "review_status": "draft",
+    "species": "non_species",
+    "system": "non_clinical",
+    "subdomain": "professional_development",
+    "topics": [
+      "evidence-based medicine",
+      "hierarchy of evidence"
+    ],
+    "stem": "You want the strongest evidence on whether a new drug improves survival in a disease. Which type of source gives the highest level of evidence?",
+    "options": [
+      "A systematic review of randomized trials",
+      "A single retrospective case series from one clinic",
+      "Expert opinion written in a textbook chapter",
+      "A case report describing one successful patient",
+      "A drug manufacturer's product brochure"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "In the hierarchy of evidence, systematic reviews and meta-analyses of well-designed randomized controlled trials rank highest, followed by individual RCTs, then cohort and case-control studies, case series, case reports and expert opinion.",
+      "options": [
+        "Correct. Systematic reviews of RCTs give the strongest evidence.",
+        "Retrospective case series have no control group and are prone to bias.",
+        "Expert opinion is the lowest level of evidence.",
+        "A case report cannot show whether a treatment works in general.",
+        "Manufacturer material may be biased and is not peer-reviewed evidence."
+      ],
+      "takeaway": "Systematic reviews of randomized controlled trials are the highest level of evidence."
+    },
+    "reference": "Holmes M, Cockcroft P, Handbook of Veterinary Clinical Research; RCVS Knowledge, evidence-based veterinary medicine"
+  },
+  {
+    "id": "NSS-0005",
+    "version": 1,
+    "review_status": "draft",
+    "species": "non_species",
+    "system": "non_clinical",
+    "subdomain": "practice_management",
+    "topics": [
+      "prescription labeling",
+      "dispensing"
+    ],
+    "stem": "A technician is preparing a bottle of tablets for a client to take home. Which set of details must the label include?",
+    "options": [
+      "Patient, client, drug, strength, directions, prescriber",
+      "Drug name only, since the client was told the directions",
+      "The client's phone number and the price of the drug",
+      "Directions for use only, without the drug's name",
+      "The drug name and the manufacturer's lot number only"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Dispensed drugs must be labeled so the client and others can give them safely. Labels typically include the patient and client name, drug name and strength, quantity, directions for use, the prescribing veterinarian and clinic, the date, any cautionary statements, and a withdrawal time for food animals. Exact requirements vary by state and by federal rules.",
+      "options": [
+        "Correct. These elements let the drug be given safely and identified.",
+        "Verbal directions are easily forgotten.",
+        "Price and phone number are not safety information.",
+        "The drug name is needed if there is a problem or overdose.",
+        "Lot numbers alone do not tell the owner how to give the drug."
+      ],
+      "takeaway": "Label every dispensed drug with patient, client, drug, strength, directions and prescriber, and follow state rules."
+    },
+    "reference": "AVMA, Prescriptions and pharmacy guidance; state veterinary practice acts"
+  },
+  {
+    "id": "NSS-0006",
+    "version": 1,
+    "review_status": "draft",
+    "species": "non_species",
+    "system": "non_clinical",
+    "subdomain": "environmental_health",
+    "topics": [
+      "Brucella abortus RB51",
+      "needlestick",
+      "occupational zoonosis"
+    ],
+    "stem": "While vaccinating heifers, a veterinarian accidentally injects herself in the hand with Brucella abortus strain RB51 vaccine. Which action is most appropriate?",
+    "options": [
+      "See a physician promptly and tell them it was RB51",
+      "Wash the site and ignore it, since vaccine strains are harmless",
+      "Take oral penicillin at home for 7 days",
+      "Wait until fever develops before seeking care",
+      "Take rifampin alone, since RB51 is very sensitive to it"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "RB51 can cause human infection after accidental injection. People exposed should wash the site and seek medical care promptly, telling the physician it was RB51. RB51 is resistant to rifampin, so preventive treatment usually uses doxycycline. Symptom monitoring and serology may be needed, and standard Brucella tests do not detect antibodies to RB51.",
+      "options": [
+        "Correct. Prompt medical care with the strain named guides appropriate treatment.",
+        "Vaccine strains can still infect people.",
+        "Penicillin is not effective preventive treatment for Brucella.",
+        "Delaying care increases the risk of chronic infection.",
+        "RB51 is resistant to rifampin."
+      ],
+      "takeaway": "Accidental RB51 injection: see a physician promptly, name the strain, and note that it is rifampin-resistant."
+    },
+    "reference": "CDC, Brucellosis: exposure to RB51 vaccine"
   }
 ]

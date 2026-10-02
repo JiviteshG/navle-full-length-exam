@@ -1102,5 +1102,272 @@
       "takeaway": "Fever, icterus and red-cell piroplasms in an outdoor cat in tick season mean Cytauxzoon felis."
     },
     "reference": "Sykes JE, Greene's Infectious Diseases of the Dog and Cat, cytauxzoonosis"
+  },
+  {
+    "id": "FEL-0032",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "endocrine",
+    "subdomain": "data_gathering",
+    "topics": [
+      "diabetes mellitus",
+      "fructosamine",
+      "stress hyperglycemia"
+    ],
+    "stem": "A 9-year-old castrated male cat that struggled during blood collection has a blood glucose of 290 mg/dL. The owner reports normal drinking and urination, and the urine has no glucose. Which test best separates stress hyperglycemia from diabetes mellitus?",
+    "options": [
+      "Serum fructosamine concentration",
+      "Repeat blood glucose in 15 minutes",
+      "Serum insulin concentration",
+      "Spec fPL concentration",
+      "ACTH stimulation test"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Cats commonly develop stress hyperglycemia. Fructosamine reflects average blood glucose over the previous 1–2 weeks and is not affected by short-term stress. A normal fructosamine, normal water intake and no glucosuria make diabetes unlikely.",
+      "options": [
+        "Correct. Fructosamine reflects longer-term glucose and is not raised by acute stress.",
+        "Stress hyperglycemia can last for hours, so a quick repeat may still be high.",
+        "Insulin levels are hard to interpret and not used to diagnose diabetes in cats.",
+        "Spec fPL assesses pancreatitis, not diabetes.",
+        "There is no sign of adrenal disease."
+      ],
+      "takeaway": "Use fructosamine and glucosuria to tell feline diabetes from stress hyperglycemia."
+    },
+    "reference": "Behrend E et al., 2018 AAHA Diabetes Management Guidelines for Dogs and Cats (JAAHA 2018)"
+  },
+  {
+    "id": "FEL-0033",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "endocrine",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "hyperthyroidism",
+      "radioiodine therapy"
+    ],
+    "stem": "A 12-year-old cat has confirmed hyperthyroidism. Kidney values were normal after 4 weeks of methimazole controlled the thyroid level. The owner wants a long-term cure without daily medication. Which treatment is most appropriate?",
+    "options": [
+      "Radioactive iodine (I-131) therapy",
+      "Lifelong transdermal methimazole",
+      "Iodine-restricted diet for life",
+      "Surgical removal of both parathyroid glands",
+      "Atenolol as the only long-term treatment"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Radioiodine therapy is considered the treatment of choice for feline hyperthyroidism because it is curative in most cats, has few side effects, and avoids daily medication. A trial of methimazole first shows how the kidneys cope once thyroid levels are normal, because hyperthyroidism can hide chronic kidney disease.",
+      "options": [
+        "Correct. Radioiodine cures most cats with one treatment.",
+        "Methimazole controls but does not cure the disease.",
+        "An iodine-restricted diet controls but does not cure, and it must be fed exclusively.",
+        "Surgery removes the thyroid glands, not the parathyroids, and has a risk of hypoparathyroidism.",
+        "Atenolol controls heart rate but does not treat the thyroid disease."
+      ],
+      "takeaway": "Radioiodine is the preferred cure for feline hyperthyroidism after a methimazole trial shows kidney function is stable."
+    },
+    "reference": "Carney HC et al., 2016 AAFP Guidelines for the Management of Feline Hyperthyroidism (J Feline Med Surg 2016)"
+  },
+  {
+    "id": "FEL-0034",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "gastrointestinal",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "feline chronic gingivostomatitis",
+      "dental extraction"
+    ],
+    "stem": "A 6-year-old cat has severe, painful inflammation of the gums and the caudal oral mucosa, drools and eats little. Biopsy confirms chronic gingivostomatitis, and repeated antibiotics and steroids have given only short relief. Which treatment gives the best long-term results?",
+    "options": [
+      "Full- or near-full-mouth extraction",
+      "Long-term antibiotics as the sole treatment",
+      "Long-term high-dose corticosteroids",
+      "Daily toothbrushing as the only measure",
+      "Feeding only a dental dry diet for life"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Feline chronic gingivostomatitis is an immune-mediated inflammatory response to plaque. Extraction of all premolars and molars, or all teeth, with radiographs to confirm root removal, leads to cure or major improvement in most cats. Medical treatment is mainly for cats that do not respond to extraction.",
+      "options": [
+        "Correct. Extraction gives the best long-term outcome.",
+        "Antibiotics help only for a short time and do not address the cause.",
+        "Long-term steroids have side effects such as diabetes and lose effect over time.",
+        "Brushing is too painful in these cats and does not control the disease.",
+        "Diet alone does not control this disease."
+      ],
+      "takeaway": "Treat refractory feline chronic gingivostomatitis with full- or near-full-mouth extractions."
+    },
+    "reference": "Winer JN et al., Feline chronic gingivostomatitis: an update (Front Vet Sci 2016)"
+  },
+  {
+    "id": "FEL-0035",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "gastrointestinal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "linear foreign body",
+      "oral examination"
+    ],
+    "stem": "A 1-year-old cat has vomited repeatedly for 2 days and will not eat. Abdominal palpation finds bunched, painful loops of intestine. Which step of the physical examination is most important to do next?",
+    "options": [
+      "Look under the tongue",
+      "Palpate the thyroid glands",
+      "Measure the blood pressure",
+      "Perform a fundic examination",
+      "Express and check the anal glands"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Vomiting with plicated (bunched) intestine in a young cat suggests a linear foreign body. String or thread is often anchored around the base of the tongue and may be hidden. Finding it confirms the diagnosis. The string should not be pulled from the mouth, because this can tear the intestine.",
+      "options": [
+        "Correct. String anchored under the tongue is a classic finding.",
+        "Thyroid disease is unlikely in a 1-year-old cat.",
+        "Blood pressure does not help here.",
+        "A fundic exam does not identify a foreign body.",
+        "Anal glands are unrelated."
+      ],
+      "takeaway": "In a vomiting cat with bunched intestines, look under the tongue for string, and never pull it out."
+    },
+    "reference": "Fossum TW, Small Animal Surgery, surgery of the digestive system"
+  },
+  {
+    "id": "FEL-0036",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "cardiovascular",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "systemic hypertension",
+      "amlodipine",
+      "target organ damage"
+    ],
+    "stem": "A 15-year-old cat with chronic kidney disease suddenly became blind. Fundic examination shows bilateral retinal detachment, and systolic blood pressure is 220 mm Hg on repeated readings. Which treatment is most appropriate?",
+    "options": [
+      "Oral amlodipine",
+      "Oral enalapril alone",
+      "Oral atenolol alone",
+      "IV mannitol",
+      "Oral furosemide"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Retinal detachment is target organ damage from severe hypertension, which in cats is often secondary to chronic kidney disease or hyperthyroidism. Amlodipine, a calcium channel blocker, is the first-line drug in cats and lowers blood pressure effectively. Some vision may return if treatment starts quickly. Telmisartan is another approved option.",
+      "options": [
+        "Correct. Amlodipine is first-line in hypertensive cats.",
+        "ACE inhibitors lower blood pressure only a little in cats and are not enough alone for severe hypertension.",
+        "Atenolol does not reliably lower blood pressure in cats.",
+        "Mannitol is for glaucoma or cerebral edema, not hypertension.",
+        "Furosemide is for congestive heart failure and could worsen kidney disease."
+      ],
+      "takeaway": "Treat severe feline hypertension with amlodipine (or telmisartan) and look for kidney or thyroid disease."
+    },
+    "reference": "Acierno MJ et al., ACVIM consensus statement on systemic hypertension in dogs and cats (J Vet Intern Med 2018)"
+  },
+  {
+    "id": "FEL-0037",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "integumentary",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "flea allergy dermatitis",
+      "miliary dermatitis"
+    ],
+    "stem": "A 4-year-old indoor-outdoor cat has small crusted papules along the back and neck and overgrooms. No fleas are found, but the owner treats the cat with a flea product only now and then. The household also has a dog. Which plan is most appropriate first?",
+    "options": [
+      "Year-round flea control on every pet",
+      "An 8-week elimination diet trial with a novel protein",
+      "Long-term glucocorticoids to control pruritus",
+      "Fungal culture and treatment for dermatophytosis",
+      "Skin biopsies before any treatment is started"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Miliary dermatitis along the back in an outdoor cat is commonly caused by flea allergy, and cats often groom away the fleas so none are found. A strict trial of effective flea control on every dog and cat in the home is the first step. Food allergy and other causes are considered if signs persist.",
+      "options": [
+        "Correct. Strict flea control on all pets is the first step.",
+        "A diet trial comes after flea allergy is ruled out.",
+        "Steroids may relieve itching but do not treat the cause.",
+        "Dermatophytes can cause crusting, but flea allergy is more likely here, and testing is used if signs persist.",
+        "Biopsy is not needed before ruling out common causes."
+      ],
+      "takeaway": "Pruritic miliary dermatitis in a cat: start with strict flea control for every pet in the home."
+    },
+    "reference": "Miller WH, Griffin CE, Campbell KL, Muller and Kirk's Small Animal Dermatology"
+  },
+  {
+    "id": "FEL-0038",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "gastrointestinal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "small cell lymphoma",
+      "inflammatory bowel disease",
+      "biopsy"
+    ],
+    "stem": "An 11-year-old cat has lost weight and vomited off and on for 6 months. Ultrasound shows diffuse thickening of the small intestinal muscularis layer. Serum cobalamin is low. Which test best tells small cell lymphoma from inflammatory bowel disease?",
+    "options": [
+      "Full-thickness biopsies with immunohistochemistry",
+      "Fine-needle aspirate of a normal-sized mesenteric node",
+      "Fecal flotation plus a Giardia antigen test",
+      "Serum folate and repeat cobalamin concentrations",
+      "A 2-week hypoallergenic diet trial as the only step"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Small cell (low-grade) alimentary lymphoma and IBD can look alike. Full-thickness biopsies (surgical or laparoscopic) from several sites, with immunohistochemistry and clonality testing when needed, best separate them. Endoscopic biopsies may miss deeper or distal lesions.",
+      "options": [
+        "Correct. Full-thickness biopsies with immunohistochemistry best separate the two diseases.",
+        "A normal-sized node aspirate is unlikely to show lymphoma.",
+        "Parasite tests are useful but do not separate these two diseases.",
+        "Folate reflects intestinal absorption but does not separate them.",
+        "A diet trial helps rule out food-responsive disease but does not diagnose lymphoma."
+      ],
+      "takeaway": "Separate feline small cell lymphoma from IBD with full-thickness intestinal biopsies and immunohistochemistry."
+    },
+    "reference": "Marsilio S et al., ACVIM consensus on feline chronic enteropathy (J Vet Intern Med 2023)"
+  },
+  {
+    "id": "FEL-0039",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "non_clinical",
+    "subdomain": "comm_clients",
+    "topics": [
+      "cost estimate",
+      "informed financial consent"
+    ],
+    "stem": "A cat needs hospitalization for urethral obstruction. The owner is worried about cost. Which approach to discussing the estimate is most appropriate?",
+    "options": [
+      "Give a written range and explain what drives it",
+      "Begin treatment and discuss cost when the cat is discharged",
+      "Give only the lowest possible figure so the owner agrees",
+      "Refuse to treat until the full maximum is paid",
+      "Avoid talking about cost so the owner isn't upset"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Informed financial consent means the client understands the expected cost range, what might change it, and the options. A written estimate with a range, updates if costs change, and discussion of alternatives (such as outpatient care where suitable) supports trust and helps the client decide.",
+      "options": [
+        "Correct. A written range with explanation supports informed financial consent.",
+        "Discussing costs only at discharge removes the client's chance to decide.",
+        "Underestimating to win agreement misleads the client.",
+        "Requiring full payment of the maximum is not standard, and it may delay emergency care.",
+        "Avoiding the topic leads to surprise bills and conflict."
+      ],
+      "takeaway": "Give clients a written cost range, explain what can change it, and update them as care continues."
+    },
+    "reference": "AAHA/AVMA client communication guidance; Shaw JR, Communication skills in veterinary practice"
   }
 ]

@@ -1257,5 +1257,407 @@
       "takeaway": "Positive predictive value depends on prevalence: with lower prevalence, more positive results are false."
     },
     "reference": "Dohoo I, Martin W, Stryhn H, Veterinary Epidemiologic Research, screening and diagnostic tests"
+  },
+  {
+    "id": "CAN-0036",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "endocrine",
+    "subdomain": "data_gathering",
+    "topics": [
+      "hyperadrenocorticism",
+      "LDDST"
+    ],
+    "stem": "A 10-year-old spayed female Miniature Poodle has polyuria, polydipsia, polyphagia, a pot-bellied appearance and thin skin. Bloodwork shows a high ALP and cholesterol, and urine specific gravity is 1.008. A urine cortisol:creatinine ratio is high. Which test is most appropriate next to confirm the suspected disease?",
+    "options": [
+      "Low-dose dexamethasone suppression test",
+      "Repeat the urine cortisol:creatinine ratio",
+      "Measure serum total T4 and TSH",
+      "Water deprivation test",
+      "Baseline serum cortisol alone"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "The signs and laboratory changes suggest hyperadrenocorticism. A high urine cortisol:creatinine ratio is sensitive but not specific, so it supports the diagnosis only when combined with a confirmatory test. The low-dose dexamethasone suppression test is the preferred screening and confirmation test in dogs, and its pattern can also help separate pituitary from adrenal disease.",
+      "options": [
+        "Correct. The LDDST confirms hyperadrenocorticism and may help identify the type.",
+        "A repeat UCCR adds little; a high UCCR occurs in many non-adrenal illnesses.",
+        "Thyroid tests may be low (euthyroid sick) and do not diagnose this disease.",
+        "A water deprivation test is risky and not needed when another cause of PU/PD is likely.",
+        "A single cortisol value cannot diagnose hyperadrenocorticism."
+      ],
+      "takeaway": "Confirm canine hyperadrenocorticism with an LDDST (or ACTH stimulation) after a suggestive history; a UCCR only screens."
+    },
+    "reference": "Behrend EN et al., ACVIM consensus on diagnosis of spontaneous canine hyperadrenocorticism (J Vet Intern Med 2013)"
+  },
+  {
+    "id": "CAN-0037",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "endocrine",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "hypoadrenocorticism",
+      "Addisonian crisis",
+      "dexamethasone"
+    ],
+    "stem": "A 3-year-old female Portuguese Water Dog collapses and is in shock. Sodium is 122 mmol/L, potassium is 8.1 mmol/L, and the ECG shows bradycardia with tall T waves. Addison's disease is suspected, and an ACTH stimulation test is planned once she is stable. Which initial treatment is most appropriate?",
+    "options": [
+      "IV 0.9% saline and IV dexamethasone",
+      "IV lactated Ringer's and IV hydrocortisone before testing",
+      "Oral fludrocortisone and oral prednisone",
+      "IV potassium chloride to stabilize the heart",
+      "IV furosemide to lower the potassium"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "An Addisonian crisis needs fast IV fluids to treat shock, low sodium and high potassium. Dexamethasone treats the glucocorticoid deficiency without cross-reacting with the cortisol assay, so the ACTH stimulation test can still be done. Insulin with dextrose or calcium gluconate can be added for life-threatening hyperkalemia.",
+      "options": [
+        "Correct. Saline corrects volume and electrolytes, and dexamethasone does not interfere with the ACTH test.",
+        "Hydrocortisone is detected by the cortisol assay, so giving it before testing invalidates the ACTH stimulation result.",
+        "Oral drugs are too slow for a dog in shock and are used for maintenance.",
+        "Potassium would make the dangerous hyperkalemia worse.",
+        "Furosemide can worsen hypovolemia and is not the treatment of choice."
+      ],
+      "takeaway": "In a suspected Addisonian crisis, give IV saline and dexamethasone so the ACTH stimulation test stays valid."
+    },
+    "reference": "Feldman EC et al., Canine and Feline Endocrinology, hypoadrenocorticism"
+  },
+  {
+    "id": "CAN-0038",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "cardiovascular",
+    "subdomain": "data_gathering",
+    "topics": [
+      "heartworm disease",
+      "antigen testing",
+      "microfilariae"
+    ],
+    "stem": "A 4-year-old dog adopted from a shelter in Louisiana has no history of heartworm prevention. An in-clinic heartworm antigen test is positive. The dog has no clinical signs. Before starting treatment, which step does the American Heartworm Society recommend to confirm infection?",
+    "options": [
+      "Microfilaria test or a different antigen test",
+      "Start the first melarsomine injection the same day",
+      "Repeat the same in-clinic antigen test in 6 months",
+      "Thoracic radiographs only, with no further testing",
+      "Serum antibody test against Dirofilaria immitis"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "The American Heartworm Society recommends confirming a positive antigen test in a dog without signs before treatment, either with a microfilaria test (for example, a modified Knott test) or a different antigen test. This avoids treating a false positive with an expensive, risky protocol. Radiographs help stage the disease but do not confirm it.",
+      "options": [
+        "Correct. A second, independent test confirms infection before treatment.",
+        "Melarsomine is started after confirmation, staging and doxycycline, usually on day 60 of the AHS protocol.",
+        "Waiting 6 months leaves an infected dog untreated.",
+        "Radiographs can show changes but do not confirm infection.",
+        "Antibody tests are used in cats, not to confirm infection in dogs."
+      ],
+      "takeaway": "Confirm a positive heartworm antigen test with a microfilaria test or a different antigen test before treatment."
+    },
+    "reference": "American Heartworm Society, Current canine guidelines for heartworm disease"
+  },
+  {
+    "id": "CAN-0039",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "cardiovascular",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "heartworm treatment",
+      "doxycycline",
+      "Wolbachia"
+    ],
+    "stem": "A 5-year-old dog has confirmed heartworm disease and is starting the American Heartworm Society treatment protocol. The owner asks why the dog needs an antibiotic before the injections. Which explanation is most accurate?",
+    "options": [
+      "It kills Wolbachia, weakening the worms and easing inflammation",
+      "It treats the bacterial pneumonia that every infected dog has",
+      "It kills the adult worms, so melarsomine is only a backup drug",
+      "It prevents allergic and injection-site reactions to melarsomine",
+      "It stops mosquitoes from biting the dog during the treatment"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Heartworms carry Wolbachia bacteria. Doxycycline for 28 days reduces Wolbachia, which weakens and shortens the life of the worms, reduces microfilariae and transmission, and lessens the inflammation when worms die. In the AHS protocol, a macrocyclic lactone and doxycycline are followed by melarsomine injections and strict exercise restriction.",
+      "options": [
+        "Correct. Doxycycline targets the Wolbachia endosymbiont.",
+        "Most infected dogs do not have bacterial pneumonia.",
+        "Doxycycline alone does not reliably kill adult worms; melarsomine is the only approved adulticide.",
+        "It does not prevent drug reactions.",
+        "It does not affect mosquitoes."
+      ],
+      "takeaway": "Doxycycline in heartworm treatment targets Wolbachia, weakening the worms and reducing inflammation when they die."
+    },
+    "reference": "American Heartworm Society, Current canine guidelines for heartworm disease"
+  },
+  {
+    "id": "CAN-0040",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "gastrointestinal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "exocrine pancreatic insufficiency",
+      "TLI"
+    ],
+    "stem": "A 2-year-old German Shepherd has lost weight despite a big appetite. It passes large volumes of pale, greasy, soft feces. Fecal flotation is negative. Which test is most appropriate to confirm the suspected diagnosis?",
+    "options": [
+      "Serum trypsin-like immunoreactivity (TLI)",
+      "Serum canine pancreatic lipase (Spec cPL)",
+      "Serum cobalamin and folate alone",
+      "Abdominal radiographs to look at the pancreas",
+      "Fecal culture for Salmonella and Campylobacter"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Weight loss with a big appetite and large, pale, greasy feces in a young German Shepherd suggests exocrine pancreatic insufficiency, often from pancreatic acinar atrophy. A low serum TLI (under 2.5 µg/L) confirms EPI. Cobalamin is often low as well and should be supplemented.",
+      "options": [
+        "Correct. Low serum TLI confirms EPI.",
+        "Spec cPL is used for pancreatitis, and it is not reliable for diagnosing EPI.",
+        "Cobalamin and folate help with management but do not confirm EPI.",
+        "Radiographs do not assess pancreatic function.",
+        "Bacterial cultures do not explain these signs."
+      ],
+      "takeaway": "Diagnose EPI with a low serum TLI; supplement cobalamin and pancreatic enzymes."
+    },
+    "reference": "Westermarck E, Wiberg M, Exocrine pancreatic insufficiency in dogs (Vet Clin North Am Small Anim Pract 2012)"
+  },
+  {
+    "id": "CAN-0041",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "gastrointestinal",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "acute pancreatitis",
+      "supportive care",
+      "enteral nutrition"
+    ],
+    "stem": "A 7-year-old overweight Miniature Schnauzer has vomiting and cranial abdominal pain after eating a fatty meal. Spec cPL is high and ultrasound supports acute pancreatitis. The dog is 6% dehydrated. Which plan is most appropriate?",
+    "options": [
+      "IV fluids, opioids, antiemetic, early enteral feeding",
+      "Withhold food and water for 5 days to rest the pancreas",
+      "IV fluids and prophylactic antibiotics as the main treatment",
+      "High-dose prednisone to reduce the pancreatic inflammation",
+      "Emergency surgery to debride the necrotic pancreatic tissue"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Treatment of canine acute pancreatitis is supportive: IV fluids, analgesia (often opioids), antiemetics such as maropitant, and early enteral nutrition with a low-fat diet once vomiting is controlled. Long fasting is no longer recommended.",
+      "options": [
+        "Correct. Supportive care with early feeding is standard.",
+        "Prolonged fasting delays recovery and can harm the gut.",
+        "Pancreatitis in dogs is rarely infected, so routine antibiotics are not recommended.",
+        "Steroids are not standard first-line treatment, though they are being studied.",
+        "Surgery is reserved for complications such as infected necrosis or bile duct obstruction."
+      ],
+      "takeaway": "Treat canine acute pancreatitis with fluids, analgesia, antiemetics and early low-fat enteral feeding."
+    },
+    "reference": "Cridge H et al., ACVIM consensus statement on canine pancreatitis (J Vet Intern Med 2024)"
+  },
+  {
+    "id": "CAN-0042",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "gastrointestinal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "portosystemic shunt",
+      "bile acids",
+      "hepatic encephalopathy"
+    ],
+    "stem": "A 5-month-old Yorkshire Terrier is small for its age and has episodes of head pressing and disorientation after meals. Bloodwork shows low BUN, albumin and glucose, and urinalysis shows ammonium urate crystals. Which test is most appropriate next?",
+    "options": [
+      "Fasting and postprandial bile acids",
+      "ACTH stimulation test with cortisol",
+      "Serum ionized calcium and phosphorus",
+      "Cerebrospinal fluid tap and analysis",
+      "Whole-blood lead concentration"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Small size, signs of hepatic encephalopathy after meals, low BUN and albumin, and ammonium urate crystals in a young small-breed dog suggest a congenital portosystemic shunt. High fasting and postprandial bile acids show abnormal liver function and portal blood flow. Imaging (ultrasound, CT angiography) then finds the shunt.",
+      "options": [
+        "Correct. Paired bile acids are the key liver function test for a shunt.",
+        "There are no signs of adrenal disease.",
+        "Calcium abnormalities do not explain this picture.",
+        "CSF analysis would be considered for primary brain disease, not for this metabolic picture.",
+        "Lead can cause neurologic signs, but it does not explain low BUN, low albumin or urate crystals."
+      ],
+      "takeaway": "Young small-breed dog with post-meal neurologic signs and urate crystals: check paired bile acids for a shunt."
+    },
+    "reference": "Berent AC, Tobias KM, Portosystemic vascular anomalies (Vet Clin North Am Small Anim Pract 2009)"
+  },
+  {
+    "id": "CAN-0043",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "urinary",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "ethylene glycol toxicosis",
+      "fomepizole"
+    ],
+    "stem": "A 2-year-old dog was seen drinking antifreeze from a leaking car radiator 3 hours ago. It is ataxic and appears drunk. Kidney values are normal. Which treatment is most appropriate now?",
+    "options": [
+      "IV fomepizole with IV fluids",
+      "Induce vomiting and send the dog home",
+      "IV furosemide to start diuresis",
+      "Activated charcoal only, given orally",
+      "Wait for azotemia before treating"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Ethylene glycol is metabolized by alcohol dehydrogenase into toxic compounds that cause acute kidney injury. Fomepizole blocks this enzyme and works best when started early (within about 8 hours in dogs). IV fluids increase excretion. Once kidney failure develops, prognosis is poor.",
+      "options": [
+        "Correct. Early fomepizole with fluids prevents the toxic metabolites.",
+        "Ethylene glycol is absorbed quickly, so emesis at 3 hours adds little, and the dog needs hospital treatment.",
+        "Furosemide does not stop the formation of toxic metabolites.",
+        "Activated charcoal binds ethylene glycol poorly.",
+        "By the time azotemia appears, the treatment window has passed."
+      ],
+      "takeaway": "Treat ethylene glycol ingestion early with fomepizole (or ethanol) and IV fluids; don't wait for azotemia."
+    },
+    "reference": "Merck Veterinary Manual, Ethylene glycol toxicosis in animals"
+  },
+  {
+    "id": "CAN-0044",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "nervous",
+    "subdomain": "data_gathering",
+    "topics": [
+      "vestibular disease",
+      "central versus peripheral"
+    ],
+    "stem": "A 9-year-old dog suddenly develops a head tilt to the left and nystagmus. Which additional finding most strongly indicates that the lesion is central rather than peripheral?",
+    "options": [
+      "Left-sided proprioceptive deficits",
+      "Horizontal nystagmus, fast phase to the right",
+      "Left facial nerve paralysis with drooping lip",
+      "Left-sided Horner syndrome with miosis",
+      "Rolling and falling toward the left side"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Proprioceptive deficits, other cranial nerve deficits (beyond VII and sympathetic), altered mentation, and vertical or position-changing nystagmus indicate central (brainstem or cerebellar) vestibular disease. Peripheral disease can cause facial paralysis and Horner syndrome because of nerves passing near the middle ear.",
+      "options": [
+        "Correct. Proprioceptive deficits indicate brainstem involvement.",
+        "Horizontal nystagmus with the fast phase away from the lesion is common in peripheral disease.",
+        "Facial paralysis can occur with middle ear disease.",
+        "Horner syndrome can occur with middle ear disease.",
+        "Rolling and falling occur in both central and peripheral disease."
+      ],
+      "takeaway": "Proprioceptive deficits, altered mentation or vertical nystagmus mean central vestibular disease."
+    },
+    "reference": "de Lahunta A, Glass E, Kent M, Veterinary Neuroanatomy and Clinical Neurology"
+  },
+  {
+    "id": "CAN-0045",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "behavior",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "separation anxiety",
+      "behavior modification"
+    ],
+    "stem": "A 3-year-old dog destroys the area by the front door, howls and urinates only when left alone. The owner has been scolding the dog when they get home. Which plan is most appropriate?",
+    "options": [
+      "Gradual-departure training, plus fluoxetine if needed",
+      "Punish the dog more firmly as soon as the owner returns",
+      "Adopt a second dog so the first dog always has company",
+      "Fit a shock collar that is triggered by barking or howling",
+      "Crate the dog for longer and longer periods to build tolerance"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Destruction near exits, vocalizing and house soiling that happen only when the dog is alone suggest separation-related problems. Treatment combines behavior modification (gradual planned departures, calm arrivals and departures, enrichment, and avoiding punishment) with medication such as fluoxetine or clomipramine when needed.",
+      "options": [
+        "Correct. Behavior modification with medication if needed is the standard approach.",
+        "Punishment after the fact increases anxiety and does not teach the dog anything.",
+        "A second dog often does not help, because the bond is to the owner.",
+        "Aversive collars increase fear and are not recommended.",
+        "Crating can increase panic in many dogs with separation distress."
+      ],
+      "takeaway": "Treat separation-related problems with gradual-departure training and medication when needed, never punishment."
+    },
+    "reference": "Horwitz DF, Mills DS, BSAVA Manual of Canine and Feline Behavioural Medicine"
+  },
+  {
+    "id": "CAN-0046",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "non_clinical",
+    "subdomain": "practice_management",
+    "topics": [
+      "medical records",
+      "record amendment"
+    ],
+    "stem": "A veterinarian realizes the next day that she wrote the wrong drug dose in a dog's medical record. The dog actually received the correct dose. Which is the most appropriate way to correct the record?",
+    "options": [
+      "Add a dated, signed note correcting the error",
+      "Erase the error and write in the correct dose",
+      "Delete the original entry from the computer system",
+      "Rewrite the whole record without the error",
+      "Leave the error because the dog got the right dose"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Medical records are legal documents. Errors should be corrected with a dated, signed addendum that leaves the original entry readable (for example, a single line through paper entries, or a tracked amendment in electronic records). Erasing or deleting entries can look like tampering.",
+      "options": [
+        "Correct. A dated, signed addendum corrects the record and keeps it transparent.",
+        "Erasing hides the original entry, which can look like tampering.",
+        "Deleting the original entry removes the audit trail.",
+        "Rewriting the record also hides the original.",
+        "Leaving a known error makes the record inaccurate."
+      ],
+      "takeaway": "Correct record errors with a dated, signed addendum; never erase or delete the original entry."
+    },
+    "reference": "AVMA, Principles of Veterinary Medical Ethics; AAHA Standards of Accreditation, medical records"
+  },
+  {
+    "id": "CAN-0047",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "non_clinical",
+    "subdomain": "professional_development",
+    "topics": [
+      "scope of competence",
+      "referral",
+      "mentorship"
+    ],
+    "stem": "A new graduate in a rural practice sees a dog that needs a complex fracture repair she has never done and has not been trained for. The client cannot travel far but could reach a referral center 2 hours away. Which action is most appropriate?",
+    "options": [
+      "Offer referral and explain the options honestly",
+      "Do the surgery anyway after watching a video",
+      "Tell the client the fracture will heal without treatment",
+      "Do the surgery without telling the client of her inexperience",
+      "Euthanize the dog because referral is inconvenient"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Veterinarians should work within their competence, explain options honestly, and offer referral when a procedure is beyond their training. A new graduate can also seek mentoring or continuing education for future cases. Informed consent requires telling clients about the options and risks, including the veterinarian's experience.",
+      "options": [
+        "Correct. Offering referral and honest discussion protects the patient and client.",
+        "Doing an untrained procedure puts the patient at risk.",
+        "This is untrue for most complex fractures and misleads the client.",
+        "Hiding inexperience prevents true informed consent.",
+        "Euthanasia should not be suggested only because referral is inconvenient."
+      ],
+      "takeaway": "Work within your competence: explain options honestly, offer referral, and seek mentoring for the future."
+    },
+    "reference": "AVMA, Principles of Veterinary Medical Ethics"
   }
 ]
