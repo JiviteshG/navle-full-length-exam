@@ -1659,5 +1659,443 @@
       "takeaway": "Work within your competence: explain options honestly, offer referral, and seek mentoring for the future."
     },
     "reference": "AVMA, Principles of Veterinary Medical Ethics"
+  },
+  {
+    "id": "CAN-0048",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "hemic_lymphatic",
+    "subdomain": "data_gathering",
+    "topics": [
+      "splenic hemangiosarcoma",
+      "hemoabdomen",
+      "staging"
+    ],
+    "stem": "A 10-year-old German Shepherd collapsed at home. It has pale membranes and a fluid wave, and abdominocentesis yields non-clotting blood. Ultrasound shows a cavitated splenic mass. The dog is stabilized with fluids and a transfusion. Before splenectomy, which staging is most important?",
+    "options": [
+      "Chest radiographs and echocardiography",
+      "Bone marrow aspirate and core biopsy",
+      "Fine-needle aspirates of all peripheral lymph nodes",
+      "Serum total T4 and free T4 panel",
+      "Urine culture and antimicrobial susceptibility"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "A bleeding splenic mass in an older large-breed dog is often hemangiosarcoma. Before surgery, staging looks for metastases or other primary sites, with three-view thoracic radiographs (or CT) and echocardiography to check the right atrium, a common site of hemangiosarcoma. The results shape the owner's decision and prognosis.",
+      "options": [
+        "Correct. Chest imaging and echocardiography find lung metastases and right atrial masses.",
+        "Marrow involvement is not the main staging concern for hemangiosarcoma.",
+        "Aspirating every node is not standard; regional nodes are checked at surgery.",
+        "Thyroid testing does not stage this tumor.",
+        "A urine culture does not help with staging."
+      ],
+      "takeaway": "Stage a suspected splenic hemangiosarcoma with thoracic imaging and echocardiography before surgery."
+    },
+    "reference": "Withrow & MacEwen's Small Animal Clinical Oncology, hemangiosarcoma"
+  },
+  {
+    "id": "CAN-0049",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "hemic_lymphatic",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "multicentric lymphoma",
+      "CHOP chemotherapy"
+    ],
+    "stem": "A 7-year-old Golden Retriever has multicentric B-cell lymphoma with generalized lymph node enlargement. The dog feels well. The owner wants the treatment most likely to give the longest good-quality remission. Which option is most appropriate?",
+    "options": [
+      "A multi-agent CHOP-based protocol",
+      "Prednisone alone, starting today",
+      "Surgical removal of the largest nodes",
+      "Radiation to the submandibular nodes only",
+      "Doxycycline for 4 weeks"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Multi-agent CHOP-based protocols (cyclophosphamide, doxorubicin, vincristine, prednisone) give the highest remission rates in canine multicentric lymphoma, with a median survival of about 10–14 months. Giving prednisone alone first can make the lymphoma resistant to later chemotherapy.",
+      "options": [
+        "Correct. CHOP-based chemotherapy gives the best remission and survival.",
+        "Prednisone alone gives short remissions and can cause drug resistance.",
+        "Lymphoma is a systemic disease; removing nodes does not help.",
+        "Local radiation does not treat systemic disease.",
+        "Antibiotics do not treat lymphoma."
+      ],
+      "takeaway": "CHOP-based chemotherapy gives the best results in canine multicentric lymphoma; avoid prednisone alone beforehand."
+    },
+    "reference": "Withrow & MacEwen's Small Animal Clinical Oncology, canine lymphoma"
+  },
+  {
+    "id": "CAN-0050",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "integumentary",
+    "subdomain": "data_gathering",
+    "topics": [
+      "mast cell tumor",
+      "grading",
+      "histopathology"
+    ],
+    "stem": "A fine-needle aspirate of a 1.5-cm skin mass on the flank of an 8-year-old Boxer shows many round cells with purple cytoplasmic granules and some eosinophils. The owner asks how serious the tumor is. What is needed to determine its grade?",
+    "options": [
+      "Histopathology of the excised mass",
+      "A repeat fine-needle aspirate of the mass",
+      "Buffy coat smear to look for circulating mast cells",
+      "Plasma histamine concentration",
+      "Three-view thoracic radiographs only"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Cytology identifies a mast cell tumor, but grade (Patnaik and Kiupel systems) requires histopathology of the removed tumor. Grade, along with margins, mitotic count, and markers such as KIT mutation, guides prognosis and further treatment.",
+      "options": [
+        "Correct. Histopathology is needed to grade a mast cell tumor.",
+        "Repeating cytology confirms the type but cannot grade it.",
+        "Buffy coat smears are insensitive and do not grade the tumor.",
+        "Histamine levels are not used for grading.",
+        "Mast cell tumors rarely spread to the lungs, and radiographs do not grade them."
+      ],
+      "takeaway": "Cytology diagnoses a mast cell tumor, but grading needs histopathology after excision."
+    },
+    "reference": "Kiupel M et al., Proposal of a 2-tier histologic grading system for canine cutaneous MCT (Vet Pathol 2011)"
+  },
+  {
+    "id": "CAN-0051",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "integumentary",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "canine atopic dermatitis",
+      "oclacitinib",
+      "itch control"
+    ],
+    "stem": "A 3-year-old Labrador Retriever has seasonal itching of the paws, face and armpits. Flea control is strict, and a food trial did not help. Atopic dermatitis is diagnosed. The dog is scratching so much it cannot sleep. Which treatment gives the fastest itch relief?",
+    "options": [
+      "Oclacitinib",
+      "Cetirizine",
+      "Allergen immunotherapy",
+      "Omega-3 fatty acids",
+      "Weekly shampoo alone"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "International guidelines for canine atopic dermatitis list oclacitinib (a JAK inhibitor), lokivetmab (an anti-IL-31 antibody) and short courses of glucocorticoids as having good evidence for fast relief of itch. Allergen immunotherapy is the only treatment that targets the cause, but it takes months to work.",
+      "options": [
+        "Correct. Oclacitinib reduces itch within hours to days.",
+        "Antihistamines have weak evidence for itch relief in dogs.",
+        "Immunotherapy helps long term but takes months.",
+        "Fatty acids may help skin barrier function slowly but do not relieve itch quickly.",
+        "Shampoos help but do not control severe itch alone."
+      ],
+      "takeaway": "For fast itch relief in canine atopic dermatitis, use oclacitinib, lokivetmab or a short course of steroids."
+    },
+    "reference": "Olivry T et al., Treatment of canine atopic dermatitis: 2015 updated guidelines from ICADA (BMC Vet Res 2015)"
+  },
+  {
+    "id": "CAN-0052",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "special_senses",
+    "subdomain": "data_gathering",
+    "topics": [
+      "otitis externa",
+      "ear cytology",
+      "Pseudomonas"
+    ],
+    "stem": "A 6-year-old Cocker Spaniel has had chronic otitis externa for months. The ear canal has a foul smell, ulcers and a yellow-green purulent discharge. Ear cytology shows many rod-shaped bacteria and degenerate neutrophils. Which step is most appropriate next?",
+    "options": [
+      "Bacterial culture and susceptibility testing",
+      "Treat with a ceruminolytic ear cleaner only",
+      "Start an antifungal ear drug for Malassezia",
+      "Treat for ear mites with topical selamectin",
+      "Total ear canal ablation as the first step"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Rods on cytology with purulent discharge and ulceration suggest Pseudomonas, which is often resistant to many antimicrobials. Culture and susceptibility testing guides treatment. Underlying causes (often allergy) must also be managed.",
+      "options": [
+        "Correct. Culture and susceptibility guide treatment of rod infections.",
+        "Cleaning helps but does not treat infection.",
+        "Malassezia appears as peanut-shaped yeast, not rods.",
+        "Ear mites cause dark, crumbly debris, mainly in young animals.",
+        "Surgery is for end-stage disease, not the first step."
+      ],
+      "takeaway": "Rods on ear cytology suggest Pseudomonas: culture and test susceptibility before choosing treatment."
+    },
+    "reference": "Miller WH, Griffin CE, Campbell KL, Muller and Kirk's Small Animal Dermatology"
+  },
+  {
+    "id": "CAN-0053",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "cardiovascular",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "congestive heart failure",
+      "myxomatous mitral valve disease",
+      "furosemide"
+    ],
+    "stem": "A 10-year-old Cavalier King Charles Spaniel with known myxomatous mitral valve disease has a respiratory rate of 60 breaths/min with effort and crackles. Radiographs show cardiomegaly and a perihilar interstitial to alveolar pattern. Which treatment is most appropriate now?",
+    "options": [
+      "Oxygen, IV furosemide and pimobendan",
+      "Oral atenolol to slow the heart rate",
+      "IV crystalloid fluids for presumed dehydration",
+      "Oral prednisone for presumed chronic bronchitis",
+      "IV antibiotics for presumed aspiration pneumonia"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "This dog has acute congestive heart failure (ACVIM stage C). Treatment includes oxygen, IV or IM furosemide, pimobendan, and sedation such as butorphanol if needed. Long-term therapy includes furosemide, pimobendan and spironolactone, often with an ACE inhibitor.",
+      "options": [
+        "Correct. Oxygen, furosemide and pimobendan are the core treatment for acute CHF.",
+        "Beta blockers can worsen acute heart failure.",
+        "IV fluids would worsen pulmonary edema.",
+        "Steroids do not treat edema from heart failure.",
+        "The perihilar pattern with cardiomegaly points to edema, not pneumonia."
+      ],
+      "takeaway": "Treat acute CHF from mitral valve disease with oxygen, furosemide and pimobendan."
+    },
+    "reference": "Keene BW et al., ACVIM consensus guidelines for MMVD in dogs (J Vet Intern Med 2019)"
+  },
+  {
+    "id": "CAN-0054",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "urinary",
+    "subdomain": "data_gathering",
+    "topics": [
+      "proteinuria",
+      "urine protein:creatinine ratio",
+      "glomerular disease"
+    ],
+    "stem": "A 6-year-old Soft Coated Wheaten Terrier has 3+ protein on a urine dipstick. Urine specific gravity is 1.030, the sediment is inactive, and culture is negative. Which test should be done next to measure the proteinuria?",
+    "options": [
+      "Urine protein:creatinine ratio",
+      "Repeat the urine dipstick in 1 year",
+      "Serum protein electrophoresis",
+      "Ultrasound-guided kidney biopsy now",
+      "Modified water deprivation test"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "A dipstick result must be interpreted with specific gravity, and an active sediment or infection must be ruled out. Once those are excluded, the urine protein:creatinine ratio measures proteinuria. A UPC above 2.0 suggests glomerular disease, and Soft Coated Wheaten Terriers are predisposed to protein-losing nephropathy.",
+      "options": [
+        "Correct. UPC measures renal proteinuria once infection and inflammation are excluded.",
+        "Waiting a year could miss progressive glomerular disease.",
+        "Electrophoresis looks for blood proteins such as gammopathies; it does not measure urine protein loss.",
+        "Biopsy may be considered later but is not the first step.",
+        "Water deprivation tests concentrating ability, not proteinuria."
+      ],
+      "takeaway": "Measure persistent proteinuria with a UPC after ruling out infection and an active sediment."
+    },
+    "reference": "IRIS Staging of CKD guidelines; Littman MP et al., Consensus on glomerular disease in dogs (J Vet Intern Med 2013)"
+  },
+  {
+    "id": "CAN-0055",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "hemic_lymphatic",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "anticoagulant rodenticide",
+      "vitamin K1"
+    ],
+    "stem": "A 3-year-old dog ate an unknown amount of a second-generation anticoagulant rodenticide (brodifacoum) 2 days ago. It now has a high PT and bleeding gums but is stable. After a plasma transfusion, which ongoing treatment is most appropriate?",
+    "options": [
+      "Oral vitamin K1 for about 4 weeks, then recheck PT",
+      "Oral vitamin K3 (menadione) for 3 days, then stop",
+      "Injectable vitamin K1 given IV every hour for a day",
+      "Oral vitamin K1 for 3 days only, with no recheck",
+      "Heparin to prevent thrombosis after the transfusion"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Second-generation anticoagulant rodenticides such as brodifacoum last a long time in the body, so oral vitamin K1 (phytonadione) is usually given for about 4 weeks. PT is rechecked 48–72 hours after the last dose to make sure treatment can stop.",
+      "options": [
+        "Correct. A long course of vitamin K1 is needed, then PT is rechecked.",
+        "Vitamin K3 does not work and can cause oxidative injury.",
+        "IV vitamin K1 risks anaphylaxis; oral is preferred once the dog is stable.",
+        "Three days is too short for second-generation products.",
+        "Heparin would worsen bleeding."
+      ],
+      "takeaway": "Treat second-generation anticoagulant rodenticide toxicosis with oral vitamin K1 for about 4 weeks, then recheck PT."
+    },
+    "reference": "Merck Veterinary Manual, Anticoagulant rodenticide poisoning in animals"
+  },
+  {
+    "id": "CAN-0056",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "infectious",
+    "subdomain": "data_gathering",
+    "topics": [
+      "ehrlichiosis",
+      "thrombocytopenia",
+      "tick-borne disease"
+    ],
+    "stem": "A 5-year-old dog from Texas has lethargy, fever, epistaxis and a platelet count of 28,000/µL. The owner removes ticks often. Which test and treatment plan is most appropriate?",
+    "options": [
+      "Ehrlichia serology or PCR; start doxycycline",
+      "Bone marrow biopsy before starting any treatment",
+      "Platelet transfusion as the main long-term treatment",
+      "Oral enrofloxacin for 7 days, then recheck platelets",
+      "Splenectomy to stop platelet destruction in the spleen"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Fever, epistaxis and severe thrombocytopenia in a dog with tick exposure in an endemic area suggest Ehrlichia canis infection, spread by Rhipicephalus sanguineus. Serology (for example, a point-of-care antibody test) or PCR confirms it, and doxycycline for about 28 days is the treatment of choice.",
+      "options": [
+        "Correct. Test for Ehrlichia and treat with doxycycline.",
+        "Marrow biopsy is not needed first in a case that fits ehrlichiosis.",
+        "Platelet transfusion is rarely needed and does not treat the cause.",
+        "Enrofloxacin is not effective against Ehrlichia.",
+        "Splenectomy is not a treatment for ehrlichiosis."
+      ],
+      "takeaway": "Fever and thrombocytopenia in a tick-exposed dog: test for Ehrlichia and start doxycycline."
+    },
+    "reference": "Neer TM et al., ACVIM consensus on ehrlichial disease of small animals (J Vet Intern Med 2002); Sykes JE, Greene's Infectious Diseases of the Dog and Cat"
+  },
+  {
+    "id": "CAN-0057",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "musculoskeletal",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "hip dysplasia",
+      "juvenile pubic symphysiodesis"
+    ],
+    "stem": "A 15-week-old Labrador Retriever puppy has a positive Ortolani sign on both hips. Radiographs show hip laxity without arthritis. The owner wants to prevent arthritis as the dog grows. Which procedure is most appropriate at this age?",
+    "options": [
+      "Juvenile pubic symphysiodesis",
+      "Total hip replacement now",
+      "Femoral head and neck excision",
+      "Wait until 2 years old for OFA films",
+      "Triple pelvic osteotomy at 3 years old"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Juvenile pubic symphysiodesis closes the pubic growth plate early, rotating the acetabula to cover the femoral heads better. It works only while the puppy is still growing, ideally before about 16–20 weeks of age. Triple or double pelvic osteotomy is an option in young dogs (often under about 10 months) without arthritis.",
+      "options": [
+        "Correct. JPS is effective only in young growing puppies.",
+        "Total hip replacement is for mature dogs with painful arthritis.",
+        "FHO is a salvage procedure.",
+        "Waiting loses the chance for preventive surgery.",
+        "Pelvic osteotomies are done before arthritis develops, in young dogs, not at 3 years."
+      ],
+      "takeaway": "Juvenile pubic symphysiodesis must be done early, ideally before about 16–20 weeks, to improve hip coverage."
+    },
+    "reference": "Tobias KM, Johnston SA, Veterinary Surgery: Small Animal, hip dysplasia"
+  },
+  {
+    "id": "CAN-0058",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "non_clinical",
+    "subdomain": "environmental_health",
+    "topics": [
+      "waste anesthetic gas",
+      "scavenging",
+      "occupational safety"
+    ],
+    "stem": "Staff in a small animal hospital report headaches after long surgeries. Which measure most effectively reduces exposure to waste anesthetic gas?",
+    "options": [
+      "Working scavenging system plus regular leak checks",
+      "Open the operating room windows during each surgery",
+      "Turn off the oxygen flow during surgery",
+      "Induce in a chamber or mask instead of intubating",
+      "Have all staff wear surgical masks during procedures"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Waste anesthetic gas exposure is reduced with an active or passive scavenging system, regular leak tests of the machine and breathing circuits, properly fitted endotracheal tubes with inflated cuffs, and avoiding mask or chamber induction where possible. Turning off vaporizers before disconnecting patients also helps.",
+      "options": [
+        "Correct. Scavenging and leak checks are the core controls.",
+        "Window ventilation is unreliable and not a substitute for scavenging.",
+        "Oxygen flow is needed for the patient and anesthetic delivery.",
+        "Mask and chamber induction increase exposure.",
+        "Surgical masks do not filter anesthetic gases."
+      ],
+      "takeaway": "Control waste anesthetic gas with scavenging, regular leak checks and cuffed endotracheal tubes."
+    },
+    "reference": "OSHA, Anesthetic gases: guidelines for workplace exposures; ACVAA recommendations"
+  },
+  {
+    "id": "CAN-0059",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "non_clinical",
+    "subdomain": "animal_welfare",
+    "topics": [
+      "cosmetic surgery",
+      "ear cropping",
+      "tail docking"
+    ],
+    "stem": "A client asks you to crop the ears and dock the tail of a 10-week-old Doberman puppy for appearance. Which statement reflects AVMA policy?",
+    "options": [
+      "It opposes cropping and docking done only for appearance",
+      "It recommends both procedures for every Doberman puppy",
+      "It allows both only if they are done without anesthesia",
+      "It requires both procedures for dogs entered in shows",
+      "It has no stated position on cosmetic procedures in dogs"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "AVMA policy opposes ear cropping and tail docking of dogs when done solely for cosmetic purposes, and encourages removing them from breed standards. Veterinarians may decide whether to perform them, but if they do, they must use anesthesia and analgesia.",
+      "options": [
+        "Correct. The AVMA opposes purely cosmetic cropping and docking.",
+        "The AVMA does not recommend these procedures.",
+        "Anesthesia and analgesia are required whenever they are done.",
+        "Breed standards are set by breed organizations, not the AVMA, and the AVMA encourages removing the procedures from standards.",
+        "The AVMA has a clear policy."
+      ],
+      "takeaway": "AVMA policy opposes ear cropping and tail docking done only for appearance."
+    },
+    "reference": "AVMA, Policy on ear cropping and tail docking of dogs"
+  },
+  {
+    "id": "CAN-0060",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "non_clinical",
+    "subdomain": "comm_clients",
+    "topics": [
+      "delivering bad news",
+      "client communication"
+    ],
+    "stem": "You must tell a client that biopsy results show their dog has an aggressive cancer. Which approach is most appropriate to start the conversation?",
+    "options": [
+      "Find a private space and ask what they already understand",
+      "Read the pathology report to them word for word, in full",
+      "Tell them over the phone while you are between patients",
+      "Begin with the treatment costs before giving the diagnosis",
+      "Avoid using the word cancer to protect the client's feelings"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Frameworks for delivering bad news, such as SPIKES, start with a private setting and asking what the client already knows or suspects. Then the veterinarian gives a warning shot, shares the news clearly in plain language, responds to emotions, and plans next steps together.",
+      "options": [
+        "Correct. A private setting and checking understanding first help the client take in the news.",
+        "Technical reports can confuse clients; plain language is needed.",
+        "Bad news should not be rushed; schedule a time when you can give full attention.",
+        "Cost discussion comes after the diagnosis and options.",
+        "Avoiding clear terms causes confusion; plain language is kinder."
+      ],
+      "takeaway": "Deliver bad news privately, find out what the client knows first, and use plain language."
+    },
+    "reference": "Baile WF et al., SPIKES protocol (Oncologist 2000); Shaw JR, Communication skills in veterinary practice"
   }
 ]

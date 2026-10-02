@@ -1369,5 +1369,407 @@
       "takeaway": "Give clients a written cost range, explain what can change it, and update them as care continues."
     },
     "reference": "AAHA/AVMA client communication guidance; Shaw JR, Communication skills in veterinary practice"
+  },
+  {
+    "id": "FEL-0040",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "endocrine",
+    "subdomain": "data_gathering",
+    "topics": [
+      "primary hyperaldosteronism",
+      "hypokalemia",
+      "hypertension"
+    ],
+    "stem": "A 12-year-old cat has sudden weakness with its head bent down toward its chest. Serum potassium is 2.3 mmol/L, CK is high, and systolic blood pressure is 200 mm Hg. Kidney values are normal. Which test is most useful next?",
+    "options": [
+      "Plasma aldosterone concentration",
+      "Serum total T4 alone",
+      "ACTH stimulation test",
+      "Serum insulin concentration",
+      "Low-dose dexamethasone suppression test"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Hypokalemic polymyopathy (cervical ventroflexion and weakness) with hypertension and normal kidney function in an older cat suggests primary hyperaldosteronism (Conn syndrome), often from an adrenal tumor. A high plasma aldosterone with hypokalemia supports the diagnosis, and adrenal ultrasound looks for a mass.",
+      "options": [
+        "Correct. High aldosterone with low potassium supports hyperaldosteronism.",
+        "Hyperthyroidism can cause hypertension, but low potassium this severe with normal kidneys points to aldosterone excess.",
+        "ACTH stimulation tests cortisol, not aldosterone, in this setting.",
+        "Insulin is unrelated.",
+        "LDDST tests for hypercortisolism."
+      ],
+      "takeaway": "Hypokalemia with hypertension in an older cat suggests primary hyperaldosteronism; measure aldosterone."
+    },
+    "reference": "Feldman EC et al., Canine and Feline Endocrinology, primary hyperaldosteronism in cats"
+  },
+  {
+    "id": "FEL-0041",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "special_senses",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "Chlamydia felis",
+      "conjunctivitis",
+      "doxycycline"
+    ],
+    "stem": "A household has three young cats. One has had conjunctivitis with chemosis and discharge in one eye, which later spread to the other eye. PCR of a conjunctival swab is positive for Chlamydia felis. Which treatment plan is most appropriate?",
+    "options": [
+      "Oral doxycycline for all cats in the home",
+      "Topical steroid eye drops for the affected cat",
+      "Topical antiviral drops for the affected cat",
+      "Doxycycline for 5 days for the affected cat",
+      "Isolation only, without treatment"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Chlamydia felis causes conjunctivitis with marked chemosis, often starting in one eye. Systemic doxycycline for about 4 weeks is the treatment of choice, and all cats in the household should be treated because infection spreads easily and some carriers have no signs.",
+      "options": [
+        "Correct. Treat all cats with systemic doxycycline for about 4 weeks.",
+        "Steroids can worsen infection.",
+        "Antivirals treat FHV-1, not Chlamydia.",
+        "Five days is too short and other cats remain a source.",
+        "Isolation alone does not clear infection."
+      ],
+      "takeaway": "Treat feline chlamydial conjunctivitis with doxycycline for about 4 weeks in every cat in the household."
+    },
+    "reference": "Gruffydd-Jones T et al., ABCD guidelines: Chlamydophila felis infection (J Feline Med Surg 2009)"
+  },
+  {
+    "id": "FEL-0042",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "respiratory",
+    "subdomain": "data_gathering",
+    "topics": [
+      "pyothorax",
+      "effusion cytology"
+    ],
+    "stem": "A 4-year-old outdoor cat that fights has had increased respiratory effort and fever for several days. Thoracocentesis yields thick, opaque, foul-smelling fluid. Which cytology finding best supports the diagnosis?",
+    "options": [
+      "Degenerate neutrophils with mixed bacteria",
+      "Mostly small lymphocytes, no bacteria",
+      "Mostly mesothelial cells with mitotic figures",
+      "Many neoplastic lymphoblasts",
+      "Low cellularity with protein under 2.5 g/dL"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Pyothorax in cats often follows bite wounds or aspiration and involves mixed bacteria, frequently anaerobes and Pasteurella. Cytology shows many degenerate neutrophils with intracellular and extracellular bacteria of mixed types. Fluid should be cultured aerobically and anaerobically.",
+      "options": [
+        "Correct. Degenerate neutrophils with mixed bacteria confirm septic exudate.",
+        "Small lymphocytes suggest chylothorax.",
+        "Reactive mesothelial cells can be seen in many effusions and could suggest mesothelioma, but not pyothorax.",
+        "Lymphoblasts suggest mediastinal lymphoma.",
+        "A low-cell, low-protein fluid is a transudate."
+      ],
+      "takeaway": "Thick, foul pleural fluid with degenerate neutrophils and mixed bacteria means pyothorax."
+    },
+    "reference": "Barrs VR, Beatty JA, Feline pyothorax: new insights (J Feline Med Surg 2009)"
+  },
+  {
+    "id": "FEL-0043",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "respiratory",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "pyothorax",
+      "thoracostomy tube",
+      "lavage"
+    ],
+    "stem": "A cat has confirmed pyothorax with fluid in both sides of the chest. It is stable after initial drainage. Which treatment plan is most appropriate?",
+    "options": [
+      "Chest tubes, lavage and IV antibiotics",
+      "One needle drainage, then oral antibiotics",
+      "Oral amoxicillin only, for 7 days at home",
+      "Immediate lung lobectomy in every affected cat",
+      "Oral furosemide to remove the pleural fluid"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Most cats with pyothorax are treated medically with indwelling thoracostomy tubes (often on both sides), intermittent drainage and lavage, and broad-spectrum IV antibiotics that cover anaerobes, followed by several weeks of oral antibiotics. Surgery is reserved for cats that do not respond or have abscesses or foreign bodies.",
+      "options": [
+        "Correct. Tube drainage with lavage and antibiotics is standard treatment.",
+        "A single drainage usually does not clear the infection.",
+        "Antibiotics alone do not remove pus.",
+        "Surgery is not needed in most cases.",
+        "Furosemide does not remove infected fluid."
+      ],
+      "takeaway": "Treat feline pyothorax with thoracostomy tubes, lavage and broad-spectrum antibiotics."
+    },
+    "reference": "Barrs VR, Beatty JA, Feline pyothorax: new insights (J Feline Med Surg 2009)"
+  },
+  {
+    "id": "FEL-0044",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "gastrointestinal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "Tritrichomonas blagburni",
+      "large bowel diarrhea",
+      "fecal PCR"
+    ],
+    "stem": "Several young cats in a breeding cattery have chronic large-bowel diarrhea with mucus and fresh blood, despite fenbendazole treatment. The cats otherwise feel well. Which test is most appropriate?",
+    "options": [
+      "Fecal PCR for Tritrichomonas",
+      "Fecal flotation with zinc sulfate only",
+      "Abdominal ultrasound of every cat",
+      "Serum cobalamin and folate",
+      "Serum Spec fPL"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Chronic large-bowel diarrhea in young cats from crowded catteries, unresponsive to fenbendazole, suggests Tritrichomonas (now T. blagburni, formerly called T. foetus in cats). Fecal PCR is the most sensitive test. Direct smears and culture pouches are less sensitive. Ronidazole is the treatment, given carefully because it can be neurotoxic.",
+      "options": [
+        "Correct. PCR is the most sensitive test for feline Tritrichomonas.",
+        "Flotation does not detect trichomonads, though it is useful for Giardia cysts.",
+        "Imaging does not identify the parasite.",
+        "These tests assess small-intestinal absorption.",
+        "Spec fPL tests for pancreatitis."
+      ],
+      "takeaway": "Chronic large-bowel diarrhea in young cattery cats: test for Tritrichomonas by fecal PCR."
+    },
+    "reference": "Gookin JL et al., Tritrichomonas infection in cats (J Feline Med Surg / Vet Clin North Am)"
+  },
+  {
+    "id": "FEL-0045",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "gastrointestinal",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "megacolon",
+      "constipation",
+      "subtotal colectomy"
+    ],
+    "stem": "A 9-year-old cat has had repeated constipation for 2 years. It has been managed with enemas, lactulose, a high-fiber diet and cisapride, but now has obstipation every few weeks despite treatment. Radiographs show a severely dilated colon with no obstruction. Which option is most appropriate?",
+    "options": [
+      "Subtotal colectomy",
+      "Daily enemas at home for life",
+      "Increase lactulose and add a second laxative only",
+      "Pelvic osteotomy",
+      "Prednisolone for colonic inflammation"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Idiopathic megacolon that no longer responds to medical treatment (diet, laxatives, prokinetics, enemas) is treated with subtotal colectomy. Most cats do well after surgery, though stools are softer for some weeks.",
+      "options": [
+        "Correct. Subtotal colectomy is the treatment for refractory megacolon.",
+        "Daily enemas are stressful and not practical long term.",
+        "More drugs are unlikely to help when medical treatment has already failed.",
+        "Pelvic osteotomy is for megacolon caused by a narrowed pelvic canal, such as after a fracture.",
+        "Inflammation is not the cause."
+      ],
+      "takeaway": "Refractory feline megacolon is treated with subtotal colectomy."
+    },
+    "reference": "Fossum TW, Small Animal Surgery, surgery of the large intestine"
+  },
+  {
+    "id": "FEL-0046",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "special_senses",
+    "subdomain": "data_gathering",
+    "topics": [
+      "anterior uveitis",
+      "systemic disease"
+    ],
+    "stem": "A 3-year-old cat has a red, cloudy right eye with keratic precipitates, aqueous flare, and low intraocular pressure. There is no corneal ulcer. Which step is most important in the diagnostic plan?",
+    "options": [
+      "Test for FIV, FeLV, FIP, toxoplasmosis and lymphoma",
+      "Treat with topical steroids and do no further testing",
+      "Enucleate the eye and submit it for histopathology",
+      "Perform a Schirmer tear test as the only further test",
+      "Measure blood glucose to look for diabetic cataract"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Anterior uveitis in cats is often linked to systemic infections such as FIP, FIV, FeLV and toxoplasmosis, or to lymphoma. A systemic workup with retrovirus tests, Toxoplasma serology, a CBC and chemistry, and sometimes FIP testing is important both for the eye and for the cat's overall health.",
+      "options": [
+        "Correct. Look for systemic infectious and neoplastic causes of uveitis.",
+        "Treating without investigating may miss a serious systemic disease.",
+        "Enucleation is not a first step in an eye that may be saved.",
+        "STT checks tear production, not uveitis.",
+        "Diabetes can cause cataracts but is not a common cause of uveitis in cats."
+      ],
+      "takeaway": "Feline anterior uveitis needs a systemic workup for FIP, FIV, FeLV, toxoplasmosis and lymphoma."
+    },
+    "reference": "Maggs DJ et al., Slatter's Fundamentals of Veterinary Ophthalmology"
+  },
+  {
+    "id": "FEL-0047",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "behavior",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "intercat aggression",
+      "reintroduction"
+    ],
+    "stem": "A household has two cats that lived together well. After one cat came home from the hospital, the other cat started hissing and attacking it. Which plan is most appropriate?",
+    "options": [
+      "Separate them, then reintroduce slowly",
+      "Let them fight it out to settle the hierarchy",
+      "Punish the aggressive cat with a water spray bottle",
+      "Rehome the aggressive cat as soon as possible",
+      "Feed them side by side out of the same bowl"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Non-recognition aggression can happen when one cat comes home smelling different. Management includes separating the cats, gradual scent exchange (swapping bedding), and step-by-step reintroduction with positive associations such as treats and play, plus enough resources in separate places.",
+      "options": [
+        "Correct. Separation and gradual reintroduction reduce aggression.",
+        "Fighting can cause injury and lasting conflict.",
+        "Punishment increases fear and stress.",
+        "Rehoming is not the first step; most cases improve with gradual reintroduction.",
+        "Sharing resources up close increases tension."
+      ],
+      "takeaway": "For intercat aggression after a vet visit, separate the cats and reintroduce them gradually with scent exchange."
+    },
+    "reference": "Horwitz DF, Mills DS, BSAVA Manual of Canine and Feline Behavioural Medicine"
+  },
+  {
+    "id": "FEL-0048",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "non_clinical",
+    "subdomain": "animal_welfare",
+    "topics": [
+      "cat-friendly handling",
+      "restraint"
+    ],
+    "stem": "A nervous cat hides in its carrier and hisses when the technician reaches in. Which handling approach best follows current feline handling guidelines?",
+    "options": [
+      "Remove the carrier top and examine it in the base",
+      "Scruff the cat firmly and pull it out",
+      "Tip the carrier and shake the cat out",
+      "Wrap the cat tightly in a towel and hold it down hard",
+      "Keep the cat in a room with barking dogs while waiting"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "AAFP and ISFM feline-friendly handling guidelines recommend gentle, low-stress handling, such as removing the top of the carrier so the cat can stay in the base. Other measures include towels, a quiet room, and treats, and avoiding scruffing and forceful restraint, which raise fear and the risk of injury.",
+      "options": [
+        "Correct. Letting the cat stay in the carrier base reduces stress.",
+        "Scruffing is discouraged as a routine method.",
+        "Tipping and shaking the carrier is frightening.",
+        "Forceful restraint raises fear and aggression.",
+        "Noise from dogs increases stress."
+      ],
+      "takeaway": "Handle cats gently with minimal restraint; examining them in the carrier base reduces fear."
+    },
+    "reference": "Taylor S et al., 2022 ISFM/AAFP Cat Friendly Veterinary Interaction Guidelines (J Feline Med Surg 2022)"
+  },
+  {
+    "id": "FEL-0049",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "non_clinical",
+    "subdomain": "public_health",
+    "topics": [
+      "Bartonella henselae",
+      "cat scratch disease",
+      "flea control"
+    ],
+    "stem": "A client who is receiving chemotherapy has a new kitten and worries about cat scratch disease. Which advice is most appropriate?",
+    "options": [
+      "Strict flea control and avoiding scratches and bites",
+      "Rehome the kitten as soon as possible to be safe",
+      "Test the kitten and rehome it if Bartonella positive",
+      "Give the kitten oral doxycycline for the rest of its life",
+      "Let the kitten lick open wounds to build up immunity"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Cat scratch disease is caused by Bartonella henselae, which spreads between cats by fleas and to people mainly by scratches or bites contaminated with flea feces. Recommendations for immunocompromised owners include strict flea control, avoiding rough play, washing scratches promptly, and not letting cats lick wounds. Testing cats is not routinely recommended, because many healthy cats are positive.",
+      "options": [
+        "Correct. Flea control and avoiding scratches are the main prevention.",
+        "Rehoming is usually not needed when precautions are taken.",
+        "Positive tests are common in healthy cats and do not predict risk well.",
+        "Long-term antibiotics in the kitten are not recommended.",
+        "Wound licking can transmit infection."
+      ],
+      "takeaway": "Prevent cat scratch disease with strict flea control and avoiding scratches, especially in immunocompromised owners."
+    },
+    "reference": "CDC, Bartonella infection (cat scratch disease); Sykes JE, Greene's Infectious Diseases of the Dog and Cat"
+  },
+  {
+    "id": "FEL-0050",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "multisystemic",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "anesthetic risk",
+      "postoperative monitoring"
+    ],
+    "stem": "A practice reviews its anesthetic deaths in cats. A large study of small animal practices (CEPSAF) found that most anesthetic-related deaths in cats occurred at which time?",
+    "options": [
+      "Within 3 hours after the procedure",
+      "During premedication, before induction",
+      "At induction, before intubation was complete",
+      "In the first 5 minutes of anesthetic maintenance",
+      "More than 24 hours after the cat was discharged"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "In the Confidential Enquiry into Perioperative Small Animal Fatalities (CEPSAF), most anesthetic-related deaths in cats happened after the procedure, mostly within the first 3 hours. This supports continued monitoring and warmth through recovery.",
+      "options": [
+        "Correct. Most feline anesthetic deaths occurred within 3 hours after the procedure.",
+        "Deaths during premedication were less common.",
+        "Deaths at induction occur, but most occurred after the procedure.",
+        "Deaths early in maintenance were less common than in recovery.",
+        "CEPSAF looked at the first 48 hours, and most deaths were much sooner."
+      ],
+      "takeaway": "Monitor cats closely through recovery: most anesthetic deaths happen in the first hours after the procedure."
+    },
+    "reference": "Brodbelt DC et al., The risk of death: the CEPSAF study (Vet Anaesth Analg 2008)"
+  },
+  {
+    "id": "FEL-0051",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "nervous",
+    "subdomain": "data_gathering",
+    "topics": [
+      "thiamine deficiency",
+      "raw fish diet"
+    ],
+    "stem": "A 2-year-old cat fed a home-made diet of mostly raw fish has developed cervical ventroflexion, dilated pupils, a wobbly gait and seizures. Which cause is most likely?",
+    "options": [
+      "Thiamine deficiency",
+      "Lead toxicosis",
+      "Vitamin A toxicosis",
+      "Taurine deficiency",
+      "Idiopathic hypercalcemia"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Raw fish contains thiaminase, which destroys thiamine, and thiamine is also lost when food is overcooked. Deficiency causes ventroflexion, vestibular signs, dilated pupils and seizures in cats. Signs often respond quickly to thiamine injections.",
+      "options": [
+        "Correct. Raw fish diets can cause thiamine deficiency.",
+        "Lead toxicosis is rare in cats and not linked to diet this way.",
+        "Vitamin A toxicosis (from liver-based diets) causes bony growths of the spine.",
+        "Taurine deficiency causes DCM and retinal degeneration.",
+        "Hypercalcemia is not typical of a raw fish diet."
+      ],
+      "takeaway": "Ventroflexion, dilated pupils and seizures in a cat fed raw fish mean thiamine deficiency."
+    },
+    "reference": "Merck Veterinary Manual, Thiamine deficiency in cats"
   }
 ]
