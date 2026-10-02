@@ -348,5 +348,412 @@
     "version": 2,
     "review_status": "draft",
     "id": "AQU-0001"
+  },
+  {
+    "id": "OSM-0003",
+    "version": 1,
+    "review_status": "draft",
+    "species": "other_small_mammal",
+    "system": "gastrointestinal",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "rabbit",
+      "gastrointestinal stasis",
+      "supportive care"
+    ],
+    "stem": "A 4-year-old neutered male rabbit has eaten little for 24 hours and passed only a few small, dry fecal pellets. It is hunched, and the abdomen has firm doughy contents but no gas distension. Radiographs show no obstruction. Which treatment plan is most appropriate?",
+    "options": [
+      "Fluids, analgesia and assisted high-fiber feeding",
+      "Fast the rabbit for 24 hours to rest the gut",
+      "Oral amoxicillin to treat presumed bacterial overgrowth",
+      "A high-carbohydrate pellet diet to provide extra energy",
+      "Prepare at once for surgery to remove the contents"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Gastrointestinal stasis in rabbits is common and often linked to pain, stress or low-fiber diets. Treatment includes fluids, analgesia (such as buprenorphine, plus meloxicam once hydrated), assisted feeding with a high-fiber critical care formula, and prokinetics once obstruction is ruled out. Anorexia can cause hepatic lipidosis, so feeding is essential.",
+      "options": [
+        "Correct. Fluids, analgesia and fiber feeding are the basis of treatment.",
+        "Fasting worsens stasis and risks hepatic lipidosis.",
+        "Oral amoxicillin can cause fatal enterotoxemia in rabbits.",
+        "High-carbohydrate diets upset the cecal flora.",
+        "Surgery is for obstruction, which radiographs did not show."
+      ],
+      "takeaway": "Treat rabbit GI stasis with fluids, analgesia and assisted high-fiber feeding; never fast or give oral amoxicillin."
+    },
+    "reference": "Quesenberry KE et al., Ferrets, Rabbits, and Rodents: Clinical Medicine and Surgery"
+  },
+  {
+    "id": "OSM-0004",
+    "version": 1,
+    "review_status": "draft",
+    "species": "other_small_mammal",
+    "system": "endocrine",
+    "subdomain": "data_gathering",
+    "topics": [
+      "ferret",
+      "insulinoma",
+      "hypoglycemia"
+    ],
+    "stem": "A 5-year-old neutered male ferret has had episodes of staring, hind limb weakness, drooling and pawing at the mouth. The signs improve after eating. Which test is most useful to support the likely diagnosis?",
+    "options": [
+      "Fasting blood glucose with paired insulin",
+      "ACTH stimulation test with cortisol measurement",
+      "Serum estradiol and androstenedione panel",
+      "Urinalysis to check for glucosuria and ketonuria",
+      "Serum total T4 and free T4 concentrations"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Insulinoma (pancreatic beta-cell tumor) is common in middle-aged ferrets. Episodes of weakness, stupor, drooling and pawing at the mouth (nausea) relieved by food suggest hypoglycemia. A low fasting blood glucose, ideally with a normal or high insulin level at the same time, supports the diagnosis. Fasts should be short and supervised.",
+      "options": [
+        "Correct. Low fasting glucose with inappropriately normal or high insulin supports insulinoma.",
+        "Ferret adrenal disease is diagnosed with sex hormone panels, not ACTH stimulation.",
+        "Estradiol is raised in adrenal disease or in a jill that stays in estrus, not insulinoma.",
+        "Glucosuria would suggest diabetes, the opposite problem.",
+        "Thyroid disease is rare in ferrets and does not explain the signs."
+      ],
+      "takeaway": "Episodic weakness and ptyalism relieved by food in a ferret: check fasting glucose (with insulin) for insulinoma."
+    },
+    "reference": "Quesenberry KE et al., Ferrets, Rabbits, and Rodents: Clinical Medicine and Surgery"
+  },
+  {
+    "id": "OVC-0003",
+    "version": 1,
+    "review_status": "draft",
+    "species": "ovine_caprine",
+    "system": "multisystemic",
+    "subdomain": "data_gathering",
+    "topics": [
+      "pregnancy toxemia",
+      "beta-hydroxybutyrate",
+      "twin lambs"
+    ],
+    "stem": "In the last 2 weeks of gestation, a thin ewe carrying triplets (by ultrasound) has stopped eating, separated from the flock, and appears blind. She has fine muscle tremors and grinds her teeth. Which test is most useful to confirm the likely diagnosis?",
+    "options": [
+      "Blood beta-hydroxybutyrate",
+      "Serum ionized magnesium concentration",
+      "Fecal egg count by the McMaster method",
+      "Serum or liver copper concentration",
+      "Whole-blood lead concentration"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Pregnancy toxemia occurs in late pregnancy in ewes and does carrying multiple fetuses, especially thin or obese animals or those on poor nutrition. Fetal glucose demand exceeds supply, causing hypoglycemia and ketosis. A high blood BHB (or ketones in urine) confirms it. Treatment includes glucose, propylene glycol, and inducing birth or a cesarean.",
+      "options": [
+        "Correct. Raised BHB confirms pregnancy toxemia.",
+        "Low magnesium causes tetany, often in lactating animals on lush pasture.",
+        "Parasites can contribute to poor condition but do not cause these signs.",
+        "Copper deficiency causes swayback in lambs; excess causes hemolysis.",
+        "Lead toxicosis can cause blindness but is not linked to late gestation."
+      ],
+      "takeaway": "Late-pregnancy anorexia and neurologic signs in a ewe with multiples means pregnancy toxemia: check BHB."
+    },
+    "reference": "Pugh DG, Baird AN, Sheep, Goat, and Cervid Medicine"
+  },
+  {
+    "id": "OVC-0004",
+    "version": 1,
+    "review_status": "draft",
+    "species": "ovine_caprine",
+    "system": "integumentary",
+    "subdomain": "data_gathering",
+    "topics": [
+      "caseous lymphadenitis",
+      "Corynebacterium pseudotuberculosis"
+    ],
+    "stem": "A 3-year-old Boer goat has a firm swelling below the ear. The owner says several goats have had similar lumps that burst and drained thick, greenish-white, odorless pus. Which test best confirms the cause?",
+    "options": [
+      "Culture of pus from an intact abscess",
+      "Deep skin scraping for Sarcoptes mites",
+      "Fine-needle aspirate cytology for lymphoma",
+      "Fecal egg count by the McMaster method",
+      "Serum selenium and vitamin E concentrations"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Abscesses of superficial lymph nodes with thick, greenish-white, caseous pus are typical of caseous lymphadenitis, caused by Corynebacterium pseudotuberculosis. Culture of pus aspirated from an intact abscess confirms it. The disease spreads by rupturing abscesses, so affected animals are isolated or culled and abscess material is disposed of carefully.",
+      "options": [
+        "Correct. Culture of pus confirms C. pseudotuberculosis.",
+        "Mites cause pruritus and crusting, not abscesses.",
+        "Lymphoma is uncommon in goats and does not drain pus.",
+        "Parasite counts do not explain abscesses.",
+        "Selenium status is unrelated to abscesses."
+      ],
+      "takeaway": "Caseous abscesses of superficial lymph nodes in goats mean CL: confirm by culture of aspirated pus."
+    },
+    "reference": "Pugh DG, Baird AN, Sheep, Goat, and Cervid Medicine"
+  },
+  {
+    "id": "OVC-0005",
+    "version": 1,
+    "review_status": "draft",
+    "species": "ovine_caprine",
+    "system": "non_clinical",
+    "subdomain": "public_health",
+    "topics": [
+      "Q fever",
+      "Coxiella burnetii",
+      "abortion"
+    ],
+    "stem": "A goat dairy has had an abortion storm in late gestation. The placentas were thickened and leathery. Q fever is suspected. The owner and family helped with the births without gloves. Which advice is most appropriate?",
+    "options": [
+      "Use PPE at births, dispose of placentas safely, see a doctor",
+      "Wash hands after handling feed and hay; no other action is needed",
+      "Keep the aborted fetuses in the barn to stop spread",
+      "Drink the raw milk from the herd to build immunity",
+      "Clean the kidding area with high-pressure water only"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Coxiella burnetii causes late abortions in goats and sheep, and is shed in huge numbers in birth fluids and placentas. People are infected mainly by inhaling contaminated dust. Advice includes gloves and other PPE at births, safe disposal of placentas and fetuses, avoiding raw milk, and medical consultation for exposed people, especially if pregnant or with heart valve disease.",
+      "options": [
+        "Correct. PPE, safe disposal and medical advice reduce the zoonotic risk.",
+        "Q fever is spread mainly by aerosol from birth products, not feed.",
+        "Leaving tissues in the barn increases contamination.",
+        "Raw milk can transmit Coxiella and other pathogens.",
+        "High-pressure water creates aerosols, which spread the organism."
+      ],
+      "takeaway": "Q fever abortions are a zoonotic risk: use PPE, dispose of birth products safely, avoid raw milk and refer people to a doctor."
+    },
+    "reference": "CDC, Q fever; Pugh DG, Baird AN, Sheep, Goat, and Cervid Medicine"
+  },
+  {
+    "id": "BIR-0002",
+    "version": 1,
+    "review_status": "draft",
+    "species": "pet_bird",
+    "system": "reproductive",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "egg binding",
+      "cockatiel",
+      "hypocalcemia"
+    ],
+    "stem": "A 3-year-old female cockatiel fed an all-seed diet has been straining and sitting fluffed on the cage floor for 12 hours. An egg can be palpated in the caudal coelom, and radiographs show a single, normally shaped egg. Which initial treatment is most appropriate?",
+    "options": [
+      "Calcium injection, heat, humidity, fluids",
+      "Break the egg right away and remove it manually",
+      "Give oxytocin before any other treatment is started",
+      "Send the bird home and wait another 48 hours",
+      "A 10-day antibiotic course, then a recheck exam"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Egg binding in small psittacines is linked to hypocalcemia (all-seed diets are low in calcium), obesity and lack of exercise. First-line care for a stable bird is injectable calcium, a warm, humid environment, fluids and rest. Drugs to induce oviposition or manual removal are considered if the egg is not laid. Long term, convert the bird to a balanced diet.",
+      "options": [
+        "Correct. Calcium and supportive care often allow the egg to be laid.",
+        "Breaking the egg (ovocentesis) is a later step and risks injury if done first.",
+        "Oxytocin is not first-line; the bird needs calcium, and the shell gland must be relaxed for it to work.",
+        "Waiting risks exhaustion and death.",
+        "Infection is not the main problem."
+      ],
+      "takeaway": "Treat egg-bound small psittacines first with calcium, heat, humidity and fluids, then correct the seed diet."
+    },
+    "reference": "Harrison GJ, Lightfoot TL, Clinical Avian Medicine"
+  },
+  {
+    "id": "BIR-0003",
+    "version": 1,
+    "review_status": "draft",
+    "species": "pet_bird",
+    "system": "non_clinical",
+    "subdomain": "environmental_health",
+    "topics": [
+      "polytetrafluoroethylene toxicosis",
+      "indoor air",
+      "pet birds"
+    ],
+    "stem": "An owner's two budgerigars died suddenly in their cage in the kitchen, minutes after a nonstick frying pan was left empty on a hot burner. Which explanation and advice is most accurate?",
+    "options": [
+      "PTFE fumes from the hot pan; keep birds out of the kitchen",
+      "Highly pathogenic avian influenza; report it to the state at once",
+      "Acute psittacosis; the owner should start oral doxycycline now",
+      "Lead toxicosis from the cage; send the paint for lead testing",
+      "Heat stroke from the stove; keep the kitchen cooler in future"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Overheated polytetrafluoroethylene (PTFE, nonstick) coatings release fumes that cause acute pulmonary hemorrhage and edema in birds, often killing them within minutes. Birds should be kept away from the kitchen, nonstick pans should never be overheated, and good ventilation helps. Self-cleaning ovens and some heat lamps are other sources.",
+      "options": [
+        "Correct. PTFE fumes are a well-known cause of sudden death in pet birds.",
+        "Influenza would not explain death minutes after the pan overheated.",
+        "Psittacosis causes illness over days, not sudden death after fumes.",
+        "Lead toxicosis causes illness over days to weeks.",
+        "Room temperature alone would not kill birds within minutes."
+      ],
+      "takeaway": "Keep pet birds away from kitchens: overheated nonstick (PTFE) cookware can kill them within minutes."
+    },
+    "reference": "Harrison GJ, Lightfoot TL, Clinical Avian Medicine; Merck Veterinary Manual, Toxicoses in pet birds"
+  },
+  {
+    "id": "PLT-0002",
+    "version": 1,
+    "review_status": "draft",
+    "species": "poultry",
+    "system": "nervous",
+    "subdomain": "data_gathering",
+    "topics": [
+      "Marek's disease",
+      "lymphoma",
+      "vaccination"
+    ],
+    "stem": "A backyard flock owner reports that several 14-week-old pullets have one leg stretched forward and the other back, and cannot stand. Two have gray, irregular pupils. The chicks were bought unvaccinated from a feed store. Which diagnosis is most likely?",
+    "options": [
+      "Marek's disease",
+      "Avian encephalomyelitis",
+      "Botulism",
+      "Riboflavin deficiency (curled-toe paralysis)",
+      "Newcastle disease"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Marek's disease is a herpesvirus disease of chickens, usually seen at about 6–30 weeks of age. Peripheral nerve enlargement causes the classic leg-forward, leg-back paralysis, and lymphoid infiltration of the iris causes 'gray eye'. Vaccination at hatch or in ovo prevents tumors and paralysis but not infection.",
+      "options": [
+        "Correct. Splayed-leg paralysis and gray eye are typical of Marek's disease.",
+        "Avian encephalomyelitis affects chicks of 1–3 weeks with head tremors.",
+        "Botulism causes flaccid paralysis, including of the neck ('limberneck').",
+        "Riboflavin deficiency affects young chicks, with toes curled inward.",
+        "Newcastle disease causes respiratory and neurologic signs with high mortality; it does not cause gray eye."
+      ],
+      "takeaway": "Leg-forward, leg-back paralysis and gray eye in young unvaccinated chickens mean Marek's disease."
+    },
+    "reference": "Swayne DE et al., Diseases of Poultry, Marek's disease"
+  },
+  {
+    "id": "PLT-0003",
+    "version": 1,
+    "review_status": "draft",
+    "species": "poultry",
+    "system": "non_clinical",
+    "subdomain": "public_health",
+    "topics": [
+      "highly pathogenic avian influenza",
+      "reportable disease",
+      "backyard flock"
+    ],
+    "stem": "A backyard flock owner calls because 8 of 20 hens died overnight. The survivors are quiet, with swollen, purple combs and wattles and reduced egg laying. Wild ducks use a pond on the property. Which advice is most appropriate?",
+    "options": [
+      "Isolate the flock and call the state veterinarian or USDA",
+      "Add antibiotics to the drinking water and watch for a week",
+      "Sell the healthy-looking hens quickly before more of them die",
+      "Bury the dead birds and buy new birds to restock the flock",
+      "Take the sick hens to a poultry swap to get advice"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Sudden high mortality with cyanotic, swollen combs and wattles, especially with wild waterfowl contact, suggests highly pathogenic avian influenza (or virulent Newcastle disease). Both are reportable. The owner should keep birds confined and isolated, not move birds or products, and report immediately to the state veterinarian or USDA (the USDA sick-bird hotline). Some HPAI strains are zoonotic, so people should limit contact and use PPE.",
+      "options": [
+        "Correct. Suspected HPAI must be reported, and birds must not be moved.",
+        "Antibiotics do not treat viral disease and delay reporting.",
+        "Selling birds could spread a reportable disease.",
+        "Dead birds are needed for testing, and restocking would expose new birds.",
+        "Taking birds to a swap would spread the disease."
+      ],
+      "takeaway": "Sudden deaths with cyanotic combs in poultry: isolate the flock and report to the state veterinarian or USDA."
+    },
+    "reference": "USDA APHIS, Avian influenza: information for backyard flock owners"
+  },
+  {
+    "id": "CAM-0002",
+    "version": 1,
+    "review_status": "draft",
+    "species": "camelid_cervid",
+    "system": "multisystemic",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "heat stress",
+      "alpaca",
+      "shearing"
+    ],
+    "stem": "In July in a humid southeastern US state, an unshorn 3-year-old alpaca is found lying down, open-mouth breathing, with a rectal temperature of 41.5 °C (106.7 °F). Which combination of treatment and prevention is most appropriate?",
+    "options": [
+      "Wet and fan to cool, give IV fluids, shear before summer",
+      "Cover the alpaca with a heavy blanket to prevent shivering",
+      "Give an NSAID and leave the fleece unshorn this year",
+      "Exercise the alpaca daily to improve its heat tolerance",
+      "Apply ice packs to the back only, over the thick fleece"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Camelids are prone to heat stress in hot, humid climates, especially when they are unshorn, obese or dark-coated. Treatment includes cooling by wetting the belly and legs (where fleece is thin), fans, IV fluids, and monitoring for complications. Prevention includes shearing before summer, shade, fans or misters, and fresh water.",
+      "options": [
+        "Correct. Active cooling and shearing before hot weather treat and prevent heat stress.",
+        "Blanketing traps heat.",
+        "An NSAID does not cool a hyperthermic animal, and the fleece holds heat in.",
+        "Exercise worsens heat stress.",
+        "Fleece insulates; cool the belly and legs, where fleece is thin."
+      ],
+      "takeaway": "Prevent camelid heat stress with shearing before summer, shade and fans; cool the thin-fleeced belly and legs in an emergency."
+    },
+    "reference": "Fowler ME, Medicine and Surgery of Camelids"
+  },
+  {
+    "id": "REP-0002",
+    "version": 1,
+    "review_status": "draft",
+    "species": "reptile",
+    "system": "integumentary",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "dysecdysis",
+      "ball python",
+      "husbandry"
+    ],
+    "stem": "A 2-year-old ball python has had a poor shed, with pieces of old skin stuck to its body and retained spectacles over both eyes. The enclosure has a screen top and a heat lamp, and the relative humidity is 25%. Which recommendation is most appropriate?",
+    "options": [
+      "Raise humidity, add a humid hide, soak in warm water",
+      "Peel the retained spectacles off with forceps at home",
+      "Start oral antibiotics and leave the enclosure as it is",
+      "Give vitamin A injections to correct the shedding problem",
+      "Lower the enclosure temperature to slow the snake's metabolism"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Dysecdysis (abnormal shedding) in ball pythons is most often caused by low humidity. Ball pythons need about 50–60% humidity. Raising humidity, adding a humid hide, and soaking in shallow warm water usually loosen retained skin. Retained spectacles should not be pulled off forcibly, because this can damage the cornea.",
+      "options": [
+        "Correct. Correcting humidity is the key to treatment and prevention.",
+        "Forcefully removing spectacles can damage the eye.",
+        "Antibiotics do not address the husbandry cause.",
+        "Vitamin A deficiency is a problem mainly in chelonians and rarely in snakes; it is not the cause here.",
+        "Lower temperatures do not fix shedding problems and impair the snake's immunity and digestion."
+      ],
+      "takeaway": "Most shedding problems in snakes come from low humidity: correct the husbandry and soak, don't peel."
+    },
+    "reference": "Mader DR, Divers SJ, Current Therapy in Reptile Medicine and Surgery"
+  },
+  {
+    "id": "AQU-0002",
+    "version": 1,
+    "review_status": "draft",
+    "species": "aquatics",
+    "system": "non_clinical",
+    "subdomain": "environmental_health",
+    "topics": [
+      "new tank syndrome",
+      "ammonia",
+      "water quality"
+    ],
+    "stem": "An owner set up a new freshwater aquarium 10 days ago and added 12 fish at once. Several fish are now dead, and the rest are gasping at the surface with red gills. Which step is most important first?",
+    "options": [
+      "Test the water for ammonia and nitrite",
+      "Add a broad-spectrum antibiotic to the tank water",
+      "Raise the water temperature to speed fish metabolism",
+      "Add 12 more fish to strengthen the biological filter",
+      "Feed twice as much to help the fish recover"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "In a new tank, the nitrifying bacteria that convert ammonia to nitrite and then nitrate are not yet established ('new tank syndrome'). Adding many fish at once lets ammonia and nitrite build up, damaging gills. Testing ammonia, nitrite, pH and temperature comes first; treatment includes partial water changes, reduced feeding and adding fish slowly.",
+      "options": [
+        "Correct. Water testing identifies the likely ammonia and nitrite toxicity.",
+        "Antibiotics may harm the beneficial bacteria and do not treat poor water quality.",
+        "Higher temperature lowers oxygen and increases the toxic fraction of ammonia.",
+        "More fish would increase ammonia production.",
+        "More food would increase ammonia."
+      ],
+      "takeaway": "Fish deaths in a new tank: test ammonia and nitrite first; new tank syndrome is common."
+    },
+    "reference": "Roberts HE, Fundamentals of Ornamental Fish Health; Noga EJ, Fish Disease: Diagnosis and Treatment"
   }
 ]

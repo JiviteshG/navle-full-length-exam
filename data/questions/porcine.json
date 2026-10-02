@@ -106,5 +106,175 @@
       "takeaway": "Isolate and test replacement stock before it joins the herd."
     },
     "reference": "Merck Veterinary Manual: Biosecurity in swine production"
+  },
+  {
+    "id": "POR-0004",
+    "version": 1,
+    "review_status": "draft",
+    "species": "porcine",
+    "system": "reproductive",
+    "subdomain": "data_gathering",
+    "topics": [
+      "PRRS",
+      "late-term abortion",
+      "serum PCR"
+    ],
+    "stem": "A 600-sow farrow-to-finish farm has had a rise in late-term abortions, stillborn and weak-born piglets, and respiratory disease with poor growth in the nursery. Some sows had a short fever and poor appetite. Which test is most useful to confirm the likely cause?",
+    "options": [
+      "PCR on serum from affected sows and weak piglets",
+      "Fecal flotation of the sows for Ascaris suum eggs",
+      "Bacterial culture of the feed for Salmonella species",
+      "Skin biopsies from piglets for zinc-related parakeratosis",
+      "Skin scrapings from the piglets for Sarcoptes scabiei"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Late-term abortions and weak-born piglets in sows, combined with respiratory disease in nursery pigs, are typical of porcine reproductive and respiratory syndrome. PCR on serum detects the virus early, and sequencing can compare the strain with previous outbreaks.",
+      "options": [
+        "Correct. Serum PCR is the most useful test in an acute PRRS outbreak.",
+        "Ascarids reduce growth and cause liver white spots, not abortion storms.",
+        "Salmonella mainly causes diarrhea or septicemia in growing pigs.",
+        "Parakeratosis is a skin disease of growing pigs and does not cause abortions.",
+        "Mange causes pruritus and does not cause abortions."
+      ],
+      "takeaway": "Late-term abortions plus nursery respiratory disease in pigs suggest PRRS; confirm by serum PCR."
+    },
+    "reference": "Zimmerman JJ et al., Diseases of Swine, porcine reproductive and respiratory syndrome virus"
+  },
+  {
+    "id": "POR-0005",
+    "version": 1,
+    "review_status": "draft",
+    "species": "porcine",
+    "system": "nervous",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "Streptococcus suis",
+      "meningitis",
+      "nursery pigs"
+    ],
+    "stem": "Several 6-week-old nursery pigs are found lying on their sides paddling, with nystagmus and fever. Some have swollen joints. The farm had Streptococcus suis confirmed in a previous group. Which treatment is most appropriate for the affected pigs?",
+    "options": [
+      "Injectable penicillin plus an anti-inflammatory",
+      "Oral ivermectin given to all of the pigs in the room",
+      "IV calcium and magnesium solution to the affected pigs",
+      "Vitamin E and selenium injection given as the only treatment",
+      "Restrict water to the room for 24 hours to reduce edema"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Paddling, nystagmus, fever and joint swelling in nursery pigs are typical of Streptococcus suis meningitis and polyarthritis. Early treatment with an injectable beta-lactam (penicillin or ampicillin) and an anti-inflammatory improves survival. Affected pigs should be moved to a dry, warm hospital pen with easy access to water. S. suis is also zoonotic.",
+      "options": [
+        "Correct. Early beta-lactam therapy treats S. suis meningitis.",
+        "Parasites do not cause this picture.",
+        "These pigs have an infection, not an electrolyte problem.",
+        "Vitamin E and selenium deficiency causes mulberry heart disease and myopathy, not fever and paddling.",
+        "Water restriction causes salt toxicosis, a different cause of neurologic signs."
+      ],
+      "takeaway": "Treat Streptococcus suis meningitis early with injectable penicillin or ampicillin."
+    },
+    "reference": "Zimmerman JJ et al., Diseases of Swine, streptococcosis"
+  },
+  {
+    "id": "POR-0006",
+    "version": 1,
+    "review_status": "draft",
+    "species": "porcine",
+    "system": "non_clinical",
+    "subdomain": "public_health",
+    "topics": [
+      "African swine fever",
+      "foreign animal disease",
+      "reporting"
+    ],
+    "stem": "On a US farm, several pigs die suddenly. Others have high fever, reddened skin on the ears and belly, and bloody diarrhea. Mortality is rising quickly in all age groups, and pigs have not responded to antibiotics. Which action is required first?",
+    "options": [
+      "Report it right away to the state veterinarian or USDA",
+      "Start mass treatment with a broad-spectrum antibiotic now",
+      "Send all market-weight pigs to slaughter quickly to cut losses",
+      "Wait for full necropsy results from a private laboratory",
+      "Vaccinate the remaining pigs against swine influenza"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "High fever, hemorrhagic skin lesions and rapidly rising mortality in all ages suggest a foreign animal disease such as African swine fever or classical swine fever. In the US, suspected foreign animal diseases must be reported immediately to the state animal health official or USDA APHIS, which sends a foreign animal disease diagnostician. Animal movement must stop.",
+      "options": [
+        "Correct. Suspected foreign animal diseases must be reported at once.",
+        "Antibiotics will not treat a viral disease and delay reporting.",
+        "Moving pigs could spread the disease and is not allowed.",
+        "Waiting delays the official response.",
+        "Influenza vaccination does not address this picture."
+      ],
+      "takeaway": "Report a suspected foreign animal disease immediately to the state veterinarian or USDA APHIS, and stop animal movement."
+    },
+    "reference": "USDA APHIS, African swine fever response; Zimmerman JJ et al., Diseases of Swine"
+  },
+  {
+    "id": "POR-0007",
+    "version": 1,
+    "review_status": "draft",
+    "species": "porcine",
+    "system": "non_clinical",
+    "subdomain": "animal_welfare",
+    "topics": [
+      "fitness for transport",
+      "non-ambulatory pigs",
+      "on-farm euthanasia"
+    ],
+    "stem": "A market-weight finishing pig cannot stand or walk on the morning it is due to be shipped to slaughter. Which action is most appropriate?",
+    "options": [
+      "Don't load it; treat it or euthanize it humanely on the farm",
+      "Load it using an electric prod so that it rises and walks on",
+      "Drag it up the loading ramp onto the truck with a rope",
+      "Load it last so that it can lie down during the journey",
+      "Give it a corticosteroid injection and then load it right away"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Pigs that cannot stand or walk are not fit for transport. Under industry guidelines and US slaughter rules, non-ambulatory animals should not be loaded. They should be treated on the farm if recovery is likely, or humanely euthanized by an approved method.",
+      "options": [
+        "Correct. Non-ambulatory pigs should not be transported.",
+        "Electric prods should not be used on non-ambulatory animals.",
+        "Dragging a conscious pig is an unacceptable welfare practice.",
+        "Transport would cause suffering, and non-ambulatory pigs are not accepted for slaughter.",
+        "Drugs also create residue problems, and the pig is still not fit for transport."
+      ],
+      "takeaway": "Non-ambulatory pigs are not fit to transport: treat on the farm or euthanize humanely."
+    },
+    "reference": "National Pork Board, Transport Quality Assurance handbook; AVMA Guidelines for the Euthanasia of Animals"
+  },
+  {
+    "id": "POR-0008",
+    "version": 1,
+    "review_status": "draft",
+    "species": "porcine",
+    "system": "infectious",
+    "subdomain": "data_gathering",
+    "topics": [
+      "Glässer's disease",
+      "Glaesserella parasuis",
+      "polyserositis"
+    ],
+    "stem": "Several 5-week-old nursery pigs died 7 days after weaning and mixing. Necropsy shows fibrinous pleuritis, pericarditis and peritonitis, with fibrin in several joints. Which organism is most likely?",
+    "options": [
+      "Glaesserella parasuis",
+      "Erysipelothrix rhusiopathiae",
+      "Brachyspira hyodysenteriae",
+      "Lawsonia intracellularis",
+      "Mycoplasma hyopneumoniae"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Fibrinous polyserositis (pleura, pericardium, peritoneum) and polyarthritis in nursery pigs after weaning stress is typical of Glässer's disease, caused by Glaesserella (formerly Haemophilus) parasuis. Mycoplasma hyorhinis can cause similar lesions but usually later.",
+      "options": [
+        "Correct. G. parasuis causes fibrinous polyserositis and arthritis after weaning.",
+        "Erysipelas causes diamond skin lesions, septicemia and chronic arthritis or endocarditis in older pigs.",
+        "B. hyodysenteriae causes swine dysentery with bloody, mucoid feces.",
+        "Lawsonia causes proliferative enteropathy (ileitis).",
+        "M. hyopneumoniae causes enzootic pneumonia with cranioventral consolidation, not polyserositis."
+      ],
+      "takeaway": "Fibrinous polyserositis in nursery pigs after weaning suggests Glaesserella parasuis."
+    },
+    "reference": "Zimmerman JJ et al., Diseases of Swine, Glaesserella parasuis"
   }
 ]

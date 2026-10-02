@@ -340,5 +340,275 @@
       "takeaway": "Chocolate-brown blood after drought forage means nitrate/nitrite toxicosis; treat with methylene blue and set a withdrawal with FARAD."
     },
     "reference": "Merck Veterinary Manual, Nitrate and nitrite poisoning in animals"
+  },
+  {
+    "id": "BOV-0011",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "gastrointestinal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "Johne's disease",
+      "paratuberculosis",
+      "fecal PCR"
+    ],
+    "stem": "A 5-year-old Holstein cow has had profuse watery diarrhea and weight loss for 6 weeks despite a good appetite. She has no fever. Other cows in the herd have had similar signs in the past year. Which test is best to confirm the suspected disease in this cow?",
+    "options": [
+      "Fecal PCR for M. avium subsp. paratuberculosis",
+      "Fecal flotation for strongyle eggs, repeated in 2 weeks",
+      "Serum pepsinogen concentration to look for Ostertagia damage",
+      "Rectal mucosal scraping examined for coccidian oocysts",
+      "BVD antigen-capture ELISA performed on an ear notch sample"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Chronic diarrhea and weight loss with a normal appetite and no fever in an adult cow suggest Johne's disease. In a cow with clinical signs, fecal PCR or culture for MAP is the most reliable confirmation, because clinical cows usually shed large numbers of organisms. Serum ELISA is used for herd screening but is less sensitive in early infection.",
+      "options": [
+        "Correct. Clinical cows shed heavily, so fecal PCR or culture confirms Johne's.",
+        "Strongyles mainly cause disease in young stock on pasture, not chronic diarrhea in one adult in a herd with a history like this.",
+        "Type II ostertagiasis occurs mainly in yearlings, and pepsinogen does not explain a herd history like this.",
+        "Coccidiosis mainly affects calves, often with tenesmus and bloody feces.",
+        "BVD can cause diarrhea, but this pattern in adults points to Johne's."
+      ],
+      "takeaway": "Confirm clinical Johne's disease with fecal PCR or culture; use ELISA for herd screening."
+    },
+    "reference": "USDA APHIS Uniform Program Standards for the Voluntary Bovine Johne's Disease Control Program; Smith BP, Large Animal Internal Medicine"
+  },
+  {
+    "id": "BOV-0012",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "gastrointestinal",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "neonatal calf diarrhea",
+      "dehydration",
+      "metabolic acidosis"
+    ],
+    "stem": "An 8-day-old beef calf has had diarrhea for 2 days. It is now recumbent with a weak suckle reflex, cold mouth and extremities, and eyes sunken about 6 mm into the orbits. Which treatment is most appropriate?",
+    "options": [
+      "IV isotonic fluids with sodium bicarbonate",
+      "Oral electrolyte solution by esophageal feeder",
+      "Withhold milk and give oral antibiotics only",
+      "Subcutaneous lactated Ringer's solution only",
+      "IV dextrose 50% as a single bolus only"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "A recumbent calf with a weak suckle and 6 mm of eye recession is about 10% dehydrated, and calves with diarrhea that are recumbent are usually severely acidotic. IV isotonic fluids with sodium bicarbonate correct both the dehydration and the metabolic acidosis. A calf that can stand and suckle can often be treated with oral electrolytes.",
+      "options": [
+        "Correct. IV fluids with bicarbonate correct severe dehydration and acidosis.",
+        "Oral fluids are for calves that can still stand and suckle; this calf's gut absorption and circulation are poor.",
+        "Withholding milk is no longer advised, and antibiotics alone do not correct fluid deficits.",
+        "Subcutaneous fluids are absorbed poorly in shocked, cold calves.",
+        "Hypoglycemia may be present, but dextrose alone does not correct dehydration or acidosis."
+      ],
+      "takeaway": "A recumbent, weak calf with diarrhea needs IV fluids with sodium bicarbonate."
+    },
+    "reference": "Smith GW, Treatment of calf diarrhea: oral fluid therapy (Vet Clin North Am Food Anim Pract 2009); Constable PD et al., Veterinary Medicine (Radostits)"
+  },
+  {
+    "id": "BOV-0013",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "reproductive",
+    "subdomain": "data_gathering",
+    "topics": [
+      "contagious mastitis",
+      "bulk tank somatic cell count",
+      "milk culture"
+    ],
+    "stem": "A 200-cow dairy has had a rising bulk tank somatic cell count over 3 months, now above 400,000 cells/mL. Clinical mastitis cases are few, but individual cow records show many cows with high SCC that persist through lactation. Which step is most useful to find the cause?",
+    "options": [
+      "Culture milk from high-SCC cows and the bulk tank",
+      "Treat every lactating cow with intramammary antibiotics at once",
+      "Stop using teat dips to reduce irritation of the teat ends",
+      "Change the dairy to a new brand of total mixed ration",
+      "Cull every cow that has had any clinical mastitis case this year"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Many cows with high SCC lasting through lactation suggest contagious pathogens such as Staphylococcus aureus, Streptococcus agalactiae or Mycoplasma. Culturing milk from high-SCC cows and bulk tank milk identifies which pathogen is present, which guides control measures such as milking order, post-milking teat dipping, dry cow therapy and culling.",
+      "options": [
+        "Correct. Culture identifies the pathogens behind the high SCC.",
+        "Blanket treatment without a diagnosis wastes drugs and fails for some pathogens, such as Mycoplasma.",
+        "Teat dipping after milking is a key control for contagious mastitis; stopping it would worsen the problem.",
+        "Diet changes do not address contagious mastitis.",
+        "Culling without a diagnosis may remove the wrong cows and miss subclinical carriers."
+      ],
+      "takeaway": "High SCC lasting through lactation in many cows suggests contagious mastitis; culture to identify the pathogen."
+    },
+    "reference": "National Mastitis Council, Laboratory Handbook on Bovine Mastitis"
+  },
+  {
+    "id": "BOV-0014",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "nervous",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "hypomagnesemia",
+      "grass tetany"
+    ],
+    "stem": "In April, a 6-year-old lactating beef cow with a 6-week-old calf is found on lush, recently fertilized pasture, recumbent and paddling, with frequent muscle tremors and convulsions when touched. Which treatment is most appropriate first?",
+    "options": [
+      "Slow IV calcium–magnesium solution",
+      "Rapid IV calcium borogluconate alone",
+      "IV thiamine hydrochloride at a high dose",
+      "IV methylene blue at 4 mg/kg",
+      "Oral propylene glycol drench, twice daily"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Tetany in a lactating cow on lush spring pasture suggests hypomagnesemic tetany (grass tetany). Lush grass that is high in potassium and nitrogen and low in magnesium reduces magnesium absorption. Treatment is a slow IV calcium–magnesium solution, often with subcutaneous magnesium sulfate. Fast IV injection can cause fatal arrhythmias, and handling can trigger convulsions.",
+      "options": [
+        "Correct. Slowly given calcium and magnesium correct the deficiency safely.",
+        "Calcium alone does not correct hypomagnesemia, and fast injection is dangerous.",
+        "Thiamine treats polioencephalomalacia, which causes blindness and head pressing rather than tetany.",
+        "Methylene blue treats nitrate poisoning.",
+        "Propylene glycol treats ketosis."
+      ],
+      "takeaway": "Tetany in a lactating cow on lush spring pasture means grass tetany: slow IV calcium–magnesium."
+    },
+    "reference": "Merck Veterinary Manual, Hypomagnesemic tetany in cattle and sheep"
+  },
+  {
+    "id": "BOV-0015",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "infectious",
+    "subdomain": "data_gathering",
+    "topics": [
+      "bovine viral diarrhea",
+      "persistent infection",
+      "ear notch testing"
+    ],
+    "stem": "A 2-month-old beef calf tested positive for BVD virus on an ear notch antigen-capture ELISA during routine herd screening. It is small but otherwise healthy. Which step best determines whether it is persistently infected?",
+    "options": [
+      "Retest the calf at least 3 weeks later",
+      "Measure serum antibody to BVD now",
+      "Treat with antiviral drugs and retest in 1 week",
+      "Vaccinate the calf and retest in 2 weeks",
+      "Assume a false positive because the calf is healthy"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Persistently infected calves were infected before about 125 days of gestation and are immunotolerant, so they shed virus for life and are usually seronegative. A positive antigen test may come from a transient acute infection. A second positive test at least 3 weeks later confirms persistent infection.",
+      "options": [
+        "Correct. A repeated positive at least 3 weeks later confirms PI.",
+        "PI calves usually lack BVD antibodies, and maternal antibody confuses results at this age.",
+        "There is no approved antiviral treatment for BVD.",
+        "Vaccination does not clear infection and may confuse testing.",
+        "PI calves can look healthy, and they spread virus to the herd."
+      ],
+      "takeaway": "Confirm a BVD-positive calf as persistently infected with a second positive test at least 3 weeks later."
+    },
+    "reference": "AABP, Bovine Viral Diarrhea Virus control guidelines; Smith BP, Large Animal Internal Medicine"
+  },
+  {
+    "id": "BOV-0016",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "musculoskeletal",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "interdigital necrobacillosis",
+      "foot rot"
+    ],
+    "stem": "A 3-year-old beef cow on a wet, muddy lot is suddenly lame in the left hind foot. There is symmetric swelling of the foot that separates the claws, and a fissure in the interdigital skin with a foul smell and necrotic tissue. Which treatment is most appropriate?",
+    "options": [
+      "A systemic antimicrobial labeled for foot rot",
+      "Topical copper sulfate only, without systemic drugs",
+      "Amputation of the lateral claw",
+      "Trimming the sole and placing a block on the medial claw",
+      "Intra-articular corticosteroid in the coffin joint"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Sudden lameness, symmetric swelling and a foul-smelling interdigital fissure are typical of interdigital necrobacillosis (foot rot), caused mainly by Fusobacterium necrophorum. It responds well to early systemic antimicrobials labeled for foot rot (for example, oxytetracycline, ceftiofur or florfenicol), plus cleaning the lesion and moving the cow to a dry area.",
+      "options": [
+        "Correct. Early systemic antimicrobials resolve most cases of foot rot.",
+        "Topical treatment helps digital dermatitis but is not enough for foot rot.",
+        "Amputation is for deep septic structures of a claw, not uncomplicated foot rot.",
+        "A block is used for sole ulcers or white line disease in one claw.",
+        "Steroids in a joint would be harmful when infection is present."
+      ],
+      "takeaway": "Treat foot rot with systemic antimicrobials early, plus cleaning and a dry environment."
+    },
+    "reference": "Merck Veterinary Manual, Foot rot in cattle; Constable PD et al., Veterinary Medicine (Radostits)"
+  },
+  {
+    "id": "BOV-0017",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "nervous",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "polioencephalomalacia",
+      "thiamine",
+      "dietary sulfur"
+    ],
+    "stem": "Several 8-month-old feedlot steers recently switched to a high-concentrate ration with distillers' grains are blind, head pressing and showing dorsomedial strabismus. One is recumbent with opisthotonus. Which treatment is most appropriate?",
+    "options": [
+      "Thiamine given parenterally",
+      "Penicillin to treat listeriosis",
+      "Calcium borogluconate IV",
+      "Atropine sulfate IM",
+      "Vitamin A orally"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Central blindness, head pressing and dorsomedial strabismus in feedlot cattle on high-concentrate or high-sulfur rations (such as distillers' grains) suggest polioencephalomalacia. Treatment is parenteral thiamine, with dexamethasone often given for cerebral edema, and dietary sulfur should be reduced.",
+      "options": [
+        "Correct. Thiamine is the treatment of choice for PEM.",
+        "Listeriosis causes asymmetric cranial nerve signs and circling; it is less common in feedlots.",
+        "Calcium is for hypocalcemia in lactating cows.",
+        "Atropine is for organophosphate toxicosis.",
+        "Vitamin A deficiency can cause blindness but develops slowly, over months on a deficient diet."
+      ],
+      "takeaway": "Blindness and head pressing in cattle on high-sulfur or high-grain rations: give thiamine and check dietary sulfur."
+    },
+    "reference": "Merck Veterinary Manual, Polioencephalomalacia in ruminants"
+  },
+  {
+    "id": "BOV-0018",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "non_clinical",
+    "subdomain": "environmental_health",
+    "topics": [
+      "hydrogen sulfide",
+      "manure pit",
+      "farm safety"
+    ],
+    "stem": "A dairy farmer is about to agitate an enclosed liquid manure pit under a barn. Which advice best protects people and animals?",
+    "options": [
+      "Ventilate fully and clear the barn of people and animals",
+      "Enter the pit briefly to check the pump during agitation",
+      "Wear a cloth face mask to filter out the gas during agitation",
+      "Agitate with all barn doors closed to keep the heat inside",
+      "Rely on the smell of rotten eggs as a warning of danger"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Agitating manure releases large amounts of hydrogen sulfide, which can kill people and animals within minutes. Barns should be ventilated as much as possible, and people and animals moved out. Nobody should enter a pit without proper rescue equipment. Hydrogen sulfide deadens the sense of smell at high levels, so smell is not a reliable warning.",
+      "options": [
+        "Correct. Ventilation and keeping people and animals away prevent hydrogen sulfide deaths.",
+        "Entering a pit during agitation is a major cause of farm deaths, including would-be rescuers.",
+        "Cloth masks do not protect against toxic gases.",
+        "Closed doors concentrate the gas.",
+        "High concentrations paralyze the sense of smell, so the warning disappears."
+      ],
+      "takeaway": "Ventilate barns and evacuate people and animals before agitating manure pits; never rely on smell."
+    },
+    "reference": "NIOSH, Preventing deaths of farm workers in manure pits; Merck Veterinary Manual, Toxicities from gases"
   }
 ]
