@@ -570,5 +570,537 @@
       "takeaway": "A cat with sudden painful paraparesis, cold limbs and absent femoral pulses has aortic thromboembolism until proven otherwise."
     },
     "reference": "Luis Fuentes V et al., ACVIM consensus on cardiomyopathies in cats (J Vet Intern Med 2020)"
+  },
+  {
+    "id": "FEL-0017",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "urinary",
+    "subdomain": "data_gathering",
+    "topics": [
+      "chronic kidney disease",
+      "IRIS staging",
+      "substaging"
+    ],
+    "stem": "A 13-year-old spayed female domestic shorthair cat has lost weight and is drinking more over 4 months. She is well hydrated. Results on two visits 3 weeks apart are similar to those shown. Which step is most important to complete IRIS staging and guide treatment?",
+    "labs": [
+      {
+        "test": "Creatinine",
+        "value": "2.3",
+        "unit": "mg/dL",
+        "ref": "0.8–2.4"
+      },
+      {
+        "test": "SDMA",
+        "value": "20",
+        "unit": "µg/dL",
+        "ref": "0–14"
+      },
+      {
+        "test": "Urine specific gravity",
+        "value": "1.018",
+        "unit": "",
+        "ref": ""
+      },
+      {
+        "test": "Total T4",
+        "value": "2.1",
+        "unit": "µg/dL",
+        "ref": "0.8–4.0"
+      }
+    ],
+    "options": [
+      "Measure systolic blood pressure and urine protein:creatinine",
+      "Repeat serum creatinine every month until it exceeds 5.0 mg/dL",
+      "Perform an ultrasound-guided percutaneous kidney biopsy",
+      "Run an ACTH stimulation test to look for concurrent adrenal disease",
+      "Measure free T4 by equilibrium dialysis as the only thyroid test"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Stable creatinine of 2.3 mg/dL with poorly concentrated urine in a hydrated cat fits IRIS stage 2 CKD (creatinine 1.6–2.8 mg/dL in cats). IRIS then substages by proteinuria (UPC) and systolic blood pressure, both of which change treatment (for example, a renin-angiotensin blocker for proteinuria, amlodipine for hypertension).",
+      "options": [
+        "Correct. UPC and blood pressure are the two IRIS substaging criteria.",
+        "Waiting delays treatment; staging is done with stable values now.",
+        "Biopsy is rarely needed and carries risk; it does not change staging.",
+        "There is no sign of adrenal disease.",
+        "Thyroid status matters in older cats, but it is not part of IRIS staging, and total T4 is the usual first test."
+      ],
+      "takeaway": "After staging CKD by creatinine or SDMA, substage by UPC and systolic blood pressure."
+    },
+    "reference": "IRIS Staging of CKD guidelines (iris-kidney.com)"
+  },
+  {
+    "id": "FEL-0018",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "urinary",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "chronic kidney disease",
+      "renal diet"
+    ],
+    "stem": "A 12-year-old castrated male cat has stable IRIS stage 2 chronic kidney disease. Blood pressure is normal, urine protein:creatinine ratio is 0.1, and serum phosphorus is at the upper end of the reference range. He eats a regular adult maintenance dry diet. Which intervention has the strongest evidence for extending survival?",
+    "options": [
+      "Switch to a therapeutic renal diet",
+      "Start an ACE inhibitor such as benazepril",
+      "Give subcutaneous fluids every day",
+      "Start oral prednisolone once daily",
+      "Add a probiotic to reduce uremic toxins"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "A randomized controlled trial in cats with stage 2–3 CKD showed that a renal diet (restricted phosphorus and protein, added omega-3 fatty acids) reduced uremic crises and kidney-related deaths. IRIS recommends a renal diet from stage 2.",
+      "options": [
+        "Correct. Renal diets have the best evidence for improving survival in feline CKD.",
+        "Benazepril reduces proteinuria, but this cat is not proteinuric and survival benefit is not shown.",
+        "Daily fluids are used for cats that are dehydrated; this cat is stable and they are not proven to extend life.",
+        "Glucocorticoids have no role in CKD and can worsen it.",
+        "Probiotics have not been shown to improve survival."
+      ],
+      "takeaway": "Start a renal diet in cats with stage 2 or later CKD; it is the best-supported survival intervention."
+    },
+    "reference": "Ross SJ et al., Clinical evaluation of dietary modification for treatment of spontaneous CKD in cats (JAVMA 2006)"
+  },
+  {
+    "id": "FEL-0019",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "infectious",
+    "subdomain": "data_gathering",
+    "topics": [
+      "FIV",
+      "maternal antibodies",
+      "retrovirus testing"
+    ],
+    "stem": "A 10-week-old kitten from a shelter is presented for its first visit. A point-of-care ELISA is positive for FIV antibody and negative for FeLV antigen. The kitten is healthy. Which is the best interpretation and plan?",
+    "options": [
+      "Possibly maternal antibody; retest after 6 months of age",
+      "The kitten is FIV-infected and should be euthanized",
+      "The kitten is FIV-infected and must never live with any other cats",
+      "Repeat the same point-of-care ELISA tomorrow to confirm the result",
+      "The FeLV result is a false negative, so test again by IFA"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "FIV tests detect antibody, and kittens can carry maternal antibody from an infected or vaccinated queen for several months. AAFP guidelines recommend retesting positive kittens after 6 months of age; a PCR can help sooner. Most kittens with maternal antibody test negative later.",
+      "options": [
+        "Correct. Positive FIV antibody in a kitten under 6 months is unreliable.",
+        "Euthanasia based on a kitten's antibody test is not appropriate; many become negative, and FIV-positive cats can live long lives.",
+        "Even confirmed FIV-positive cats can live with non-fighting cats; transmission is mainly by bite wounds.",
+        "Repeating the same test would detect the same maternal antibody.",
+        "The FeLV antigen test is not affected by maternal antibody; IFA is used to confirm a positive, not a negative."
+      ],
+      "takeaway": "A positive FIV antibody test in a kitten under 6 months should be repeated after 6 months of age."
+    },
+    "reference": "Little S et al., 2020 AAFP Feline Retrovirus Testing and Management Guidelines (J Feline Med Surg 2020)"
+  },
+  {
+    "id": "FEL-0020",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "non_clinical",
+    "subdomain": "environmental_health",
+    "topics": [
+      "feline panleukopenia",
+      "disinfection",
+      "shelter medicine"
+    ],
+    "stem": "A cat shelter has confirmed feline panleukopenia in two kittens. The staff currently clean cages with a quaternary ammonium product. Which change best reduces spread of the virus in the shelter environment?",
+    "options": [
+      "Switch to a parvocidal disinfectant such as diluted bleach",
+      "Keep using the quaternary ammonium product at double strength",
+      "Wipe all cages with 70% isopropyl alcohol between each cat",
+      "Rinse cages with very hot water only and then let them air-dry",
+      "Fumigate the whole building once with an essential-oil spray"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Feline panleukopenia virus is a non-enveloped parvovirus that survives for months in the environment and resists many disinfectants, including most quaternary ammonium compounds and alcohol. Effective options include sodium hypochlorite (household bleach diluted about 1:32), accelerated hydrogen peroxide, and potassium peroxymonosulfate, applied after cleaning off organic matter and with enough contact time.",
+      "options": [
+        "Correct. Use a disinfectant labeled effective against parvovirus, after cleaning.",
+        "Most quaternary ammonium products do not reliably kill parvoviruses at any strength.",
+        "Alcohol does not inactivate non-enveloped viruses.",
+        "Water alone does not inactivate the virus.",
+        "Essential oils are not proven disinfectants against parvovirus."
+      ],
+      "takeaway": "Panleukopenia virus needs a parvocidal disinfectant (bleach, accelerated hydrogen peroxide or peroxymonosulfate) after cleaning."
+    },
+    "reference": "Miller L, Hurley K, Infectious Disease Management in Animal Shelters"
+  },
+  {
+    "id": "FEL-0021",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "respiratory",
+    "subdomain": "data_gathering",
+    "topics": [
+      "pleural effusion",
+      "chylothorax",
+      "fluid analysis"
+    ],
+    "stem": "A 10-year-old castrated male cat has increased respiratory effort. Thoracocentesis yields milky white fluid. Which result best confirms that the fluid is chylous?",
+    "options": [
+      "Effusion triglyceride higher than serum triglyceride",
+      "Effusion total protein above 3.5 g/dL with many neutrophils",
+      "Effusion cholesterol much higher than the serum cholesterol",
+      "Fluid that becomes completely clear after centrifugation",
+      "Bacteria seen within neutrophils on direct smear cytology"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Chylous effusion contains chylomicrons, so its triglyceride concentration is higher than serum (often much higher), and its cholesterol is usually equal to or lower than serum. Small lymphocytes predominate early on cytology. In cats it is often linked to heart disease, mediastinal masses or heartworm, or it can be idiopathic.",
+      "options": [
+        "Correct. Effusion triglyceride above serum triglyceride confirms chyle.",
+        "High protein with many neutrophils suggests an exudate such as pyothorax.",
+        "High cholesterol with low triglyceride suggests a pseudochylous effusion, which is rare.",
+        "Chylomicrons do not clear on centrifugation; a supernatant that clears suggests cells caused the cloudiness.",
+        "Intracellular bacteria indicate pyothorax."
+      ],
+      "takeaway": "Confirm chylothorax by an effusion triglyceride higher than serum triglyceride."
+    },
+    "reference": "Fossum TW, Small Animal Surgery, surgery of the lower respiratory system: pleural cavity"
+  },
+  {
+    "id": "FEL-0022",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "urinary",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "feline idiopathic cystitis",
+      "environmental modification"
+    ],
+    "stem": "A 4-year-old castrated male indoor cat has had a third episode of pollakiuria and hematuria in a year. He is not obstructed. Urinalysis shows hematuria without crystals, urine culture is negative, and radiographs show no uroliths. He lives with two other cats and eats dry food only. Which long-term plan is most appropriate?",
+    "options": [
+      "More water intake via wet food, plus environmental enrichment",
+      "A 4-week course of amoxicillin–clavulanate for presumed infection",
+      "Perform perineal urethrostomy to prevent future episodes",
+      "Feed only a dry struvite-dissolution diet for the rest of his life",
+      "Give long-term oral prednisolone to reduce inflammation"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Recurrent hematuria and pollakiuria with negative culture, no uroliths and no crystals in a young indoor cat point to feline idiopathic cystitis. Management centers on increasing water intake (canned food, water fountains) and multimodal environmental modification (MEMO): enough litter boxes, resources and hiding places, and less conflict between cats.",
+      "options": [
+        "Correct. Water intake and stress reduction reduce recurrence of FIC.",
+        "The urine culture is negative; antibiotics are not indicated.",
+        "Urethrostomy is for recurrent obstruction that cannot be managed otherwise, not for non-obstructive FIC.",
+        "There are no struvite crystals, and keeping only dry food reduces water intake.",
+        "Glucocorticoids have not been shown to help FIC."
+      ],
+      "takeaway": "Manage feline idiopathic cystitis with more water (wet food) and environmental enrichment, not antibiotics."
+    },
+    "reference": "Forrester SD, Towell TL, Feline idiopathic cystitis (Vet Clin North Am Small Anim Pract 2015)"
+  },
+  {
+    "id": "FEL-0023",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "gastrointestinal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "pancreatitis",
+      "Spec fPL",
+      "diagnostic tests"
+    ],
+    "stem": "A 9-year-old spayed female cat has had poor appetite and lethargy for 5 days and vomited twice. Physical examination finds mild cranial abdominal discomfort. Which test, combined with ultrasound, is most useful to support a diagnosis of pancreatitis?",
+    "options": [
+      "Feline pancreatic lipase immunoreactivity (Spec fPL)",
+      "Serum amylase activity on a standard chemistry panel",
+      "Serum total lipase activity measured by older assay methods",
+      "Serum trypsin-like immunoreactivity (fTLI) alone",
+      "Abdominal radiographs to look for an enlarged pancreas"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "In cats, serum amylase and older lipase assays are unreliable for pancreatitis. Feline pancreatic lipase immunoreactivity (Spec fPL) is the most sensitive and specific serum test, and is interpreted with clinical signs and abdominal ultrasound.",
+      "options": [
+        "Correct. Spec fPL is the best available serum test for feline pancreatitis.",
+        "Amylase does not track pancreatitis in cats.",
+        "Older total lipase assays are not specific to the pancreas.",
+        "fTLI is the test for exocrine pancreatic insufficiency and is insensitive for pancreatitis.",
+        "Radiographs are insensitive for pancreatitis in cats."
+      ],
+      "takeaway": "Use Spec fPL with ultrasound to support feline pancreatitis; amylase and older lipase assays are unreliable."
+    },
+    "reference": "Forman MA et al., ACVIM consensus statement on pancreatitis in cats (J Vet Intern Med 2021)"
+  },
+  {
+    "id": "FEL-0024",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "urinary",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "lily toxicosis",
+      "acute kidney injury",
+      "decontamination"
+    ],
+    "stem": "An owner calls because her 2-year-old cat chewed leaves of an Easter lily (Lilium longiflorum) about 1 hour ago. The cat seems normal now. Which recommendation is most appropriate?",
+    "options": [
+      "Come in now for decontamination and 48 hours of IV fluids",
+      "Monitor the cat at home and come in only if it stops eating",
+      "Give the cat milk at home now to help bind the plant toxin",
+      "Bring the cat in only if it starts vomiting in the next 24 hours",
+      "Give an oral NSAID at home to prevent kidney inflammation"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "All parts of true lilies (Lilium) and daylilies (Hemerocallis), including pollen and vase water, can cause acute kidney injury in cats. Prognosis is good if decontamination (emesis, activated charcoal) and IV fluid diuresis for at least 48 hours start before kidney injury develops, ideally within 6–18 hours. Delay greatly worsens outcome.",
+      "options": [
+        "Correct. Early decontamination and 48 hours of fluids prevent anuric kidney failure.",
+        "By the time the cat stops eating, kidney injury may already be severe.",
+        "Milk does not bind lily toxin.",
+        "Vomiting may or may not occur; waiting for it wastes the treatment window.",
+        "NSAIDs are nephrotoxic and would worsen the injury."
+      ],
+      "takeaway": "Treat any cat exposed to Lilium or Hemerocallis lilies right away with decontamination and 48 hours of IV fluids."
+    },
+    "reference": "ASPCA Animal Poison Control Center; Merck Veterinary Manual, Lily toxicosis in cats"
+  },
+  {
+    "id": "FEL-0025",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "special_senses",
+    "subdomain": "data_gathering",
+    "topics": [
+      "feline herpesvirus-1",
+      "dendritic ulcer",
+      "keratitis"
+    ],
+    "stem": "A 1-year-old cat adopted from a shelter has squinting and tearing of the left eye. After fluorescein stain, there are fine, branching, linear areas of stain uptake on the cornea. Which cause is most likely?",
+    "options": [
+      "Feline herpesvirus-1 infection",
+      "Corneal sequestrum",
+      "Eosinophilic keratitis",
+      "Bacterial keratitis due to Pseudomonas",
+      "Indolent ulcer, as seen in Boxers"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Dendritic (branching, linear) corneal ulcers are pathognomonic for feline herpesvirus-1, which replicates in and damages corneal epithelium. Most adult cats are latently infected, and stress (such as shelter housing) can reactivate the virus.",
+      "options": [
+        "Correct. Dendritic ulcers are characteristic of FHV-1.",
+        "A sequestrum is a brown to black plaque, often a late result of chronic FHV-1 keratitis.",
+        "Eosinophilic keratitis forms white to pink raised plaques; cytology shows eosinophils and mast cells.",
+        "Bacterial keratitis usually causes a stromal or melting ulcer, not a fine branching pattern.",
+        "Spontaneous chronic corneal epithelial defects occur mainly in middle-aged dogs such as Boxers."
+      ],
+      "takeaway": "Dendritic corneal ulcers in a cat mean FHV-1."
+    },
+    "reference": "Maggs DJ et al., Slatter's Fundamentals of Veterinary Ophthalmology"
+  },
+  {
+    "id": "FEL-0026",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "nervous",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "permethrin toxicosis",
+      "tremors",
+      "methocarbamol"
+    ],
+    "stem": "A 3-year-old cat has tremors and twitching 6 hours after the owner applied a spot-on flea product meant for dogs. The cat's temperature is 40.3 °C (104.5 °F). Which treatment plan is most appropriate?",
+    "options": [
+      "Methocarbamol IV, then a bath with liquid dish detergent",
+      "Atropine IV at a full dose to control the muscle tremors",
+      "Bathe only, since tremors resolve without drugs",
+      "Induce vomiting with xylazine and give activated charcoal",
+      "IV lipid emulsion as the only treatment, without bathing"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Permethrin in dog spot-on products causes tremors, twitching, seizures and hyperthermia in cats, which have low glucuronidation capacity. Treatment is to control tremors (methocarbamol IV is the drug of choice), bathe with liquid dish detergent in lukewarm water to remove the product, manage temperature, and give supportive care. Lipid emulsion has been used as an adjunct.",
+      "options": [
+        "Correct. Control tremors first, then remove the product from the skin.",
+        "Atropine is for organophosphate or carbamate toxicosis, not pyrethroids.",
+        "Without treatment, tremors can lead to hyperthermia and rhabdomyolysis.",
+        "Exposure was through the skin, so emesis does not help.",
+        "Lipid emulsion may help, but it does not replace tremor control and bathing."
+      ],
+      "takeaway": "Treat permethrin toxicosis in cats with methocarbamol and a dish-soap bath; never use dog spot-ons on cats."
+    },
+    "reference": "Merck Veterinary Manual, Pyrethrin and pyrethroid toxicosis"
+  },
+  {
+    "id": "FEL-0027",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "cardiovascular",
+    "subdomain": "data_gathering",
+    "topics": [
+      "hypertrophic cardiomyopathy",
+      "echocardiography",
+      "NT-proBNP"
+    ],
+    "stem": "A 6-year-old castrated male Maine Coon is presented for a pre-anesthetic check before a dental procedure. A grade 3/6 systolic murmur and an intermittent gallop sound are heard. The cat has no respiratory signs. A point-of-care NT-proBNP test is positive. Which test is most appropriate to diagnose the likely underlying condition?",
+    "options": [
+      "Echocardiography",
+      "Thoracic radiographs",
+      "Serum cardiac troponin I measurement",
+      "Repeat the NT-proBNP test in 6 months",
+      "Genetic test for the MYBPC3 mutation"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "A murmur, gallop and positive NT-proBNP in a Maine Coon suggest hypertrophic cardiomyopathy. Echocardiography confirms it, typically by left ventricular wall thickness of 6 mm or more in diastole, and shows atrial size, which guides risk and treatment.",
+      "options": [
+        "Correct. Echocardiography confirms the diagnosis and stages it.",
+        "Radiographs detect enlarged hearts and congestive failure but miss many cats with HCM.",
+        "Troponin I shows myocardial injury but does not identify the type of disease.",
+        "A positive NT-proBNP before anesthesia is a reason to find out more now.",
+        "A positive gene test shows risk only; many positive cats never develop HCM, and negative cats can still have it."
+      ],
+      "takeaway": "Confirm HCM with echocardiography; NT-proBNP is a screening aid."
+    },
+    "reference": "Luis Fuentes V et al., ACVIM consensus on cardiomyopathies in cats (J Vet Intern Med 2020)"
+  },
+  {
+    "id": "FEL-0028",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "behavior",
+    "subdomain": "comm_clients",
+    "topics": [
+      "house soiling",
+      "litter box management"
+    ],
+    "stem": "An owner of three indoor cats reports that one cat has started urinating on the bathroom rug. A physical exam and urinalysis are normal. There is one covered, scented litter box in the basement, cleaned twice a week. Which advice is most likely to help?",
+    "options": [
+      "One box per cat plus one, in quiet spots, scooped daily",
+      "Punish the cat right away when caught urinating on the rug",
+      "Switch to a strongly scented litter to make the box appealing",
+      "Move the single litter box closer to the cats' food bowls",
+      "Start fluoxetine before making any environmental changes"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Litter box problems often cause house soiling. Recommendations include one box per cat plus one, placed in quiet, easy-to-reach places on each level of the house, scooped daily, unscented clumping litter, and large uncovered boxes for many cats.",
+      "options": [
+        "Correct. Better box number, location and hygiene address the likely cause.",
+        "Punishment increases fear and stress and can make soiling worse.",
+        "Many cats avoid scented litter.",
+        "Cats prefer to eliminate away from where they eat.",
+        "Medication is not first-line when the environment has not been fixed."
+      ],
+      "takeaway": "For house soiling with a normal medical workup, fix the litter boxes first: one per cat plus one, clean, unscented and in quiet places."
+    },
+    "reference": "Carney HC et al., AAFP and ISFM guidelines for diagnosing and solving house-soiling behavior in cats (J Feline Med Surg 2014)"
+  },
+  {
+    "id": "FEL-0029",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "non_clinical",
+    "subdomain": "animal_welfare",
+    "topics": [
+      "pain assessment",
+      "Feline Grimace Scale"
+    ],
+    "stem": "A hospital wants a validated, quick tool that nurses can use to assess acute pain in cats after surgery, based on facial expression. Which tool should it adopt?",
+    "options": [
+      "Feline Grimace Scale",
+      "Glasgow Coma Scale",
+      "Body condition score on a 9-point scale",
+      "Muscle condition score",
+      "Numerical rating scale based on heart rate alone"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "The Feline Grimace Scale scores five facial action units (ear position, orbital tightening, muzzle tension, whisker position and head position). It is validated for acute pain in cats, is quick to use, and has a cutoff that indicates when to give analgesia.",
+      "options": [
+        "Correct. It is a validated facial-expression tool for acute pain in cats.",
+        "The modified Glasgow Coma Scale assesses consciousness after head trauma, not pain.",
+        "Body condition scoring assesses fat, not pain.",
+        "Muscle condition scoring assesses muscle loss, not pain.",
+        "Heart rate is affected by stress, drugs and disease, so it is not reliable for pain alone."
+      ],
+      "takeaway": "Use the Feline Grimace Scale to assess acute pain in cats."
+    },
+    "reference": "Evangelista MC et al., Facial expressions of pain in cats: the Feline Grimace Scale (Sci Rep 2019)"
+  },
+  {
+    "id": "FEL-0030",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "non_clinical",
+    "subdomain": "public_health",
+    "topics": [
+      "toxoplasmosis",
+      "pregnancy",
+      "zoonosis"
+    ],
+    "stem": "A pregnant client with a healthy 8-year-old indoor cat that eats commercial food asks whether she must give up the cat because of toxoplasmosis. Which advice is most accurate?",
+    "options": [
+      "Keep the cat; someone else scoops the litter daily",
+      "Rehome the cat, since petting it can transmit Toxoplasma",
+      "Test the cat for Toxoplasma antibodies and rehome it if positive",
+      "Clean the litter box once a week wearing a mask",
+      "Give the cat a 4-week course of oral clindamycin now"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Cats shed Toxoplasma oocysts usually for only 1–3 weeks after first infection, and the oocysts take 1–5 days to sporulate and become infective. An older indoor cat fed commercial food is unlikely to be shedding. Daily litter scooping by someone else (or with gloves and hand-washing) removes oocysts before they become infective. Undercooked meat and unwashed produce are major sources of human infection.",
+      "options": [
+        "Correct. Daily scooping by another person minimizes risk without rehoming.",
+        "Oocysts are not on the coat in infectious amounts; petting is not a meaningful route.",
+        "A positive antibody result means past infection, and those cats are unlikely to shed again; it does not identify shedding cats.",
+        "Weekly cleaning gives oocysts time to sporulate.",
+        "Treating a healthy cat is not recommended and does not reliably stop shedding."
+      ],
+      "takeaway": "Pregnant owners can keep their cats: daily litter scooping by someone else removes oocysts before they become infective."
+    },
+    "reference": "CDC, Toxoplasmosis: guidance for pregnant women; Dubey JP, Toxoplasmosis of Animals and Humans"
+  },
+  {
+    "id": "FEL-0031",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "hemic_lymphatic",
+    "subdomain": "data_gathering",
+    "topics": [
+      "cytauxzoonosis",
+      "Cytauxzoon felis",
+      "tick-borne disease"
+    ],
+    "stem": "In June, a 2-year-old outdoor cat from Missouri is presented for sudden fever of 40.8 °C (105.4 °F), lethargy, icterus and labored breathing. A tick was found on the cat last week. Which finding on the blood smear would most likely confirm the diagnosis?",
+    "options": [
+      "Signet-ring piroplasms inside red blood cells",
+      "Epicellular cocci in chains on red cell surfaces",
+      "Morulae in the cytoplasm of circulating neutrophils",
+      "Heinz bodies on a large proportion of red blood cells",
+      "Microfilariae in the buffy coat on a direct smear"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Acute severe fever, icterus and dyspnea in an outdoor cat in the south-central US during tick season suggest cytauxzoonosis, transmitted by Amblyomma americanum (lone star tick), with the bobcat as reservoir. Small signet-ring piroplasms in red cells, or schizont-filled macrophages, confirm it. Treatment is atovaquone plus azithromycin with supportive care.",
+      "options": [
+        "Correct. Intraerythrocytic piroplasms are typical of Cytauxzoon felis.",
+        "Epicellular organisms suggest hemotropic Mycoplasma.",
+        "Neutrophil morulae suggest Anaplasma phagocytophilum or Ehrlichia ewingii.",
+        "Heinz bodies suggest oxidant injury, such as from onion or acetaminophen.",
+        "Microfilariae are rare in cats with heartworm and do not explain this picture."
+      ],
+      "takeaway": "Fever, icterus and red-cell piroplasms in an outdoor cat in tick season mean Cytauxzoon felis."
+    },
+    "reference": "Sykes JE, Greene's Infectious Diseases of the Dog and Cat, cytauxzoonosis"
   }
 ]

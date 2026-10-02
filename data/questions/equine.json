@@ -381,5 +381,368 @@
       "takeaway": "Palmar digital nerve blocks localize palmar foot pain; a lameness that switches limbs suggests bilateral disease."
     },
     "reference": "Baxter GM, Adams and Stashak's Lameness in Horses"
+  },
+  {
+    "id": "EQU-0012",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "gastrointestinal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "colic",
+      "abdominocentesis",
+      "peritoneal lactate"
+    ],
+    "stem": "A 12-year-old Warmblood gelding has had colic for 4 hours. Pain persists despite flunixin and xylazine. Heart rate is 72 beats/min. Results of abdominocentesis are shown alongside blood lactate. Which interpretation and plan is most appropriate?",
+    "labs": [
+      {
+        "test": "Peritoneal fluid appearance",
+        "value": "Serosanguineous",
+        "unit": "",
+        "ref": ""
+      },
+      {
+        "test": "Peritoneal total protein",
+        "value": "3.8",
+        "unit": "g/dL",
+        "ref": "<2.5"
+      },
+      {
+        "test": "Peritoneal lactate",
+        "value": "8.2",
+        "unit": "mmol/L",
+        "ref": ""
+      },
+      {
+        "test": "Blood lactate",
+        "value": "3.1",
+        "unit": "mmol/L",
+        "ref": "<2.0"
+      }
+    ],
+    "options": [
+      "Ischemia likely (lactate above blood); refer for surgery",
+      "These results are within normal limits; continue medical care",
+      "High protein confirms enteritis; treat medically with fluids",
+      "The sample suggests enterocentesis; repeat it at another site",
+      "The results indicate sand impaction; give psyllium by tube"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Serosanguineous peritoneal fluid with a raised total protein and a peritoneal lactate higher than blood lactate suggests intestinal ischemia from a strangulating lesion. With persistent pain and tachycardia despite analgesics, the horse needs exploratory surgery.",
+      "options": [
+        "Correct. Peritoneal lactate above blood lactate supports a strangulating lesion.",
+        "Normal peritoneal fluid is clear to pale yellow with protein under 2.5 g/dL and lactate below blood lactate.",
+        "Fluid changes can occur with enteritis, but persistent pain despite analgesia favors surgery.",
+        "Enterocentesis gives brown fluid with plant material and bacteria.",
+        "Sand impaction does not explain serosanguineous fluid with high lactate."
+      ],
+      "takeaway": "In equine colic, peritoneal lactate higher than blood lactate with persistent pain means likely strangulation and surgery."
+    },
+    "reference": "Peloso JG, Cohen ND, Use of serial measurements of peritoneal fluid lactate concentration (JAVMA 2012); Orsini JA, Equine Emergencies"
+  },
+  {
+    "id": "EQU-0013",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "gastrointestinal",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "equine squamous gastric disease",
+      "omeprazole"
+    ],
+    "stem": "A 4-year-old Thoroughbred racehorse in training has poor appetite and a dull coat, and is not performing well. Gastroscopy shows multiple ulcers in the squamous mucosa along the margo plicatus; the glandular mucosa is normal. Which treatment is most appropriate?",
+    "options": [
+      "Oral omeprazole once daily for about 4 weeks",
+      "Oral misoprostol twice daily as the only treatment",
+      "Oral sucralfate as the only treatment",
+      "Phenylbutazone to control discomfort",
+      "Stall rest with hay withheld for 48 hours"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Equine squamous gastric disease is caused by acid injury. The European College of Equine Internal Medicine consensus recommends oral omeprazole (4 mg/kg once daily) for about 4 weeks as first-line treatment, plus management changes such as more turnout and constant forage.",
+      "options": [
+        "Correct. Omeprazole is first-line for squamous disease.",
+        "Misoprostol is used for glandular disease, often with sucralfate.",
+        "Sucralfate alone is not effective for squamous ulcers.",
+        "NSAIDs can worsen gastric ulcers, especially in glandular mucosa.",
+        "An empty stomach increases acid injury; constant forage is protective."
+      ],
+      "takeaway": "Treat equine squamous gastric disease with omeprazole and more forage and turnout."
+    },
+    "reference": "Sykes BW et al., ECEIM consensus statement on equine gastric ulcer syndrome (J Vet Intern Med 2015)"
+  },
+  {
+    "id": "EQU-0014",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "respiratory",
+    "subdomain": "data_gathering",
+    "topics": [
+      "equine asthma",
+      "bronchoalveolar lavage"
+    ],
+    "stem": "A 15-year-old stabled Quarter Horse mare has had increased breathing effort at rest for 2 months, with nasal flaring, a heave line, and coughing when fed hay. She has no fever. Which test best confirms the suspected diagnosis?",
+    "options": [
+      "Bronchoalveolar lavage cytology",
+      "Transtracheal wash culture alone",
+      "Nasal swab PCR for equine influenza",
+      "Thoracic ultrasound for pleural effusion",
+      "Serum fibrinogen and white cell count"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Increased resting effort, a heave line, and cough linked to hay in an older stabled horse suggest severe equine asthma. Bronchoalveolar lavage confirms airway inflammation; in severe asthma, neutrophils are typically above 25%.",
+      "options": [
+        "Correct. BAL cytology shows the airway inflammation that defines equine asthma.",
+        "Tracheal wash samples the large airways and is better for infection; culture alone does not diagnose asthma.",
+        "Influenza causes acute fever and cough, not months of signs without fever.",
+        "Pleural effusion would cause reduced lung sounds, often with fever or other disease.",
+        "Blood inflammatory markers are usually normal in asthma."
+      ],
+      "takeaway": "Confirm equine asthma with BAL cytology; severe asthma has more than 25% neutrophils."
+    },
+    "reference": "Couëtil LL et al., ACVIM consensus on inflammatory airway diseases of horses (J Vet Intern Med 2016)"
+  },
+  {
+    "id": "EQU-0015",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "respiratory",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "equine asthma",
+      "environmental management"
+    ],
+    "stem": "A 14-year-old stabled horse has severe equine asthma confirmed by bronchoalveolar lavage. The owner wants the single most important long-term treatment. Which measure is most effective?",
+    "options": [
+      "Reduce dust: pasture turnout and soaked or steamed hay",
+      "Long-term oral antibiotics to prevent secondary infection",
+      "A bronchodilator inhaler as the only long-term treatment",
+      "Annual vaccination against equine influenza and EHV-4",
+      "Keep her stalled more often to avoid pollen exposure outdoors"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Severe equine asthma is triggered by inhaled organic dust, mainly from hay and bedding. Environmental management is the most important long-term measure: turnout on pasture, low-dust bedding, soaked or steamed hay or haylage. Corticosteroids control inflammation, and bronchodilators give short-term relief.",
+      "options": [
+        "Correct. Removing the dust trigger is the basis of long-term control.",
+        "Asthma is not an infection, and antibiotics do not help.",
+        "Bronchodilators relieve signs but do not treat inflammation; using them alone may hide progression.",
+        "Influenza vaccination is good preventive care but does not treat asthma.",
+        "More stall time increases dust exposure."
+      ],
+      "takeaway": "Long-term control of severe equine asthma depends on less dust: pasture, low-dust bedding and soaked or steamed hay."
+    },
+    "reference": "Couëtil LL et al., ACVIM consensus on inflammatory airway diseases of horses (J Vet Intern Med 2016)"
+  },
+  {
+    "id": "EQU-0016",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "endocrine",
+    "subdomain": "data_gathering",
+    "topics": [
+      "PPID",
+      "basal ACTH",
+      "seasonal reference ranges"
+    ],
+    "stem": "A 22-year-old pony has a long, curly coat that does not shed, muscle loss along the topline, and recent laminitis. You plan to test for pituitary pars intermedia dysfunction in September. Which approach is most appropriate?",
+    "options": [
+      "Basal plasma ACTH against a seasonal reference range",
+      "Basal plasma ACTH against a single cut-off used all year",
+      "Perform a dexamethasone suppression test while the pony is laminitic",
+      "Measure serum insulin alone to diagnose PPID",
+      "Delay testing until spring, as autumn results are unreliable"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Basal plasma ACTH is the most commonly used test for PPID. ACTH rises naturally in late summer and autumn, so results must be compared with seasonally adjusted reference ranges. The Equine Endocrinology Group lists autumn as a valid testing time if seasonal ranges are used.",
+      "options": [
+        "Correct. Use seasonal reference ranges when interpreting ACTH.",
+        "Using a single cut-off would give false positives in autumn.",
+        "Dexamethasone may worsen laminitis, and the test is used less now.",
+        "Insulin assesses insulin dysregulation, which often occurs with PPID, but it does not diagnose PPID.",
+        "Autumn testing is valid with seasonal ranges and may separate affected horses well."
+      ],
+      "takeaway": "Test for PPID with basal ACTH, using a seasonally adjusted reference range."
+    },
+    "reference": "Equine Endocrinology Group, Recommendations for the diagnosis and treatment of PPID (current edition)"
+  },
+  {
+    "id": "EQU-0017",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "endocrine",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "equine metabolic syndrome",
+      "insulin dysregulation",
+      "diet"
+    ],
+    "stem": "A 9-year-old obese Welsh pony (body condition score 8/9) had a bout of laminitis this spring. An oral sugar test shows insulin dysregulation. Which management plan is most appropriate?",
+    "options": [
+      "Weight loss: low-sugar hay, limited pasture, exercise",
+      "Free-choice lush pasture to reduce stress on the feet",
+      "Add sweet feed to provide energy for healing",
+      "Feed hay only at 3% of body weight to prevent weight loss",
+      "Pergolide once daily as the main long-term treatment"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Equine metabolic syndrome combines insulin dysregulation, obesity and laminitis risk. Management centers on diet: hay with low non-structural carbohydrate (often under 10%), soaking hay to reduce sugar, restricting or stopping pasture access, and weight loss with exercise once the horse is sound.",
+      "options": [
+        "Correct. Diet and weight loss reduce insulin dysregulation and laminitis risk.",
+        "Lush pasture is high in sugar and fructans and raises laminitis risk.",
+        "Sweet feed is high in non-structural carbohydrates.",
+        "For weight loss, hay is usually fed at about 1.25–1.5% of body weight.",
+        "Pergolide treats PPID, not EMS."
+      ],
+      "takeaway": "Manage EMS with low-sugar hay, restricted pasture, weight loss and exercise."
+    },
+    "reference": "Durham AE et al., ECEIM consensus statement on equine metabolic syndrome (J Vet Intern Med 2019)"
+  },
+  {
+    "id": "EQU-0018",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "infectious",
+    "subdomain": "data_gathering",
+    "topics": [
+      "equine herpesvirus-1",
+      "myeloencephalopathy",
+      "PCR"
+    ],
+    "stem": "At a show barn, a 10-year-old mare had a fever a week ago and now has hind limb ataxia, weak tail tone and urine dribbling. Two other horses have fevers. Which diagnostic plan is most appropriate?",
+    "options": [
+      "PCR on a nasal swab and whole blood for EHV-1",
+      "Serum antibody titer to Sarcocystis neurona",
+      "Cervical radiographs for vertebral malformation",
+      "Muscle biopsy for polysaccharide storage myopathy",
+      "Coggins test for equine infectious anemia"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Sudden hind limb ataxia with bladder and tail involvement after a fever, especially with other horses febrile, suggests equine herpesvirus myeloencephalopathy. ACVIM consensus recommends PCR on nasal secretions and whole blood. The barn should be quarantined and fevers monitored.",
+      "options": [
+        "Correct. PCR on nasal swab and blood detects EHV-1.",
+        "EPM usually causes asymmetric signs and is not contagious.",
+        "Cervical compression does not cause outbreaks or follow a fever.",
+        "PSSM causes muscle stiffness and high CK, not ataxia and urine dribbling.",
+        "EIA causes fever and anemia, not this neurologic picture."
+      ],
+      "takeaway": "Fever followed by hind limb ataxia and urine dribbling in a group means EHV-1 myeloencephalopathy: PCR nasal swab and blood, and quarantine."
+    },
+    "reference": "Lunn DP et al., 2024 update of the ACVIM consensus statement on EHV-1 (J Vet Intern Med 2024)"
+  },
+  {
+    "id": "EQU-0019",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "hemic_lymphatic",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "failure of passive transfer",
+      "neonatal foal",
+      "plasma"
+    ],
+    "stem": "A 20-hour-old foal born to a mare that leaked milk before foaling seems bright and nurses well. Serum IgG is 300 mg/dL. Which treatment is most appropriate?",
+    "options": [
+      "Intravenous hyperimmune equine plasma",
+      "Oral colostrum by nasogastric tube now",
+      "Recheck IgG in 48 hours",
+      "Oral antibiotics for 7 days",
+      "Intramuscular tetanus antitoxin only"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Foals absorb colostral antibodies only during about the first 24 hours of life, with absorption falling sharply after about 12 hours. IgG under 400 mg/dL means failure of passive transfer. At 20 hours, oral colostrum is unlikely to be absorbed well, so IV plasma is recommended.",
+      "options": [
+        "Correct. IV plasma raises IgG once gut absorption has closed.",
+        "Absorption is very limited at 20 hours; oral colostrum works best within the first 12 hours.",
+        "Waiting leaves the foal at risk of sepsis.",
+        "Antibiotics do not replace antibodies.",
+        "Tetanus antitoxin protects against only one disease."
+      ],
+      "takeaway": "Treat failure of passive transfer in a foal older than about 12–18 hours with IV plasma."
+    },
+    "reference": "Orsini JA, Divers TJ, Equine Emergencies; Knottenbelt DC, Equine Neonatal Medicine"
+  },
+  {
+    "id": "EQU-0020",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "musculoskeletal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "polysaccharide storage myopathy",
+      "GYS1",
+      "exertional rhabdomyolysis"
+    ],
+    "stem": "A 5-year-old Quarter Horse mare has had several episodes of muscle stiffness, sweating and reluctance to move during light exercise after being rested. CK and AST were very high after each episode. Which test is most useful to identify the likely inherited cause?",
+    "options": [
+      "Genetic test for the GYS1 mutation",
+      "Serum selenium and whole-blood glutathione peroxidase",
+      "Serum vitamin E concentration alone",
+      "Coggins test for equine infectious anemia virus",
+      "Echocardiography for myocardial disease"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Recurrent exertional rhabdomyolysis in a Quarter Horse type suggests type 1 polysaccharide storage myopathy (PSSM1), caused by a mutation in GYS1. A genetic test on hair roots or whole blood confirms it. Management is a low-starch, high-fat diet and daily exercise.",
+      "options": [
+        "Correct. A GYS1 test confirms PSSM1.",
+        "Selenium deficiency can cause muscle disease but is not inherited.",
+        "Vitamin E deficiency causes other myopathies and neuropathies.",
+        "EIA does not cause exertional rhabdomyolysis.",
+        "Heart disease does not cause repeated episodes of muscle stiffness with high CK."
+      ],
+      "takeaway": "Recurrent tying-up in a Quarter Horse calls for a GYS1 genetic test for PSSM1."
+    },
+    "reference": "Valberg SJ, Muscle conditions affecting sport horses (Vet Clin North Am Equine Pract 2018)"
+  },
+  {
+    "id": "EQU-0021",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "non_clinical",
+    "subdomain": "public_health",
+    "topics": [
+      "equine infectious anemia",
+      "Coggins test",
+      "reportable disease"
+    ],
+    "stem": "A routine Coggins test (agar gel immunodiffusion) on a healthy 8-year-old gelding before travel is positive, and a state laboratory confirms it. Which statement is most accurate?",
+    "options": [
+      "He is a lifelong carrier and the case must be reported",
+      "He can be treated with antivirals and retested in 30 days",
+      "The result is likely a vaccine reaction, so no action is needed",
+      "He may travel, because he shows no clinical signs of disease",
+      "The horse is infectious only while it has a fever"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Equine infectious anemia is a lentiviral disease. Infected horses remain carriers for life, and there is no treatment or approved vaccine in the US. Positive results are reportable. Regulations require lifelong strict quarantine with a large separation from other horses, or euthanasia, depending on state rules. Transmission is mainly by biting flies and contaminated needles.",
+      "options": [
+        "Correct. EIA-positive horses are lifelong carriers and must be reported.",
+        "There is no treatment for EIA.",
+        "There is no licensed EIA vaccine in the US, so a positive result is not a vaccine reaction.",
+        "Inapparent carriers can still transmit the virus.",
+        "Carriers can transmit virus at any time, though more during fever."
+      ],
+      "takeaway": "A confirmed positive Coggins means a lifelong carrier: report it and follow state rules for quarantine or euthanasia."
+    },
+    "reference": "USDA APHIS, Equine Infectious Anemia program information; AAEP Infectious Disease Guidelines: EIA"
   }
 ]

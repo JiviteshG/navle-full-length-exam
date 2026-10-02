@@ -5,8 +5,8 @@ Read this first when resuming work. Full design: `PLAN.md`. How to run: `README.
 ## Where things stand (2026-10-02)
 - Branch `claude/navle-timed-test-ya3ix2`, deployed on GitHub Pages: https://jiviteshg.github.io/navle-full-length-exam/ (repo made public by the owner).
 - The link has been sent to the reviewing veterinarian. **Waiting for her `navle-reviews-*.json` export.**
-- 85 original questions, all `review_status: "draft"`. 11 have real images in `data/images/`, all credited (author, license, source URL). 11/85 = 12.9%, so image items are now below the 18–20% target: new image questions are needed (the owner supplies the images).
-- Bank growth (Phase 3) started 2026-10-02. Batch 1 = CAN-0016–0035 plus restored topics FEL-0016 (ATE), EQU-0010 (EPM), EQU-0011 (navicular), BOV-0009 (Mannheimia/BRD metaphylaxis), BOV-0010 (nitrate). Each cites a source in `reference`, and option lengths were balanced as they were written.
+- 110 original questions, all `review_status: "draft"`. 11 have real images in `data/images/`, all credited (author, license, source URL). 11/110 = 10%, so image items are now below the 18–20% target: new image questions are needed (the owner supplies the images).
+- Bank growth (Phase 3) started 2026-10-02. Batch 1 = CAN-0016–0035 plus restored topics FEL-0016 (ATE), EQU-0010 (EPM), EQU-0011 (navicular), BOV-0009 (Mannheimia/BRD metaphylaxis), BOV-0010 (nitrate). Batch 2 = FEL-0017–0031 and EQU-0012–0021. Each cites a source in `reference`, and option lengths were balanced as they were written.
 - Assembler now has a repair pass (single swaps and two-step cross-species chains), so 1- and 2-block forms hit subdomain quotas exactly (100 seeds tested).
 - Tests: `npm test` (11 passing). Local run: `python3 -m http.server 8000`.
 
