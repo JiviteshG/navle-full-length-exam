@@ -313,5 +313,73 @@
       "takeaway": "Horse restraint: handler and examiner on the same side, and never kneel."
     },
     "reference": "Merck Veterinary Manual: Restraint of horses"
+  },
+  {
+    "id": "EQU-0010",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "nervous",
+    "subdomain": "data_gathering",
+    "topics": [
+      "equine protozoal myeloencephalitis",
+      "Sarcocystis neurona",
+      "CSF testing"
+    ],
+    "stem": "A 7-year-old Thoroughbred gelding has developed asymmetric ataxia and weakness over 3 weeks. There is gluteal muscle atrophy on the left side. He lives on a farm in Kentucky where opossums are often seen. Which test result most supports equine protozoal myeloencephalitis?",
+    "options": [
+      "Low serum:CSF anti-Sarcocystis neurona antibody ratio",
+      "A positive serum antibody test for Sarcocystis neurona alone",
+      "Increased creatine kinase and AST on serum chemistry",
+      "Narrowed vertebral canal on standing lateral cervical radiographs",
+      "Positive PCR for equine herpesvirus 1 on a nasal swab"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "EPM is caused by Sarcocystis neurona, with the opossum as definitive host. Asymmetric ataxia with focal muscle atrophy is typical. Many horses in endemic areas are seropositive without disease, so a positive serum test alone means only exposure. Comparing paired serum and CSF antibody levels (serum:CSF titer ratio or antibody index) shows intrathecal antibody production and is the most useful test.",
+      "options": [
+        "Correct. A low serum:CSF ratio indicates antibody made within the CNS.",
+        "Seroprevalence in endemic areas is high, so serum alone does not confirm EPM.",
+        "CK and AST rise with muscle disease, not EPM.",
+        "Cervical canal narrowing suggests cervical vertebral compressive myelopathy, which is usually symmetric.",
+        "EHV-1 myeloencephalopathy usually causes sudden, symmetric hind limb signs with urine dribbling."
+      ],
+      "takeaway": "Confirm EPM with paired serum and CSF antibody testing; serum alone shows only exposure."
+    },
+    "reference": "Reed SM et al., ACVIM consensus statement on EPM (J Vet Intern Med 2016)"
+  },
+  {
+    "id": "EQU-0011",
+    "version": 1,
+    "review_status": "draft",
+    "species": "equine",
+    "system": "musculoskeletal",
+    "subdomain": "data_gathering",
+    "topics": [
+      "navicular syndrome",
+      "palmar digital nerve block",
+      "lameness"
+    ],
+    "stem": "A 10-year-old Quarter Horse gelding has a gradual-onset lameness in both forelimbs, worse on the right. The lameness is worse when circling on a hard surface and improves on soft ground. Hoof testers produce a consistent response over the middle third of the frog. Which diagnostic finding best localizes the source of pain?",
+    "options": [
+      "Lameness resolves after a palmar digital block, then appears in the left forelimb",
+      "Lameness improves markedly after intra-articular anesthesia of the fetlock joint",
+      "A positive response to an upper limb flexion test",
+      "Heat, pain and swelling over the superficial digital flexor tendon in the mid-metacarpus",
+      "Lameness is unchanged after bilateral abaxial sesamoid nerve blocks"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Bilateral forelimb lameness worse on circles on hard ground, with frog sensitivity, is typical of navicular syndrome (palmar foot pain). A palmar digital nerve block desensitizes the palmar part of the foot. If the lameness resolves and then appears in the other forelimb, the pain is bilateral and in the palmar foot.",
+      "options": [
+        "Correct. Switching lameness after a palmar digital block shows bilateral palmar foot pain.",
+        "Fetlock blocks do not reach the palmar foot.",
+        "Flexion tests are not specific and do not localize pain to the navicular region.",
+        "These signs point to tendinitis, not palmar foot pain.",
+        "An abaxial sesamoid block desensitizes the whole foot; no improvement would argue against foot pain."
+      ],
+      "takeaway": "Palmar digital nerve blocks localize palmar foot pain; a lameness that switches limbs suggests bilateral disease."
+    },
+    "reference": "Baxter GM, Adams and Stashak's Lameness in Horses"
   }
 ]

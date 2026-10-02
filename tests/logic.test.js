@@ -73,3 +73,13 @@ test('scoring counts every item and breaks down by axis', () => {
   assert.equal(s.correct, 1);
   assert.equal(Object.values(s.bySpecies).reduce((a, b) => a + b.n, 0), 3);
 });
+
+test('practice forms hit subdomain quotas exactly across many seeds', () => {
+  for (let s = 1; s <= 100; s++) {
+    for (const blocks of [1, 2]) {
+      const f = assemble({ bank, blueprint, blocks, perBlock: 30, rand: seeded(s) });
+      assert.equal(f.shortfalls.length, 0, `seed ${s}`);
+      for (const [k, n] of Object.entries(f.quotas.subdomain)) assert.equal(f.subdomainActual[k] ?? 0, n, `seed ${s} blocks ${blocks} ${k}`);
+    }
+  }
+});

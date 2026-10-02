@@ -272,5 +272,73 @@
       "takeaway": "Chloramphenicol is never allowed in food animals. Know the U.S. AMDUCA prohibited list."
     },
     "reference": "FDA AMDUCA prohibited drug list (21 CFR 530.41); Health Canada food-animal drug prohibitions"
+  },
+  {
+    "id": "BOV-0009",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "respiratory",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "bovine respiratory disease",
+      "Mannheimia haemolytica",
+      "metaphylaxis"
+    ],
+    "stem": "A backgrounding operation receives 200 lightweight, recently weaned, commingled beef calves bought through an auction after a long haul. Their vaccination history is unknown. In past groups like this, many calves developed fever, depression and nasal discharge within 2 weeks. Which strategy is most likely to reduce illness from shipping fever in this group?",
+    "options": [
+      "Give an antimicrobial labeled for BRD control to all calves on arrival",
+      "Give a dexamethasone injection to all calves on arrival to reduce stress",
+      "Wait and treat only calves that die, then submit a necropsy",
+      "Add chlortetracycline to the water for 6 months without veterinary oversight",
+      "Hold the calves off feed and water for 24 hours to reduce stress"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "High-risk calves (recently weaned, commingled, long haul, unknown history) often develop bovine respiratory disease, with Mannheimia haemolytica as the main bacterial cause of shipping fever pneumonia. Metaphylaxis (mass treatment on arrival with an antimicrobial labeled for BRD control, such as tulathromycin) reduces illness and death in such groups.",
+      "options": [
+        "Correct. Metaphylaxis is evidence-based for high-risk arrival calves.",
+        "Corticosteroids suppress immunity and are not recommended for BRD prevention.",
+        "Waiting for deaths delays treatment and leads to higher losses.",
+        "Medically important antibiotics in feed or water require veterinary oversight, and long, uncontrolled use encourages resistance.",
+        "Restricting feed and water adds stress and dehydration."
+      ],
+      "takeaway": "Use metaphylaxis on arrival in high-risk, newly received calves to reduce shipping fever."
+    },
+    "reference": "Smith RA et al., Bovine respiratory disease: looking back and looking forward (Vet Clin North Am Food Anim Pract 2020)"
+  },
+  {
+    "id": "BOV-0010",
+    "version": 1,
+    "review_status": "draft",
+    "species": "bovine",
+    "system": "multisystemic",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "nitrate toxicosis",
+      "methemoglobinemia",
+      "methylene blue"
+    ],
+    "stem": "In late summer after drought, several beef cows were turned onto a pasture with heavy growth of pigweed. Within hours, three cows have trembling, weakness and fast breathing, and one has died. Blood from an affected cow looks chocolate-brown. Which treatment is most appropriate for the affected cows?",
+    "options": [
+      "Intravenous methylene blue",
+      "Intravenous sodium nitrite and sodium thiosulfate",
+      "Oral activated charcoal only",
+      "Intramuscular atropine sulfate",
+      "Intravenous calcium borogluconate"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Drought-stressed pigweed accumulates nitrate. Rumen bacteria reduce nitrate to nitrite, which oxidizes hemoglobin to methemoglobin, causing chocolate-brown blood and hypoxia. Methylene blue IV reduces methemoglobin back to hemoglobin. In food animals this is extralabel use, so a withdrawal interval must be set (for example, with FARAD).",
+      "options": [
+        "Correct. Methylene blue reverses methemoglobinemia.",
+        "Sodium nitrite and thiosulfate treat cyanide poisoning; giving nitrite here would worsen methemoglobinemia. Cyanide causes bright cherry-red blood.",
+        "Activated charcoal does not reverse methemoglobin already formed.",
+        "Atropine treats organophosphate or carbamate toxicosis.",
+        "Calcium treats hypocalcemia, not methemoglobinemia."
+      ],
+      "takeaway": "Chocolate-brown blood after drought forage means nitrate/nitrite toxicosis; treat with methylene blue and set a withdrawal with FARAD."
+    },
+    "reference": "Merck Veterinary Manual, Nitrate and nitrite poisoning in animals"
   }
 ]

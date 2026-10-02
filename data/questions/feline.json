@@ -537,5 +537,38 @@
       "takeaway": "Declaw requests: educate the owner about welfare and offer alternatives (scratching posts, nail trims, nail caps)."
     },
     "reference": "AVMA policy on declawing of domestic cats; AAFP position statement on declawing"
+  },
+  {
+    "id": "FEL-0016",
+    "version": 1,
+    "review_status": "draft",
+    "species": "feline",
+    "system": "cardiovascular",
+    "subdomain": "data_gathering",
+    "topics": [
+      "arterial thromboembolism",
+      "hypertrophic cardiomyopathy"
+    ],
+    "stem": "A 9-year-old castrated male domestic shorthair cat suddenly cannot use its hind limbs and is vocalizing in pain. Both pelvic limbs are cold, the footpads are pale and cyanotic, and no femoral pulses can be felt. Heart rate is 220 beats/min with a gallop rhythm. Which is the most likely diagnosis?",
+    "options": [
+      "Aortic thromboembolism secondary to cardiomyopathy",
+      "Intervertebral disc extrusion at the thoracolumbar junction",
+      "Fibrocartilaginous embolism of the lumbar spinal cord",
+      "Lymphoma of the spinal cord",
+      "Pelvic fracture from unwitnessed trauma"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Acute paraparesis with pain, cold limbs, pale or cyanotic pads and absent femoral pulses (the five Ps: pain, pallor, pulselessness, paralysis, poikilothermia) indicates arterial thromboembolism at the aortic trifurcation. A gallop rhythm suggests the underlying cardiomyopathy, most often hypertrophic cardiomyopathy.",
+      "options": [
+        "Correct. Absent pulses and cold limbs point to a vascular cause.",
+        "Disc disease is uncommon in cats and would not stop the femoral pulses.",
+        "FCE is usually non-painful after onset and does not affect pulses or limb temperature.",
+        "Spinal lymphoma causes progressive signs and does not affect pulses.",
+        "Fractures would not explain absent pulses and cold pads in both limbs."
+      ],
+      "takeaway": "A cat with sudden painful paraparesis, cold limbs and absent femoral pulses has aortic thromboembolism until proven otherwise."
+    },
+    "reference": "Luis Fuentes V et al., ACVIM consensus on cardiomyopathies in cats (J Vet Intern Med 2020)"
   }
 ]

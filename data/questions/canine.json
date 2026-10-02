@@ -555,5 +555,707 @@
       "takeaway": "No current VCPR means no prescription. Examine the patient first."
     },
     "reference": "AVMA Principles of Veterinary Medical Ethics; AVMA Model Veterinary Practice Act (VCPR)"
+  },
+  {
+    "id": "CAN-0016",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "cardiovascular",
+    "subdomain": "data_gathering",
+    "topics": [
+      "dilated cardiomyopathy",
+      "Doberman screening",
+      "Holter monitoring"
+    ],
+    "stem": "A 5-year-old male Doberman Pinscher is presented for a wellness visit. He has no clinical signs. Physical examination is normal apart from a single premature beat heard during auscultation. The owner wants to know whether he has early heart disease, because two of his littermates died suddenly. Which approach is best to screen for the occult stage of the most likely disease?",
+    "options": [
+      "24-hour Holter monitoring combined with echocardiography",
+      "Thoracic radiographs to measure the vertebral heart score",
+      "A single 2-minute in-clinic ECG recording at rest",
+      "Plasma taurine and whole-blood taurine concentrations",
+      "Serum cardiac troponin I as the only screening test"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Dobermans have a high prevalence of dilated cardiomyopathy with a long occult phase marked by ventricular premature complexes (VPCs) and/or left ventricular dilation. Expert screening guidelines recommend combining a 24-hour Holter (more than 300 VPCs in 24 h is considered suspicious in Dobermans) with echocardiography, because either change can appear first.",
+      "options": [
+        "Correct. Holter detects arrhythmic occult disease and echocardiography detects ventricular dilation or systolic dysfunction.",
+        "Radiographs are insensitive in the occult stage; heart size is often normal before congestive failure.",
+        "Partly useful, but VPCs are intermittent and a short recording often misses them.",
+        "Taurine deficiency is linked to DCM in some breeds and diets, but Doberman DCM is a heritable disease and is not taurine-responsive.",
+        "Troponin I may rise in occult DCM but is not sensitive or specific enough to use alone."
+      ],
+      "takeaway": "Screen Dobermans for occult DCM with both a 24-hour Holter and echocardiography, repeated yearly."
+    },
+    "reference": "Wess G et al., ESVC guidelines for screening dogs for DCM (J Vet Cardiol 2017)"
+  },
+  {
+    "id": "CAN-0017",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "infectious",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "canine parvovirus",
+      "enteral nutrition",
+      "supportive care"
+    ],
+    "stem": "A 12-week-old unvaccinated mixed-breed puppy is hospitalized with canine parvoviral enteritis confirmed by fecal antigen test. It is receiving IV balanced crystalloids with potassium supplementation, maropitant, and IV ampicillin plus enrofloxacin for neutropenia. Vomiting is now controlled. The current plan says to withhold food until there has been no vomiting for 48 hours. Which change to the plan is best supported by evidence?",
+    "options": [
+      "Begin enteral feeding now, by nasoesophageal tube if needed",
+      "Continue to withhold food and water for another 48 hours",
+      "Start total parenteral nutrition and keep the puppy nil per os",
+      "Replace the IV antibiotics with oral metronidazole only",
+      "Give a fresh frozen plasma transfusion to provide antibodies"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Early enteral nutrition in dogs with parvoviral enteritis was associated with faster clinical improvement, earlier weight gain and better gut barrier function than withholding food. Feeding (voluntarily or via nasoesophageal tube) should begin as soon as vomiting is controlled, typically within 12–24 hours.",
+      "options": [
+        "Correct. Early enteral nutrition supports enterocyte recovery and was shown to speed clinical improvement.",
+        "This is the outdated approach that early-feeding studies argue against.",
+        "Parenteral nutrition can be used if enteral feeding is impossible, but it does not nourish the enterocytes and it adds cost and catheter risk.",
+        "A neutropenic puppy with a damaged gut barrier needs broad-spectrum parenteral antibiotics, not metronidazole alone.",
+        "Plasma has not been shown to improve outcome in parvovirus and is not routinely recommended."
+      ],
+      "takeaway": "In parvoviral enteritis, start enteral feeding as soon as vomiting is controlled rather than withholding food."
+    },
+    "reference": "Mohr AJ et al., Effect of early enteral nutrition in canine parvoviral enteritis (J Vet Intern Med 2003)"
+  },
+  {
+    "id": "CAN-0018",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "urinary",
+    "subdomain": "data_gathering",
+    "topics": [
+      "urate urolithiasis",
+      "Dalmatian",
+      "imaging"
+    ],
+    "stem": "A 3-year-old intact male Dalmatian has had stranguria and hematuria for 5 days. Urinalysis shows pH 6.0 and many ammonium urate crystals; urine culture is negative. Survey abdominal radiographs show no radiopaque calculi in the kidneys, ureters, bladder or urethra. Which is the most appropriate next step to look for uroliths?",
+    "options": [
+      "Abdominal ultrasound or contrast cystourethrography",
+      "Conclude that no uroliths are present and treat for cystitis",
+      "Repeat survey radiographs in 4 weeks",
+      "Perform a bile acid stimulation test before imaging",
+      "Start a 6-week course of an antimicrobial and recheck"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Dalmatians carry a mutation in SLC2A9 that impairs uric acid transport, so they excrete large amounts of urate. Urate uroliths are usually radiolucent or poorly radiopaque on survey radiographs, so a normal radiograph does not rule them out. Ultrasound or double-contrast cystography (with retrograde urethrography in a male) will show them.",
+      "options": [
+        "Correct. Urate stones are often radiolucent and need ultrasound or contrast studies.",
+        "Negative survey radiographs do not exclude radiolucent uroliths, and the culture is negative.",
+        "Repeating the same insensitive test would still miss radiolucent stones.",
+        "Bile acids look for a portosystemic shunt, a cause of urate stones in other breeds. In a Dalmatian the cause is genetic; the clinical problem now is finding the stones.",
+        "The culture is negative, and antibiotics do not dissolve urate stones."
+      ],
+      "takeaway": "Urate and cystine uroliths are often radiolucent; use ultrasound or contrast radiography when survey films are negative."
+    },
+    "reference": "Lulich JP et al., ACVIM consensus on canine and feline urolithiasis (J Vet Intern Med 2016)"
+  },
+  {
+    "id": "CAN-0019",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "urinary",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "struvite urolithiasis",
+      "medical dissolution",
+      "urinary tract infection"
+    ],
+    "stem": "A 6-year-old spayed female Miniature Schnauzer has pollakiuria. Radiographs show three smooth, radiopaque cystoliths about 5 mm in diameter. Urine pH is 7.5, struvite crystals are present, and culture grows Staphylococcus pseudintermedius susceptible to amoxicillin. She is not obstructed. Which plan is most appropriate?",
+    "options": [
+      "Dissolution diet plus an antimicrobial throughout dissolution",
+      "Dissolution diet alone, starting antibiotics only if signs persist",
+      "A 7-day antimicrobial course followed by an elective cystotomy",
+      "Immediate cystotomy, since struvite stones do not dissolve in dogs",
+      "Oral potassium citrate to alkalinize the urine and dissolve the stones"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Struvite uroliths in dogs are usually infection-induced by urease-producing bacteria such as Staphylococcus and Proteus. The ACVIM consensus recommends medical dissolution with a calculolytic diet plus an appropriate antimicrobial throughout dissolution, because bacteria trapped in the stone are released as it dissolves.",
+      "options": [
+        "Correct. Diet and antimicrobial together dissolve infection-induced struvite.",
+        "Without treating the urease-producing infection, struvite stones keep forming and dissolution usually fails.",
+        "Surgery is not needed first for non-obstructive struvite stones, which usually dissolve with medical therapy.",
+        "Infection-induced struvite stones in dogs dissolve well with medical management.",
+        "Alkalinizing the urine favors struvite formation; citrate is used for calcium oxalate prevention."
+      ],
+      "takeaway": "Treat infection-induced struvite uroliths in dogs with a dissolution diet plus an antimicrobial throughout dissolution."
+    },
+    "reference": "Lulich JP et al., ACVIM consensus on canine and feline urolithiasis (J Vet Intern Med 2016)"
+  },
+  {
+    "id": "CAN-0020",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "hemic_lymphatic",
+    "subdomain": "data_gathering",
+    "topics": [
+      "immune-mediated hemolytic anemia",
+      "saline agglutination",
+      "spherocytes"
+    ],
+    "stem": "A 5-year-old spayed female Cocker Spaniel has had lethargy for 3 days. Mucous membranes are pale and icteric. Selected results are shown, and the blood smear shows many spherocytes. Which additional finding would most directly confirm an immune-mediated cause of the anemia?",
+    "labs": [
+      {
+        "test": "PCV",
+        "value": "13",
+        "unit": "%",
+        "ref": "37–55"
+      },
+      {
+        "test": "Total protein",
+        "value": "7.2",
+        "unit": "g/dL",
+        "ref": "5.5–7.5"
+      },
+      {
+        "test": "Reticulocytes",
+        "value": "310",
+        "unit": "×10³/µL",
+        "ref": "<80"
+      },
+      {
+        "test": "Total bilirubin",
+        "value": "3.8",
+        "unit": "mg/dL",
+        "ref": "0.0–0.3"
+      }
+    ],
+    "options": [
+      "Agglutination that persists after saline dilution",
+      "A strongly regenerative absolute reticulocyte count",
+      "Marked bilirubinuria on the urine dipstick and sediment",
+      "Neutrophilic leukocytosis with a left shift on the CBC",
+      "Moderate thrombocytopenia on the automated platelet count"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Persistent agglutination after a saline dilution test shows that red cells are bridged by antibodies, which confirms an immune-mediated process. ACVIM consensus lists persistent saline agglutination, marked spherocytosis, or a positive Coombs test as evidence of immune-mediated destruction.",
+      "options": [
+        "Correct. True agglutination that does not disperse in saline indicates antibody on red cells.",
+        "Regeneration shows the marrow is responding, but it occurs with any hemolytic or blood-loss anemia.",
+        "Bilirubinuria supports hemolysis but not its cause.",
+        "A neutrophilic leukocytosis with left shift is common in IMHA but is not specific.",
+        "Thrombocytopenia can occur with IMHA (Evans syndrome) but does not confirm an immune cause of the anemia."
+      ],
+      "takeaway": "Spherocytes plus persistent saline agglutination or a positive Coombs test confirm immune-mediated hemolysis."
+    },
+    "reference": "Garden OA et al., ACVIM consensus on diagnosis of IMHA in dogs and cats (J Vet Intern Med 2019)"
+  },
+  {
+    "id": "CAN-0021",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "hemic_lymphatic",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "immune-mediated hemolytic anemia",
+      "thromboprophylaxis"
+    ],
+    "stem": "A 6-year-old spayed female mixed-breed dog has been diagnosed with primary immune-mediated hemolytic anemia (PCV 14%, positive saline agglutination). Platelet count is 210,000/µL. She has started prednisolone at an immunosuppressive dose and has received a packed red blood cell transfusion. Which addition to her treatment is most strongly recommended to reduce the risk of death?",
+    "options": [
+      "Antithrombotic drugs such as clopidogrel or rivaroxaban",
+      "Prophylactic broad-spectrum antibiotics for 4 weeks",
+      "Splenectomy within the first 48 hours of hospitalization",
+      "Intravenous vitamin K1 every 12 hours for the first week",
+      "Daily whole-blood transfusions to keep the PCV above 30%"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Thromboembolism is a leading cause of death in dogs with IMHA. The 2019 ACVIM consensus recommends antithrombotic therapy for all dogs with IMHA unless the platelet count is severely low. Options include anticoagulants (unfractionated or low-molecular-weight heparin, rivaroxaban, apixaban) or the antiplatelet drug clopidogrel.",
+      "options": [
+        "Correct. Thromboprophylaxis targets a major cause of death in IMHA.",
+        "Antibiotics are not routinely indicated in primary IMHA; they are used only if infection is found.",
+        "Splenectomy is not a first-line treatment; it is considered only in refractory cases.",
+        "Vitamin K1 treats anticoagulant rodenticide toxicity and does nothing for IMHA thrombosis.",
+        "Transfuse for clinical signs of anemia, not to a fixed PCV target, and whole blood adds volume overload risk."
+      ],
+      "takeaway": "Give antithrombotic therapy to dogs with IMHA unless they are severely thrombocytopenic."
+    },
+    "reference": "Swann JW et al., ACVIM consensus on treatment of IMHA in dogs (J Vet Intern Med 2019); Goggs R et al., CURATIVE guidelines (J Vet Emerg Crit Care 2019)"
+  },
+  {
+    "id": "CAN-0022",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "respiratory",
+    "subdomain": "data_gathering",
+    "topics": [
+      "laryngeal paralysis",
+      "laryngeal examination"
+    ],
+    "stem": "An 11-year-old castrated male Labrador Retriever has had progressive exercise intolerance, a change in the sound of his bark, and loud inspiratory noise that worsens in hot weather over 6 months. He is otherwise bright. Thoracic radiographs are normal. Which test is most appropriate to confirm the suspected diagnosis?",
+    "options": [
+      "Laryngoscopy under a light anesthetic plane to assess arytenoid motion",
+      "Thoracic radiographs taken on inspiration and expiration",
+      "Transtracheal wash for cytology and culture of lower airway secretions",
+      "Fluoroscopy of the cervical and thoracic trachea during breathing",
+      "Serum total T4 and TSH concentrations to look for hypothyroid neuropathy"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Inspiratory stridor and a voice change in an older large-breed dog suggest acquired laryngeal paralysis. Diagnosis is made by direct laryngoscopy at a light plane of anesthesia, with an assistant calling inspiration so the examiner can see whether the arytenoids abduct. Doxapram can stimulate breathing if effort is poor.",
+      "options": [
+        "Correct. Seeing failure of arytenoid abduction on inspiration confirms laryngeal paralysis.",
+        "Paired radiographs help with intrathoracic airway collapse, not laryngeal function.",
+        "Tracheal wash looks for lower airway disease, such as aspiration pneumonia, but does not assess the larynx.",
+        "Tracheal collapse is mainly a problem of small-breed dogs and causes a honking cough rather than a voice change.",
+        "Hypothyroidism has been linked with neuropathy, but thyroid testing does not diagnose laryngeal paralysis."
+      ],
+      "takeaway": "Confirm laryngeal paralysis by watching arytenoid movement under a light plane of anesthesia."
+    },
+    "reference": "Johnson LR, Textbook of Veterinary Internal Medicine (Ettinger), laryngeal diseases chapter"
+  },
+  {
+    "id": "CAN-0023",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "respiratory",
+    "subdomain": "comm_clients",
+    "topics": [
+      "laryngeal paralysis",
+      "unilateral arytenoid lateralization",
+      "informed consent"
+    ],
+    "stem": "You are discussing unilateral arytenoid lateralization (tie-back) surgery with the owner of a 12-year-old Labrador Retriever with bilateral laryngeal paralysis. The owner asks what the main long-term risk of the surgery is. Which statement is most accurate to include in the consent discussion?",
+    "options": [
+      "Aspiration pneumonia is the most common risk and persists for life",
+      "Recurrence of paralysis on the operated side occurs in most dogs",
+      "The dog will need lifelong daily medication after surgery",
+      "Exercise must be permanently restricted to leash walks only",
+      "The bark and voice will return to normal in nearly all operated dogs"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Aspiration pneumonia is the most common complication after arytenoid lateralization, because the airway is held partly open during swallowing. The risk persists for the rest of the dog's life, and it is higher in dogs with esophageal dysfunction or generalized neuropathy. Owners should know the signs (cough, fever, lethargy, fast breathing).",
+      "options": [
+        "Correct. Lifelong aspiration risk is the key consent point.",
+        "Failure of the lateralization suture can happen but is far less common than aspiration pneumonia.",
+        "No routine daily medication is needed after recovery.",
+        "Most dogs return to normal activity; owners are advised to avoid heat and overexertion, not to stop all exercise.",
+        "Voice usually stays altered, because surgery does not restore normal laryngeal function."
+      ],
+      "takeaway": "Tell owners before tie-back surgery that aspiration pneumonia is a lifelong risk and what its signs are."
+    },
+    "reference": "MacPhail CM, Laryngeal disease in dogs and cats: an update (Vet Clin North Am Small Anim Pract 2020)"
+  },
+  {
+    "id": "CAN-0024",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "integumentary",
+    "subdomain": "data_gathering",
+    "topics": [
+      "demodicosis",
+      "adult-onset",
+      "underlying disease"
+    ],
+    "stem": "A 9-year-old spayed female Boxer has had patchy alopecia, comedones and crusting on the face and trunk for 2 months. She has never had skin disease. Deep skin scrapings from four sites show many adult Demodex canis mites and eggs. Which is the most appropriate next step besides starting acaricidal treatment?",
+    "options": [
+      "Screen for an underlying cause such as endocrine disease or cancer",
+      "Advise the owner that this form is inherited and she should not be bred",
+      "Treat the house and all in-contact dogs, as this mite spreads readily",
+      "Perform skin biopsies to confirm the scraping diagnosis",
+      "Start an anti-inflammatory dose of prednisone to reduce pruritus"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Generalized demodicosis that starts in adulthood (usually over 4 years) is commonly associated with immunosuppression: hyperadrenocorticism, hypothyroidism, neoplasia, or glucocorticoid or chemotherapy treatment. A history review, CBC, chemistry and urinalysis, and targeted endocrine testing are recommended.",
+      "options": [
+        "Correct. Adult-onset demodicosis should prompt a search for an underlying cause.",
+        "A hereditary predisposition applies mainly to juvenile-onset demodicosis, and she is spayed.",
+        "Demodex canis is a normal resident transmitted from dam to pup in the first days of life; it is not contagious between adult dogs.",
+        "Biopsy is rarely needed when deep scrapings show many mites; it is reserved for sites like the feet or Shar-Peis.",
+        "Glucocorticoids are immunosuppressive and worsen demodicosis."
+      ],
+      "takeaway": "Adult-onset generalized demodicosis means looking for immunosuppression: endocrine disease, cancer or drugs."
+    },
+    "reference": "Mueller RS et al., Treatment of demodicosis in dogs: clinical consensus guidelines (Vet Dermatol 2020)"
+  },
+  {
+    "id": "CAN-0025",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "integumentary",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "demodicosis",
+      "isoxazolines",
+      "treatment endpoint"
+    ],
+    "stem": "A 10-month-old intact male French Bulldog has generalized demodicosis confirmed by deep skin scrapings and has started oral fluralaner. A secondary bacterial pyoderma is being treated. The owner asks how long treatment will last. Which endpoint is recommended before stopping acaricidal therapy?",
+    "options": [
+      "Two negative scrapings taken one month apart",
+      "Complete hair regrowth over every affected area of skin",
+      "A single negative deep skin scraping after 4 weeks of treatment",
+      "A fixed 3-month course, whatever the scrapings show",
+      "Resolution of the bacterial pyoderma on follow-up cytology"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Clinical improvement comes before parasitological cure. Consensus guidelines recommend continuing acaricidal treatment until two negative scrapings taken one month apart, and some recommend continuing one month beyond the first negative. Isoxazolines (fluralaner, afoxolaner, sarolaner, lotilaner) are now first-line treatment.",
+      "options": [
+        "Correct. Two negative monthly scrapings reduce the chance of relapse.",
+        "Hair regrowth can be complete while mites are still present.",
+        "A single negative scraping leads to more relapses.",
+        "Treatment length depends on parasitological response, not a fixed time.",
+        "Clearing the pyoderma does not show the mites are gone."
+      ],
+      "takeaway": "Continue demodicosis treatment until two consecutive monthly scrapings are negative."
+    },
+    "reference": "Mueller RS et al., Treatment of demodicosis in dogs: clinical consensus guidelines (Vet Dermatol 2020)"
+  },
+  {
+    "id": "CAN-0026",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "special_senses",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "primary glaucoma",
+      "intraocular pressure",
+      "latanoprost"
+    ],
+    "stem": "A 6-year-old spayed female Basset Hound is presented for a red, painful right eye of 12 hours' duration. The right eye has episcleral congestion, diffuse corneal edema and a fixed, dilated pupil. The lens is in its normal position. Intraocular pressure is 52 mm Hg in the right eye and 18 mm Hg in the left. Which drug is the most appropriate first treatment to lower pressure in the right eye?",
+    "options": [
+      "Topical latanoprost",
+      "Topical atropine",
+      "Topical prednisolone acetate alone",
+      "Oral carprofen alone",
+      "Topical neomycin–polymyxin B–dexamethasone"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "High IOP with a dilated pupil and normal lens position in a predisposed breed fits acute primary angle-closure glaucoma. Topical latanoprost, a prostaglandin analog, lowers IOP quickly in dogs and is the usual first emergency drug, as long as anterior lens luxation and uveitis are excluded. Mannitol IV is another option.",
+      "options": [
+        "Correct. Latanoprost increases uveoscleral outflow and causes miosis, lowering IOP fast.",
+        "Atropine dilates the pupil and can further close the drainage angle, raising IOP.",
+        "Steroids may help any inflammation but do not lower IOP quickly.",
+        "An NSAID alone does not lower IOP.",
+        "Antibiotics are not indicated; there is no infection, and the steroid alone does not lower pressure."
+      ],
+      "takeaway": "For acute primary glaucoma in a dog, use topical latanoprost if the lens is not luxated anteriorly; never give atropine."
+    },
+    "reference": "Gelatt KN, Veterinary Ophthalmology, canine glaucomas chapter"
+  },
+  {
+    "id": "CAN-0027",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "special_senses",
+    "subdomain": "data_gathering",
+    "topics": [
+      "keratoconjunctivitis sicca",
+      "Schirmer tear test"
+    ],
+    "stem": "A 7-year-old spayed female West Highland White Terrier has had a thick mucopurulent discharge from both eyes for 3 weeks. The corneas look dull, with superficial vascularization and pigment. Topical antibiotic ointment helped only briefly. Which test is most likely to confirm the underlying problem?",
+    "options": [
+      "Schirmer tear test",
+      "Fluorescein dye retention test",
+      "Tonometry to measure intraocular pressure",
+      "Bacterial culture of the conjunctiva",
+      "Jones test for nasolacrimal patency"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Recurring mucopurulent discharge with dull corneas and vascularization in a predisposed breed suggests keratoconjunctivitis sicca. The Schirmer tear test I (STT-1) confirms it: values under about 10 mm/min support KCS and under 5 mm/min indicate severe disease; normal values are above 15 mm/min.",
+      "options": [
+        "Correct. Low aqueous tear production confirms KCS.",
+        "Fluorescein is important to check for ulcers in KCS but does not diagnose tear deficiency.",
+        "IOP is useful for red eyes but does not assess tear production.",
+        "Culture would grow secondary bacteria, explaining the brief response to antibiotics but not the cause.",
+        "The Jones test checks nasolacrimal drainage, which causes epiphora, not mucopurulent discharge."
+      ],
+      "takeaway": "Do a Schirmer tear test on any dog with chronic mucopurulent ocular discharge."
+    },
+    "reference": "Maggs DJ et al., Slatter's Fundamentals of Veterinary Ophthalmology"
+  },
+  {
+    "id": "CAN-0028",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "reproductive",
+    "subdomain": "health_maintenance",
+    "topics": [
+      "pyometra",
+      "closed-cervix",
+      "ovariohysterectomy"
+    ],
+    "stem": "A 7-year-old intact female Rottweiler was in estrus 6 weeks ago. She is now lethargic, polydipsic and vomiting, with no vaginal discharge. She is febrile, has a distended abdomen, and has a neutrophilia with left shift. Ultrasound shows a fluid-filled uterus. The owner does not plan to breed her. After IV fluids and IV antibiotics are started, what is the most appropriate treatment?",
+    "options": [
+      "Ovariohysterectomy once she is stabilized",
+      "Aglepristone injections and recheck in 1 week",
+      "Prostaglandin F2α injections to empty the uterus",
+      "Antibiotics alone for 3 weeks, then repeat ultrasound",
+      "Ultrasound-guided drainage of the uterus"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Closed-cervix pyometra is a surgical emergency: the uterus can rupture and cause peritonitis. Ovariohysterectomy after short stabilization with fluids and antibiotics is the treatment of choice, especially when breeding is not planned.",
+      "options": [
+        "Correct. Surgery removes the source of sepsis and prevents recurrence.",
+        "Aglepristone is part of medical treatment for valuable breeding bitches, mainly with open cervix and stable condition. It is too slow for a septic, closed-cervix bitch.",
+        "Prostaglandins cause uterine contractions and risk rupture when the cervix is closed.",
+        "Antibiotics alone do not resolve pyometra.",
+        "Draining the uterus is not standard treatment and risks leakage."
+      ],
+      "takeaway": "Treat closed-cervix pyometra with stabilization and prompt ovariohysterectomy."
+    },
+    "reference": "Hagman R, Pyometra in small animals (Vet Clin North Am Small Anim Pract 2018)"
+  },
+  {
+    "id": "CAN-0029",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "reproductive",
+    "subdomain": "data_gathering",
+    "topics": [
+      "dystocia",
+      "parturition"
+    ],
+    "stem": "A 3-year-old Labrador Retriever went into labor 6 hours ago. She delivered two healthy puppies; ultrasound earlier showed six fetuses. Which finding most clearly shows she needs veterinary intervention now?",
+    "options": [
+      "Strong, unproductive straining for 30 minutes without a puppy",
+      "Greenish vaginal discharge that appeared just after the first puppy was born",
+      "Panting, restlessness and nesting for 12 hours before the first puppy",
+      "Rectal temperature that fell below 37.8 °C (100 °F) the day before labor",
+      "Weak intermittent straining with 1 hour between the two puppies"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Strong, persistent straining for 20–30 minutes without a puppy being delivered is a standard indication of dystocia. Other indications include more than 2–4 hours between pups, green discharge before the first pup, more than 24 hours of first-stage labor, or signs of fetal or maternal distress.",
+      "options": [
+        "Correct. Prolonged productive-looking straining without delivery indicates obstruction or inertia.",
+        "Green discharge (uteroverdin) is expected after placental separation once delivery has begun; before the first puppy it is a concern.",
+        "This describes normal stage 1 labor, which typically lasts 6–12 hours.",
+        "A drop in temperature 12–24 hours before labor is normal and expected.",
+        "Up to 2–4 hours between puppies can be normal."
+      ],
+      "takeaway": "Intervene if a bitch strains strongly for 20–30 minutes without producing a puppy."
+    },
+    "reference": "Johnston SD, Root Kustritz MV, Olson PN, Canine and Feline Theriogenology"
+  },
+  {
+    "id": "CAN-0030",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "nervous",
+    "subdomain": "data_gathering",
+    "topics": [
+      "intervertebral disc disease",
+      "neurolocalization"
+    ],
+    "stem": "A 5-year-old castrated male Dachshund cannot walk on his pelvic limbs after jumping off a couch. The thoracic limbs are normal. The pelvic limbs have absent conscious proprioception and normal to increased patellar and withdrawal reflexes, and the cutaneous trunci reflex is lost caudal to L1. Pain perception in the toes is present. Where is the lesion?",
+    "options": [
+      "T3–L3 spinal cord segments",
+      "C1–C5 spinal cord segments",
+      "C6–T2 spinal cord segments",
+      "L4–S3 spinal cord segments",
+      "Peripheral nerves of the pelvic limbs"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Normal thoracic limbs with upper motor neuron signs in the pelvic limbs (normal to increased reflexes, normal or increased tone) localize the lesion to T3–L3. The cutaneous trunci cutoff a few vertebrae caudal to the lesion helps narrow it down. Type I disc extrusion at the thoracolumbar junction is common in chondrodystrophic breeds.",
+      "options": [
+        "Correct. UMN pelvic limbs with normal thoracic limbs means T3–L3.",
+        "A C1–C5 lesion would also affect the thoracic limbs.",
+        "C6–T2 lesions cause LMN signs in the thoracic limbs.",
+        "L4–S3 lesions cause LMN signs (reduced reflexes) in the pelvic limbs.",
+        "Peripheral nerve disease causes reduced reflexes and does not create a cutaneous trunci cutoff."
+      ],
+      "takeaway": "Pelvic limb paresis with intact or increased reflexes and normal thoracic limbs localizes to T3–L3."
+    },
+    "reference": "de Lahunta A, Glass E, Kent M, Veterinary Neuroanatomy and Clinical Neurology"
+  },
+  {
+    "id": "CAN-0031",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "musculoskeletal",
+    "subdomain": "comm_clients",
+    "topics": [
+      "osteosarcoma",
+      "amputation",
+      "chemotherapy"
+    ],
+    "stem": "An 8-year-old castrated male Greyhound has appendicular osteosarcoma of the distal radius confirmed by biopsy. Thoracic radiographs show no visible metastases. The owner asks which treatment option gives the longest expected survival. Which answer is most accurate?",
+    "options": [
+      "Amputation followed by adjuvant carboplatin chemotherapy",
+      "Amputation alone, because the thoracic radiographs are clear",
+      "Palliative radiation therapy delivered to the distal radius",
+      "Oral NSAIDs combined with opioids for long-term pain control",
+      "Intravenous bisphosphonate (zoledronate) infusions given alone"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Most dogs with appendicular osteosarcoma have micrometastases at diagnosis even with clear radiographs. Amputation alone gives a median survival of about 4–5 months. Amputation plus platinum- or doxorubicin-based chemotherapy extends median survival to roughly 10–12 months.",
+      "options": [
+        "Correct. Removing the primary tumor plus treating micrometastases gives the longest survival.",
+        "Clear radiographs do not rule out micrometastases, and survival with amputation alone is short.",
+        "Palliative radiation relieves pain but does not significantly extend survival.",
+        "Analgesics alone control pain only for a short time.",
+        "Bisphosphonates can reduce bone pain but do not extend survival on their own."
+      ],
+      "takeaway": "For canine appendicular osteosarcoma, amputation plus chemotherapy gives the longest survival."
+    },
+    "reference": "Withrow & MacEwen's Small Animal Clinical Oncology, tumors of the skeletal system"
+  },
+  {
+    "id": "CAN-0032",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "infectious",
+    "subdomain": "data_gathering",
+    "topics": [
+      "leptospirosis",
+      "diagnosis",
+      "PCR",
+      "MAT"
+    ],
+    "stem": "A 4-year-old unvaccinated Labrador Retriever that swims in a farm pond has had vomiting and lethargy for 3 days. It has acute kidney injury and increased liver enzymes. Leptospirosis is suspected, and treatment with doxycycline has not started yet. Which diagnostic plan is most appropriate?",
+    "options": [
+      "Blood and urine PCR before antibiotics, plus paired MAT titers",
+      "A single microscopic agglutination test (MAT) titer collected today",
+      "Dark-field microscopy of a fresh urine sample collected by cystocentesis",
+      "Routine aerobic urine culture on blood and MacConkey agar",
+      "Wait 2 weeks after starting doxycycline, then test urine by PCR"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "ACVIM consensus recommends combining PCR on blood and urine (collected before antibiotics) with serology. A single MAT titer can be negative early in disease and can be confused by vaccination titers; a fourfold rise between acute and convalescent samples confirms infection.",
+      "options": [
+        "Correct. PCR detects early infection, and paired MAT titers confirm it.",
+        "A single titer may be negative in the first week and does not separate infection from past exposure or vaccination.",
+        "Dark-field microscopy is insensitive and specificity is poor.",
+        "Leptospires do not grow on standard media; special culture is slow and insensitive.",
+        "Antibiotics quickly reduce leptospires in blood and urine, so PCR after treatment is often negative."
+      ],
+      "takeaway": "Collect blood and urine for leptospira PCR before antibiotics, and pair it with acute and convalescent MAT."
+    },
+    "reference": "Sykes JE et al., 2023 ACVIM consensus update on leptospirosis in dogs (J Vet Intern Med 2023)"
+  },
+  {
+    "id": "CAN-0033",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "non_clinical",
+    "subdomain": "public_health",
+    "topics": [
+      "rabies",
+      "bite exposure",
+      "observation period"
+    ],
+    "stem": "A 3-year-old dog that is currently vaccinated against rabies bites a child on the hand. The dog is healthy and shows no neurologic signs. The parents ask what happens to the dog. Under the national rabies prevention compendium, which recommendation is correct?",
+    "options": [
+      "Confine and observe the dog for 10 days after the bite",
+      "Euthanize the dog and submit the brain for rabies testing",
+      "Quarantine the dog for 6 months under strict isolation",
+      "Give a rabies booster and release the dog without observation",
+      "Draw blood now for rabies titer and release the dog if positive"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "The Compendium of Animal Rabies Prevention and Control states that a healthy dog, cat or ferret that bites a person should be confined and observed for 10 days, whatever its vaccination status. If the animal stays healthy, it was not shedding rabies virus at the time of the bite. Vaccine should not be given during the observation period, to avoid confusing post-vaccination reactions with rabies signs.",
+      "options": [
+        "Correct. A 10-day observation is the standard for a healthy biting dog, cat or ferret.",
+        "Euthanasia and testing are for animals that show signs suggestive of rabies during observation, or whose owners choose it.",
+        "Six-month quarantine applies to unvaccinated animals exposed to rabies, not to animals that bite people.",
+        "Vaccination is not given during observation, and observation is still required.",
+        "Antibody titers do not show whether an animal is shedding virus."
+      ],
+      "takeaway": "A healthy dog, cat or ferret that bites a person is confined and observed for 10 days."
+    },
+    "reference": "NASPHV, Compendium of Animal Rabies Prevention and Control"
+  },
+  {
+    "id": "CAN-0034",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "non_clinical",
+    "subdomain": "environmental_health",
+    "topics": [
+      "hazardous drugs",
+      "chemotherapy safety",
+      "occupational health"
+    ],
+    "stem": "Your small animal practice is starting to give injectable chemotherapy to dogs with lymphoma. Which practice best protects staff from occupational exposure?",
+    "options": [
+      "Prepare doses in a biological safety cabinet using a closed-system device",
+      "Prepare drugs on a clean counter wearing a surgical mask and exam gloves",
+      "Recap needles after drawing up each dose so they can be discarded safely",
+      "Have any staff member who is free that day administer the drugs",
+      "Rinse used syringes and vials, then place them in the regular clinic trash"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Antineoplastic drugs are hazardous drugs. Safe handling includes preparation in a ventilated cabinet (biological safety cabinet), closed-system transfer devices, chemotherapy-rated gloves and gowns, spill kits, hazardous waste disposal, and training of designated staff. Pregnant or nursing staff and those trying to conceive should avoid handling.",
+      "options": [
+        "Correct. Engineering controls with a closed system are the core of safe handling.",
+        "Surgical masks and ordinary gloves do not protect against drug aerosols or permeation.",
+        "Recapping increases needlestick risk; contaminated sharps go directly into chemotherapy sharps containers.",
+        "Only trained staff should administer chemotherapy, and people who are pregnant or trying to conceive should not.",
+        "Chemotherapy waste must go to hazardous or trace-chemotherapy waste, not the regular trash."
+      ],
+      "takeaway": "Prepare chemotherapy in a biological safety cabinet with a closed-system device, and limit handling to trained staff."
+    },
+    "reference": "Withrow & MacEwen's Small Animal Clinical Oncology, chemotherapy safety; NIOSH hazardous drug guidance"
+  },
+  {
+    "id": "CAN-0035",
+    "version": 1,
+    "review_status": "draft",
+    "species": "canine",
+    "system": "non_clinical",
+    "subdomain": "epidemiology",
+    "topics": [
+      "positive predictive value",
+      "diagnostic test performance",
+      "prevalence"
+    ],
+    "stem": "A screening test for an infectious disease has a sensitivity of 90% and a specificity of 95%. It is used on 1,000 dogs in a population where the true prevalence is 10%. About what proportion of dogs that test positive actually have the disease?",
+    "options": [
+      "67%",
+      "90%",
+      "95%",
+      "33%",
+      "50%"
+    ],
+    "answer": 0,
+    "explanation": {
+      "correct": "Of 1,000 dogs, 100 are infected and 900 are not. True positives = 90% of 100 = 90. False positives = 5% of 900 = 45. Positive predictive value = 90 ÷ (90 + 45) = 67%.",
+      "options": [
+        "Correct: 90 ÷ 135 = 0.67.",
+        "90% is the sensitivity, the proportion of infected dogs that test positive.",
+        "95% is the specificity, the proportion of uninfected dogs that test negative.",
+        "33% is the proportion of positive tests that are false (45 ÷ 135).",
+        "This number does not come from the given data."
+      ],
+      "takeaway": "Positive predictive value depends on prevalence: with lower prevalence, more positive results are false."
+    },
+    "reference": "Dohoo I, Martin W, Stryhn H, Veterinary Epidemiologic Research, screening and diagnostic tests"
   }
 ]

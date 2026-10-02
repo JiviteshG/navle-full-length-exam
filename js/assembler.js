@@ -50,6 +50,48 @@ export function assemble({ bank, blueprint, blocks, perBlock, seen = new Set(), 
     }
   }
 
+  // Repair pass: swap within a species to move items from over-quota to under-quota subdomains.
+  const gOf = (q) => quotaKey(blueprint, q.subdomain);
+  for (let guard = 0; guard < 500; guard++) {
+    const over = Object.keys(sdCount).filter((g) => sdCount[g] > (sdQ[g] ?? 0));
+    const under = Object.keys(sdQ).filter((g) => (sdCount[g] ?? 0) < sdQ[g]);
+    if (!over.length || !under.length) break;
+    const inForm = new Set(picked);
+    let swapped = false;
+    for (let i = 0; i < picked.length && !swapped; i++) {
+      const q = picked[i];
+      if (!over.includes(gOf(q))) continue;
+      const r = pool.find((x) => !inForm.has(x) && x.species === q.species && under.includes(gOf(x)));
+      if (r) {
+        picked[i] = r;
+        sdCount[gOf(q)] -= 1;
+        sdCount[gOf(r)] = (sdCount[gOf(r)] ?? 0) + 1;
+        swapped = true;
+      }
+    }
+    // Two-step chain: q (over) -> r in group X, then q2 (group X, other species) -> r2 (under).
+    for (let i = 0; i < picked.length && !swapped; i++) {
+      const q = picked[i];
+      if (!over.includes(gOf(q))) continue;
+      for (const r of pool) {
+        if (swapped) break;
+        if (inForm.has(r) || r.species !== q.species || gOf(r) === gOf(q)) continue;
+        for (let j = 0; j < picked.length; j++) {
+          const q2 = picked[j];
+          if (j === i || gOf(q2) !== gOf(r)) continue;
+          const r2 = pool.find((x) => !inForm.has(x) && x !== r && x.species === q2.species && under.includes(gOf(x)));
+          if (r2) {
+            picked[i] = r; picked[j] = r2;
+            sdCount[gOf(q)] -= 1; sdCount[gOf(r2)] = (sdCount[gOf(r2)] ?? 0) + 1;
+            swapped = true;
+            break;
+          }
+        }
+      }
+    }
+    if (!swapped) break;
+  }
+
   const ordered = shuffle(picked, rand);
   const items = ordered.map((q) => ({ id: q.id, version: q.version, optionOrder: shuffle(q.options.map((_, i) => i), rand) }));
   const blockList = [];
